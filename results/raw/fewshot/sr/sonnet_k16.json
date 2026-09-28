@@ -1,0 +1,3663 @@
+[
+    {
+        "id": 36,
+        "text": "inputMethod != null",
+        "input_tokens": 1839,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.165
+    },
+    {
+        "id": 38,
+        "text": "inputMethod != null",
+        "input_tokens": 2833,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.88
+    },
+    {
+        "id": 119,
+        "text": "block != null",
+        "input_tokens": 4304,
+        "output_tokens": 3,
+        "elapsed_seconds": 12.33
+    },
+    {
+        "id": 153,
+        "text": "maxAttempts == null || maxAttempts >= 1",
+        "input_tokens": 1995,
+        "output_tokens": 10,
+        "elapsed_seconds": 6.428
+    },
+    {
+        "id": 155,
+        "text": "backoffMultiplier == null || backoffMultiplier >= 1.0",
+        "input_tokens": 1677,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.933
+    },
+    {
+        "id": 176,
+        "text": "rule != null",
+        "input_tokens": 3703,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.425
+    },
+    {
+        "id": 184,
+        "text": "targetClass != null",
+        "input_tokens": 2146,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.921
+    },
+    {
+        "id": 186,
+        "text": "key != null",
+        "input_tokens": 2041,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.242
+    },
+    {
+        "id": 187,
+        "text": "key != null",
+        "input_tokens": 1748,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.972
+    },
+    {
+        "id": 188,
+        "text": "key != null",
+        "input_tokens": 2048,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.639
+    },
+    {
+        "id": 189,
+        "text": "scoreThreshold >= 0.0 && scoreThreshold <= 1.0",
+        "input_tokens": 1761,
+        "output_tokens": 15,
+        "elapsed_seconds": 9.291
+    },
+    {
+        "id": 190,
+        "text": "limit > 0",
+        "input_tokens": 1480,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.128
+    },
+    {
+        "id": 194,
+        "text": "skillId != null && exists(skillId)",
+        "input_tokens": 3674,
+        "output_tokens": 9,
+        "elapsed_seconds": 6.461
+    },
+    {
+        "id": 195,
+        "text": "skillId != null",
+        "input_tokens": 3604,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.776
+    },
+    {
+        "id": 196,
+        "text": "toolkit != null",
+        "input_tokens": 1954,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.742
+    },
+    {
+        "id": 197,
+        "text": "skill != null",
+        "input_tokens": 2297,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.531
+    },
+    {
+        "id": 221,
+        "text": "zipBytes != null && zipBytes.length != 0",
+        "input_tokens": 2915,
+        "output_tokens": 11,
+        "elapsed_seconds": 9.665
+    },
+    {
+        "id": 222,
+        "text": "zipPath != null",
+        "input_tokens": 2492,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.876
+    },
+    {
+        "id": 223,
+        "text": "zipStream != null",
+        "input_tokens": 7570,
+        "output_tokens": 4,
+        "elapsed_seconds": 9.735
+    },
+    {
+        "id": 230,
+        "text": "object != null",
+        "input_tokens": 2264,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.936
+    },
+    {
+        "id": 5307,
+        "text": "!isNullOrEmpty(name) && !name.trim().isEmpty() && value != null",
+        "input_tokens": 2895,
+        "output_tokens": 19,
+        "elapsed_seconds": 5.732
+    },
+    {
+        "id": 233,
+        "text": "key != null && type != null && object != null && type.isInstance(object)",
+        "input_tokens": 1915,
+        "output_tokens": 17,
+        "elapsed_seconds": 6.645
+    },
+    {
+        "id": 337,
+        "text": "data != null && targetClass != null",
+        "input_tokens": 2604,
+        "output_tokens": 8,
+        "elapsed_seconds": 5.687
+    },
+    {
+        "id": 341,
+        "text": "jsonCodec != null",
+        "input_tokens": 1606,
+        "output_tokens": 4,
+        "elapsed_seconds": 8.462
+    },
+    {
+        "id": 352,
+        "text": "None",
+        "input_tokens": 3322,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.66
+    },
+    {
+        "id": 353,
+        "text": "None",
+        "input_tokens": 3373,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.995
+    },
+    {
+        "id": 400,
+        "text": "clientName != null && !clientName.trim().isEmpty()",
+        "input_tokens": 1864,
+        "output_tokens": 13,
+        "elapsed_seconds": 7.782
+    },
+    {
+        "id": 402,
+        "text": "topK > 0",
+        "input_tokens": 2097,
+        "output_tokens": 5,
+        "elapsed_seconds": 5.623
+    },
+    {
+        "id": 466,
+        "text": "source != null && ((source instanceof URLSource && ((URLSource) source).getUrl() != null && !((URLSource) source).getUrl().isEmpty()) || (source instanceof Base64Source && ((Base64Source) source).getData() != null && !((Base64Source) source).getData().isEmpty()))",
+        "input_tokens": 4071,
+        "output_tokens": 70,
+        "elapsed_seconds": 12.338
+    },
+    {
+        "id": 467,
+        "text": "source != null && ((source instanceof URLSource && ((URLSource) source).getUrl() != null && !((URLSource) source).getUrl().isEmpty()) || (source instanceof Base64Source && ((Base64Source) source).getData() != null && !((Base64Source) source).getData().isEmpty()))",
+        "input_tokens": 3856,
+        "output_tokens": 70,
+        "elapsed_seconds": 5.412
+    },
+    {
+        "id": 476,
+        "text": "None",
+        "input_tokens": 5530,
+        "output_tokens": 1,
+        "elapsed_seconds": 22.444
+    },
+    {
+        "id": 484,
+        "text": "dataSource != null",
+        "input_tokens": 3749,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.394
+    },
+    {
+        "id": 489,
+        "text": "None",
+        "input_tokens": 3933,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.997
+    },
+    {
+        "id": 562,
+        "text": "rerankMinScore == null || (rerankMinScore >= 0.01f && rerankMinScore <= 1.00f)",
+        "input_tokens": 1806,
+        "output_tokens": 30,
+        "elapsed_seconds": 6.517
+    },
+    {
+        "id": 563,
+        "text": "rerankTopN == null || (rerankTopN >= 1 && rerankTopN <= 20)",
+        "input_tokens": 2186,
+        "output_tokens": 24,
+        "elapsed_seconds": 6.629
+    },
+    {
+        "id": 573,
+        "text": "maxRetries == null || maxRetries >= 0",
+        "input_tokens": 1807,
+        "output_tokens": 10,
+        "elapsed_seconds": 5.527
+    },
+    {
+        "id": 576,
+        "text": "scoreThreshold == null || (scoreThreshold >= 0.0 && scoreThreshold <= 1.0)",
+        "input_tokens": 1745,
+        "output_tokens": 22,
+        "elapsed_seconds": 7.702
+    },
+    {
+        "id": 577,
+        "text": "weights == null || weights >= 0.0 && weights <= 1.0",
+        "input_tokens": 1816,
+        "output_tokens": 17,
+        "elapsed_seconds": 5.908
+    },
+    {
+        "id": 579,
+        "text": "topK == null || topK > 0",
+        "input_tokens": 1677,
+        "output_tokens": 10,
+        "elapsed_seconds": 10.734
+    },
+    {
+        "id": 587,
+        "text": "vectorSimilarityWeight == null || (vectorSimilarityWeight >= 0.0 && vectorSimilarityWeight <= 1.0)",
+        "input_tokens": 1843,
+        "output_tokens": 25,
+        "elapsed_seconds": 14.674
+    },
+    {
+        "id": 589,
+        "text": "similarityThreshold == null || (similarityThreshold >= 0.0 && similarityThreshold <= 1.0)",
+        "input_tokens": 1998,
+        "output_tokens": 24,
+        "elapsed_seconds": 5.582
+    },
+    {
+        "id": 629,
+        "text": "vector1 != null && vector2 != null && vector1.length == vector2.length",
+        "input_tokens": 2814,
+        "output_tokens": 17,
+        "elapsed_seconds": 5.556
+    },
+    {
+        "id": 630,
+        "text": "vector1 != null && vector2 != null && vector1.length == vector2.length",
+        "input_tokens": 3059,
+        "output_tokens": 17,
+        "elapsed_seconds": 5.422
+    },
+    {
+        "id": 631,
+        "text": "vector1 != null && vector2 != null && vector1.length > 0 && vector2.length > 0 && vector1.length == vector2.length",
+        "input_tokens": 2806,
+        "output_tokens": 31,
+        "elapsed_seconds": 5.163
+    },
+    {
+        "id": 635,
+        "text": "embedding != null && embedding.length == dimensions",
+        "input_tokens": 2106,
+        "output_tokens": 8,
+        "elapsed_seconds": 5.59
+    },
+    {
+        "id": 659,
+        "text": "keyPrefix != null && !keyPrefix.isBlank()",
+        "input_tokens": 1867,
+        "output_tokens": 11,
+        "elapsed_seconds": 6.473
+    },
+    {
+        "id": 663,
+        "text": "redisClusterClient != null",
+        "input_tokens": 2614,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.747
+    },
+    {
+        "id": 665,
+        "text": "redisClient != null",
+        "input_tokens": 2384,
+        "output_tokens": 4,
+        "elapsed_seconds": 10.138
+    },
+    {
+        "id": 710,
+        "text": "taskId != null",
+        "input_tokens": 3043,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.828
+    },
+    {
+        "id": 718,
+        "text": "repeatTime >= 1",
+        "input_tokens": 2209,
+        "output_tokens": 5,
+        "elapsed_seconds": 5.14
+    },
+    {
+        "id": 744,
+        "text": "path != null && !path.isBlank() && !path.contains(\"..\")",
+        "input_tokens": 4059,
+        "output_tokens": 16,
+        "elapsed_seconds": 6.135
+    },
+    {
+        "id": 749,
+        "text": "bytes > 0",
+        "input_tokens": 2017,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.013
+    },
+    {
+        "id": 763,
+        "text": "None",
+        "input_tokens": 3724,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.034
+    },
+    {
+        "id": 768,
+        "text": "(scope != IsolationScope.SESSION || (ctx != null && ctx.getSessionId() != null && !ctx.getSessionId().isBlank())) && (scope != IsolationScope.AGENT || agentId != null)",
+        "input_tokens": 6060,
+        "output_tokens": 43,
+        "elapsed_seconds": 9.521
+    },
+    {
+        "id": 774,
+        "text": "catalog != null && !catalog.isEmpty()",
+        "input_tokens": 6318,
+        "output_tokens": 9,
+        "elapsed_seconds": 13.946
+    },
+    {
+        "id": 800,
+        "text": "blinkRate == 0 || (blinkRate >= TERMINAL_CURSOR_BLINK_RATE_MIN && blinkRate <= TERMINAL_CURSOR_BLINK_RATE_MAX)",
+        "input_tokens": 3877,
+        "output_tokens": 29,
+        "elapsed_seconds": 5.949
+    },
+    {
+        "id": 934,
+        "text": "code != null",
+        "input_tokens": 9109,
+        "output_tokens": 3,
+        "elapsed_seconds": 11.105
+    },
+    {
+        "id": 935,
+        "text": "sessionId != null && code != null",
+        "input_tokens": 5195,
+        "output_tokens": 8,
+        "elapsed_seconds": 7.437
+    },
+    {
+        "id": 944,
+        "text": "sql != null && named != null && !named.isEmpty()",
+        "input_tokens": 8192,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.298
+    },
+    {
+        "id": 968,
+        "text": "None",
+        "input_tokens": 3536,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.187
+    },
+    {
+        "id": 978,
+        "text": "roots != null",
+        "input_tokens": 1463,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.726
+    },
+    {
+        "id": 987,
+        "text": "resourceRegsitrations != null",
+        "input_tokens": 1585,
+        "output_tokens": 6,
+        "elapsed_seconds": 12.832
+    },
+    {
+        "id": 988,
+        "text": "tool != null && null != handler",
+        "input_tokens": 1879,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.15
+    },
+    {
+        "id": 989,
+        "text": "name != null && !name.trim().isEmpty() && version != null && !version.trim().isEmpty()",
+        "input_tokens": 2089,
+        "output_tokens": 23,
+        "elapsed_seconds": 6.331
+    },
+    {
+        "id": 990,
+        "text": "prompts != null",
+        "input_tokens": 2151,
+        "output_tokens": 4,
+        "elapsed_seconds": 8.32
+    },
+    {
+        "id": 1045,
+        "text": "connectionId != null && data != null && offset >= 0 && length >= 0 && offset + length <= data.length",
+        "input_tokens": 2563,
+        "output_tokens": 25,
+        "elapsed_seconds": 9.068
+    },
+    {
+        "id": 1047,
+        "text": "None",
+        "input_tokens": 2885,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.206
+    },
+    {
+        "id": 1086,
+        "text": "None",
+        "input_tokens": 2997,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.752
+    },
+    {
+        "id": 1315,
+        "text": "(value instanceof Number) || (value instanceof String) || (value instanceof Boolean) || (value instanceof Character)",
+        "input_tokens": 2849,
+        "output_tokens": 22,
+        "elapsed_seconds": 14.44
+    },
+    {
+        "id": 1461,
+        "text": "None",
+        "input_tokens": 4187,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.395
+    },
+    {
+        "id": 1525,
+        "text": "newData != null",
+        "input_tokens": 3506,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.466
+    },
+    {
+        "id": 1569,
+        "text": "XMLConstants.FEATURE_SECURE_PROCESSING.equals(name)",
+        "input_tokens": 2404,
+        "output_tokens": 11,
+        "elapsed_seconds": 5.336
+    },
+    {
+        "id": 1589,
+        "text": "None",
+        "input_tokens": 6358,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.052
+    },
+    {
+        "id": 1591,
+        "text": "result != null",
+        "input_tokens": 3768,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.406
+    },
+    {
+        "id": 1600,
+        "text": "None",
+        "input_tokens": 2185,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.713
+    },
+    {
+        "id": 1607,
+        "text": "insertedChild != null",
+        "input_tokens": 5464,
+        "output_tokens": 5,
+        "elapsed_seconds": 7.156
+    },
+    {
+        "id": 1675,
+        "text": "n != null",
+        "input_tokens": 3646,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.761
+    },
+    {
+        "id": 1676,
+        "text": "n != null",
+        "input_tokens": 5205,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.434
+    },
+    {
+        "id": 1677,
+        "text": "how != CLONE_CONTENTS && how != EXTRACT_CONTENTS || n != null",
+        "input_tokens": 4041,
+        "output_tokens": 17,
+        "elapsed_seconds": 14.905
+    },
+    {
+        "id": 1679,
+        "text": "None",
+        "input_tokens": 5351,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.304
+    },
+    {
+        "id": 1680,
+        "text": "None",
+        "input_tokens": 5132,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.878
+    },
+    {
+        "id": 1681,
+        "text": "None",
+        "input_tokens": 6302,
+        "output_tokens": 1,
+        "elapsed_seconds": 16.959
+    },
+    {
+        "id": 1682,
+        "text": "None",
+        "input_tokens": 5326,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.453
+    },
+    {
+        "id": 1737,
+        "text": "delimiter != null && !delimiter.isEmpty() && buffer != null",
+        "input_tokens": 6483,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.161
+    },
+    {
+        "id": 1782,
+        "text": "name != null",
+        "input_tokens": 2022,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.952
+    },
+    {
+        "id": 1787,
+        "text": "prefix != null",
+        "input_tokens": 2137,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.846
+    },
+    {
+        "id": 1815,
+        "text": "None",
+        "input_tokens": 2906,
+        "output_tokens": 1,
+        "elapsed_seconds": 18.148
+    },
+    {
+        "id": 1906,
+        "text": "index >= 0 && index < nofgroups",
+        "input_tokens": 2566,
+        "output_tokens": 10,
+        "elapsed_seconds": 12.366
+    },
+    {
+        "id": 1907,
+        "text": "index >= 0 && index < nofgroups",
+        "input_tokens": 4211,
+        "output_tokens": 10,
+        "elapsed_seconds": 5.922
+    },
+    {
+        "id": 1908,
+        "text": "index >= 0 && index < this.nofgroups",
+        "input_tokens": 2098,
+        "output_tokens": 11,
+        "elapsed_seconds": 7.814
+    },
+    {
+        "id": 1978,
+        "text": "count >= 0 && offset >= 0 && offset <= fData.length()",
+        "input_tokens": 2787,
+        "output_tokens": 16,
+        "elapsed_seconds": 7.201
+    },
+    {
+        "id": 1992,
+        "text": "None",
+        "input_tokens": 2340,
+        "output_tokens": 1,
+        "elapsed_seconds": 12.226
+    },
+    {
+        "id": 1994,
+        "text": "None",
+        "input_tokens": 2198,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.157
+    },
+    {
+        "id": 1995,
+        "text": "None",
+        "input_tokens": 2537,
+        "output_tokens": 1,
+        "elapsed_seconds": 4.872
+    },
+    {
+        "id": 1996,
+        "text": "lexicalRepresentation != null",
+        "input_tokens": 2060,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.769
+    },
+    {
+        "id": 1997,
+        "text": "None",
+        "input_tokens": 2260,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.938
+    },
+    {
+        "id": 2000,
+        "text": "factor != null",
+        "input_tokens": 3200,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.025
+    },
+    {
+        "id": 2002,
+        "text": "rhs != null",
+        "input_tokens": 3616,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.581
+    },
+    {
+        "id": 2008,
+        "text": "startTimeInstant != null",
+        "input_tokens": 2217,
+        "output_tokens": 5,
+        "elapsed_seconds": 8.093
+    },
+    {
+        "id": 2018,
+        "text": "rhs != null && rhs instanceof XMLGregorianCalendarImpl",
+        "input_tokens": 4261,
+        "output_tokens": 10,
+        "elapsed_seconds": 7.883
+    },
+    {
+        "id": 2038,
+        "text": "schemaLanguage != null && schemaLanguage.length() > 0",
+        "input_tokens": 2971,
+        "output_tokens": 12,
+        "elapsed_seconds": 8.959
+    },
+    {
+        "id": 2067,
+        "text": "None",
+        "input_tokens": 1892,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.052
+    },
+    {
+        "id": 2123,
+        "text": "None",
+        "input_tokens": 2176,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.507
+    },
+    {
+        "id": 2156,
+        "text": "p_uriSpec != null && p_nStartIndex >= 0 && p_nStartIndex <= p_uriSpec.length()",
+        "input_tokens": 4217,
+        "output_tokens": 24,
+        "elapsed_seconds": 10.469
+    },
+    {
+        "id": 2165,
+        "text": "p_uriSpec != null",
+        "input_tokens": 4480,
+        "output_tokens": 5,
+        "elapsed_seconds": 6.135
+    },
+    {
+        "id": 2167,
+        "text": "p_scheme != null && isConformantSchemeName(p_scheme)",
+        "input_tokens": 2536,
+        "output_tokens": 14,
+        "elapsed_seconds": 18.021
+    },
+    {
+        "id": 2170,
+        "text": "p_uriSpec != null && !p_uriSpec.isEmpty() && !p_uriSpec.startsWith(\":\") && !p_uriSpec.startsWith(\"/\") && !p_uriSpec.startsWith(\"?\") && !p_uriSpec.startsWith(\"#\")",
+        "input_tokens": 2795,
+        "output_tokens": 48,
+        "elapsed_seconds": 9.902
+    },
+    {
+        "id": 2174,
+        "text": "p_port == -1 || (p_port >= 0 && p_port <= 65535)",
+        "input_tokens": 2514,
+        "output_tokens": 20,
+        "elapsed_seconds": 8.418
+    },
+    {
+        "id": 2175,
+        "text": "p_other != null",
+        "input_tokens": 3132,
+        "output_tokens": 4,
+        "elapsed_seconds": 11.099
+    },
+    {
+        "id": 2266,
+        "text": "(this.containedException != null || cause == null) && cause != this",
+        "input_tokens": 2730,
+        "output_tokens": 15,
+        "elapsed_seconds": 14.596
+    },
+    {
+        "id": 2413,
+        "text": "None",
+        "input_tokens": 3090,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.933
+    },
+    {
+        "id": 2461,
+        "text": "None",
+        "input_tokens": 3198,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.605
+    },
+    {
+        "id": 2469,
+        "text": "identity >= 0",
+        "input_tokens": 3362,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.221
+    },
+    {
+        "id": 2471,
+        "text": "identity >= 0",
+        "input_tokens": 3415,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.733
+    },
+    {
+        "id": 2473,
+        "text": "identity >= 0",
+        "input_tokens": 3111,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.362
+    },
+    {
+        "id": 2483,
+        "text": "ch != null",
+        "input_tokens": 5045,
+        "output_tokens": 3,
+        "elapsed_seconds": 9.577
+    },
+    {
+        "id": 2486,
+        "text": "identity >= 0",
+        "input_tokens": 3008,
+        "output_tokens": 4,
+        "elapsed_seconds": 10.948
+    },
+    {
+        "id": 2489,
+        "text": "identity >= 0",
+        "input_tokens": 3188,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.742
+    },
+    {
+        "id": 2592,
+        "text": "None",
+        "input_tokens": 3369,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.404
+    },
+    {
+        "id": 2594,
+        "text": "None",
+        "input_tokens": 2179,
+        "output_tokens": 1,
+        "elapsed_seconds": 11.308
+    },
+    {
+        "id": 2612,
+        "text": "resourceName != null",
+        "input_tokens": 6239,
+        "output_tokens": 4,
+        "elapsed_seconds": 10.827
+    },
+    {
+        "id": 2645,
+        "text": "None",
+        "input_tokens": 2709,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.23
+    },
+    {
+        "id": 2646,
+        "text": "None",
+        "input_tokens": 2888,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.169
+    },
+    {
+        "id": 2693,
+        "text": "None",
+        "input_tokens": 3164,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.195
+    },
+    {
+        "id": 2749,
+        "text": "p_uriSpec != null",
+        "input_tokens": 4937,
+        "output_tokens": 5,
+        "elapsed_seconds": 8.69
+    },
+    {
+        "id": 2795,
+        "text": "None",
+        "input_tokens": 3449,
+        "output_tokens": 1,
+        "elapsed_seconds": 14.127
+    },
+    {
+        "id": 2830,
+        "text": "prefix != null",
+        "input_tokens": 3107,
+        "output_tokens": 3,
+        "elapsed_seconds": 14.372
+    },
+    {
+        "id": 2865,
+        "text": "sb != null",
+        "input_tokens": 2093,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.968
+    },
+    {
+        "id": 2950,
+        "text": "b",
+        "input_tokens": 1619,
+        "output_tokens": 1,
+        "elapsed_seconds": 4.553
+    },
+    {
+        "id": 3010,
+        "text": "b",
+        "input_tokens": 1615,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.927
+    },
+    {
+        "id": 3024,
+        "text": "listener != null",
+        "input_tokens": 1657,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.712
+    },
+    {
+        "id": 3030,
+        "text": "cloneOwner != null",
+        "input_tokens": 5224,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.016
+    },
+    {
+        "id": 3037,
+        "text": "None",
+        "input_tokens": 5297,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.463
+    },
+    {
+        "id": 3053,
+        "text": "expr != null",
+        "input_tokens": 3186,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.332
+    },
+    {
+        "id": 3057,
+        "text": "compiler != null && (compiler.getOp(opPos) == OpCodes.OP_VARIABLE || compiler.getOp(opPos) == OpCodes.OP_EXTFUNCTION || compiler.getOp(opPos) == OpCodes.OP_FUNCTION || compiler.getOp(opPos) == OpCodes.OP_GROUP || compiler.getOp(opPos) == OpCodes.FROM_ROOT || compiler.getOp(opPos) == OpCodes.FROM_ANCESTORS || compiler.getOp(opPos) == OpCodes.FROM_ANCESTORS_OR_SELF || compiler.getOp(opPos) == OpCodes.FROM_ATTRIBUTES || compiler.getOp(opPos) == OpCodes.FROM_NAMESPACE || compiler.getOp(opPos) == OpCodes.FROM_CHILDREN || compiler.getOp(opPos) == OpCodes.FROM_DESCENDANTS || compiler.getOp(opPos) == OpCodes.FROM_DESCENDANTS_OR_SELF || compiler.getOp(opPos) == OpCodes.FROM_FOLLOWING || compiler.getOp(opPos) == OpCodes.FROM_FOLLOWING_SIBLINGS || compiler.getOp(opPos) == OpCodes.FROM_PRECEDING || compiler.getOp(opPos) == OpCodes.FROM_PRECEDING_SIBLINGS || compiler.getOp(opPos) == OpCodes.FROM_PARENT || compiler.getOp(opPos) == OpCodes.FROM_SELF)",
+        "input_tokens": 7377,
+        "output_tokens": 267,
+        "elapsed_seconds": 22.808
+    },
+    {
+        "id": 3059,
+        "text": "None",
+        "input_tokens": 2866,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.681
+    },
+    {
+        "id": 3090,
+        "text": "None",
+        "input_tokens": 3073,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.432
+    },
+    {
+        "id": 3101,
+        "text": "None",
+        "input_tokens": 3706,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.265
+    },
+    {
+        "id": 3109,
+        "text": "None",
+        "input_tokens": 3284,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.172
+    },
+    {
+        "id": 3110,
+        "text": "n >= 1",
+        "input_tokens": 3430,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.466
+    },
+    {
+        "id": 3118,
+        "text": "None",
+        "input_tokens": 3855,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.972
+    },
+    {
+        "id": 3155,
+        "text": "argNum == 0 || argNum == 1",
+        "input_tokens": 1671,
+        "output_tokens": 11,
+        "elapsed_seconds": 6.532
+    },
+    {
+        "id": 3166,
+        "text": "source != null && returnType != null && isSupported(returnType)",
+        "input_tokens": 2681,
+        "output_tokens": 14,
+        "elapsed_seconds": 7.775
+    },
+    {
+        "id": 3167,
+        "text": "name != null",
+        "input_tokens": 2347,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.553
+    },
+    {
+        "id": 3168,
+        "text": "resolver != null",
+        "input_tokens": 1911,
+        "output_tokens": 3,
+        "elapsed_seconds": 4.662
+    },
+    {
+        "id": 3170,
+        "text": "objectModel != null && objectModel.length() != 0",
+        "input_tokens": 3105,
+        "output_tokens": 12,
+        "elapsed_seconds": 14.451
+    },
+    {
+        "id": 3171,
+        "text": "resolver != null",
+        "input_tokens": 2487,
+        "output_tokens": 3,
+        "elapsed_seconds": 4.778
+    },
+    {
+        "id": 3172,
+        "text": "expression != null",
+        "input_tokens": 3511,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.406
+    },
+    {
+        "id": 3173,
+        "text": "expression != null && returnType != null && isSupported(returnType)",
+        "input_tokens": 3062,
+        "output_tokens": 14,
+        "elapsed_seconds": 11.081
+    },
+    {
+        "id": 3179,
+        "text": "None",
+        "input_tokens": 2493,
+        "output_tokens": 1,
+        "elapsed_seconds": 22.176
+    },
+    {
+        "id": 3198,
+        "text": "prefix != null && toffset >= 0 && toffset <= this.length() - prefix.length()",
+        "input_tokens": 2542,
+        "output_tokens": 20,
+        "elapsed_seconds": 13.423
+    },
+    {
+        "id": 3203,
+        "text": "str != null",
+        "input_tokens": 3979,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.345
+    },
+    {
+        "id": 3205,
+        "text": "xstr != null",
+        "input_tokens": 2902,
+        "output_tokens": 4,
+        "elapsed_seconds": 16.757
+    },
+    {
+        "id": 3215,
+        "text": "dst != null && dstBegin >= 0",
+        "input_tokens": 2849,
+        "output_tokens": 9,
+        "elapsed_seconds": 8.019
+    },
+    {
+        "id": 3218,
+        "text": "None",
+        "input_tokens": 2554,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.609
+    },
+    {
+        "id": 3219,
+        "text": "beginIndex >= 0",
+        "input_tokens": 2536,
+        "output_tokens": 5,
+        "elapsed_seconds": 8.243
+    },
+    {
+        "id": 3223,
+        "text": "right != null",
+        "input_tokens": 2630,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.199
+    },
+    {
+        "id": 3226,
+        "text": "left != null && right != null",
+        "input_tokens": 2631,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.547
+    },
+    {
+        "id": 3262,
+        "text": "None",
+        "input_tokens": 1772,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.136
+    },
+    {
+        "id": 3265,
+        "text": "name != null && value != null && fPropertyManager.containsProperty(name)",
+        "input_tokens": 2177,
+        "output_tokens": 15,
+        "elapsed_seconds": 7.504
+    },
+    {
+        "id": 3286,
+        "text": "None",
+        "input_tokens": 2522,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.725
+    },
+    {
+        "id": 3290,
+        "text": "None",
+        "input_tokens": 2380,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.726
+    },
+    {
+        "id": 3292,
+        "text": "None",
+        "input_tokens": 2265,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.34
+    },
+    {
+        "id": 3306,
+        "text": "uri != null",
+        "input_tokens": 2896,
+        "output_tokens": 3,
+        "elapsed_seconds": 9.184
+    },
+    {
+        "id": 3307,
+        "text": "is != null",
+        "input_tokens": 3084,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.432
+    },
+    {
+        "id": 3308,
+        "text": "is != null",
+        "input_tokens": 3115,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.648
+    },
+    {
+        "id": 3309,
+        "text": "f != null",
+        "input_tokens": 2955,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.23
+    },
+    {
+        "id": 3314,
+        "text": "uri != null",
+        "input_tokens": 2336,
+        "output_tokens": 3,
+        "elapsed_seconds": 4.291
+    },
+    {
+        "id": 3315,
+        "text": "uri != null",
+        "input_tokens": 2671,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.264
+    },
+    {
+        "id": 3316,
+        "text": "is != null",
+        "input_tokens": 3339,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.324
+    },
+    {
+        "id": 3317,
+        "text": "is != null",
+        "input_tokens": 2634,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.246
+    },
+    {
+        "id": 3318,
+        "text": "is != null",
+        "input_tokens": 2928,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.567
+    },
+    {
+        "id": 3319,
+        "text": "f != null",
+        "input_tokens": 3154,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.087
+    },
+    {
+        "id": 3320,
+        "text": "is != null",
+        "input_tokens": 3091,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.757
+    },
+    {
+        "id": 3321,
+        "text": "is != null",
+        "input_tokens": 2913,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.37
+    },
+    {
+        "id": 3322,
+        "text": "is != null",
+        "input_tokens": 2614,
+        "output_tokens": 3,
+        "elapsed_seconds": 11.872
+    },
+    {
+        "id": 3323,
+        "text": "f != null",
+        "input_tokens": 2818,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.546
+    },
+    {
+        "id": 3337,
+        "text": "None",
+        "input_tokens": 2168,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.784
+    },
+    {
+        "id": 3341,
+        "text": "None",
+        "input_tokens": 3684,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.485
+    },
+    {
+        "id": 3345,
+        "text": "name != null",
+        "input_tokens": 1926,
+        "output_tokens": 3,
+        "elapsed_seconds": 20.103
+    },
+    {
+        "id": 3356,
+        "text": "uri != null && !uri.isEmpty()",
+        "input_tokens": 2360,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.523
+    },
+    {
+        "id": 3357,
+        "text": "uri != null && uri.length() != 0",
+        "input_tokens": 3084,
+        "output_tokens": 10,
+        "elapsed_seconds": 8.242
+    },
+    {
+        "id": 3361,
+        "text": "None",
+        "input_tokens": 4655,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.509
+    },
+    {
+        "id": 3371,
+        "text": "None",
+        "input_tokens": 2513,
+        "output_tokens": 1,
+        "elapsed_seconds": 4.507
+    },
+    {
+        "id": 3416,
+        "text": "parser != null",
+        "input_tokens": 2068,
+        "output_tokens": 3,
+        "elapsed_seconds": 15.004
+    },
+    {
+        "id": 3457,
+        "text": "expr != null && !expr.equals(\"\")",
+        "input_tokens": 6014,
+        "output_tokens": 8,
+        "elapsed_seconds": 6.791
+    },
+    {
+        "id": 3512,
+        "text": "t != null && bounds != null",
+        "input_tokens": 3003,
+        "output_tokens": 7,
+        "elapsed_seconds": 10.468
+    },
+    {
+        "id": 3703,
+        "text": "None",
+        "input_tokens": 4636,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.855
+    },
+    {
+        "id": 3736,
+        "text": "line >= 1 && col >= 1",
+        "input_tokens": 2889,
+        "output_tokens": 9,
+        "elapsed_seconds": 8.593
+    },
+    {
+        "id": 3790,
+        "text": "name != null",
+        "input_tokens": 4323,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.405
+    },
+    {
+        "id": 3799,
+        "text": "name != null",
+        "input_tokens": 3650,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.297
+    },
+    {
+        "id": 3807,
+        "text": "methodOrTypeSignature != null",
+        "input_tokens": 2968,
+        "output_tokens": 6,
+        "elapsed_seconds": 5.724
+    },
+    {
+        "id": 3815,
+        "text": "name != null",
+        "input_tokens": 2385,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.879
+    },
+    {
+        "id": 3816,
+        "text": "None",
+        "input_tokens": 4088,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.802
+    },
+    {
+        "id": 3836,
+        "text": "prefix != null && name != null && name.length >= prefix.length",
+        "input_tokens": 2628,
+        "output_tokens": 13,
+        "elapsed_seconds": 12.963
+    },
+    {
+        "id": 3844,
+        "text": "array != null && toBeReplaced != null && start >= 0 && start <= end && end <= array.length",
+        "input_tokens": 2742,
+        "output_tokens": 24,
+        "elapsed_seconds": 13.799
+    },
+    {
+        "id": 3847,
+        "text": "array != null && toBeReplaced != null && replacementChars != null",
+        "input_tokens": 3553,
+        "output_tokens": 15,
+        "elapsed_seconds": 5.87
+    },
+    {
+        "id": 3850,
+        "text": "target != null && array != null && index >= 0 && index <= target.length && start >= 0 && start <= end && end <= array.length",
+        "input_tokens": 2612,
+        "output_tokens": 31,
+        "elapsed_seconds": 9.007
+    },
+    {
+        "id": 3852,
+        "text": "target != null",
+        "input_tokens": 3593,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.427
+    },
+    {
+        "id": 3853,
+        "text": "array != null",
+        "input_tokens": 2953,
+        "output_tokens": 3,
+        "elapsed_seconds": 14.9
+    },
+    {
+        "id": 3858,
+        "text": "array != null && toBeFound != null && toBeFound.length <= array.length",
+        "input_tokens": 2588,
+        "output_tokens": 17,
+        "elapsed_seconds": 6.641
+    },
+    {
+        "id": 3859,
+        "text": "array1 != null && array2 != null",
+        "input_tokens": 2488,
+        "output_tokens": 9,
+        "elapsed_seconds": 6.331
+    },
+    {
+        "id": 3861,
+        "text": "array != null",
+        "input_tokens": 2635,
+        "output_tokens": 3,
+        "elapsed_seconds": 10.032
+    },
+    {
+        "id": 3868,
+        "text": "fragment != null && name != null && startIndex >= 0 && name.length >= fragment.length + startIndex",
+        "input_tokens": 4425,
+        "output_tokens": 22,
+        "elapsed_seconds": 6.848
+    },
+    {
+        "id": 3870,
+        "text": "toBeFound != null && array != null && end >= toBeFound.length && start >= 0",
+        "input_tokens": 4324,
+        "output_tokens": 21,
+        "elapsed_seconds": 11.695
+    },
+    {
+        "id": 3875,
+        "text": "array != null && prefix != null",
+        "input_tokens": 2815,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.331
+    },
+    {
+        "id": 3880,
+        "text": "(array != null) && (array.length > 0) && (start <= end)",
+        "input_tokens": 3288,
+        "output_tokens": 18,
+        "elapsed_seconds": 7.139
+    },
+    {
+        "id": 3885,
+        "text": "None",
+        "input_tokens": 6550,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.908
+    },
+    {
+        "id": 3886,
+        "text": "array != null",
+        "input_tokens": 2200,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.932
+    },
+    {
+        "id": 3922,
+        "text": "LoggerNameUtil.getFirstSeparatorIndexOf(lastPart) == -1",
+        "input_tokens": 4253,
+        "output_tokens": 14,
+        "elapsed_seconds": 6.288
+    },
+    {
+        "id": 3927,
+        "text": "statusManager != null",
+        "input_tokens": 1542,
+        "output_tokens": 4,
+        "elapsed_seconds": 11.444
+    },
+    {
+        "id": 3955,
+        "text": "location != null && (!location.startsWith(CLASSPATH_SCHEME) || location.length() > CLASSPATH_SCHEME.length() + 1)",
+        "input_tokens": 4083,
+        "output_tokens": 30,
+        "elapsed_seconds": 11.892
+    },
+    {
+        "id": 3993,
+        "text": "context != null",
+        "input_tokens": 3950,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.761
+    },
+    {
+        "id": 3997,
+        "text": "intent != null",
+        "input_tokens": 4939,
+        "output_tokens": 3,
+        "elapsed_seconds": 10.14
+    },
+    {
+        "id": 4023,
+        "text": "context != null && permissions != null",
+        "input_tokens": 4467,
+        "output_tokens": 7,
+        "elapsed_seconds": 8.116
+    },
+    {
+        "id": 4028,
+        "text": "context != null",
+        "input_tokens": 4443,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.843
+    },
+    {
+        "id": 4073,
+        "text": "!filePath.isEmpty() && filePath != null && days >= 0",
+        "input_tokens": 6326,
+        "output_tokens": 16,
+        "elapsed_seconds": 6.087
+    },
+    {
+        "id": 4084,
+        "text": "context != null",
+        "input_tokens": 4338,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.409
+    },
+    {
+        "id": 4131,
+        "text": "properties != null && key != null",
+        "input_tokens": 1719,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.111
+    },
+    {
+        "id": 4132,
+        "text": "map != null && key != null && (value == null || value.getClass().isPrimitive() || Primitives.isWrapperType(value.getClass()) || value instanceof String)",
+        "input_tokens": 1997,
+        "output_tokens": 35,
+        "elapsed_seconds": 13.996
+    },
+    {
+        "id": 4217,
+        "text": "context != null",
+        "input_tokens": 3066,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.03
+    },
+    {
+        "id": 4233,
+        "text": "target != null && from != null && to != null && target.length == from.length && from.length == to.length",
+        "input_tokens": 5173,
+        "output_tokens": 23,
+        "elapsed_seconds": 5.399
+    },
+    {
+        "id": 4237,
+        "text": "original != null && start <= end && start >= 0 && start <= original.length",
+        "input_tokens": 2696,
+        "output_tokens": 17,
+        "elapsed_seconds": 5.872
+    },
+    {
+        "id": 4379,
+        "text": "v == null || v instanceof LocalDateTime",
+        "input_tokens": 3682,
+        "output_tokens": 9,
+        "elapsed_seconds": 8.899
+    },
+    {
+        "id": 4386,
+        "text": "None",
+        "input_tokens": 5180,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.266
+    },
+    {
+        "id": 4416,
+        "text": "path != null && !path.isEmpty()",
+        "input_tokens": 3364,
+        "output_tokens": 9,
+        "elapsed_seconds": 17.504
+    },
+    {
+        "id": 4418,
+        "text": "index >= 0 && address + index < addressLimit",
+        "input_tokens": 2472,
+        "output_tokens": 11,
+        "elapsed_seconds": 8.971
+    },
+    {
+        "id": 4429,
+        "text": "offset >= 0 && numBytes >= 0 && offset + numBytes >= 0 && source != null && source.remaining() >= numBytes",
+        "input_tokens": 2965,
+        "output_tokens": 29,
+        "elapsed_seconds": 8.496
+    },
+    {
+        "id": 4441,
+        "text": "index >= 0 && offset >= 0 && length >= 0 && offset + length <= dst.length && dst != null",
+        "input_tokens": 2915,
+        "output_tokens": 25,
+        "elapsed_seconds": 6.311
+    },
+    {
+        "id": 4448,
+        "text": "index >= 0 && address + index <= addressLimit - 8",
+        "input_tokens": 2493,
+        "output_tokens": 14,
+        "elapsed_seconds": 9.763
+    },
+    {
+        "id": 4483,
+        "text": "targetSize >= 0 && targetSize <= originalSize",
+        "input_tokens": 2726,
+        "output_tokens": 11,
+        "elapsed_seconds": 5.94
+    },
+    {
+        "id": 4488,
+        "text": "buffer != null && buffer.length > 0",
+        "input_tokens": 2429,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.24
+    },
+    {
+        "id": 4490,
+        "text": "segment != null && size >= 3 && rowType != null",
+        "input_tokens": 2386,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.859
+    },
+    {
+        "id": 4491,
+        "text": "buffer != null && buffer.remaining() >= 3",
+        "input_tokens": 2491,
+        "output_tokens": 10,
+        "elapsed_seconds": 11.64
+    },
+    {
+        "id": 4492,
+        "text": "data != null && data.length >= 3",
+        "input_tokens": 2177,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.25
+    },
+    {
+        "id": 4493,
+        "text": "buffer != null",
+        "input_tokens": 2570,
+        "output_tokens": 3,
+        "elapsed_seconds": 9.294
+    },
+    {
+        "id": 4494,
+        "text": "buffer != null && buffer.remaining() > 0",
+        "input_tokens": 2376,
+        "output_tokens": 10,
+        "elapsed_seconds": 5.865
+    },
+    {
+        "id": 4495,
+        "text": "data != null && data.length >= 3",
+        "input_tokens": 2766,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.018
+    },
+    {
+        "id": 4496,
+        "text": "segment != null && size >= 3",
+        "input_tokens": 2461,
+        "output_tokens": 8,
+        "elapsed_seconds": 6.703
+    },
+    {
+        "id": 4497,
+        "text": "buffer != null && buffer.remaining() >= 3",
+        "input_tokens": 2175,
+        "output_tokens": 10,
+        "elapsed_seconds": 7.766
+    },
+    {
+        "id": 4512,
+        "text": "None",
+        "input_tokens": 3415,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.057
+    },
+    {
+        "id": 4521,
+        "text": "index >= 0",
+        "input_tokens": 3101,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.565
+    },
+    {
+        "id": 4545,
+        "text": "listenerName != null",
+        "input_tokens": 2737,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.417
+    },
+    {
+        "id": 4582,
+        "text": "channel != null && size >= 0",
+        "input_tokens": 3100,
+        "output_tokens": 8,
+        "elapsed_seconds": 6.788
+    },
+    {
+        "id": 4584,
+        "text": "position >= 0 && channel != null && destinationBuffer != null",
+        "input_tokens": 4240,
+        "output_tokens": 13,
+        "elapsed_seconds": 5.352
+    },
+    {
+        "id": 4587,
+        "text": "position >= 0 && channel != null && destinationBuffer != null",
+        "input_tokens": 3576,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.583
+    },
+    {
+        "id": 4601,
+        "text": "destinationBuffer != null && destinationBuffer.hasArray() && inputStream != null",
+        "input_tokens": 4327,
+        "output_tokens": 15,
+        "elapsed_seconds": 16.557
+    },
+    {
+        "id": 4602,
+        "text": "value != 0 && (value & (value - 1)) == 0",
+        "input_tokens": 3450,
+        "output_tokens": 17,
+        "elapsed_seconds": 8.519
+    },
+    {
+        "id": 4609,
+        "text": "reference != null",
+        "input_tokens": 1597,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.346
+    },
+    {
+        "id": 4610,
+        "text": "reference != null",
+        "input_tokens": 1533,
+        "output_tokens": 3,
+        "elapsed_seconds": 4.932
+    },
+    {
+        "id": 4737,
+        "text": "!producerId.isEmpty() && producerId != null",
+        "input_tokens": 4831,
+        "output_tokens": 11,
+        "elapsed_seconds": 6.535
+    },
+    {
+        "id": 4821,
+        "text": "newRatio > 0.0 && newRatio > 0.0 && newRatio <= 1.0",
+        "input_tokens": 1853,
+        "output_tokens": 23,
+        "elapsed_seconds": 10.552
+    },
+    {
+        "id": 4865,
+        "text": "ref != null && !ref.isBlank()",
+        "input_tokens": 2155,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.626
+    },
+    {
+        "id": 4866,
+        "text": "(address != null && !address.isBlank()) || (name != null && !name.isBlank())",
+        "input_tokens": 2141,
+        "output_tokens": 20,
+        "elapsed_seconds": 5.269
+    },
+    {
+        "id": 4877,
+        "text": "text != null && !text.isEmpty()",
+        "input_tokens": 5356,
+        "output_tokens": 9,
+        "elapsed_seconds": 6.41
+    },
+    {
+        "id": 4940,
+        "text": "None",
+        "input_tokens": 4954,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.749
+    },
+    {
+        "id": 4945,
+        "text": "xmlFile != null",
+        "input_tokens": 2914,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.336
+    },
+    {
+        "id": 4957,
+        "text": "number <= yylength()",
+        "input_tokens": 2616,
+        "output_tokens": 6,
+        "elapsed_seconds": 8.471
+    },
+    {
+        "id": 5051,
+        "text": "None",
+        "input_tokens": 1816,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.501
+    },
+    {
+        "id": 5065,
+        "text": "file != null && !file.isEmpty()",
+        "input_tokens": 3301,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.403
+    },
+    {
+        "id": 5067,
+        "text": "None",
+        "input_tokens": 3036,
+        "output_tokens": 1,
+        "elapsed_seconds": 12.381
+    },
+    {
+        "id": 5176,
+        "text": "!isNullOrEmpty(name) && IDENTIFIER_PATTERN.matcher(name).matches() && !name.equals(\"user\")",
+        "input_tokens": 2955,
+        "output_tokens": 23,
+        "elapsed_seconds": 5.356
+    },
+    {
+        "id": 5255,
+        "text": "None",
+        "input_tokens": 2383,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.574
+    },
+    {
+        "id": 5280,
+        "text": "session != null && event != null",
+        "input_tokens": 3189,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.777
+    },
+    {
+        "id": 5303,
+        "text": "newInstance != null",
+        "input_tokens": 2166,
+        "output_tokens": 4,
+        "elapsed_seconds": 13.473
+    },
+    {
+        "id": 5310,
+        "text": "template != null && context != null",
+        "input_tokens": 6401,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.945
+    },
+    {
+        "id": 5342,
+        "text": "Files.isDirectory(agentDirPath) && agentDirPath != null",
+        "input_tokens": 4357,
+        "output_tokens": 13,
+        "elapsed_seconds": 7.918
+    },
+    {
+        "id": 5400,
+        "text": "None",
+        "input_tokens": 7214,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.202
+    },
+    {
+        "id": 5505,
+        "text": "bucketName != null && !bucketName.trim().isEmpty() && objectKey != null && !objectKey.trim().isEmpty() && expirySeconds >= 1 && expirySeconds <= 604800",
+        "input_tokens": 4406,
+        "output_tokens": 40,
+        "elapsed_seconds": 6.959
+    },
+    {
+        "id": 5506,
+        "text": "bucketName != null && !bucketName.trim().isEmpty() && objectKey != null && !objectKey.trim().isEmpty() && expirySeconds >= 1 && expirySeconds <= 604800",
+        "input_tokens": 4307,
+        "output_tokens": 40,
+        "elapsed_seconds": 9.417
+    },
+    {
+        "id": 5567,
+        "text": "None",
+        "input_tokens": 2582,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.147
+    },
+    {
+        "id": 5576,
+        "text": "inputStream != null && scale > 0 && scale <= 1",
+        "input_tokens": 2126,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.458
+    },
+    {
+        "id": 5582,
+        "text": "None",
+        "input_tokens": 4446,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.834
+    },
+    {
+        "id": 5583,
+        "text": "None",
+        "input_tokens": 2824,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.433
+    },
+    {
+        "id": 5584,
+        "text": "None",
+        "input_tokens": 4542,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.847
+    },
+    {
+        "id": 5592,
+        "text": "None",
+        "input_tokens": 3048,
+        "output_tokens": 1,
+        "elapsed_seconds": 14.844
+    },
+    {
+        "id": 5601,
+        "text": "None",
+        "input_tokens": 4019,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.194
+    },
+    {
+        "id": 5603,
+        "text": "None",
+        "input_tokens": 4475,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.998
+    },
+    {
+        "id": 5623,
+        "text": "file != null && !file.isEmpty()",
+        "input_tokens": 3730,
+        "output_tokens": 9,
+        "elapsed_seconds": 14.259
+    },
+    {
+        "id": 5662,
+        "text": "None",
+        "input_tokens": 7008,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.681
+    },
+    {
+        "id": 5679,
+        "text": "!StringUtils.isEmpty(fileType)",
+        "input_tokens": 3654,
+        "output_tokens": 8,
+        "elapsed_seconds": 8.869
+    },
+    {
+        "id": 5797,
+        "text": "writer != null && row != null",
+        "input_tokens": 2602,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.33
+    },
+    {
+        "id": 5813,
+        "text": "url != null",
+        "input_tokens": 3519,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.023
+    },
+    {
+        "id": 5814,
+        "text": "url != null && listener != null",
+        "input_tokens": 2704,
+        "output_tokens": 7,
+        "elapsed_seconds": 25.159
+    },
+    {
+        "id": 5820,
+        "text": "url != null && listener != null",
+        "input_tokens": 2580,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.578
+    },
+    {
+        "id": 5827,
+        "text": "None",
+        "input_tokens": 3692,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.214
+    },
+    {
+        "id": 5828,
+        "text": "key != null && token != null",
+        "input_tokens": 2274,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.607
+    },
+    {
+        "id": 5829,
+        "text": "key != null",
+        "input_tokens": 2539,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.832
+    },
+    {
+        "id": 5830,
+        "text": "pattern != null",
+        "input_tokens": 3675,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.99
+    },
+    {
+        "id": 5831,
+        "text": "key != null",
+        "input_tokens": 2729,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.198
+    },
+    {
+        "id": 5832,
+        "text": "key != null && token != null",
+        "input_tokens": 2506,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.198
+    },
+    {
+        "id": 5833,
+        "text": "key != null && !key.isEmpty()",
+        "input_tokens": 2731,
+        "output_tokens": 9,
+        "elapsed_seconds": 6.405
+    },
+    {
+        "id": 5842,
+        "text": "None",
+        "input_tokens": 4651,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.197
+    },
+    {
+        "id": 5900,
+        "text": "prompts != null",
+        "input_tokens": 1675,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.499
+    },
+    {
+        "id": 5901,
+        "text": "resourceRegsitrations != null",
+        "input_tokens": 1689,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.687
+    },
+    {
+        "id": 5902,
+        "text": "tool != null && handler != null",
+        "input_tokens": 1736,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.623
+    },
+    {
+        "id": 5904,
+        "text": "tool != null && handler != null",
+        "input_tokens": 1845,
+        "output_tokens": 7,
+        "elapsed_seconds": 8.718
+    },
+    {
+        "id": 5906,
+        "text": "tool != null && null != handler",
+        "input_tokens": 1796,
+        "output_tokens": 7,
+        "elapsed_seconds": 7.502
+    },
+    {
+        "id": 5907,
+        "text": "resourceRegsitrations != null",
+        "input_tokens": 1660,
+        "output_tokens": 6,
+        "elapsed_seconds": 5.606
+    },
+    {
+        "id": 5908,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1704,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.152
+    },
+    {
+        "id": 5910,
+        "text": "prompts != null",
+        "input_tokens": 1576,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.838
+    },
+    {
+        "id": 5911,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1669,
+        "output_tokens": 4,
+        "elapsed_seconds": 8.359
+    },
+    {
+        "id": 5912,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1664,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.478
+    },
+    {
+        "id": 5913,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1698,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.956
+    },
+    {
+        "id": 5914,
+        "text": "handlers != null",
+        "input_tokens": 1725,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.431
+    },
+    {
+        "id": 5915,
+        "text": "prompts != null",
+        "input_tokens": 1575,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.248
+    },
+    {
+        "id": 5916,
+        "text": "handler != null",
+        "input_tokens": 1761,
+        "output_tokens": 3,
+        "elapsed_seconds": 4.866
+    },
+    {
+        "id": 5917,
+        "text": "prompts != null != null",
+        "input_tokens": 1628,
+        "output_tokens": 6,
+        "elapsed_seconds": 8.359
+    },
+    {
+        "id": 5919,
+        "text": "handlers != null",
+        "input_tokens": 1693,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.063
+    },
+    {
+        "id": 5920,
+        "text": "tool != null && handler != null",
+        "input_tokens": 1786,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.857
+    },
+    {
+        "id": 5995,
+        "text": "aspectClass != null",
+        "input_tokens": 2005,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.062
+    },
+    {
+        "id": 5996,
+        "text": "key != null",
+        "input_tokens": 2117,
+        "output_tokens": 3,
+        "elapsed_seconds": 10.079
+    },
+    {
+        "id": 5997,
+        "text": "key != null",
+        "input_tokens": 2073,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.365
+    },
+    {
+        "id": 5998,
+        "text": "key != null",
+        "input_tokens": 2168,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.233
+    },
+    {
+        "id": 6000,
+        "text": "aspectClass != null",
+        "input_tokens": 2365,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.071
+    },
+    {
+        "id": 6001,
+        "text": "aspectClass != null",
+        "input_tokens": 1918,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.934
+    },
+    {
+        "id": 6002,
+        "text": "key != null",
+        "input_tokens": 1856,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.234
+    },
+    {
+        "id": 6003,
+        "text": "key != null && null != type",
+        "input_tokens": 2080,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.146
+    },
+    {
+        "id": 6047,
+        "text": "center != null && center.getWorld() != null && xRange > 0 && yRange > 0 && zRange > 0",
+        "input_tokens": 7276,
+        "output_tokens": 28,
+        "elapsed_seconds": 32.848
+    },
+    {
+        "id": 6048,
+        "text": "predicate != null && predicate.test(value)",
+        "input_tokens": 1752,
+        "output_tokens": 8,
+        "elapsed_seconds": 5.21
+    },
+    {
+        "id": 6050,
+        "text": "value != null",
+        "input_tokens": 1842,
+        "output_tokens": 3,
+        "elapsed_seconds": 17.243
+    },
+    {
+        "id": 6057,
+        "text": "map != null",
+        "input_tokens": 2260,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.632
+    },
+    {
+        "id": 6058,
+        "text": "list != null",
+        "input_tokens": 2119,
+        "output_tokens": 3,
+        "elapsed_seconds": 19.47
+    },
+    {
+        "id": 6131,
+        "text": "type != null && (type == RetryCounterType.LOCAL || redissonClient != null)",
+        "input_tokens": 2634,
+        "output_tokens": 19,
+        "elapsed_seconds": 19.106
+    },
+    {
+        "id": 6165,
+        "text": "box != null",
+        "input_tokens": 3476,
+        "output_tokens": 3,
+        "elapsed_seconds": 9.8
+    },
+    {
+        "id": 6178,
+        "text": "name != null && (!name.isEmpty() || image != null)",
+        "input_tokens": 6457,
+        "output_tokens": 14,
+        "elapsed_seconds": 9.107
+    },
+    {
+        "id": 6186,
+        "text": "sampleSheet != null",
+        "input_tokens": 2276,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.513
+    },
+    {
+        "id": 6200,
+        "text": "None",
+        "input_tokens": 3495,
+        "output_tokens": 1,
+        "elapsed_seconds": 11.085
+    },
+    {
+        "id": 6394,
+        "text": "c != null",
+        "input_tokens": 4684,
+        "output_tokens": 3,
+        "elapsed_seconds": 4.517
+    },
+    {
+        "id": 6438,
+        "text": "None",
+        "input_tokens": 3103,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.331
+    },
+    {
+        "id": 6478,
+        "text": "coords != null && coords.length >= copy",
+        "input_tokens": 2849,
+        "output_tokens": 8,
+        "elapsed_seconds": 9.15
+    },
+    {
+        "id": 6525,
+        "text": "os != null && scores != null",
+        "input_tokens": 4952,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.915
+    },
+    {
+        "id": 6526,
+        "text": "None",
+        "input_tokens": 2714,
+        "output_tokens": 1,
+        "elapsed_seconds": 15.335
+    },
+    {
+        "id": 6531,
+        "text": "None",
+        "input_tokens": 4256,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.195
+    },
+    {
+        "id": 6551,
+        "text": "score != null",
+        "input_tokens": 1964,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.661
+    },
+    {
+        "id": 6567,
+        "text": "node != null",
+        "input_tokens": 2529,
+        "output_tokens": 3,
+        "elapsed_seconds": 10.835
+    },
+    {
+        "id": 6568,
+        "text": "os != null",
+        "input_tokens": 3709,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.693
+    },
+    {
+        "id": 6569,
+        "text": "path != null",
+        "input_tokens": 2676,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.564
+    },
+    {
+        "id": 6614,
+        "text": "step == OmrStep.LOAD || step == OmrStep.BINARY",
+        "input_tokens": 5042,
+        "output_tokens": 15,
+        "elapsed_seconds": 8.836
+    },
+    {
+        "id": 7053,
+        "text": "None",
+        "input_tokens": 3909,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.357
+    },
+    {
+        "id": 7063,
+        "text": "staff != null",
+        "input_tokens": 2766,
+        "output_tokens": 3,
+        "elapsed_seconds": 8.773
+    },
+    {
+        "id": 7065,
+        "text": "point != null && staff != null",
+        "input_tokens": 3617,
+        "output_tokens": 7,
+        "elapsed_seconds": 13.476
+    },
+    {
+        "id": 7300,
+        "text": "None",
+        "input_tokens": 2062,
+        "output_tokens": 1,
+        "elapsed_seconds": 4.615
+    },
+    {
+        "id": 7561,
+        "text": "num != null && den != null",
+        "input_tokens": 3108,
+        "output_tokens": 7,
+        "elapsed_seconds": 9.562
+    },
+    {
+        "id": 7618,
+        "text": "None",
+        "input_tokens": 2457,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.634
+    },
+    {
+        "id": 7622,
+        "text": "glyph != null && shape != null",
+        "input_tokens": 9069,
+        "output_tokens": 7,
+        "elapsed_seconds": 6.183
+    },
+    {
+        "id": 7624,
+        "text": "sentence != null && newRole != null",
+        "input_tokens": 6864,
+        "output_tokens": 8,
+        "elapsed_seconds": 6.763
+    },
+    {
+        "id": 7625,
+        "text": "one != null && two != null && kind != null",
+        "input_tokens": 4219,
+        "output_tokens": 11,
+        "elapsed_seconds": 7.31
+    },
+    {
+        "id": 7671,
+        "text": "None",
+        "input_tokens": 2083,
+        "output_tokens": 1,
+        "elapsed_seconds": 19.968
+    },
+    {
+        "id": 7763,
+        "text": "number >= 0 && number <= 999",
+        "input_tokens": 3910,
+        "output_tokens": 9,
+        "elapsed_seconds": 7.549
+    },
+    {
+        "id": 7895,
+        "text": "None",
+        "input_tokens": 3410,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.337
+    },
+    {
+        "id": 7927,
+        "text": "classLocations != null",
+        "input_tokens": 4512,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.875
+    },
+    {
+        "id": 7928,
+        "text": "containingClassNode != null && locations != null",
+        "input_tokens": 3719,
+        "output_tokens": 10,
+        "elapsed_seconds": 11.851
+    },
+    {
+        "id": 7931,
+        "text": "aNode != null && formattedDocumentation != null && !formattedDocumentation.isEmpty()",
+        "input_tokens": 2796,
+        "output_tokens": 16,
+        "elapsed_seconds": 7.141
+    },
+    {
+        "id": 7934,
+        "text": "sourceCodeFiles != null",
+        "input_tokens": 3045,
+        "output_tokens": 5,
+        "elapsed_seconds": 7.003
+    },
+    {
+        "id": 7935,
+        "text": "sourceCodeURLs != null",
+        "input_tokens": 3231,
+        "output_tokens": 5,
+        "elapsed_seconds": 7.124
+    },
+    {
+        "id": 7973,
+        "text": "targetDir != null",
+        "input_tokens": 4537,
+        "output_tokens": 4,
+        "elapsed_seconds": 14.542
+    },
+    {
+        "id": 7981,
+        "text": "None",
+        "input_tokens": 5735,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.489
+    },
+    {
+        "id": 7982,
+        "text": "goal != null && !terminalAnswer.isBlank() && terminalAnswer != null",
+        "input_tokens": 7752,
+        "output_tokens": 15,
+        "elapsed_seconds": 6.859
+    },
+    {
+        "id": 7985,
+        "text": "toolCallIds != null && !toolCallIds.isEmpty() && reasoningContent != null && !reasoningContent.isBlank()",
+        "input_tokens": 2566,
+        "output_tokens": 26,
+        "elapsed_seconds": 5.643
+    },
+    {
+        "id": 8040,
+        "text": "elicitationCompleteConsumer != null",
+        "input_tokens": 1601,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.951
+    },
+    {
+        "id": 8041,
+        "text": "resourcesUpdateConsumer != null",
+        "input_tokens": 1613,
+        "output_tokens": 5,
+        "elapsed_seconds": 5.031
+    },
+    {
+        "id": 8042,
+        "text": "resourcesChangeConsumer != null",
+        "input_tokens": 1612,
+        "output_tokens": 5,
+        "elapsed_seconds": 5.389
+    },
+    {
+        "id": 8043,
+        "text": "loggingConsumers != null",
+        "input_tokens": 1567,
+        "output_tokens": 4,
+        "elapsed_seconds": 11.415
+    },
+    {
+        "id": 8044,
+        "text": "elicitationCompleteConsumer != null",
+        "input_tokens": 1583,
+        "output_tokens": 6,
+        "elapsed_seconds": 9.349
+    },
+    {
+        "id": 8046,
+        "text": "progressConsumers != null",
+        "input_tokens": 1561,
+        "output_tokens": 4,
+        "elapsed_seconds": 11.212
+    },
+    {
+        "id": 8047,
+        "text": "elicitationCompleteConsumers != null",
+        "input_tokens": 1586,
+        "output_tokens": 6,
+        "elapsed_seconds": 5.632
+    },
+    {
+        "id": 8048,
+        "text": "elicitationCompleteConsumers != null",
+        "input_tokens": 1589,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.884
+    },
+    {
+        "id": 8068,
+        "text": "resourceTemplatesSpec != null",
+        "input_tokens": 1610,
+        "output_tokens": 5,
+        "elapsed_seconds": 9.688
+    },
+    {
+        "id": 8071,
+        "text": "tool != null && null != callHandler",
+        "input_tokens": 1649,
+        "output_tokens": 8,
+        "elapsed_seconds": 5.321
+    },
+    {
+        "id": 8072,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1581,
+        "output_tokens": 4,
+        "elapsed_seconds": 20.85
+    },
+    {
+        "id": 8073,
+        "text": "handler != null",
+        "input_tokens": 1607,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.982
+    },
+    {
+        "id": 8074,
+        "text": "completions != null",
+        "input_tokens": 1576,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.882
+    },
+    {
+        "id": 8075,
+        "text": "prompts != null",
+        "input_tokens": 1724,
+        "output_tokens": 4,
+        "elapsed_seconds": 15.722
+    },
+    {
+        "id": 8076,
+        "text": "completions != null",
+        "input_tokens": 1615,
+        "output_tokens": 5,
+        "elapsed_seconds": 5.562
+    },
+    {
+        "id": 8077,
+        "text": "prompts != null",
+        "input_tokens": 1702,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.633
+    },
+    {
+        "id": 8080,
+        "text": "tool != null && callHandler != null",
+        "input_tokens": 1653,
+        "output_tokens": 8,
+        "elapsed_seconds": 5.171
+    },
+    {
+        "id": 8081,
+        "text": "completions != null",
+        "input_tokens": 1589,
+        "output_tokens": 5,
+        "elapsed_seconds": 5.035
+    },
+    {
+        "id": 8083,
+        "text": "prompts != null",
+        "input_tokens": 1721,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.616
+    },
+    {
+        "id": 8085,
+        "text": "completions != null",
+        "input_tokens": 1612,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.677
+    },
+    {
+        "id": 8086,
+        "text": "toolSpecifications != null",
+        "input_tokens": 1626,
+        "output_tokens": 4,
+        "elapsed_seconds": 8.85
+    },
+    {
+        "id": 8092,
+        "text": "toolSpecifications != null",
+        "input_tokens": 1614,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.307
+    },
+    {
+        "id": 8093,
+        "text": "tool != null && null != handler",
+        "input_tokens": 1644,
+        "output_tokens": 7,
+        "elapsed_seconds": 19.103
+    },
+    {
+        "id": 8094,
+        "text": "uriTemplateManagerFactory != null",
+        "input_tokens": 1848,
+        "output_tokens": 6,
+        "elapsed_seconds": 42.811
+    },
+    {
+        "id": 8095,
+        "text": "toolSpecifications != null",
+        "input_tokens": 1611,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.672
+    },
+    {
+        "id": 8096,
+        "text": "prompts != null",
+        "input_tokens": 1743,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.966
+    },
+    {
+        "id": 8097,
+        "text": "resourceTemplates != null",
+        "input_tokens": 1607,
+        "output_tokens": 4,
+        "elapsed_seconds": 7.976
+    },
+    {
+        "id": 8098,
+        "text": "resourceTemplates != null",
+        "input_tokens": 1604,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.431
+    },
+    {
+        "id": 8099,
+        "text": "toolSpecifications != null",
+        "input_tokens": 1611,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.972
+    },
+    {
+        "id": 8100,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1585,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.966
+    },
+    {
+        "id": 8101,
+        "text": "tool != null && null != callHandler",
+        "input_tokens": 1643,
+        "output_tokens": 8,
+        "elapsed_seconds": 5.919
+    },
+    {
+        "id": 8102,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1612,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.051
+    },
+    {
+        "id": 8103,
+        "text": "resourceTemplates != null",
+        "input_tokens": 1616,
+        "output_tokens": 4,
+        "elapsed_seconds": 12.641
+    },
+    {
+        "id": 8106,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 1612,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.408
+    },
+    {
+        "id": 8126,
+        "text": "contextExtractor != null",
+        "input_tokens": 3336,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.555
+    },
+    {
+        "id": 8206,
+        "text": "None",
+        "input_tokens": 2606,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.256
+    },
+    {
+        "id": 8326,
+        "text": "name != null && !name.isEmpty() && name.matches(\"[_A-Za-z][_0-9A-Za-z]*\")",
+        "input_tokens": 2528,
+        "output_tokens": 26,
+        "elapsed_seconds": 5.253
+    },
+    {
+        "id": 8372,
+        "text": "imageFormat == null || isValidImageFormat(imageFormat)",
+        "input_tokens": 3186,
+        "output_tokens": 12,
+        "elapsed_seconds": 6.315
+    },
+    {
+        "id": 8374,
+        "text": "tableMethod == null || isValidTableMethod(tableMethod)",
+        "input_tokens": 1883,
+        "output_tokens": 12,
+        "elapsed_seconds": 12.697
+    },
+    {
+        "id": 8375,
+        "text": "hybrid == null || isValidHybrid(hybrid)",
+        "input_tokens": 2221,
+        "output_tokens": 11,
+        "elapsed_seconds": 8.639
+    },
+    {
+        "id": 8376,
+        "text": "isValidReadingOrder(readingOrder) || readingOrder == null",
+        "input_tokens": 3317,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.504
+    },
+    {
+        "id": 8377,
+        "text": "imageOutput == null || isValidImageOutput(imageOutput)",
+        "input_tokens": 3092,
+        "output_tokens": 12,
+        "elapsed_seconds": 6.091
+    },
+    {
+        "id": 8400,
+        "text": "maxConcurrentRequests > 0",
+        "input_tokens": 1574,
+        "output_tokens": 6,
+        "elapsed_seconds": 12.189
+    },
+    {
+        "id": 8404,
+        "text": "timeoutMs >= 0",
+        "input_tokens": 1688,
+        "output_tokens": 5,
+        "elapsed_seconds": 6.079
+    },
+    {
+        "id": 8437,
+        "text": "backendFailedPages != null && hybridConfig != null && (backendFailedPages.isEmpty() || hybridConfig.isFallbackToJava())",
+        "input_tokens": 5535,
+        "output_tokens": 26,
+        "elapsed_seconds": 7.065
+    },
+    {
+        "id": 8499,
+        "text": "None",
+        "input_tokens": 2143,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.157
+    },
+    {
+        "id": 8538,
+        "text": "actionState != ACTION_STATE_DRAG || selected != null",
+        "input_tokens": 6845,
+        "output_tokens": 11,
+        "elapsed_seconds": 24.606
+    },
+    {
+        "id": 8557,
+        "text": "orientation == HORIZONTAL || orientation == VERTICAL",
+        "input_tokens": 3867,
+        "output_tokens": 9,
+        "elapsed_seconds": 8.214
+    },
+    {
+        "id": 8562,
+        "text": "None",
+        "input_tokens": 3084,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.548
+    },
+    {
+        "id": 8584,
+        "text": "position >= 0 && position < mState.getItemCount()",
+        "input_tokens": 3359,
+        "output_tokens": 13,
+        "elapsed_seconds": 9.239
+    },
+    {
+        "id": 8653,
+        "text": "None",
+        "input_tokens": 4013,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.643
+    },
+    {
+        "id": 8662,
+        "text": "gapStrategy == GAP_HANDLING_NONE || gapStrategy == GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS",
+        "input_tokens": 2781,
+        "output_tokens": 21,
+        "elapsed_seconds": 10.332
+    },
+    {
+        "id": 8693,
+        "text": "minPossibleLiveOffsetSmoothingFactor >= 0 && minPossibleLiveOffsetSmoothingFactor < 1f",
+        "input_tokens": 1877,
+        "output_tokens": 22,
+        "elapsed_seconds": 5.502
+    },
+    {
+        "id": 8719,
+        "text": "seekForwardIncrementMs > 0",
+        "input_tokens": 2046,
+        "output_tokens": 7,
+        "elapsed_seconds": 7.012
+    },
+    {
+        "id": 8721,
+        "text": "seekBackIncrementMs > 0",
+        "input_tokens": 1944,
+        "output_tokens": 7,
+        "elapsed_seconds": 76.316
+    },
+    {
+        "id": 8757,
+        "text": "holders != null && index >= 0",
+        "input_tokens": 4634,
+        "output_tokens": 8,
+        "elapsed_seconds": 9.538
+    },
+    {
+        "id": 8758,
+        "text": "fromIndex >= 0 && fromIndex <= toIndex && toIndex <= getSize()",
+        "input_tokens": 3318,
+        "output_tokens": 18,
+        "elapsed_seconds": 7.525
+    },
+    {
+        "id": 8784,
+        "text": "(adGroupIndex == C.INDEX_UNSET) == (adIndexInAdGroup == C.INDEX_UNSET)",
+        "input_tokens": 2143,
+        "output_tokens": 24,
+        "elapsed_seconds": 9.099
+    },
+    {
+        "id": 8801,
+        "text": "None",
+        "input_tokens": 3244,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.133
+    },
+    {
+        "id": 8802,
+        "text": "period != null && window != null",
+        "input_tokens": 3604,
+        "output_tokens": 7,
+        "elapsed_seconds": 7.891
+    },
+    {
+        "id": 8824,
+        "text": "syncframe != null && syncframe.length > 9 && syncframe[4] == (byte) 0xF8 && syncframe[5] == (byte) 0x72 && syncframe[6] == (byte) 0x6F && (syncframe[7] & 0xFE) == 0xBA",
+        "input_tokens": 4043,
+        "output_tokens": 73,
+        "elapsed_seconds": 7.184
+    },
+    {
+        "id": 8841,
+        "text": "buffer != null",
+        "input_tokens": 3119,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.811
+    },
+    {
+        "id": 8854,
+        "text": "pcmEncoding == C.ENCODING_PCM_8BIT || pcmEncoding == C.ENCODING_PCM_16BIT || pcmEncoding == C.ENCODING_PCM_24BIT || pcmEncoding == C.ENCODING_PCM_32BIT || pcmEncoding == C.ENCODING_PCM_FLOAT",
+        "input_tokens": 3532,
+        "output_tokens": 62,
+        "elapsed_seconds": 14.774
+    },
+    {
+        "id": 8869,
+        "text": "sessionKeepaliveMs > 0 || sessionKeepaliveMs == C.TIME_UNSET",
+        "input_tokens": 2075,
+        "output_tokens": 17,
+        "elapsed_seconds": 8.058
+    },
+    {
+        "id": 8872,
+        "text": "drmInitData != null",
+        "input_tokens": 3610,
+        "output_tokens": 6,
+        "elapsed_seconds": 7.221
+    },
+    {
+        "id": 8887,
+        "text": "lightnessAdjustment >= -100 && lightnessAdjustment <= 100",
+        "input_tokens": 1877,
+        "output_tokens": 13,
+        "elapsed_seconds": 7.57
+    },
+    {
+        "id": 8888,
+        "text": "saturationAdjustment >= -100 && saturationAdjustment <= 100",
+        "input_tokens": 2186,
+        "output_tokens": 12,
+        "elapsed_seconds": 5.088
+    },
+    {
+        "id": 8898,
+        "text": "width > 0 && height > 0",
+        "input_tokens": 2216,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.375
+    },
+    {
+        "id": 8899,
+        "text": "aspectRatio == C.LENGTH_UNSET || aspectRatio > 0",
+        "input_tokens": 2566,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.072
+    },
+    {
+        "id": 8900,
+        "text": "blueScale >= 0",
+        "input_tokens": 2090,
+        "output_tokens": 5,
+        "elapsed_seconds": 9.072
+    },
+    {
+        "id": 8901,
+        "text": "redScale >= 0.0",
+        "input_tokens": 2161,
+        "output_tokens": 7,
+        "elapsed_seconds": 8.389
+    },
+    {
+        "id": 8902,
+        "text": "greenScale >= 0.0f",
+        "input_tokens": 1996,
+        "output_tokens": 8,
+        "elapsed_seconds": 7.836
+    },
+    {
+        "id": 8979,
+        "text": "subtitleData != null && codecId != null && (codecId.equals(CODEC_ID_SUBRIP) || codecId.equals(CODEC_ID_ASS) || codecId.equals(CODEC_ID_VTT))",
+        "input_tokens": 4553,
+        "output_tokens": 43,
+        "elapsed_seconds": 6.887
+    },
+    {
+        "id": 9075,
+        "text": "buffer != null && !buffer.isEncrypted() && !buffer.hasSupplementalData() && !buffer.isEndOfStream()",
+        "input_tokens": 2875,
+        "output_tokens": 25,
+        "elapsed_seconds": 6.494
+    },
+    {
+        "id": 9135,
+        "text": "maxParallelDownloads > 0",
+        "input_tokens": 1581,
+        "output_tokens": 6,
+        "elapsed_seconds": 6.684
+    },
+    {
+        "id": 9137,
+        "text": "newRequest != null",
+        "input_tokens": 4646,
+        "output_tokens": 4,
+        "elapsed_seconds": 10.067
+    },
+    {
+        "id": 9149,
+        "text": "None",
+        "input_tokens": 2221,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.392
+    },
+    {
+        "id": 9151,
+        "text": "None",
+        "input_tokens": 1984,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.059
+    },
+    {
+        "id": 9152,
+        "text": "None",
+        "input_tokens": 1907,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.777
+    },
+    {
+        "id": 9165,
+        "text": "mediaItem != null && mediaItem.localConfiguration != null",
+        "input_tokens": 4440,
+        "output_tokens": 11,
+        "elapsed_seconds": 7.529
+    },
+    {
+        "id": 9184,
+        "text": "timeUs > getLargestReadTimestampUs()",
+        "input_tokens": 2557,
+        "output_tokens": 9,
+        "elapsed_seconds": 9.076
+    },
+    {
+        "id": 9213,
+        "text": "!manifest.dynamic && manifest != null && mediaItem != null",
+        "input_tokens": 3338,
+        "output_tokens": 12,
+        "elapsed_seconds": 6.716
+    },
+    {
+        "id": 9216,
+        "text": "None",
+        "input_tokens": 2730,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.333
+    },
+    {
+        "id": 9302,
+        "text": "response != null",
+        "input_tokens": 4008,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.752
+    },
+    {
+        "id": 9308,
+        "text": "lines != null && !lines.isEmpty() && lines.indexOf(\"\") > 0",
+        "input_tokens": 2597,
+        "output_tokens": 17,
+        "elapsed_seconds": 5.898
+    },
+    {
+        "id": 9311,
+        "text": "sessionUri != null && sessionUri.getScheme() != null && sessionUri.getScheme().equals(\"rtsp\") && urlString != null",
+        "input_tokens": 5361,
+        "output_tokens": 28,
+        "elapsed_seconds": 11.394
+    },
+    {
+        "id": 9315,
+        "text": "manifest != null && !manifest.isLive && mediaItem != null",
+        "input_tokens": 3653,
+        "output_tokens": 13,
+        "elapsed_seconds": 7.974
+    },
+    {
+        "id": 9337,
+        "text": "classes != null",
+        "input_tokens": 3157,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.494
+    },
+    {
+        "id": 9428,
+        "text": "None",
+        "input_tokens": 2298,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.674
+    },
+    {
+        "id": 9461,
+        "text": "expression",
+        "input_tokens": 2043,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.679
+    },
+    {
+        "id": 9463,
+        "text": "reference != null",
+        "input_tokens": 1895,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.625
+    },
+    {
+        "id": 9465,
+        "text": "!string.isEmpty() && string != null",
+        "input_tokens": 2188,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.532
+    },
+    {
+        "id": 9466,
+        "text": "expression",
+        "input_tokens": 2111,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.165
+    },
+    {
+        "id": 9467,
+        "text": "index >= start && index < limit",
+        "input_tokens": 2558,
+        "output_tokens": 7,
+        "elapsed_seconds": 23.287
+    },
+    {
+        "id": 9469,
+        "text": "!ExoPlayerLibraryInfo.ASSERTIONS_ENABLED || reference != null",
+        "input_tokens": 2201,
+        "output_tokens": 15,
+        "elapsed_seconds": 7.991
+    },
+    {
+        "id": 9470,
+        "text": "!ExoPlayerLibraryInfo.ASSERTIONS_ENABLED || reference != null",
+        "input_tokens": 2182,
+        "output_tokens": 15,
+        "elapsed_seconds": 19.015
+    },
+    {
+        "id": 9471,
+        "text": "string != null && !TextUtils.isEmpty(string)",
+        "input_tokens": 2221,
+        "output_tokens": 11,
+        "elapsed_seconds": 6.927
+    },
+    {
+        "id": 9489,
+        "text": "Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_8888) || Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_1010102)",
+        "input_tokens": 3152,
+        "output_tokens": 28,
+        "elapsed_seconds": 10.261
+    },
+    {
+        "id": 9490,
+        "text": "None",
+        "input_tokens": 2956,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.583
+    },
+    {
+        "id": 9562,
+        "text": "list != null && fromIndex >= 0 && toIndex <= list.size() && fromIndex <= toIndex",
+        "input_tokens": 2828,
+        "output_tokens": 22,
+        "elapsed_seconds": 6.405
+    },
+    {
+        "id": 9567,
+        "text": "string != null && string.length() <= 4",
+        "input_tokens": 3607,
+        "output_tokens": 10,
+        "elapsed_seconds": 6.941
+    },
+    {
+        "id": 9571,
+        "text": "sparseLongArray != null && sparseLongArray.size() > 0",
+        "input_tokens": 2269,
+        "output_tokens": 15,
+        "elapsed_seconds": 5.442
+    },
+    {
+        "id": 9579,
+        "text": "sparseLongArray != null && sparseLongArray.size() != 0",
+        "input_tokens": 2071,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.933
+    },
+    {
+        "id": 9640,
+        "text": "radius > 0 && latitudes >= 1 && longitudes >= 1 && verticalFovDegrees > 0 && verticalFovDegrees <= 180 && horizontalFovDegrees > 0 && horizontalFovDegrees <= 360",
+        "input_tokens": 5810,
+        "output_tokens": 48,
+        "elapsed_seconds": 8.612
+    },
+    {
+        "id": 9647,
+        "text": "rgbComponent >= 0.0",
+        "input_tokens": 3665,
+        "output_tokens": 7,
+        "elapsed_seconds": 7.368
+    },
+    {
+        "id": 9648,
+        "text": "None",
+        "input_tokens": 3474,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.481
+    },
+    {
+        "id": 9650,
+        "text": "None",
+        "input_tokens": 3776,
+        "output_tokens": 1,
+        "elapsed_seconds": 9.433
+    },
+    {
+        "id": 9651,
+        "text": "None",
+        "input_tokens": 4621,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.193
+    },
+    {
+        "id": 9658,
+        "text": "end >= start && start >= 0 && end <= size",
+        "input_tokens": 3396,
+        "output_tokens": 12,
+        "elapsed_seconds": 5.132
+    },
+    {
+        "id": 9667,
+        "text": "numBits >= 1 && numBits <= 32 && numBits <= available()",
+        "input_tokens": 3498,
+        "output_tokens": 17,
+        "elapsed_seconds": 7.701
+    },
+    {
+        "id": 9685,
+        "text": "dimension % 4 == 1 && (dimension - 17) / 4 >= 1 && (dimension - 17) / 4 <= 40",
+        "input_tokens": 2622,
+        "output_tokens": 33,
+        "elapsed_seconds": 9.571
+    },
+    {
+        "id": 9715,
+        "text": "icon != null && description != null",
+        "input_tokens": 4004,
+        "output_tokens": 7,
+        "elapsed_seconds": 10.959
+    },
+    {
+        "id": 9738,
+        "text": "pattern != null",
+        "input_tokens": 4097,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.984
+    },
+    {
+        "id": 9747,
+        "text": "json != null && !json.isEmpty()",
+        "input_tokens": 2895,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.662
+    },
+    {
+        "id": 9755,
+        "text": "None",
+        "input_tokens": 2380,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.407
+    },
+    {
+        "id": 9934,
+        "text": "!currentPlanId.trim().isEmpty() && currentPlanId != null && !rootPlanId.trim().isEmpty() && rootPlanId != null && (parentPlanId == null || parentPlanId.trim().isEmpty() || (!toolcallId.trim().isEmpty() && toolcallId != null && !rootPlanId.equals(currentPlanId)))",
+        "input_tokens": 5853,
+        "output_tokens": 73,
+        "elapsed_seconds": 6.765
+    },
+    {
+        "id": 9969,
+        "text": "task != null",
+        "input_tokens": 2350,
+        "output_tokens": 3,
+        "elapsed_seconds": 10.61
+    },
+    {
+        "id": 9970,
+        "text": "None",
+        "input_tokens": 1962,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.036
+    },
+    {
+        "id": 9971,
+        "text": "task != null",
+        "input_tokens": 4041,
+        "output_tokens": 3,
+        "elapsed_seconds": 7.731
+    },
+    {
+        "id": 9972,
+        "text": "None",
+        "input_tokens": 1958,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.302
+    },
+    {
+        "id": 9998,
+        "text": "None",
+        "input_tokens": 3703,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.193
+    },
+    {
+        "id": 10027,
+        "text": "page != null",
+        "input_tokens": 5375,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.995
+    },
+    {
+        "id": 10139,
+        "text": "language != null && !language.trim().isEmpty() && (\"zh\".equals(language) || \"en\".equals(language))",
+        "input_tokens": 4300,
+        "output_tokens": 25,
+        "elapsed_seconds": 5.625
+    },
+    {
+        "id": 10147,
+        "text": "resultCount > 0",
+        "input_tokens": 1530,
+        "output_tokens": 5,
+        "elapsed_seconds": 6.047
+    },
+    {
+        "id": 10156,
+        "text": "maxCacheSize > 0",
+        "input_tokens": 1725,
+        "output_tokens": 6,
+        "elapsed_seconds": 5.75
+    },
+    {
+        "id": 10157,
+        "text": "maxRetries >= 0",
+        "input_tokens": 1636,
+        "output_tokens": 5,
+        "elapsed_seconds": 7.276
+    },
+    {
+        "id": 10158,
+        "text": "maxContentLength > 0",
+        "input_tokens": 1673,
+        "output_tokens": 6,
+        "elapsed_seconds": 7.407
+    },
+    {
+        "id": 10167,
+        "text": "jarFile != null && entryPrefix != null",
+        "input_tokens": 4070,
+        "output_tokens": 9,
+        "elapsed_seconds": 9.236
+    },
+    {
+        "id": 10215,
+        "text": "denominator != 0",
+        "input_tokens": 3555,
+        "output_tokens": 5,
+        "elapsed_seconds": 11.981
+    },
+    {
+        "id": 10239,
+        "text": "!edits.containsKey(variable) && !strength.isRequired()",
+        "input_tokens": 3706,
+        "output_tokens": 13,
+        "elapsed_seconds": 10.502
+    },
+    {
+        "id": 10244,
+        "text": "index >= 0",
+        "input_tokens": 3165,
+        "output_tokens": 4,
+        "elapsed_seconds": 65.282
+    },
+    {
+        "id": 10247,
+        "text": "property != null",
+        "input_tokens": 1844,
+        "output_tokens": 3,
+        "elapsed_seconds": 5.88
+    },
+    {
+        "id": 10277,
+        "text": "ellipsis != null && position != null",
+        "input_tokens": 4312,
+        "output_tokens": 7,
+        "elapsed_seconds": 8.199
+    },
+    {
+        "id": 10335,
+        "text": "level >= 1 && level <= 6 && style != null",
+        "input_tokens": 1978,
+        "output_tokens": 13,
+        "elapsed_seconds": 10.435
+    },
+    {
+        "id": 10341,
+        "text": "value >= 0",
+        "input_tokens": 3470,
+        "output_tokens": 4,
+        "elapsed_seconds": 5.815
+    },
+    {
+        "id": 10370,
+        "text": "None",
+        "input_tokens": 2828,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.042
+    },
+    {
+        "id": 10379,
+        "text": "None",
+        "input_tokens": 6226,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.409
+    },
+    {
+        "id": 10385,
+        "text": "None",
+        "input_tokens": 2720,
+        "output_tokens": 1,
+        "elapsed_seconds": 8.011
+    },
+    {
+        "id": 10386,
+        "text": "milliseconds >= 0",
+        "input_tokens": 2926,
+        "output_tokens": 4,
+        "elapsed_seconds": 17.017
+    },
+    {
+        "id": 10468,
+        "text": "cause != null",
+        "input_tokens": 2484,
+        "output_tokens": 3,
+        "elapsed_seconds": 6.501
+    },
+    {
+        "id": 10475,
+        "text": "None",
+        "input_tokens": 2935,
+        "output_tokens": 1,
+        "elapsed_seconds": 5.54
+    },
+    {
+        "id": 10482,
+        "text": "x != null && y != null && x.length == y.length",
+        "input_tokens": 4172,
+        "output_tokens": 13,
+        "elapsed_seconds": 6.838
+    },
+    {
+        "id": 10499,
+        "text": "percent >= 0 && percent <= 100",
+        "input_tokens": 1856,
+        "output_tokens": 9,
+        "elapsed_seconds": 5.975
+    },
+    {
+        "id": 10500,
+        "text": "ratio >= 0.0 && ratio <= 1.0",
+        "input_tokens": 1775,
+        "output_tokens": 13,
+        "elapsed_seconds": 5.791
+    },
+    {
+        "id": 10514,
+        "text": "None",
+        "input_tokens": 3995,
+        "output_tokens": 1,
+        "elapsed_seconds": 11.307
+    },
+    {
+        "id": 10515,
+        "text": "frames != null && !frames.isEmpty()",
+        "input_tokens": 2237,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.792
+    },
+    {
+        "id": 10714,
+        "text": "southLat < northLat && westLon < eastLon",
+        "input_tokens": 4910,
+        "output_tokens": 11,
+        "elapsed_seconds": 5.305
+    },
+    {
+        "id": 10716,
+        "text": "lat1 >= -90 && lat1 <= 90 && lon1 >= -180 && lon1 <= 180 && lat2 >= -90 && lat2 <= 90 && lon2 >= -180 && lon2 <= 180",
+        "input_tokens": 4320,
+        "output_tokens": 47,
+        "elapsed_seconds": 7.658
+    },
+    {
+        "id": 10717,
+        "text": "lon != null && lat != null",
+        "input_tokens": 3587,
+        "output_tokens": 7,
+        "elapsed_seconds": 5.935
+    },
+    {
+        "id": 10795,
+        "text": "query != null && query.trim().length() null && query.trim().length() >= 2",
+        "input_tokens": 4260,
+        "output_tokens": 19,
+        "elapsed_seconds": 13.681
+    },
+    {
+        "id": 10796,
+        "text": "page >= 0",
+        "input_tokens": 4028,
+        "output_tokens": 4,
+        "elapsed_seconds": 6.598
+    },
+    {
+        "id": 10803,
+        "text": "request != null && request.getName() != null && !request.getName().trim().isEmpty()",
+        "input_tokens": 4187,
+        "output_tokens": 21,
+        "elapsed_seconds": 7.06
+    },
+    {
+        "id": 10811,
+        "text": "None",
+        "input_tokens": 3081,
+        "output_tokens": 1,
+        "elapsed_seconds": 6.334
+    },
+    {
+        "id": 10818,
+        "text": "None",
+        "input_tokens": 3417,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.09
+    },
+    {
+        "id": 10836,
+        "text": "None",
+        "input_tokens": 3150,
+        "output_tokens": 1,
+        "elapsed_seconds": 7.633
+    },
+    {
+        "id": 10856,
+        "text": "tileUrl == null || tileUrl.trim().isEmpty() || (tileUrl.toLowerCase().startsWith(\"http://\") || tileUrl.toLowerCase().startsWith(\"https://\")) && !tileUrl.toLowerCase().contains(\"javascript:\") && !tileUrl.toLowerCase().contains(\"data:\") && !tileUrl.toLowerCase().contains(\"file:\") && !tileUrl.toLowerCase().contains(\"ftp:\") && tileUrl.contains(\"{z}\") && tileUrl.contains(\"{x}\") && tileUrl.contains(\"{y}\") && !tileUrl.contains(\"..\") && tileUrl.length() <= 1000",
+        "input_tokens": 4507,
+        "output_tokens": 129,
+        "elapsed_seconds": 6.523
+    },
+    {
+        "id": 10857,
+        "text": "styleUrl == null || styleUrl.trim().isEmpty() || (styleUrl.length() <= 1000 && !styleUrl.contains(\"..\") && (styleUrl.toLowerCase().startsWith(\"http://\") || styleUrl.toLowerCase().startsWith(\"https://\")) && !styleUrl.toLowerCase().contains(\"javascript:\") && !styleUrl.toLowerCase().contains(\"data:\") && !styleUrl.toLowerCase().contains(\"file:\") && !styleUrl.toLowerCase().contains(\"ftp:\") && !styleUrl.contains(\"{z}\") && !styleUrl.contains(\"{x}\") && !styleUrl.contains(\"{y}\"))",
+        "input_tokens": 4607,
+        "output_tokens": 134,
+        "elapsed_seconds": 11.416
+    },
+    {
+        "id": 10860,
+        "text": "redirectUrl != null && !redirectUrl.trim().isEmpty() && redirectUrl.trim().startsWith(\"/\") && !redirectUrl.trim().startsWith(\"//\") && !redirectUrl.trim().toLowerCase().contains(\"http:\") && !redirectUrl.trim().toLowerCase().contains(\"https:\") && !redirectUrl.trim().toLowerCase().contains(\"javascript:\") && !redirectUrl.trim().toLowerCase().contains(\"data:\") && !redirectUrl.trim().contains(\"..\") && redirectUrl.trim().length() <= 1000",
+        "input_tokens": 3832,
+        "output_tokens": 112,
+        "elapsed_seconds": 6.419
+    },
+    {
+        "id": 10918,
+        "text": "interceptor != null",
+        "input_tokens": 2161,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.93
+    },
+    {
+        "id": 10921,
+        "text": "radius > 0 && radius <= 32",
+        "input_tokens": 5086,
+        "output_tokens": 9,
+        "elapsed_seconds": 6.837
+    },
+    {
+        "id": 10924,
+        "text": "radius > 0 && radius <= 16",
+        "input_tokens": 4574,
+        "output_tokens": 9,
+        "elapsed_seconds": 7.704
+    },
+    {
+        "id": 10935,
+        "text": "providerId != null && (providerId.equalsIgnoreCase(\"openai\") || providerId.equalsIgnoreCase(\"groq\") || providerId.equalsIgnoreCase(\"gemini\"))",
+        "input_tokens": 4139,
+        "output_tokens": 35,
+        "elapsed_seconds": 7.867
+    },
+    {
+        "id": 10943,
+        "text": "!actionName.isBlank() && actionName != null && factory != null",
+        "input_tokens": 3134,
+        "output_tokens": 15,
+        "elapsed_seconds": 9.075
+    }
+]

@@ -1,0 +1,3663 @@
+[
+    {
+        "id": 36,
+        "text": "(this.inputMethod != null) && (!(this instanceof AbstractTarget))",
+        "input_tokens": 298,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.703
+    },
+    {
+        "id": 38,
+        "text": "(defaultInputMethod != null && !defaultInputMethod.getClass().isAssignableFrom(UserInputBase.class))",
+        "input_tokens": 299,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.7
+    },
+    {
+        "id": 119,
+        "text": "(systemMsg == null || !systemMsg.getContent().isEmpty()) && (block != null)",
+        "input_tokens": 388,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.759
+    },
+    {
+        "id": 153,
+        "text": "(this.maxAttempts != null && this.maxAttempts < 1) ? false : true",
+        "input_tokens": 306,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.744
+    },
+    {
+        "id": 155,
+        "text": "(this.backoffMultiplier != null && this.backoffMultiplier >= 1.0) && (this.backoffMultiplier != null)",
+        "input_tokens": 317,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.826
+    },
+    {
+        "id": 176,
+        "text": "(Objects.requireNonNull(rule, \"rule must not be null\") && (rule.behavior() == PermissionRule.Behavior.ALLOW || rule.behavior() == PermissionRule.Behavior.DENY || rule.behavior() == PermissionRule.Behavior.ASK))",
+        "input_tokens": 367,
+        "output_tokens": 55,
+        "elapsed_seconds": 1.111
+    },
+    {
+        "id": 184,
+        "text": "(key == null || value == null) && !(targetClass == null)",
+        "input_tokens": 361,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.707
+    },
+    {
+        "id": 186,
+        "text": "(key != null && payload.containsKey(key))",
+        "input_tokens": 291,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.63
+    },
+    {
+        "id": 187,
+        "text": "(key != null && Objects.nonNull(payload)) && Objects.nonNull(payload.get(key))",
+        "input_tokens": 291,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.787
+    },
+    {
+        "id": 188,
+        "text": "(this.payload != null && !key.equals(null))",
+        "input_tokens": 317,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.665
+    },
+    {
+        "id": 189,
+        "text": "(scoreThreshold >= 0.0 && scoreThreshold <= 1.0)",
+        "input_tokens": 318,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.724
+    },
+    {
+        "id": 190,
+        "text": "(this.limit > 0) && ((this.limit >= 0))",
+        "input_tokens": 293,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.692
+    },
+    {
+        "id": 194,
+        "text": "(skillId != null && exists(skillId)) && (registeredSkill != null && this.toolkit.getToolGroup(registeredSkill.getToolsGroupName()) != null)",
+        "input_tokens": 411,
+        "output_tokens": 33,
+        "elapsed_seconds": 0.918
+    },
+    {
+        "id": 195,
+        "text": "(skillId != null) && (skillRegistry.exists(skillId))",
+        "input_tokens": 293,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.749
+    },
+    {
+        "id": 196,
+        "text": "(toolkit != null) && (this.skillToolFactory.bindToolkit(toolkit) == null)",
+        "input_tokens": 302,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.713
+    },
+    {
+        "id": 197,
+        "text": "(skill != null) && (skill.getSkillId() != null)",
+        "input_tokens": 330,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.661
+    },
+    {
+        "id": 221,
+        "text": "(zipBytes != null && !zipBytes.isEmpty()) && (charset != null)",
+        "input_tokens": 319,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.788
+    },
+    {
+        "id": 222,
+        "text": "(Files.exists(zipPath) && !zipPath.toString().isEmpty())",
+        "input_tokens": 343,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.763
+    },
+    {
+        "id": 223,
+        "text": "(rootDir != null && rootDir.endsWith(\"/\") && !rootDir.equals(SKILL_FILE_NAME)) && (skillEntryName == SKILL_FILE_NAME) && (!resources.isEmpty())",
+        "input_tokens": 772,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.944
+    },
+    {
+        "id": 230,
+        "text": "None",
+        "input_tokens": 301,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.63
+    },
+    {
+        "id": 5307,
+        "text": "(name == null || name.trim().isEmpty()) && (value == null)",
+        "input_tokens": 397,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.731
+    },
+    {
+        "id": 233,
+        "text": "(T.key != null && T.type != null && T.object != null && T.type.isInstance(T.object) && (this.objectMap == null || this.objectMap instanceof Map))",
+        "input_tokens": 394,
+        "output_tokens": 37,
+        "elapsed_seconds": 0.862
+    },
+    {
+        "id": 337,
+        "text": "None",
+        "input_tokens": 341,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.593
+    },
+    {
+        "id": 341,
+        "text": "(codec != null && !codec.hasInvalidProperties())",
+        "input_tokens": 295,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.667
+    },
+    {
+        "id": 352,
+        "text": "None",
+        "input_tokens": 463,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.595
+    },
+    {
+        "id": 353,
+        "text": "None",
+        "input_tokens": 462,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.602
+    },
+    {
+        "id": 400,
+        "text": "(clientName != null && !clientName.trim().isEmpty())",
+        "input_tokens": 313,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.73
+    },
+    {
+        "id": 402,
+        "text": "(this.topK > 0) && (this.enableToolSearch == true) && (this.toolSearchQuery != null) && (this.toolSearchTopK == topK)",
+        "input_tokens": 335,
+        "output_tokens": 37,
+        "elapsed_seconds": 0.918
+    },
+    {
+        "id": 466,
+        "text": "(source instanceof URLSource && ((URLSource)source).getUrl() != null && !((URLSource)source).getUrl().isEmpty()) || (source instanceof Base64Source && ((Base64Source)source).getData() != null && !((Base64Source)source).getData().isEmpty())",
+        "input_tokens": 457,
+        "output_tokens": 63,
+        "elapsed_seconds": 1.15
+    },
+    {
+        "id": 467,
+        "text": "(source instanceof URLSource && ((URLSource)source).getUrl() != null && !((URLSource)source).getUrl().isEmpty()) || (source instanceof Base64Source && ((Base64Source)source).getData() != null && !((Base64Source)source).getData().isEmpty())",
+        "input_tokens": 458,
+        "output_tokens": 63,
+        "elapsed_seconds": 1.223
+    },
+    {
+        "id": 476,
+        "text": "(text.trim().isEmpty() || model.trim().isEmpty() || voice.trim().isEmpty() || responseFormat.trim().isEmpty() || speed == null) && (speed < 0.25 || speed > 4.0)",
+        "input_tokens": 852,
+        "output_tokens": 47,
+        "elapsed_seconds": 1.085
+    },
+    {
+        "id": 484,
+        "text": "(productName != null && !productName.isBlank()) ? switch (productName) {\ncase \"PostgreSQL\" -> new PostgresJdbcStoreDialect();\ncase \"MySQL\", \"MariaDB\" -> new MysqlJdbcStoreDialect();\ncase \"SQLite\" -> new SqliteJdbcStoreDialect();\ncase \"H2\" -> new H2JdbcStoreDialect();\ndefault -> {\nLOG.warn(\n    \"Unrecognised JDBC database product '{}'; defaulting to Postgres dialect\",\nproductName);\nnew PostgresJdbcStoreDialect();\n}\n} : new PostgresJdbcStoreDialect();",
+        "input_tokens": 474,
+        "output_tokens": 124,
+        "elapsed_seconds": 1.764
+    },
+    {
+        "id": 489,
+        "text": "(String.prompt == EMPTY_SENTINEL || String.prompt.getTemplate() == null || String.prompt.getTemplate().isEmpty()) && (defaultValue != null)",
+        "input_tokens": 486,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.908
+    },
+    {
+        "id": 562,
+        "text": "(this.rerankMinScore != null && (this.rerankMinScore >= 0.01f && this.rerankMinScore <= 1.00f))",
+        "input_tokens": 347,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.999
+    },
+    {
+        "id": 563,
+        "text": "(this.rerankTopN != null && (this.rerankTopN >= 1 && this.rerankTopN <= 20))",
+        "input_tokens": 335,
+        "output_tokens": 32,
+        "elapsed_seconds": 0.822
+    },
+    {
+        "id": 573,
+        "text": "(maxRetries != null && maxRetries >= 0)",
+        "input_tokens": 311,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.681
+    },
+    {
+        "id": 576,
+        "text": "(scoreThreshold != null && (scoreThreshold >= 0.0 && scoreThreshold <= 1.0))",
+        "input_tokens": 324,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.741
+    },
+    {
+        "id": 577,
+        "text": "(this.weights == null || this.weights >= 0.0 && this.weights <= 1.0)",
+        "input_tokens": 316,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.789
+    },
+    {
+        "id": 579,
+        "text": "(this.topK != null && this.topK > 0) && (this.topK == topK)",
+        "input_tokens": 307,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.759
+    },
+    {
+        "id": 587,
+        "text": "(vectorSimilarityWeight != null && (vectorSimilarityWeight >= 0.0 && vectorSimilarityWeight <= 1.0))",
+        "input_tokens": 344,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.845
+    },
+    {
+        "id": 589,
+        "text": "(similarityThreshold != null && (similarityThreshold >= 0.0 && similarityThreshold <= 1.0))",
+        "input_tokens": 332,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.851
+    },
+    {
+        "id": 629,
+        "text": "None",
+        "input_tokens": 415,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.58
+    },
+    {
+        "id": 630,
+        "text": "(validateVectors(vector1, vector2) && vector1.length == vector2.length)",
+        "input_tokens": 343,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.756
+    },
+    {
+        "id": 631,
+        "text": "(vector1 != null && vector1.length > 0 && vector2 != null && vector2.length > 0) && (vector1.length == vector2.length)",
+        "input_tokens": 412,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.845
+    },
+    {
+        "id": 635,
+        "text": "(embedding == null || embedding.length != dimensions)",
+        "input_tokens": 339,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.626
+    },
+    {
+        "id": 659,
+        "text": "(this.keyPrefix != null && !this.keyPrefix.isEmpty() && (!this.keyPrefix.endsWith(\":\") || this.keyPrefix.endsWith(\":\")))",
+        "input_tokens": 314,
+        "output_tokens": 28,
+        "elapsed_seconds": 0.798
+    },
+    {
+        "id": 663,
+        "text": "(redisClusterClient != null) && (connection instanceof StatefulRedisClusterConnection)",
+        "input_tokens": 339,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.735
+    },
+    {
+        "id": 665,
+        "text": "(redisClient != null) && (connection instanceof StatefulRedisConnection)",
+        "input_tokens": 333,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.695
+    },
+    {
+        "id": 710,
+        "text": "(taskId != null) && (taskRunCounters.computeIfAbsent(taskId, k -> new AtomicInteger(0)) instanceof AtomicInteger)",
+        "input_tokens": 324,
+        "output_tokens": 28,
+        "elapsed_seconds": 0.856
+    },
+    {
+        "id": 718,
+        "text": "(this.repeatTime >= 1) && (this != null)",
+        "input_tokens": 301,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.686
+    },
+    {
+        "id": 744,
+        "text": "(path != null && !path.isBlank() && !path.contains(\"..\"))",
+        "input_tokens": 316,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.741
+    },
+    {
+        "id": 749,
+        "text": "(this.maxOutputBytes > 0) && (this != null)",
+        "input_tokens": 307,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.716
+    },
+    {
+        "id": 763,
+        "text": "(currentAcquireResult == null || currentAcquireResult.get() != null) && \n(filesystemProxy.getSandbox() == null || filesystemProxy.getSandbox().getState() != null) &&\n(sandboxManager.acquire(result, ctx) != null) &&\n(sandbox.start() != null) &&\n(filesystemProxy.setSandbox(sandbox) != null) &&\n(currentAcquireResult.set(result) != null) &&\n(log.debug(\"[sandbox-mw] Acquired sandbox {}\" && (sandbox.getState() != null))",
+        "input_tokens": 499,
+        "output_tokens": 103,
+        "elapsed_seconds": 1.6
+    },
+    {
+        "id": 768,
+        "text": "(isContextValid(effective) && (effective == IsolationScope.SESSION ? sessionConstraint(ctx) : userConstraint(ctx)))",
+        "input_tokens": 582,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.877
+    },
+    {
+        "id": 774,
+        "text": "(any && !anyWithFilesRoot) || (anyWithFilesRoot && anyWithFilesRoot)",
+        "input_tokens": 455,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.81
+    },
+    {
+        "id": 800,
+        "text": "(mblinkRate != 0 && (mblinkRate < TERMINAL_CURSOR_BLINK_RATE_MIN || mblinkRate > TERMINAL_CURSOR_BLINK_RATE_MAX))",
+        "input_tokens": 453,
+        "output_tokens": 33,
+        "elapsed_seconds": 0.912
+    },
+    {
+        "id": 934,
+        "text": "None",
+        "input_tokens": 1803,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.702
+    },
+    {
+        "id": 935,
+        "text": "(sessionManager != null && sessionId != null && code != null && !opts.getWorkingDirRelative().isBlank())",
+        "input_tokens": 483,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.896
+    },
+    {
+        "id": 944,
+        "text": "(inS || inD) && !named.isEmpty()",
+        "input_tokens": 740,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.749
+    },
+    {
+        "id": 968,
+        "text": "None",
+        "input_tokens": 313,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.579
+    },
+    {
+        "id": 978,
+        "text": "(Ass.notNull(roots, \"Roots must not be null\") && roots.stream().allMatch(root -> Assert.notNull(root, \"Root must not be null\")))",
+        "input_tokens": 305,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.91
+    },
+    {
+        "id": 987,
+        "text": "(Assert.notNull(resourceRegsitrations, \"Resource handlers list must not be null\") && ((resourceRegsitrations != null && !resourceRegsitrations.isEmpty())))",
+        "input_tokens": 316,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.919
+    },
+    {
+        "id": 988,
+        "text": "(Assert.notNull(tool, \"Tool must not be null\") && Assert.notNull(handler, \"Handler must not be null\"))",
+        "input_tokens": 314,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.784
+    },
+    {
+        "id": 989,
+        "text": "(this.name != null && !this.name.isEmpty()) && (this.version != null && !this.version.isEmpty())",
+        "input_tokens": 311,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.816
+    },
+    {
+        "id": 990,
+        "text": "None",
+        "input_tokens": 297,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.586
+    },
+    {
+        "id": 1045,
+        "text": "None",
+        "input_tokens": 362,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.536
+    },
+    {
+        "id": 1047,
+        "text": "None",
+        "input_tokens": 324,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.563
+    },
+    {
+        "id": 1086,
+        "text": "(port >= 0 && port <= 65535) && (host != null)",
+        "input_tokens": 396,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.796
+    },
+    {
+        "id": 1315,
+        "text": "None",
+        "input_tokens": 362,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.565
+    },
+    {
+        "id": 1461,
+        "text": "(null != checkEnvironmentUsingWhich(myContext, getDocument())) && (null != envChecker.getEnvironmentHash()) && (resultNode != null)",
+        "input_tokens": 384,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.908
+    },
+    {
+        "id": 1525,
+        "text": "(m_newData.length() <= 21845 && m_characterData != null)",
+        "input_tokens": 390,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.768
+    },
+    {
+        "id": 1569,
+        "text": "(name == null || !name.equals(XMLConstants.FEATURE_SECURE_PROCESSING)) && (value != null)",
+        "input_tokens": 361,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.76
+    },
+    {
+        "id": 1589,
+        "text": "None",
+        "input_tokens": 1417,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.63
+    },
+    {
+        "id": 1591,
+        "text": "(_result != null && !_isIdentity || !_done)",
+        "input_tokens": 421,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.706
+    },
+    {
+        "id": 1600,
+        "text": "(!validOutputProperty(name)) && (_properties.getProperty(name) != null)",
+        "input_tokens": 312,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.768
+    },
+    {
+        "id": 1607,
+        "text": "(insertedChild.getNodeType() != Node.TEXT_NODE || (insertedChild.previousSibling() != null && insertedChild.previousSibling().getNodeType() == Node.TEXT_NODE) || (insertedChild.nextSibling != null && insertedChild.nextSibling.getNodeType() == Node.TEXT_NODE)) && !insertedChild.isNormalized()",
+        "input_tokens": 364,
+        "output_tokens": 63,
+        "elapsed_seconds": 1.187
+    },
+    {
+        "id": 1675,
+        "text": "(how==CLONE_CONTENTS && (n.getNodeType()!=Node.DOCUMENT_TYPE_NODE || how!=EXTRACT_CONTENTS))",
+        "input_tokens": 380,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.878
+    },
+    {
+        "id": 1676,
+        "text": "(isLeft && how != DELETE_CONTENTS) || (how == DELETE_CONTENTS)",
+        "input_tokens": 424,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.738
+    },
+    {
+        "id": 1677,
+        "text": "None",
+        "input_tokens": 313,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.621
+    },
+    {
+        "id": 1679,
+        "text": "(frag == null || fStartOffset == fEndOffset) && ((fStartContainer.getNodeType() != Node.TEXT_NODE) || (((TextImpl)fStartContainer).getNodeValue().length() <= 1)) && (how != DELETE_CONTENTS) && (how != CLONE_CONTENTS)",
+        "input_tokens": 519,
+        "output_tokens": 61,
+        "elapsed_seconds": 1.189
+    },
+    {
+        "id": 1680,
+        "text": "(isFullySelected && next!=getStartContainer() && next!=root)",
+        "input_tokens": 496,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.769
+    },
+    {
+        "id": 1681,
+        "text": "(fStartContainer != null && fEndContainer != null) && (!fDetach) && (fStartContainer != fEndContainer)",
+        "input_tokens": 641,
+        "output_tokens": 28,
+        "elapsed_seconds": 0.899
+    },
+    {
+        "id": 1682,
+        "text": "(isFullySelected && next!=fEndContainer)",
+        "input_tokens": 510,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.711
+    },
+    {
+        "id": 1737,
+        "text": "(done && fCurrentEntity.position < fCurrentEntity.count)",
+        "input_tokens": 1403,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.792
+    },
+    {
+        "id": 1782,
+        "text": "(fPropertyManager != null && (name.equals(fPropertyManager.STAX_NOTATIONS) || name.equals(fPropertyManager.STAX_ENTITIES)))",
+        "input_tokens": 354,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.824
+    },
+    {
+        "id": 1787,
+        "text": "(prefix != null && fScanner.getNamespaceContext() != null && fSymbolTable != null)",
+        "input_tokens": 301,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.766
+    },
+    {
+        "id": 1815,
+        "text": "(fInDTDIgnore && (fDTDGrammar == null || !fDTDGrammar.startConditional(type, augs)) && (fDTDHandler == null || !fDTDHandler.startConditional(type, augs)))",
+        "input_tokens": 331,
+        "output_tokens": 43,
+        "elapsed_seconds": 0.929
+    },
+    {
+        "id": 1906,
+        "text": "(index >= 0 && index < this.nofgroups) && (this.beginpos != null)",
+        "input_tokens": 327,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.692
+    },
+    {
+        "id": 1907,
+        "text": "(index >= 0 && index < this.nofgroups) && ((this.beginpos[index] >= 0 && this.endpos[index] >= 0) || (this.ciSource != null || (this.strSource != null && this.charSource != null)))",
+        "input_tokens": 431,
+        "output_tokens": 54,
+        "elapsed_seconds": 1.075
+    },
+    {
+        "id": 1908,
+        "text": "(index >= 0 && index < this.nofgroups) && (this.endpos != null)",
+        "input_tokens": 327,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.792
+    },
+    {
+        "id": 1978,
+        "text": "(fData != null && count >= 0 && offset >= 0 && offset < fData.length() && offset + count <= fData.length())",
+        "input_tokens": 343,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.868
+    },
+    {
+        "id": 1992,
+        "text": "(isPositive && (year >= 0 && year <= 9999) && (month >= 1 && month <= 12))",
+        "input_tokens": 299,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.847
+    },
+    {
+        "id": 1994,
+        "text": "None",
+        "input_tokens": 327,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.586
+    },
+    {
+        "id": 1995,
+        "text": "None",
+        "input_tokens": 280,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.574
+    },
+    {
+        "id": 1996,
+        "text": "None",
+        "input_tokens": 319,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.542
+    },
+    {
+        "id": 1997,
+        "text": "None",
+        "input_tokens": 315,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.551
+    },
+    {
+        "id": 2000,
+        "text": "(this.signum * factorSign >= 0 && null != years && null != months && null != days && null != hours && null != minutes && (buf[5].signum() == 0 && seconds == null) || buf[5] == ZERO)",
+        "input_tokens": 542,
+        "output_tokens": 55,
+        "elapsed_seconds": 1.2
+    },
+    {
+        "id": 2002,
+        "text": "(sanitize((BigInteger) lhs.getField(DatatypeConstants.YEARS), lhs.getSign()).add(sanitize((BigInteger) rhs.getField(DatatypeConstants.YEARS),  rhs.getSign())).signum() >= 0 && sanitize((BigInteger) lhs.getField(DatatypeConstants.MONTHS), lhs.getSign()).add(sanitize((BigInteger) rhs.getField(DatatypeConstants.MONTHS), rhs.getSign())).signum() >= 0 && sanitize((BigInteger) lhs.getField(DatatypeConstants.DAYS), lhs.getSign()).add(sanitize((BigInteger) rhs.getField(DatatypeConstants.DAYS),   rhs.getSign())).signum() >= 0 && sanitize((BigInteger) lhs.getField(DatatypeConstants.HOURS), lhs.getSign()).add(sanitize((BigInteger) rhs.getField(DatatypeConstants.HOURS),  rhs.getSign())).signum() >= 0 && sanitize((BigDecimal) lhs.getField(DatatypeConstants.SECONDS), lhs.getSign()).add(sanitize((BigDecimal) rhs.getField(DatatypeConstants.SECONDS), rhs.getSign())).signum() >= 0)",
+        "input_tokens": 852,
+        "output_tokens": 210,
+        "elapsed_seconds": 2.668
+    },
+    {
+        "id": 2008,
+        "text": "(days >= 0 && getCalendarTimeInMillis(c) - getCalendarTimeInMillis(startTimeInstant) / (1000L * 60L * 60L * 24L) == (int) Math.abs((long) days))",
+        "input_tokens": 422,
+        "output_tokens": 54,
+        "elapsed_seconds": 1.118
+    },
+    {
+        "id": 2018,
+        "text": "(P.getTimezone() == Q.getTimezone() || \n P.getTimezone() != DatatypeConstants.FIELD_UNDEFINED && \n Q.getTimezone() != DatatypeConstants.FIELD_UNDEFINED &&\n (P.getTimezone() == 0 || P.normalize().getTimezone() == Q.getTimezone()) ||\n P.getTimezone() != DatatypeConstants.FIELD_UNDEFINED &&\n (P.normalize().getTimezone() == 0 || P.normalizeToTimezone(DatatypeConstants.MIN_TIMEZONE_OFFSET).getTimezone() == Q.getTimezone() || \n  P.normalizeToTimezone(DatatypeConstants.MAX_TIMEZONE_OFFSET).getTimezone() == Q.getTimezone()))",
+        "input_tokens": 705,
+        "output_tokens": 123,
+        "elapsed_seconds": 1.768
+    },
+    {
+        "id": 2038,
+        "text": "(schemaLanguage != null && !schemaLanguage.isEmpty()) && (schemaLanguage.equals(XMLConstants.W3C_XML_SCHEMA_NS_URI))",
+        "input_tokens": 361,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.874
+    },
+    {
+        "id": 2067,
+        "text": "(fConfiguration.getProperty(ERROR_HANDLER) instanceof XMLErrorHandler && !(fConfiguration.getProperty(ERROR_HANDLER) instanceof ErrorHandlerWrapper)) || ((XMLErrorHandler)fConfiguration.getProperty(ERROR_HANDLER)).getClass() == ErrorHandlerWrapper.class",
+        "input_tokens": 349,
+        "output_tokens": 42,
+        "elapsed_seconds": 0.984
+    },
+    {
+        "id": 2123,
+        "text": "(fAugmentationsContainer.isFull() || fAugmentationsContainer.putItem(key, item) != null)",
+        "input_tokens": 319,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.747
+    },
+    {
+        "id": 2156,
+        "text": "(p_p_uriSpec != null && (p_nStartIndex >= 0 || p_nStartIndex < p_uriSpec.length()))",
+        "input_tokens": 1006,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.91
+    },
+    {
+        "id": 2165,
+        "text": "(m_uriSpec.indexOf('@', 0) != -1 && \n m_uriSpec.charAt(0) != '[' &&\n !m_uriSpec.substring(0, m_uriSpec.lastIndexOf(':', m_uriSpec.length())).contains(\"[\"))",
+        "input_tokens": 723,
+        "output_tokens": 47,
+        "elapsed_seconds": 1.068
+    },
+    {
+        "id": 2167,
+        "text": "(m_scheme == null || !isConformantSchemeName(m_scheme))",
+        "input_tokens": 335,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.734
+    },
+    {
+        "id": 2170,
+        "text": "(p_uriSpec.charAt(0) == ':' || p_uriSpec.charAt(0) == '/' ||\np_uriSpec.charAt(0) == '?' || p_uriSpec.charAt(0) == '#' && p_uriSpec.length() > 1)",
+        "input_tokens": 406,
+        "output_tokens": 50,
+        "elapsed_seconds": 1.011
+    },
+    {
+        "id": 2174,
+        "text": "(m_port >= 0 && m_port <= 65535 && m_host != null) && (p_port != -1 || m_port == -1)",
+        "input_tokens": 352,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.875
+    },
+    {
+        "id": 2175,
+        "text": "None",
+        "input_tokens": 338,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.601
+    },
+    {
+        "id": 2266,
+        "text": "(this.containedException == null && cause != null) || (cause == this)",
+        "input_tokens": 355,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.772
+    },
+    {
+        "id": 2413,
+        "text": "(treeWalker.getContentHandler() == null || (treeWalker.getContentHandler() != null && treeWalker.getContentHandler() instanceof org.xml.sax.ContentHandler)) && (getNode(nodeHandle) != null)",
+        "input_tokens": 361,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.962
+    },
+    {
+        "id": 2461,
+        "text": "(startDecls >= 0 && nDecls > startDecls && nDecls % 2 == 0) && (m_prefixMappings != null)",
+        "input_tokens": 360,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.91
+    },
+    {
+        "id": 2469,
+        "text": "(identity >= 0 && identity < m_blocksize || (identity >= (1L << m_SHIFT) && identity < (1L << (m_SHIFT + 1))))",
+        "input_tokens": 301,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.917
+    },
+    {
+        "id": 2471,
+        "text": "(identity >= 0 && identity < m_blocksize || (identity >= (1L << m_SHIFT) && identity < (1L << (m_SHIFT + 1))))",
+        "input_tokens": 304,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.919
+    },
+    {
+        "id": 2473,
+        "text": "(identity >= 0 && identity < m_blocksize || (identity >= (1L << m_SHIFT) && identity < (1L << (m_SHIFT + 1))))",
+        "input_tokens": 307,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.894
+    },
+    {
+        "id": 2483,
+        "text": "(nodeHandle != NULL && _type2(makeNodeIdentity(nodeHandle)) == ELEMENT_NODE && type == TEXT_NODE) || (nodeHandle != NULL && _type2(makeNodeIdentity(nodeHandle)) == DOCUMENT_NODE && type == TEXT_NODE) || (nodeHandle != NULL && _type2(makeNodeIdentity(nodeHandle)) == ELEMENT_NODE && type == CDATA_SECTION_NODE) || (nodeHandle != NULL && _type2(makeNodeIdentity(nodeHandle)) == DOCUMENT_NODE && type == CDATA_SECTION_NODE)",
+        "input_tokens": 802,
+        "output_tokens": 103,
+        "elapsed_seconds": 1.553
+    },
+    {
+        "id": 2486,
+        "text": "(identity >= 0 && identity < m_blocksize || (identity >= m_blocksize && ((identity & m_MASK) == 0 && (identity >> m_SHIFT) < m_exptype_map.length)))",
+        "input_tokens": 304,
+        "output_tokens": 42,
+        "elapsed_seconds": 0.979
+    },
+    {
+        "id": 2489,
+        "text": "(identity < m_blocksize) && (NULL != m_extendedTypes[m_extendedTypes.length > 0 ? m_exptype_map0[identity] : m_exptype_map[(identity >>> m_SHIFT) & m_MASK][identity & m_MASK]].getNodeType())",
+        "input_tokens": 338,
+        "output_tokens": 53,
+        "elapsed_seconds": 1.071
+    },
+    {
+        "id": 2592,
+        "text": "(this.m_next == null && this.m_next != null) && (frame.m_elementName != null) && (frame.m_elementLocalName != null) && (frame.m_elementURI != null)",
+        "input_tokens": 362,
+        "output_tokens": 41,
+        "elapsed_seconds": 0.997
+    },
+    {
+        "id": 2594,
+        "text": "(m_attrs != null && !m_attrs.containsKey(name))",
+        "input_tokens": 290,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.662
+    },
+    {
+        "id": 2612,
+        "text": "(is != null && bis != null && keys.hasMoreElements() && !props.isEmpty())",
+        "input_tokens": 734,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.79
+    },
+    {
+        "id": 2645,
+        "text": "None",
+        "input_tokens": 296,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.613
+    },
+    {
+        "id": 2646,
+        "text": "(s.length() == 1)",
+        "input_tokens": 301,
+        "output_tokens": 8,
+        "elapsed_seconds": 0.653
+    },
+    {
+        "id": 2693,
+        "text": "(m_writer != null && !inTemporaryOutputState())",
+        "input_tokens": 360,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.724
+    },
+    {
+        "id": 2749,
+        "text": "(m_uriSpec != null && isHex(p_uriSpec.charAt(index + 1)) && isHex(p_uriSpec.charAt(index + 2))) &&\n(isReservedCharacter(testChar) || isUnreservedCharacter(testChar))",
+        "input_tokens": 859,
+        "output_tokens": 45,
+        "elapsed_seconds": 1.05
+    },
+    {
+        "id": 2795,
+        "text": "(m_lastChunk != 0 || (m_innerFSB == null && m_lastChunk == 0)) && ((m_firstFree != 0 || (m_lastChunk > 0 && m_firstFree == 0)) || (m_lastChunk == 0 && m_innerFSB != null))",
+        "input_tokens": 352,
+        "output_tokens": 63,
+        "elapsed_seconds": 1.23
+    },
+    {
+        "id": 2830,
+        "text": "(currentContext != null && !prefix.equals(\"xml\") && !prefix.equals(\"xmlns\"))",
+        "input_tokens": 306,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.755
+    },
+    {
+        "id": 2865,
+        "text": "None",
+        "input_tokens": 283,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.605
+    },
+    {
+        "id": 2950,
+        "text": "None",
+        "input_tokens": 319,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.607
+    },
+    {
+        "id": 3010,
+        "text": "(b && !msg.isEmpty())",
+        "input_tokens": 315,
+        "output_tokens": 7,
+        "elapsed_seconds": 0.656
+    },
+    {
+        "id": 3024,
+        "text": "(m_listener != null && !(m_listener instanceof ErrorListener))",
+        "input_tokens": 303,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.698
+    },
+    {
+        "id": 3030,
+        "text": "(m_clone != null && !m_lastUsedWalker.equals(this) && (null != m_nextWalker || null != m_prevWalker))",
+        "input_tokens": 444,
+        "output_tokens": 28,
+        "elapsed_seconds": 0.815
+    },
+    {
+        "id": 3037,
+        "text": "(mustHardResetConstraint && (expr instanceof Variable || stepType != OpCodes.OP_FUNCTION && stepType != OpCodes.OP_EXTFUNCTION))",
+        "input_tokens": 398,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.857
+    },
+    {
+        "id": 3053,
+        "text": "(m_iterators != null && (m_iterators.length < m_iterators.length + 1 || !Arrays.equals(m_iterators, new DTMIterator[]{expr})))",
+        "input_tokens": 387,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.941
+    },
+    {
+        "id": 3057,
+        "text": "((analysis & BITS_COUNT) > 0 && (stepType == OpCodes.OP_VARIABLE || stepType == OpCodes.OP_EXTFUNCTION || stepType == OpCodes.OP_FUNCTION || stepType == OpCodes.OP_GROUP))",
+        "input_tokens": 1075,
+        "output_tokens": 46,
+        "elapsed_seconds": 1.104
+    },
+    {
+        "id": 3059,
+        "text": "(compiler != null && opPos >= 0 && stepType >= 0 && stepType < OpCodes.OP_GROUP && argLen == compiler.getArgLength(opPos) || argLen == compiler.getArgLengthOfStep(opPos))",
+        "input_tokens": 388,
+        "output_tokens": 49,
+        "elapsed_seconds": 1.109
+    },
+    {
+        "id": 3090,
+        "text": "(m_funcNextFreeIndex > 0 && (funcIndex < NUM_BUILT_IN_FUNCS || null != funcIndexObj))",
+        "input_tokens": 415,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.828
+    },
+    {
+        "id": 3101,
+        "text": "(isQueueMarkGreaterThanOrEqualZero() && (lookbehindLengthIsOne() || lookbehindIsNull()) && (lookbehindCharIsPipe() || characterMatchsWithC()))",
+        "input_tokens": 403,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.966
+    },
+    {
+        "id": 3109,
+        "text": "(m_ops.getTokenQueueSize() <= n && m_ops.getTokenQueueSize() > 0 && m_ops.m_tokenQueue.size() != 0 && ((m_ops.m_tokenQueue.elementAt((m_queueMark + n) - 1)).length() == 1 ? (m_ops.m_tokenQueue.elementAt((m_queueMark + n) - 1)).charAt(0) == c : false))",
+        "input_tokens": 369,
+        "output_tokens": 82,
+        "elapsed_seconds": 1.404
+    },
+    {
+        "id": 3110,
+        "text": "(isQueueSizeValid(n) && (lookahead != null ? lookahead.equals(s) : (s == null)))",
+        "input_tokens": 352,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.752
+    },
+    {
+        "id": 3118,
+        "text": "(hasQueueMarkGreaterThanN() && (!lookbehindIsNull() || !isCharZero()))",
+        "input_tokens": 365,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.766
+    },
+    {
+        "id": 3155,
+        "text": "(argNum != 0 && argNum != 1)",
+        "input_tokens": 324,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.687
+    },
+    {
+        "id": 3166,
+        "text": "(db != null && isSupported(returnType) && source != null) && !(new Object[]{returnType.toString()}.length == 0)",
+        "input_tokens": 473,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.803
+    },
+    {
+        "id": 3167,
+        "text": "(_featureManager != null && _featureManager.getValueAsString(name) != null) || (name.equals(XMLConstants.FEATURE_SECURE_PROCESSING) && !_isNotSecureProcessing) || (name.equals(XalanConstants.ORACLE_FEATURE_SERVICE_MECHANISM) && _useServicesMechanism)",
+        "input_tokens": 460,
+        "output_tokens": 58,
+        "elapsed_seconds": 1.172
+    },
+    {
+        "id": 3168,
+        "text": "(xPathVariableResolver == null) && (resolver != null)",
+        "input_tokens": 330,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.75
+    },
+    {
+        "id": 3170,
+        "text": "(objectModel == null || objectModel.length() > 0) && !objectModel.equals(XPathFactory.DEFAULT_OBJECT_MODEL_URI)",
+        "input_tokens": 404,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.812
+    },
+    {
+        "id": 3171,
+        "text": "(xResolver != null) && (xResolver.getClass().getName().equals(CLASS_NAME))",
+        "input_tokens": 332,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.744
+    },
+    {
+        "id": 3172,
+        "text": "(expression != null) && (!(expression == null))",
+        "input_tokens": 403,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.64
+    },
+    {
+        "id": 3173,
+        "text": "(expression != null && returnType != null && isSupported(returnType))",
+        "input_tokens": 535,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.675
+    },
+    {
+        "id": 3179,
+        "text": "(ch != DTM.NULL && m_dtmMgr.getDTM(ch).dispatchCharactersEvents(ch, ch, false))",
+        "input_tokens": 313,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.833
+    },
+    {
+        "id": 3198,
+        "text": "(toffset >= 0 && toffset <= tlim - prefix.length()) && ((int)this.charAt(toffset) == prefix.charAt(0)) && (((toffset + 1) < tlim) && (this.charAt(toffset + 1) == prefix.charAt(1))) && (((toffset + 2) < tlim) && (this.charAt(toffset + 2) == prefix.charAt(2))) && (((toffset + 3) < tlim) && (this.charAt(toffset + 3) == prefix.charAt(3))) && (((toffset + 4) < tlim) && (this.charAt(toffset + 4) == prefix.charAt(4))) && (((toffset + 5) < tlim) && (this.charAt(toffset + 5) == prefix.charAt(5)))",
+        "input_tokens": 363,
+        "output_tokens": 170,
+        "elapsed_seconds": 2.167
+    },
+    {
+        "id": 3203,
+        "text": "None",
+        "input_tokens": 273,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.594
+    },
+    {
+        "id": 3205,
+        "text": "None",
+        "input_tokens": 372,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.567
+    },
+    {
+        "id": 3215,
+        "text": "(int(srcEnd - srcBegin) <= m_length && (srcEnd - srcBegin) <= (dst.length - dstBegin))",
+        "input_tokens": 381,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.823
+    },
+    {
+        "id": 3218,
+        "text": "(m_endIndex - beginIndex <= m_length && m_endIndex - beginIndex >= 0)",
+        "input_tokens": 333,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.799
+    },
+    {
+        "id": 3219,
+        "text": "(m_length > beginIndex) && (m_start + beginIndex < m_length)",
+        "input_tokens": 317,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.736
+    },
+    {
+        "id": 3223,
+        "text": "(right.getType() != XObject.CLASS_BOOLEAN) && (!right.bool().equals(\"\"))",
+        "input_tokens": 300,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.698
+    },
+    {
+        "id": 3226,
+        "text": "(left != null && right != null) && (left.getValue() >= right.getValue())",
+        "input_tokens": 292,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.754
+    },
+    {
+        "id": 3262,
+        "text": "(name != null && fPropertyManager.containsProperty(name))",
+        "input_tokens": 286,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.658
+    },
+    {
+        "id": 3265,
+        "text": "(fname != null && !fPropertyManager.containsProperty(fname) && (fname != Constants.REUSE_INSTANCE || !fname.equals(Constants.REUSE_INSTANCE)))",
+        "input_tokens": 377,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.882
+    },
+    {
+        "id": 3286,
+        "text": "(isPositive && day.signum() >= 0 && hour.signum() >= 0 && minute.signum() >= 0 && second.signum() >= 0)",
+        "input_tokens": 327,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.875
+    },
+    {
+        "id": 3290,
+        "text": "(isPositive && years >= 0 && months >= 0 && days >= 0 && hours >= 0 && minutes >= 0 && seconds >= 0)",
+        "input_tokens": 482,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.894
+    },
+    {
+        "id": 3292,
+        "text": "(isPositive && (year.compareTo(BigInteger.ZERO) >= 0) && (month.compareTo(BigInteger.ONE) >= 0))",
+        "input_tokens": 308,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.784
+    },
+    {
+        "id": 3306,
+        "text": "(null == uri || (in != null && !parse(in)))",
+        "input_tokens": 302,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.651
+    },
+    {
+        "id": 3307,
+        "text": "(is != null) && (!systemId.isEmpty())",
+        "input_tokens": 314,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.671
+    },
+    {
+        "id": 3308,
+        "text": "(is != null) && (!(in instanceof InputSource))",
+        "input_tokens": 302,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 3309,
+        "text": "(f != null && !f.isDirectory())",
+        "input_tokens": 308,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.677
+    },
+    {
+        "id": 3314,
+        "text": "(this.uri != null && !this.uri.isEmpty()) && !(hb == null)",
+        "input_tokens": 308,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.657
+    },
+    {
+        "id": 3315,
+        "text": "(this.uri != null && !this.uri.isEmpty()) && !(new IOException().isPresent())",
+        "input_tokens": 308,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.711
+    },
+    {
+        "id": 3316,
+        "text": "(is != null) && ((dh != null) || (!\"\".equals(systemId)))",
+        "input_tokens": 324,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.736
+    },
+    {
+        "id": 3317,
+        "text": "(is != null) && ((hb != null) || (this.getParser() instanceof SAXParser))",
+        "input_tokens": 347,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.79
+    },
+    {
+        "id": 3318,
+        "text": "(is != null) && (!(hb instanceof HandlerBase))",
+        "input_tokens": 308,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.635
+    },
+    {
+        "id": 3319,
+        "text": "(f != null && f.toURI().toASCIIString() != null)",
+        "input_tokens": 314,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.764
+    },
+    {
+        "id": 3320,
+        "text": "(is != null) && (!(dh instanceof DefaultHandler))",
+        "input_tokens": 308,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.673
+    },
+    {
+        "id": 3321,
+        "text": "(is != null) && ((hb != null) || (systemId != null))",
+        "input_tokens": 324,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.761
+    },
+    {
+        "id": 3322,
+        "text": "(is != null) && ((dh != null) && (reader.getContentHandler() == dh)) && (reader.getEntityResolver() == dh) && (reader.getErrorHandler() == dh) && (reader.getDTDHandler() == dh)",
+        "input_tokens": 348,
+        "output_tokens": 48,
+        "elapsed_seconds": 0.984
+    },
+    {
+        "id": 3323,
+        "text": "(f != null && !f.isDirectory())",
+        "input_tokens": 314,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.636
+    },
+    {
+        "id": 3337,
+        "text": "None",
+        "input_tokens": 297,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.528
+    },
+    {
+        "id": 3341,
+        "text": "(source instanceof SAXSource && ((SAXSource) source).getInputSource() != null) || (source instanceof StreamSource && new InputSource(((StreamSource) source).getSystemId()).setByteStream(((StreamSource) source).getInputStream()).setCharacterStream(((StreamSource) source).getReader()).setPublicId(((StreamSource) source).getPublicId()) != null)",
+        "input_tokens": 371,
+        "output_tokens": 80,
+        "elapsed_seconds": 1.246
+    },
+    {
+        "id": 3345,
+        "text": "None",
+        "input_tokens": 302,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.576
+    },
+    {
+        "id": 3356,
+        "text": "(isuriNotNull && isuriNotEmpty) && (classLoader != null) && (factory != null)",
+        "input_tokens": 424,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.835
+    },
+    {
+        "id": 3357,
+        "text": "(cl != null && !uri.equals(\"\") && XPathFactoryFinder.isValidClass(factoryClassName) && f.isObjectModelSupported(uri))",
+        "input_tokens": 469,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.839
+    },
+    {
+        "id": 3361,
+        "text": "(classLoader != null) && (PROPERTY != null) && (getResourceAsStream(classLoader, \"META-INF/services/\" + PROPERTY) != null) && (((java.io.UnsupportedEncodingException e) -> false) == null)",
+        "input_tokens": 414,
+        "output_tokens": 44,
+        "elapsed_seconds": 1.037
+    },
+    {
+        "id": 3371,
+        "text": "None",
+        "input_tokens": 285,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.569
+    },
+    {
+        "id": 3416,
+        "text": "(this.parser != null) && (atts instanceof AttributesImpl) && (nsSupport instanceof NamespaceSupport) && (attAdapter instanceof AttributeListAdapter)",
+        "input_tokens": 325,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.873
+    },
+    {
+        "id": 3457,
+        "text": "(compiler != null && expr != null && !expr.equals(\"\") && prev != null)",
+        "input_tokens": 454,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.738
+    },
+    {
+        "id": 3512,
+        "text": "(tail.isEmpty() && !bounds.isEmpty()) || (allInterfaces && !tail.isEmpty())",
+        "input_tokens": 306,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.774
+    },
+    {
+        "id": 3703,
+        "text": "(seenValidDigit && ((radix == 16 && is('.')) || (radix == 16 && isOneOf('p', 'P')) || (digitRadix == 10 && is('.')) || (digitRadix == 10 && isOneOf('e', 'E', 'f', 'F', 'd', 'D'))))",
+        "input_tokens": 621,
+        "output_tokens": 80,
+        "elapsed_seconds": 1.285
+    },
+    {
+        "id": 3736,
+        "text": "(line >= 1 && col >= 1) && (line <= MAXLINE && col <= MAXCOLUMN)",
+        "input_tokens": 343,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.821
+    },
+    {
+        "id": 3790,
+        "text": "None",
+        "input_tokens": 558,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.545
+    },
+    {
+        "id": 3799,
+        "text": "(char[lastDot < 0] && (depth == 0 || lastGenericStart < 0))",
+        "input_tokens": 576,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.816
+    },
+    {
+        "id": 3807,
+        "text": "None",
+        "input_tokens": 306,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.595
+    },
+    {
+        "id": 3815,
+        "text": "(charOperation.indexOf(C_GENERIC_START, name) != -1 && \nCharOperation.lastIndexOf(C_DOT, name, 0, charOperation.indexOf(C_GENERIC_START, name) == -1 ? name.length - 1 : charOperation.indexOf(C_GENERIC_START, name)) != -1)",
+        "input_tokens": 350,
+        "output_tokens": 58,
+        "elapsed_seconds": 1.141
+    },
+    {
+        "id": 3816,
+        "text": "(length > 0 && (name[0] != C_DOT || name[name.length-1] != C_GENERIC_START))",
+        "input_tokens": 496,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.811
+    },
+    {
+        "id": 3836,
+        "text": "(max == prefix.length && name.length >= max) && (max == prefix.length && Arrays.equals(Arrays.copyOfRange(prefix, 0, max), Arrays.copyOfRange(name, 0, max)))",
+        "input_tokens": 331,
+        "output_tokens": 40,
+        "elapsed_seconds": 0.925
+    },
+    {
+        "id": 3844,
+        "text": "(array.length > 0 && toBeReplaced.length > 0 && end >= start && end <= array.length && start >= 0)",
+        "input_tokens": 337,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.781
+    },
+    {
+        "id": 3847,
+        "text": "None",
+        "input_tokens": 606,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.595
+    },
+    {
+        "id": 3850,
+        "text": "(index >= 0 && index <= targetLength - subLength && \nstart >= 0 && end <= array.length && \nstart <= end && \nsubLength >= 0 &&\nindex + subLength <= targetLength)",
+        "input_tokens": 362,
+        "output_tokens": 45,
+        "elapsed_seconds": 1.107
+    },
+    {
+        "id": 3852,
+        "text": "(target.length + suffix.length <= target.length || (suffix == null && suffix.length == 0)) && ((target != null) && (newTargetLength > targetLength || (suffix == null && suffix.length == 0)))",
+        "input_tokens": 369,
+        "output_tokens": 47,
+        "elapsed_seconds": 1.027
+    },
+    {
+        "id": 3853,
+        "text": "(char == toBeReplaced && result == null) || ((char == toBeReplaced && result != null) && (i < length))",
+        "input_tokens": 399,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.825
+    },
+    {
+        "id": 3858,
+        "text": "(j > 0 && (array[j-1] == toBeFound[0] && Arrays.equals(Arrays.copyOfRange(array, j, array.length), toBeFound)))",
+        "input_tokens": 328,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.915
+    },
+    {
+        "id": 3859,
+        "text": "None",
+        "input_tokens": 353,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.605
+    },
+    {
+        "id": 3861,
+        "text": "(array.length > 0 && toBeReplaced != replacementChar) && ((toBeReplaced != '\\u0000') && (replacementChar != '\\u0000'))",
+        "input_tokens": 330,
+        "output_tokens": 40,
+        "elapsed_seconds": 0.89
+    },
+    {
+        "id": 3868,
+        "text": "(isCaseSensitive || ((max == name.length) && (startIndex <= name.length - max))) && ((isCaseSensitive ? fragment[max-1] : ScannerHelper.toLowerCase(fragment[max-1])) == (name[startIndex + max - 1] || ScannerHelper.toLowerCase(name[startIndex + max - 1])))",
+        "input_tokens": 399,
+        "output_tokens": 64,
+        "elapsed_seconds": 1.192
+    },
+    {
+        "id": 3870,
+        "text": "(isCaseSensitive || (toBeFoundLength == 0 && start >= 0) || (toBeFoundLength == arrayLength && isCaseSensitive))",
+        "input_tokens": 675,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.914
+    },
+    {
+        "id": 3875,
+        "text": "(array.length <= Integer.MAX_VALUE && prefix.length <= Integer.MAX_VALUE && Math.min(array.length, prefix.length) >= 0 && array.length >= 0 && prefix.length >= 0)",
+        "input_tokens": 366,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.952
+    },
+    {
+        "id": 3880,
+        "text": "(length == 0 || start > end) && (array != null)",
+        "input_tokens": 465,
+        "output_tokens": 16,
+        "elapsed_seconds": 1.437
+    },
+    {
+        "id": 3885,
+        "text": "(start >= 0 && start < end && end <= array.length && length > 0) && (openEncl != closeEncl || openEncl != divider || closeEncl != divider) && (start <= end) && (end - start + 1 == wordCount * 2 - enclCount)",
+        "input_tokens": 721,
+        "output_tokens": 67,
+        "elapsed_seconds": 1.227
+    },
+    {
+        "id": 3886,
+        "text": "(!character.equals('\\u0000') && !isEmpty(array))",
+        "input_tokens": 329,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 3922,
+        "text": "(i_index == -1 && (childrenList != null))",
+        "input_tokens": 429,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.637
+    },
+    {
+        "id": 3927,
+        "text": "(this.sm != null && !(this.sm instanceof StatusManager))",
+        "input_tokens": 294,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.666
+    },
+    {
+        "id": 3955,
+        "text": "(location != null && (!location.matches(SCHEME_PATTERN) || (location.startsWith(CLASSPATH_SCHEME) && path.length() > 0))) && !(location.startsWith(CLASSPATH_SCHEME) && !Loader.getResourceBySelfClassLoader(path).equals(url))",
+        "input_tokens": 425,
+        "output_tokens": 52,
+        "elapsed_seconds": 1.022
+    },
+    {
+        "id": 3993,
+        "text": "(isSynchronous && deleteReportInfoFilesOlderThanXDaysInner(context, days) == null) || (!isSynchronous && (deleteReportInfoFilesOlderThanXDaysInner(context, days) == null || Logger.logErrorExtended(LOG_TAG, new Error(\"Thread error\").toString())))",
+        "input_tokens": 375,
+        "output_tokens": 61,
+        "elapsed_seconds": 1.157
+    },
+    {
+        "id": 3997,
+        "text": "(context != null && !(context instanceof Activity)) && (!(intent.getAction() == null || intent.getData() == null) || !showErrorMessage)",
+        "input_tokens": 423,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.814
+    },
+    {
+        "id": 4023,
+        "text": "(requestsNonNull(context) && requestsNonNullArray(permissions) && requestCode >= 0)",
+        "input_tokens": 573,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.741
+    },
+    {
+        "id": 4028,
+        "text": "None",
+        "input_tokens": 380,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.58
+    },
+    {
+        "id": 4073,
+        "text": "(days >= 0 && !filePath.isEmpty() && label != null && allowedFileTypeFlags >= 0)",
+        "input_tokens": 702,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.803
+    },
+    {
+        "id": 4084,
+        "text": "None",
+        "input_tokens": 569,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.61
+    },
+    {
+        "id": 4131,
+        "text": "(properties != null && key != null) && (value != null || properties.containsKey(key))",
+        "input_tokens": 369,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.764
+    },
+    {
+        "id": 4132,
+        "text": "(map != null && key != null && (value != null || Primitives.isWrapperType(value.getClass()) || value instanceof String))",
+        "input_tokens": 456,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.828
+    },
+    {
+        "id": 4217,
+        "text": "None",
+        "input_tokens": 333,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.532
+    },
+    {
+        "id": 4233,
+        "text": "(target != null && from != null && to != null && target.length == from.length && from.length == to.length && canMorph(from, to))",
+        "input_tokens": 425,
+        "output_tokens": 32,
+        "elapsed_seconds": 0.846
+    },
+    {
+        "id": 4237,
+        "text": "(start >= 0 && start < original.length && start <= end && end <= original.length) && (end - start <= original.length - start)",
+        "input_tokens": 371,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.837
+    },
+    {
+        "id": 4379,
+        "text": "(precision >= 0 && !(fieldName == null || fieldName.isEmpty()))",
+        "input_tokens": 368,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.696
+    },
+    {
+        "id": 4386,
+        "text": "(isConsumed == false && !corruptLastRecord)",
+        "input_tokens": 493,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.68
+    },
+    {
+        "id": 4416,
+        "text": "(path != null && !path.isEmpty())",
+        "input_tokens": 317,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.685
+    },
+    {
+        "id": 4418,
+        "text": "(address + index >= 0L && address + index < addressLimit) && (address <= addressLimit || UNSAFE.getByte(heapMemory, address + index) != 0)",
+        "input_tokens": 329,
+        "output_tokens": 38,
+        "elapsed_seconds": 0.914
+    },
+    {
+        "id": 4429,
+        "text": "(address <= addressLimit - numBytes && targetPointer <= addressLimit - numBytes) || (address > addressLimit)",
+        "input_tokens": 507,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.81
+    },
+    {
+        "id": 4441,
+        "text": "(index >= 0 && (offset + length) <= addressLimit - offset)",
+        "input_tokens": 430,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.749
+    },
+    {
+        "id": 4448,
+        "text": "(address + index >= 0 && address + index <= addressLimit - 8) && (address > addressLimit || UNSAFE.getLong(heapMemory, address + index) != 0)",
+        "input_tokens": 334,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.91
+    },
+    {
+        "id": 4483,
+        "text": "(int targetSize > 0 && targetSize <= sizeInBytes())",
+        "input_tokens": 385,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.669
+    },
+    {
+        "id": 4488,
+        "text": "(schemaId >= 0 && buffer != null && buffer.length > 0)",
+        "input_tokens": 328,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.726
+    },
+    {
+        "id": 4490,
+        "text": "(segment != null && size >= 3) && ((byte)segment.get(position + VERSION_OFFSET) == STATISTICS_VERSION) && (segment.getShort(position + COLUMN_COUNT_OFFSET) <= rowType.getFieldCount() && segment.getShort(position + COLUMN_COUNT_OFFSET) > 0)",
+        "input_tokens": 375,
+        "output_tokens": 57,
+        "elapsed_seconds": 1.101
+    },
+    {
+        "id": 4491,
+        "text": "(buffer != null && buffer.remaining() >= 3) && isValidStatistics(wrapByteBuffer(buffer), 0, buffer.remaining(), rowType)",
+        "input_tokens": 315,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.851
+    },
+    {
+        "id": 4492,
+        "text": "(data != null && data.length >= 3) && ((Memory.allocate(data).getArrayBaseAddress() == null || !Memory.isReadOnly(data)) || (data.length > 2))",
+        "input_tokens": 310,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.96
+    },
+    {
+        "id": 4493,
+        "text": "(buffer.isDirect() && !buffer.hasArray()) || (buffer.hasArray() && buffer.position() == 0)",
+        "input_tokens": 325,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.772
+    },
+    {
+        "id": 4494,
+        "text": "(schemaId >= 0 && buffer != null && buffer.remaining() > 0)",
+        "input_tokens": 327,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.73
+    },
+    {
+        "id": 4495,
+        "text": "(data != null && data.length >= 3) && (MemorySegment.isValid(data) && isValidStatistics(MemorySegment.ofArray(data), 0, data.length, rowType))",
+        "input_tokens": 315,
+        "output_tokens": 37,
+        "elapsed_seconds": 0.856
+    },
+    {
+        "id": 4496,
+        "text": "(segment != null && size >= 3 && (statisticsColumnCount > 0 && (minSizeFieldOffset = minValuesSizeOffset(statisticsColumnCount)) >= 0 && maxSizeFieldOffset >= 0 && (maxValuesSize = segment.getInt(position + maxSizeFieldOffset)) >= 0))",
+        "input_tokens": 420,
+        "output_tokens": 61,
+        "elapsed_seconds": 1.15
+    },
+    {
+        "id": 4497,
+        "text": "((buffer != null) && (buffer.remaining() >= 3))",
+        "input_tokens": 310,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.7
+    },
+    {
+        "id": 4512,
+        "text": "None",
+        "input_tokens": 331,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.57
+    },
+    {
+        "id": 4521,
+        "text": "(offset >= 0 && index >= 0 && index < size && globalOffset < size) || ((index < size && globalOffset >= size) || (index >= size && globalOffset >= size))",
+        "input_tokens": 322,
+        "output_tokens": 42,
+        "elapsed_seconds": 0.963
+    },
+    {
+        "id": 4545,
+        "text": "(listenerName != null && !listenerName.isEmpty()) && (dynamicJaasConfig == null || dynamicJaasConfig.length() > 0)",
+        "input_tokens": 347,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.845
+    },
+    {
+        "id": 4582,
+        "text": "(buffer.capacity() == size && !channel.isOpen())",
+        "input_tokens": 309,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.669
+    },
+    {
+        "id": 4584,
+        "text": "(position >= 0) && (destinationBuffer.hasRemaining() == false)",
+        "input_tokens": 420,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.676
+    },
+    {
+        "id": 4587,
+        "text": "(position >= 0) && ((currentPosition = position) >= 0) && (bytesRead != -1) && (!destinationBuffer.hasRemaining())",
+        "input_tokens": 350,
+        "output_tokens": 32,
+        "elapsed_seconds": 0.828
+    },
+    {
+        "id": 4601,
+        "text": "(totalBytesRead == length && !destinationBuffer.hasArray())",
+        "input_tokens": 414,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.662
+    },
+    {
+        "id": 4602,
+        "text": "(value == 0 || (value & (value - 1)) != 0) ? false : true",
+        "input_tokens": 348,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.821
+    },
+    {
+        "id": 4609,
+        "text": "(reference != null && !(errorMessage != null && !errorMessage.isEmpty()))",
+        "input_tokens": 296,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 4610,
+        "text": "None",
+        "input_tokens": 288,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.569
+    },
+    {
+        "id": 4737,
+        "text": "None",
+        "input_tokens": 511,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.59
+    },
+    {
+        "id": 4821,
+        "text": "(this.newRatio > 0.0 && this.newRatio <= 1.0) && (this.recoverThreshold == Math.max(0.0, this.newRatio - RECOVER_GAP))",
+        "input_tokens": 348,
+        "output_tokens": 41,
+        "elapsed_seconds": 1.001
+    },
+    {
+        "id": 4865,
+        "text": "(ref != null && !ref.isBlank()) && (ref.trim().length() > 0)",
+        "input_tokens": 299,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.715
+    },
+    {
+        "id": 4866,
+        "text": "(name == null || name.isBlank() && address == null || address.isBlank()) ? None : ((name != null && !name.isBlank()) || (address != null && !address.isBlank())) ? new FunctionRef(name.trim()) : new FunctionRef(address.trim());",
+        "input_tokens": 331,
+        "output_tokens": 52,
+        "elapsed_seconds": 0.995
+    },
+    {
+        "id": 4877,
+        "text": "((text != null && !text.isEmpty()) && ((text.startsWith(\"0x\") || text.startsWith(\"0X\")) || (text.startsWith(\"0b\") || text.startsWith(\"0B\")) || (text.startsWith(\"0\") && text.length() > 1 && text.matches(\"0[0-7]+\"))))",
+        "input_tokens": 821,
+        "output_tokens": 66,
+        "elapsed_seconds": 1.186
+    },
+    {
+        "id": 4940,
+        "text": "(isHardcoverSyncEnabledForUser(userSettings) && !(progressPercent == null || book == null || metadata == null || (metadata.getHardcoverBookId() != null && findHardcoverBookById(Integer.parseInt(metadata.getHardcoverBookId())) == null) || hardcoverBook == null))",
+        "input_tokens": 1053,
+        "output_tokens": 61,
+        "elapsed_seconds": 1.257
+    },
+    {
+        "id": 4945,
+        "text": "(xmlFile != null) && (!xmlFile.exists())",
+        "input_tokens": 478,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.714
+    },
+    {
+        "id": 4957,
+        "text": "(yzMarkedPos - yyLength() >= 0 && yyLength() <= Integer.MAX_VALUE)",
+        "input_tokens": 294,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.756
+    },
+    {
+        "id": 5051,
+        "text": "None",
+        "input_tokens": 311,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.553
+    },
+    {
+        "id": 5065,
+        "text": "(file != null && !file.isEmpty() && file.getInputStream() != null) && (!tables.isEmpty())",
+        "input_tokens": 379,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.783
+    },
+    {
+        "id": 5067,
+        "text": "(color == 0 || alpha != 255 && alpha != 0) && ((alpha + (alpha >> 7)) <= 255)",
+        "input_tokens": 364,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.89
+    },
+    {
+        "id": 5176,
+        "text": "(name == null || name.isEmpty()) && (!IDENTIFIER_PATTERN.matcher(name).matches()) && !\"user\".equals(name)",
+        "input_tokens": 360,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.773
+    },
+    {
+        "id": 5255,
+        "text": "(parts.size() > 0 && !toolCalls.isEmpty())",
+        "input_tokens": 340,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 5280,
+        "text": "(session != null && event.partial().orElse(false)) && ((actions != null && !actions.stateDelta().isEmpty() && session.state() != null) || (session.events() != null))",
+        "input_tokens": 469,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.952
+    },
+    {
+        "id": 5303,
+        "text": "(instance != null && !logger.isDebugEnabled())",
+        "input_tokens": 303,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.705
+    },
+    {
+        "id": 5310,
+        "text": "(context != null && template != null) && !INSTRUCTION_PLACEHOLDER_PATTERN.matcher(template).find()",
+        "input_tokens": 492,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.79
+    },
+    {
+        "id": 5342,
+        "text": "(watchCallbackNonNull(callback) && isDirectoryValid(agentDirPath))",
+        "input_tokens": 358,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.723
+    },
+    {
+        "id": 5400,
+        "text": "(userId != null && filePath != null && encoding != null) && (response.statusCode == 200)",
+        "input_tokens": 487,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.791
+    },
+    {
+        "id": 5505,
+        "text": "(bucketName != null && !bucketName.trim().isEmpty()) && (objectKey != null && !objectKey.trim().isEmpty()) && (expirySeconds >= 1 && expirySeconds <= 604800)",
+        "input_tokens": 559,
+        "output_tokens": 46,
+        "elapsed_seconds": 1.004
+    },
+    {
+        "id": 5506,
+        "text": "(bucketName != null && !bucketName.trim().isEmpty()) && (objectKey != null && !objectKey.trim().isEmpty()) && (expirySeconds >= 1 && expirySeconds <= 604800)",
+        "input_tokens": 561,
+        "output_tokens": 46,
+        "elapsed_seconds": 1.063
+    },
+    {
+        "id": 5567,
+        "text": "None",
+        "input_tokens": 317,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.574
+    },
+    {
+        "id": 5576,
+        "text": "(inputStream != null && scale > 0 && scale <= 1)",
+        "input_tokens": 404,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.628
+    },
+    {
+        "id": 5582,
+        "text": "(bizConfig != null && bizConfig.getSparkRagCompatibleSources() != null && (FILE_SOURCE_SPARK_RAG_STR.equals(source) || bizConfig.getSparkRagCompatibleSources().contains(source)))",
+        "input_tokens": 316,
+        "output_tokens": 43,
+        "elapsed_seconds": 0.979
+    },
+    {
+        "id": 5583,
+        "text": "(bizConfig != null && bizConfig.getAiuiRagCompatibleSources() != null && (bizConfig.getAiuiRagCompatibleSources().contains(source) || FILE_SOURCE_AIUI_RAG2_STR.equals(source)))",
+        "input_tokens": 320,
+        "output_tokens": 46,
+        "elapsed_seconds": 0.976
+    },
+    {
+        "id": 5584,
+        "text": "(category != null && !category.isEmpty()) && (configInfoService.list(Wrappers.lambdaQuery(ConfigInfo.class).eq(ConfigInfo::getCategory, category).eq(ConfigInfo::getIsValid, 1)) != null)",
+        "input_tokens": 325,
+        "output_tokens": 46,
+        "elapsed_seconds": 0.953
+    },
+    {
+        "id": 5592,
+        "text": "(parentId != null && parentId > 0L && repoId != null && repoId > 0L)",
+        "input_tokens": 366,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.763
+    },
+    {
+        "id": 5601,
+        "text": "None",
+        "input_tokens": 334,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.549
+    },
+    {
+        "id": 5603,
+        "text": "(pageNo >= 1 && pageNo <= 100) && (pageSize > 0 && pageSize <= 100)",
+        "input_tokens": 378,
+        "output_tokens": 28,
+        "elapsed_seconds": 0.852
+    },
+    {
+        "id": 5623,
+        "text": "(file != null && !file.isEmpty()) && isAllowedType(normalizeContentType(file.getContentType())) && (size > 0 || s3UtilClient.putObject(objectKey, file.getInputStream(), size, normalizeContentType(file.getContentType())))",
+        "input_tokens": 495,
+        "output_tokens": 47,
+        "elapsed_seconds": 1.023
+    },
+    {
+        "id": 5662,
+        "text": "(id > 0 && id != null) && (enabled >= 0 && enabled != null)",
+        "input_tokens": 598,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.786
+    },
+    {
+        "id": 5679,
+        "text": "(fileType.equalsIgnoreCase(ProjectContent.TXT_FILE_TYPE) || fileType.equalsIgnoreCase(ProjectContent.MD_FILE_TYPE)) && (file.getSize() <= 10 * 1024 * 1024)",
+        "input_tokens": 447,
+        "output_tokens": 42,
+        "elapsed_seconds": 1.003
+    },
+    {
+        "id": 5797,
+        "text": "None",
+        "input_tokens": 302,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.559
+    },
+    {
+        "id": 5813,
+        "text": "(url != null && !params.isEmpty() && params != null) && (Objects.requireNonNull(HttpUrl.parse(url)).newBuilder() != null) && ((Map.Entry<String, String>) params.entrySet().iterator().next()).getKey() != null && ((Map.Entry<String, String>) params.entrySet().iterator().next()).getValue() != null",
+        "input_tokens": 342,
+        "output_tokens": 67,
+        "elapsed_seconds": 1.227
+    },
+    {
+        "id": 5814,
+        "text": "None",
+        "input_tokens": 412,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.569
+    },
+    {
+        "id": 5820,
+        "text": "None",
+        "input_tokens": 392,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.57
+    },
+    {
+        "id": 5827,
+        "text": "(!pattern.isEmpty() && !keys.isEmpty()) && (!redisTemplate.opsForValue().multiGet(keys).isEmpty())",
+        "input_tokens": 298,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.801
+    },
+    {
+        "id": 5828,
+        "text": "(requireKey(key) && Objects.requireNonNull(token, \"token must not be null\") && (stringRedisTemplate.execute(LUA_RENEW, Collections.singletonList(key), token, String.valueOf(Math.max(1, ttlSeconds) * 1000L)) != null && stringRedisTemplate.execute(LUA_RENEW, Collections.singletonList(key), token, String.valueOf(Math.max(1, ttlSeconds) * 1000L)) > 0))",
+        "input_tokens": 381,
+        "output_tokens": 92,
+        "elapsed_seconds": 1.448
+    },
+    {
+        "id": 5829,
+        "text": "(requireKey(key) && (Boolean.TRUE.equals(redisTemplate.delete(key))))",
+        "input_tokens": 304,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.693
+    },
+    {
+        "id": 5830,
+        "text": "(count == null || count <= 0) && (count != null && count > 0)",
+        "input_tokens": 489,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.797
+    },
+    {
+        "id": 5831,
+        "text": "(requireKey(key) && (redisTemplate.opsForValue().getExpire(key, TimeUnit.SECONDS) >= seconds))",
+        "input_tokens": 329,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.813
+    },
+    {
+        "id": 5832,
+        "text": "(requireKey(key) && Objects.requireNonNull(token, \"token must not be null\") && (stringRedisTemplate.execute(LUA_UNLOCK, Collections.singletonList(key), token) != null && stringRedisTemplate.execute(LUA_UNLOCK, Collections.singletonList(key), token) > 0))",
+        "input_tokens": 340,
+        "output_tokens": 54,
+        "elapsed_seconds": 1.126
+    },
+    {
+        "id": 5833,
+        "text": "(requireKey(key) && Math.max(1L, ttlSeconds) > 0 && (token == null || UUID.randomUUID().toString().equals(val)) && stringRedisTemplate.opsForValue().setIfAbsent(key, val, ttl, TimeUnit.SECONDS).booleanValue() == Boolean.TRUE)",
+        "input_tokens": 363,
+        "output_tokens": 59,
+        "elapsed_seconds": 1.119
+    },
+    {
+        "id": 5842,
+        "text": "(paramValue != null && !paramValue.isEmpty()) && (paramName != null && !paramName.isEmpty())",
+        "input_tokens": 424,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.801
+    },
+    {
+        "id": 5900,
+        "text": "None",
+        "input_tokens": 320,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.587
+    },
+    {
+        "id": 5901,
+        "text": "None",
+        "input_tokens": 327,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.566
+    },
+    {
+        "id": 5902,
+        "text": "None",
+        "input_tokens": 332,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.512
+    },
+    {
+        "id": 5904,
+        "text": "None",
+        "input_tokens": 324,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.573
+    },
+    {
+        "id": 5906,
+        "text": "None",
+        "input_tokens": 330,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.575
+    },
+    {
+        "id": 5907,
+        "text": "None",
+        "input_tokens": 327,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.589
+    },
+    {
+        "id": 5908,
+        "text": "(Assert.notNull(resourceSpecifications, \"Resource handlers list must not be null\") && ((resourceSpecifications != null && !resourceSpecifications.isEmpty())))",
+        "input_tokens": 321,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.874
+    },
+    {
+        "id": 5910,
+        "text": "None",
+        "input_tokens": 305,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.58
+    },
+    {
+        "id": 5911,
+        "text": "(Assert.notNull(resourceSpecifications, \"Resource handlers list must not be null\") && ((resourceSpecifications != null && !resourceSpecifications.isEmpty())))",
+        "input_tokens": 321,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.88
+    },
+    {
+        "id": 5912,
+        "text": "None",
+        "input_tokens": 303,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.579
+    },
+    {
+        "id": 5913,
+        "text": "None",
+        "input_tokens": 303,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.576
+    },
+    {
+        "id": 5914,
+        "text": "None",
+        "input_tokens": 313,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.611
+    },
+    {
+        "id": 5915,
+        "text": "None",
+        "input_tokens": 305,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.57
+    },
+    {
+        "id": 5916,
+        "text": "None",
+        "input_tokens": 308,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.528
+    },
+    {
+        "id": 5917,
+        "text": "None",
+        "input_tokens": 320,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.515
+    },
+    {
+        "id": 5919,
+        "text": "None",
+        "input_tokens": 310,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.59
+    },
+    {
+        "id": 5920,
+        "text": "None",
+        "input_tokens": 322,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.593
+    },
+    {
+        "id": 5995,
+        "text": "(aspectClass != null && !aspects.contains(aspectClass))",
+        "input_tokens": 295,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.677
+    },
+    {
+        "id": 5996,
+        "text": "(metadata.get(key) != null || key.equals(\"\")) && !(value instanceof String)",
+        "input_tokens": 294,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.71
+    },
+    {
+        "id": 5997,
+        "text": "(key != null) && !metadata.isEmpty() && metadata.containsKey(key)",
+        "input_tokens": 290,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.707
+    },
+    {
+        "id": 5998,
+        "text": "(metadata != null && !metadata.containsKey(key))",
+        "input_tokens": 290,
+        "output_tokens": 10,
+        "elapsed_seconds": 0.653
+    },
+    {
+        "id": 6000,
+        "text": "(aspectClass != null && aspects.containsKey(aspectClass))",
+        "input_tokens": 295,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.692
+    },
+    {
+        "id": 6001,
+        "text": "(hasAspect != null && !hasAspect.hasAspect(null))",
+        "input_tokens": 295,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.721
+    },
+    {
+        "id": 6002,
+        "text": "(key != null && metadata.containsKey(key))",
+        "input_tokens": 290,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.655
+    },
+    {
+        "id": 6003,
+        "text": "(key == null || key.isEmpty()) && (type != null)",
+        "input_tokens": 316,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.652
+    },
+    {
+        "id": 6047,
+        "text": "(center.getWorld() != null && xRange > 0 && yRange > 0 && zRange > 0) && ((centerX - halfX >= minX && centerX + halfX <= maxX) && (centerZ - halfZ >= minZ && centerZ + halfZ <= maxZ))",
+        "input_tokens": 775,
+        "output_tokens": 62,
+        "elapsed_seconds": 1.154
+    },
+    {
+        "id": 6048,
+        "text": "None",
+        "input_tokens": 301,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.582
+    },
+    {
+        "id": 6050,
+        "text": "(value != null) && (!(exceptionSupplier.get() instanceof NullPointerException))",
+        "input_tokens": 301,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.654
+    },
+    {
+        "id": 6057,
+        "text": "None",
+        "input_tokens": 333,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.589
+    },
+    {
+        "id": 6058,
+        "text": "None",
+        "input_tokens": 322,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.576
+    },
+    {
+        "id": 6131,
+        "text": "(retryCounterType != RetryCounterType.LOCAL && redissonClient != null) || (retryCounterType == RetryCounterType.LOCAL)",
+        "input_tokens": 380,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.905
+    },
+    {
+        "id": 6165,
+        "text": "(val > 9) && (box != null)",
+        "input_tokens": 486,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.678
+    },
+    {
+        "id": 6178,
+        "text": "((name != null) && (image != null)) || ((name.isEmpty()) && (image == null))",
+        "input_tokens": 682,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.792
+    },
+    {
+        "id": 6186,
+        "text": "None",
+        "input_tokens": 329,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.608
+    },
+    {
+        "id": 6200,
+        "text": "None",
+        "input_tokens": 291,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.535
+    },
+    {
+        "id": 6394,
+        "text": "None",
+        "input_tokens": 425,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.566
+    },
+    {
+        "id": 6438,
+        "text": "None",
+        "input_tokens": 301,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.583
+    },
+    {
+        "id": 6478,
+        "text": "(segmentTypes.length > 0 && segmentIndex >= 0 && segmentIndex < segmentTypes.length && coordIndex >= 0 && coordIndex <= coordinates.length - copy)",
+        "input_tokens": 341,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.951
+    },
+    {
+        "id": 6525,
+        "text": "(os != null && rootName != null)",
+        "input_tokens": 602,
+        "output_tokens": 10,
+        "elapsed_seconds": 0.692
+    },
+    {
+        "id": 6526,
+        "text": "None",
+        "input_tokens": 321,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.589
+    },
+    {
+        "id": 6531,
+        "text": "(records.size() >= 1 && dir >= -records.size()) && (partRef != null)",
+        "input_tokens": 398,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.768
+    },
+    {
+        "id": 6551,
+        "text": "None",
+        "input_tokens": 309,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.547
+    },
+    {
+        "id": 6567,
+        "text": "(node != null && !signed) || (node != null)",
+        "input_tokens": 322,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.734
+    },
+    {
+        "id": 6568,
+        "text": "Objects.requireNonNull(os, \"Trying to export a score to a null output stream\") && (scoreName != null || !compressed)",
+        "input_tokens": 434,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.752
+    },
+    {
+        "id": 6569,
+        "text": "(signed && compressed)",
+        "input_tokens": 317,
+        "output_tokens": 6,
+        "elapsed_seconds": 0.55
+    },
+    {
+        "id": 6614,
+        "text": "(step == OmrStep.LOAD || step == OmrStep.BINARY) && (OMR.gui != null) && getValidSelectedStubs().stream().allMatch(s -> !s.isDone(step))",
+        "input_tokens": 413,
+        "output_tokens": 44,
+        "elapsed_seconds": 0.964
+    },
+    {
+        "id": 7053,
+        "text": "(point.getX() >= 0 && point.getY() >= 0 && staff != null)",
+        "input_tokens": 360,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.696
+    },
+    {
+        "id": 7063,
+        "text": "(staff.getIndexInPart() >= 0 && staff.getIndexInPart() < this.measureCount())",
+        "input_tokens": 329,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.712
+    },
+    {
+        "id": 7065,
+        "text": "(point != null && staff != null && clefs.stream().anyMatch(c -> c.getStaff() == staff && c.getCenter().x <= point.x)) ? clefs.stream().filter(c -> c.getStaff() == staff && c.getCenter().x <= point.x).findFirst().orElse(null) : null",
+        "input_tokens": 366,
+        "output_tokens": 64,
+        "elapsed_seconds": 1.158
+    },
+    {
+        "id": 7300,
+        "text": "(value >= 0 && value <= 1)",
+        "input_tokens": 302,
+        "output_tokens": 11,
+        "elapsed_seconds": 0.653
+    },
+    {
+        "id": 7561,
+        "text": "(pair != null && sig != null) && (num != null && den != null)",
+        "input_tokens": 365,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.742
+    },
+    {
+        "id": 7618,
+        "text": "(inter instanceof AbstractChordInter && !(inter instanceof SmallChordInter)) || (inter instanceof AbstractNoteInter && ((AbstractNoteInter) inter).getChord() != null && !(inter.getChord() instanceof SmallChordInter))",
+        "input_tokens": 353,
+        "output_tokens": 50,
+        "elapsed_seconds": 1.041
+    },
+    {
+        "id": 7622,
+        "text": "(!OcrUtil.getOcr().isAvailable() || (system != null && !system.isEmpty()))",
+        "input_tokens": 916,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.807
+    },
+    {
+        "id": 7624,
+        "text": "None",
+        "input_tokens": 1332,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.656
+    },
+    {
+        "id": 7625,
+        "text": "(one instanceof SlurInter && two instanceof SlurInter) && (kind == ConnectionTask.Kind.SLUR_CONNECTION)",
+        "input_tokens": 544,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.859
+    },
+    {
+        "id": 7671,
+        "text": "None",
+        "input_tokens": 326,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.586
+    },
+    {
+        "id": 7763,
+        "text": "(number >= 0 && number <= 999) && (zeroCode != null) && ((number >= 100 ? 3 : (number >= 10 ? 2 : 1)) == index)",
+        "input_tokens": 555,
+        "output_tokens": 48,
+        "elapsed_seconds": 1.055
+    },
+    {
+        "id": 7895,
+        "text": "(spec != null && !spec.isBlank() && ids != null && !ids.isEmpty() && !normalized.isBlank() || (maxValue <= 1 && !normalized.isBlank()))",
+        "input_tokens": 350,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.923
+    },
+    {
+        "id": 7927,
+        "text": "(aNode != null && \"complexType\".equalsIgnoreCase(aNode.getLocalName()) || \"simpleType\".equalsIgnoreCase(aNode.getLocalName())) && ((aNode == null || getNameAttribute(aNode) != null) && (aNode == null || aNode.getAnnotationRenamedTo() == null || aNode.getAnnotationRenamedTo().equals(getNameAttribute(aNode))))",
+        "input_tokens": 408,
+        "output_tokens": 74,
+        "elapsed_seconds": 1.279
+    },
+    {
+        "id": 7928,
+        "text": "(T.getAnnotationRenamedTo() == null && T.getMemberName().equalsIgnoreCase(getNameAttribute(aNode)) && T.getClassName().equalsIgnoreCase(getNameAttribute(containingClassNode)))",
+        "input_tokens": 494,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.946
+    },
+    {
+        "id": 7931,
+        "text": "(aNode != null && formattedDocumentation != null && !formattedDocumentation.isEmpty())",
+        "input_tokens": 464,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.739
+    },
+    {
+        "id": 7934,
+        "text": "(sourceCodeFiles != null && !sourceCodeFiles.isEmpty()) && Validate.notNull(sourceCodeFiles, \"addSourceFiles\")",
+        "input_tokens": 350,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.783
+    },
+    {
+        "id": 7935,
+        "text": "(sourceCodeURLs != null && !sourceCodeURLs.isEmpty()) && (builder != null)",
+        "input_tokens": 351,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.796
+    },
+    {
+        "id": 7973,
+        "text": "(maxAttempts > 0 && !filenameHint.isEmpty() && targetDir.toFile().exists() && !storedNamePrefix.isEmpty())",
+        "input_tokens": 729,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.848
+    },
+    {
+        "id": 7981,
+        "text": "(initialized != true && !initInProgress.get() && (!isDataAlreadySeeded() || (isMySQL() ? \"en-US\".equals(locale) ? \"db/data-mysql-en.sql\" : \"db/data-mysql-zh.sql\".equals(scriptName) : isKingbase() || isPostgres() ? \"en-US\".equals(locale) ? \"db/data-kingbase-en.sql\" : \"db/data-kingbase-zh.sql\".equals(scriptName) : \"en-US\".equals(locale) ? \"db/data-en.sql\" : \"db/data-zh.sql\".equals(scriptName))))",
+        "input_tokens": 552,
+        "output_tokens": 125,
+        "elapsed_seconds": 1.818
+    },
+    {
+        "id": 7982,
+        "text": "(goal != null && terminalAnswer != null && !terminalAnswer.isBlank() && model != null && existing.size() > 0)",
+        "input_tokens": 716,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.867
+    },
+    {
+        "id": 7985,
+        "text": "(toolCallIds != null && !toolCallIds.isEmpty()) && (reasoningContent != null && !reasoningContent.isBlank())",
+        "input_tokens": 331,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.864
+    },
+    {
+        "id": 8040,
+        "text": "None",
+        "input_tokens": 322,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.527
+    },
+    {
+        "id": 8041,
+        "text": "None",
+        "input_tokens": 310,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.492
+    },
+    {
+        "id": 8042,
+        "text": "None",
+        "input_tokens": 309,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.625
+    },
+    {
+        "id": 8043,
+        "text": "None",
+        "input_tokens": 310,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.559
+    },
+    {
+        "id": 8044,
+        "text": "None",
+        "input_tokens": 319,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.583
+    },
+    {
+        "id": 8046,
+        "text": "None",
+        "input_tokens": 309,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.589
+    },
+    {
+        "id": 8047,
+        "text": "None",
+        "input_tokens": 325,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.61
+    },
+    {
+        "id": 8048,
+        "text": "None",
+        "input_tokens": 328,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.614
+    },
+    {
+        "id": 8068,
+        "text": "(Assert.notNull(resourceTemplatesSpec, \"Resource templates must not be null\") && \n !resourceTemplatesSpec.isEmpty())",
+        "input_tokens": 329,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.895
+    },
+    {
+        "id": 8071,
+        "text": "(Assert.notNull(tool) && Assert.notNull(callHandler))",
+        "input_tokens": 364,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.673
+    },
+    {
+        "id": 8072,
+        "text": "(Assert.notNull(resourceSpecifications, \"Resource handlers list must not be null\") && ((resourceSpecifications != null && !resourceSpecifications.isEmpty())))",
+        "input_tokens": 319,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.835
+    },
+    {
+        "id": 8073,
+        "text": "None",
+        "input_tokens": 307,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.569
+    },
+    {
+        "id": 8074,
+        "text": "(Assert.notNull(completions, \"Completions list must not be null\") && \n !completions.isEmpty())",
+        "input_tokens": 323,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.817
+    },
+    {
+        "id": 8075,
+        "text": "None",
+        "input_tokens": 306,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.548
+    },
+    {
+        "id": 8076,
+        "text": "(Assert.notNull(completions, \"Completions list must not be null\") && ((completions != null && completions.size() > 0)))",
+        "input_tokens": 326,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.953
+    },
+    {
+        "id": 8077,
+        "text": "None",
+        "input_tokens": 306,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.549
+    },
+    {
+        "id": 8080,
+        "text": "(Assert.notNull(tool) && Assert.notNull(callHandler))",
+        "input_tokens": 355,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.679
+    },
+    {
+        "id": 8081,
+        "text": "(Assert.notNull(completions, \"Completions list must not be null\") && ((completions != null && !completions.isEmpty())))",
+        "input_tokens": 323,
+        "output_tokens": 33,
+        "elapsed_seconds": 0.889
+    },
+    {
+        "id": 8083,
+        "text": "None",
+        "input_tokens": 316,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.527
+    },
+    {
+        "id": 8085,
+        "text": "(Assert.notNull(completions, \"Completions list must not be null\") && ((completions != null && completions.size() > 0)))",
+        "input_tokens": 326,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.862
+    },
+    {
+        "id": 8086,
+        "text": "(Assert.notNull(toolSpecifications, \"Tool handlers list must not be null\") && \ntoolSpecifications.stream()\n.allMatch(tool -> validateToolName(tool.tool().name()) &&\nassertNoDuplicateTool(tool.tool().name())))",
+        "input_tokens": 330,
+        "output_tokens": 45,
+        "elapsed_seconds": 1.011
+    },
+    {
+        "id": 8092,
+        "text": "(Assert.notNull(toolSpecifications, \"Tool handlers list must not be null\") && \ntoolSpecifications.stream()\n.allMatch(tool -> {\n    String toolName = tool.tool().name();\n    validateToolName(toolName) &&\n    assertNoDuplicateTool(toolName);\n}))",
+        "input_tokens": 336,
+        "output_tokens": 55,
+        "elapsed_seconds": 1.094
+    },
+    {
+        "id": 8093,
+        "text": "(Assert.notNull(tool) && Assert.notNull(handler)) && validateToolName(tool.name()) && assertNoDuplicateTool(tool.name())",
+        "input_tokens": 353,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.816
+    },
+    {
+        "id": 8094,
+        "text": "None",
+        "input_tokens": 311,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.538
+    },
+    {
+        "id": 8095,
+        "text": "(Assert.notNull(toolSpecifications, \"Tool handlers list must not be null\") && \ntoolSpecifications.stream()\n.allMatch(tool -> validateToolName(tool.tool().name()) &&\nassertNoDuplicateTool(tool.tool().name())))",
+        "input_tokens": 333,
+        "output_tokens": 45,
+        "elapsed_seconds": 0.996
+    },
+    {
+        "id": 8096,
+        "text": "None",
+        "input_tokens": 316,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.547
+    },
+    {
+        "id": 8097,
+        "text": "(Assert.notNull(resourceTemplates, \"Resource templates must not be null\") && \n !resourceTemplates.isEmpty())",
+        "input_tokens": 325,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.793
+    },
+    {
+        "id": 8098,
+        "text": "(Assert.notNull(resourceTemplates, \"Resource templates must not be null\") && \n !resourceTemplates.isEmpty())",
+        "input_tokens": 326,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.74
+    },
+    {
+        "id": 8099,
+        "text": "(Assert.notNull(toolSpecifications, \"Tool handlers list must not be null\") && \ntoolSpecifications.stream()\n.allMatch(tool -> validateToolName(tool.tool().name()) &&\nassertNoDuplicateTool(tool.tool().name())))",
+        "input_tokens": 333,
+        "output_tokens": 45,
+        "elapsed_seconds": 0.996
+    },
+    {
+        "id": 8100,
+        "text": "(Assert.notNull(resourceSpecifications, \"Resource handlers list must not be null\") && ((resourceSpecifications != null && !resourceSpecifications.isEmpty())))",
+        "input_tokens": 319,
+        "output_tokens": 29,
+        "elapsed_seconds": 0.839
+    },
+    {
+        "id": 8101,
+        "text": "(Assert.notNull(tool) && Assert.notNull(callHandler))",
+        "input_tokens": 353,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.699
+    },
+    {
+        "id": 8102,
+        "text": "None",
+        "input_tokens": 306,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.582
+    },
+    {
+        "id": 8103,
+        "text": "(Assert.notNull(resourceTemplates, \"Resource templates must not be null\") && \n !resourceTemplates.isEmpty())",
+        "input_tokens": 329,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.807
+    },
+    {
+        "id": 8106,
+        "text": "None",
+        "input_tokens": 306,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.518
+    },
+    {
+        "id": 8126,
+        "text": "None",
+        "input_tokens": 305,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.575
+    },
+    {
+        "id": 8206,
+        "text": "(this.branches.size() > 1) && (processor != null)",
+        "input_tokens": 349,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.715
+    },
+    {
+        "id": 8326,
+        "text": "(name != null && !name.isEmpty() && name.matches(\"[_A-Za-z][_0-9A-Za-z]*\"))",
+        "input_tokens": 313,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.785
+    },
+    {
+        "id": 8372,
+        "text": "(this.imageFormat == null || isValidImageFormat(imageFormat)) && (this.imageFormat != null ? this.imageFormat.equalsIgnoreCase(IMAGE_FORMAT_PNG) : true)",
+        "input_tokens": 336,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.898
+    },
+    {
+        "id": 8374,
+        "text": "(this.tableMethod == null || isValidTableMethod(this.tableMethod)) && (this.tableMethod != null ? this.tableMethod.toLowerCase(Locale.ROOT) : TABLE_METHOD_DEFAULT).equals(tableMethod)",
+        "input_tokens": 337,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.906
+    },
+    {
+        "id": 8375,
+        "text": "(this.hybrid == null || isValidHybrid(this.hybrid)) && (this.hybrid != null ? this.hybrid.toLowerCase(Locale.ROOT) : HYBRID_OFF) == this.hybrid",
+        "input_tokens": 334,
+        "output_tokens": 40,
+        "elapsed_seconds": 0.935
+    },
+    {
+        "id": 8376,
+        "text": "(this.readingOrder == null || isValidReadingOrder(this.readingOrder)) && (readingOrder != null && !isValidReadingOrder(readingOrder))",
+        "input_tokens": 342,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.86
+    },
+    {
+        "id": 8377,
+        "text": "(this.imageOutput == null || isValidImageOutput(this.imageOutput)) && (this.imageOutput.toLowerCase(Locale.ROOT).equals(IMAGE_OUTPUT_EXTERNAL) || getImageOutputOptions(\", \").contains(this.imageOutput.toLowerCase(Locale.ROOT)))",
+        "input_tokens": 336,
+        "output_tokens": 45,
+        "elapsed_seconds": 0.992
+    },
+    {
+        "id": 8400,
+        "text": "(maxConcurrentRequests > 0)",
+        "input_tokens": 314,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.644
+    },
+    {
+        "id": 8404,
+        "text": "(timeoutMs >= 0) && (this.timeoutMs = timeoutMs)",
+        "input_tokens": 300,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.744
+    },
+    {
+        "id": 8437,
+        "text": "(backendFailedPages.isEmpty() || hybridConfig.isFallbackToJava()) && !(Objects.requireNonNull(backendFailedPages, \"backendFailedPages\") || Objects.requireNonNull(hybridConfig, \"hybridConfig\"))",
+        "input_tokens": 396,
+        "output_tokens": 41,
+        "elapsed_seconds": 0.95
+    },
+    {
+        "id": 8499,
+        "text": "(memoryId != null && query != null && topK > 0 && minScore >= 0.0)",
+        "input_tokens": 316,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.809
+    },
+    {
+        "id": 8538,
+        "text": "(1 << (DIRECTION_FLAG_COUNT + DIRECTION_FLAG_COUNT * ACTION_STATE_DRAG)) - 1 != 0",
+        "input_tokens": 1214,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.874
+    },
+    {
+        "id": 8557,
+        "text": "None",
+        "input_tokens": 318,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.622
+    },
+    {
+        "id": 8562,
+        "text": "(motionEvent.getPointerCount() > 0 && slopConstant == TOUCH_SLOP_DEFAULT || slopConstant == TOUCH_SLOP_PAGING)",
+        "input_tokens": 372,
+        "output_tokens": 32,
+        "elapsed_seconds": 0.865
+    },
+    {
+        "id": 8584,
+        "text": "(m !< 0 && m >= mState.getItemCount() || !mState.isPreLayout())",
+        "input_tokens": 343,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.767
+    },
+    {
+        "id": 8653,
+        "text": "(mRecyclerView == null || mRecyclerView.equals(recyclerView)) && (mRecyclerView == null || !mRecyclerView.isAttachedToWindow()) && (mRecyclerView != null)",
+        "input_tokens": 344,
+        "output_tokens": 33,
+        "elapsed_seconds": 0.843
+    },
+    {
+        "id": 8662,
+        "text": "(mGapStrategy != GAP_HANDLING_NONE && mGapStrategy != GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS) == false",
+        "input_tokens": 363,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.817
+    },
+    {
+        "id": 8693,
+        "text": "(minPossibleLiveOffsetSmoothingFactor >= 0 && minPossibleLiveOffsetSmoothingFactor < 1f)",
+        "input_tokens": 333,
+        "output_tokens": 24,
+        "elapsed_seconds": 0.784
+    },
+    {
+        "id": 8719,
+        "text": "(this.seekForwardIncrementMs > 0 && !buildCalled)",
+        "input_tokens": 317,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.685
+    },
+    {
+        "id": 8721,
+        "text": "(this.seekBackIncrementMs > 0 && !buildCalled)",
+        "input_tokens": 317,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 8757,
+        "text": "(index >= 0 && index <= mediaSourceHolders.size() - holders.size()) && (shuffleOrder != null)",
+        "input_tokens": 509,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.812
+    },
+    {
+        "id": 8758,
+        "text": "(this.fromIndex >= 0 && this.fromIndex <= this.toIndex && this.toIndex <= this.getSize()) && (this.shuffleOrder != null) && (this.removeMediaSourcesInternal(this.fromIndex, this.toIndex)) && (this.createTimeline() instanceof Timeline)",
+        "input_tokens": 320,
+        "output_tokens": 55,
+        "elapsed_seconds": 1.106
+    },
+    {
+        "id": 8784,
+        "text": "(this.currentAdGroupIndex != C.INDEX_UNSET || this.currentAdIndexInAdGroup != C.INDEX_UNSET) && (adGroupIndex == C.INDEX_UNSET || adIndexInAdGroup == C.INDEX_UNSET)",
+        "input_tokens": 335,
+        "output_tokens": 51,
+        "elapsed_seconds": 1.006
+    },
+    {
+        "id": 8801,
+        "text": "(periodIndex >= 0 && periodIndex < window.size() && \n period.getNextPeriod(repeatMode, shuffleModeEnabled) != null &&\n period.getIndex() == periodIndex)",
+        "input_tokens": 319,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.873
+    },
+    {
+        "id": 8802,
+        "text": "(periodIndex >= 0 && period != null && window != null && repeatMode >= 0 && shuffleModeEnabled == true)",
+        "input_tokens": 390,
+        "output_tokens": 27,
+        "elapsed_seconds": 0.819
+    },
+    {
+        "id": 8824,
+        "text": "(isyncframe[4] != (byte) 0xF8 && isyncframe[5] != (byte) 0x72 && isyncframe[6] != (byte) 0x6F && (isyncframe[7] & 0xFE) != 0xBA)",
+        "input_tokens": 403,
+        "output_tokens": 65,
+        "elapsed_seconds": 1.193
+    },
+    {
+        "id": 8841,
+        "text": "(int pcm32BitInt >= -2147483648 && int pcm32BitInt <= 2147483647)",
+        "input_tokens": 362,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.935
+    },
+    {
+        "id": 8854,
+        "text": "(TYPE_PCM == pcmEncoding || TYPE_FLOAT == pcmEncoding) ? true : (pcmEncoding == C.ENCODING_PCM_8BIT || pcmEncoding == C.ENCODING_PCM_16BIT || pcmEncoding == C.ENCODING_PCM_24BIT || pcmEncoding == C.ENCODING_PCM_32BIT || pcmEncoding == C.ENCODING_PCM_FLOAT || pcmEncoding == C.ENCODING_PCM_16BIT_BIG_ENDIAN || pcmEncoding == C.ENCODING_INVALID || pcmEncoding == Format.NO_VALUE)",
+        "input_tokens": 391,
+        "output_tokens": 116,
+        "elapsed_seconds": 1.622
+    },
+    {
+        "id": 8869,
+        "text": "(this.sessionKeepaliveMs > 0 || this.sessionKeepaliveMs == C.TIME_UNSET)",
+        "input_tokens": 311,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.772
+    },
+    {
+        "id": 8872,
+        "text": "(schemeType == null || (schemeType != null && drmInitData.schemeType != null && TextUtils.equals(schemeType, drmInitData.schemeType)))",
+        "input_tokens": 369,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.861
+    },
+    {
+        "id": 8887,
+        "text": "(this.lightnessAdjustment >= -100 && this.lightnessAdjustment <= 100)",
+        "input_tokens": 340,
+        "output_tokens": 23,
+        "elapsed_seconds": 0.758
+    },
+    {
+        "id": 8888,
+        "text": "(-100 <= saturationAdjustment && saturationAdjustment <= 100)",
+        "input_tokens": 334,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.663
+    },
+    {
+        "id": 8898,
+        "text": "(checkArgument(width > 0) && checkArgument(height > 0)) && checkLayout(layout)",
+        "input_tokens": 334,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.761
+    },
+    {
+        "id": 8899,
+        "text": "(C.lengthUnset == aspectRatio || aspectRatio > 0) && (layout >= 0)",
+        "input_tokens": 333,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.764
+    },
+    {
+        "id": 8900,
+        "text": "(this.blueScale >= 0) && (this != null)",
+        "input_tokens": 300,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 8901,
+        "text": "(this.redScale >= 0) && (this != null)",
+        "input_tokens": 300,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.688
+    },
+    {
+        "id": 8902,
+        "text": "(this.greenScale >= 0) && (this != null)",
+        "input_tokens": 300,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.685
+    },
+    {
+        "id": 8979,
+        "text": "None",
+        "input_tokens": 490,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.603
+    },
+    {
+        "id": 9075,
+        "text": "(!buffer.isEncrypted() && !buffer.hasSupplementalData() && !buffer.isEndOfStream() && canAppendSampleBuffer(buffer) && (sampleCount++ == 0 || (!buffer.isKeyFrame() || setFlags(C.BUFFER_FLAG_KEY_FRAME)) || buffer.isDecodeOnly()) && (buffer.data != null || ensureSpaceForWrite(buffer.data.remaining())))",
+        "input_tokens": 425,
+        "output_tokens": 77,
+        "elapsed_seconds": 1.381
+    },
+    {
+        "id": 9135,
+        "text": "(this.maxParallelDownloads == maxParallelDownloads) && (maxParallelDownloads > 0)",
+        "input_tokens": 349,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.767
+    },
+    {
+        "id": 9137,
+        "text": "(id.equals(newRequest.id) && !streamKeys.isEmpty() || !newRequest.streamKeys.isEmpty()) && (mergedKeys = Collections.emptyList() || (mergedKeys = new ArrayList<>(streamKeys)).stream().allMatch(key -> !newRequest.streamKeys.contains(key)))",
+        "input_tokens": 423,
+        "output_tokens": 54,
+        "elapsed_seconds": 1.076
+    },
+    {
+        "id": 9149,
+        "text": "(index >= 0 && index < getPublicMediaSources().size())",
+        "input_tokens": 291,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.678
+    },
+    {
+        "id": 9151,
+        "text": "None",
+        "input_tokens": 312,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.572
+    },
+    {
+        "id": 9152,
+        "text": "None",
+        "input_tokens": 302,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.547
+    },
+    {
+        "id": 9165,
+        "text": "(needsTag && needsCustomCacheKey) || (needsTag && !needsCustomCacheKey) || (!needsTag && needsCustomCacheKey)",
+        "input_tokens": 453,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.892
+    },
+    {
+        "id": 9184,
+        "text": "(length != 0 && timeUs > getLargestReadTimestampUs()) && (absoluteFirstIndex + countUnreadSamplesBefore(timeUs) >= absoluteFirstIndex)",
+        "input_tokens": 320,
+        "output_tokens": 35,
+        "elapsed_seconds": 0.891
+    },
+    {
+        "id": 9213,
+        "text": "(!manifest.dynamic && (mediaItem.localConfiguration == null || !Uri.EMPTY.equals(mediaItem.uri)))",
+        "input_tokens": 389,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.759
+    },
+    {
+        "id": 9216,
+        "text": "(manifest != null && !manifest.isEmpty())",
+        "input_tokens": 314,
+        "output_tokens": 10,
+        "elapsed_seconds": 0.614
+    },
+    {
+        "id": 9302,
+        "text": "(checkArgument(response.headers.get(RtspHeaders.CSEQ) != null) && \n response.status >= 100 && response.status < 600 &&\n !response.messageBody.isEmpty())",
+        "input_tokens": 433,
+        "output_tokens": 40,
+        "elapsed_seconds": 0.95
+    },
+    {
+        "id": 9308,
+        "text": "(method >= 0 && method <= 4) && (messageBodyOffset > 0)",
+        "input_tokens": 420,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.775
+    },
+    {
+        "id": 9311,
+        "text": "(checkNotNull(sessionUri.getScheme()).equals(\"rtsp\") && \n uri.isAbsolute() || \n (uri.getHost().equals(checkNotNull(uri.getHost())) &&\n  sessionUriString.endsWith(\"/\") ||\n  sessionUriString.endsWith(\"/\")) &&\n !sessionUriString.endsWith(\"//\"))",
+        "input_tokens": 391,
+        "output_tokens": 54,
+        "elapsed_seconds": 1.095
+    },
+    {
+        "id": 9315,
+        "text": "(!manifest.isLive && (mediaItem.localConfiguration != null || mediaItem.localConfiguration.streamKeys.isEmpty()))",
+        "input_tokens": 441,
+        "output_tokens": 22,
+        "elapsed_seconds": 0.772
+    },
+    {
+        "id": 9337,
+        "text": "(id != null && id.length() > 0) && (tag != null && tag.length() > 0) && (classes.size() > 0) && (voice != null && voice.length() > 0)",
+        "input_tokens": 435,
+        "output_tokens": 47,
+        "elapsed_seconds": 0.994
+    },
+    {
+        "id": 9428,
+        "text": "(ensureSortedByValue() && (percentile > 0.0f && percentile < 1.0f))",
+        "input_tokens": 363,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.82
+    },
+    {
+        "id": 9461,
+        "text": "(Assumption: ExoPlayerLibraryInfo.ASSERTIONS_ENABLED)",
+        "input_tokens": 297,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.654
+    },
+    {
+        "id": 9463,
+        "text": "(reference != null)",
+        "input_tokens": 324,
+        "output_tokens": 5,
+        "elapsed_seconds": 0.582
+    },
+    {
+        "id": 9465,
+        "text": "(string != null || !TextUtils.isEmpty(string))",
+        "input_tokens": 321,
+        "output_tokens": 10,
+        "elapsed_seconds": 0.614
+    },
+    {
+        "id": 9466,
+        "text": "(AssertionsEnabled() && !checkArgument(expression))",
+        "input_tokens": 291,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.63
+    },
+    {
+        "id": 9467,
+        "text": "(index >= start && index < limit)",
+        "input_tokens": 297,
+        "output_tokens": 9,
+        "elapsed_seconds": 0.651
+    },
+    {
+        "id": 9469,
+        "text": "(reference != null) && !(ExoPlayerLibraryInfo.ASSERTIONS_ENABLED && reference == null)",
+        "input_tokens": 330,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.746
+    },
+    {
+        "id": 9470,
+        "text": "(reference != null) && (!ExoPlayerLibraryInfo.ASSERTIONS_ENABLED || ExoPlayerLibraryInfo.ASSERTIONS_ENABLED && reference != null)",
+        "input_tokens": 329,
+        "output_tokens": 31,
+        "elapsed_seconds": 0.858
+    },
+    {
+        "id": 9471,
+        "text": "(string != null || !TextUtils.isEmpty(string)) && (errorMessage != null)",
+        "input_tokens": 327,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.692
+    },
+    {
+        "id": 9489,
+        "text": "(eglDisplay != null && Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_8888) || eglDisplay != null && Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_1010102))",
+        "input_tokens": 371,
+        "output_tokens": 47,
+        "elapsed_seconds": 0.998
+    },
+    {
+        "id": 9490,
+        "text": "(isSurfacelessContextExtensionSupported() && (createPbufferSurface(eglDisplay, 1, 1, configAttributes) != EGL14.EGL_NO_SURFACE))",
+        "input_tokens": 372,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.894
+    },
+    {
+        "id": 9562,
+        "text": "(T.fromIndex >= 0 && T.toIndex <= T.list.size() && T.fromIndex <= T.toIndex)",
+        "input_tokens": 331,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.791
+    },
+    {
+        "id": 9567,
+        "text": "None",
+        "input_tokens": 325,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.558
+    },
+    {
+        "id": 9571,
+        "text": "(sparseLongArray != null && sparseLongArray.size() > 0)",
+        "input_tokens": 341,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.704
+    },
+    {
+        "id": 9579,
+        "text": "(sparseLongArray != null && sparseLongArray.size() > 0)",
+        "input_tokens": 341,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.68
+    },
+    {
+        "id": 9640,
+        "text": "None",
+        "input_tokens": 934,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.607
+    },
+    {
+        "id": 9647,
+        "text": "((normalized <= 0.0031308) && ((normalized * 12.92 >= 0)) && (((1.055 * Math.pow(normalized, 1.0 / 2.4) - 0.055) >= 0)))",
+        "input_tokens": 395,
+        "output_tokens": 64,
+        "elapsed_seconds": 1.198
+    },
+    {
+        "id": 9648,
+        "text": "(normalized <= 0.040449936) && (Math.pow(((normalized + 0.055) / 1.055), 2.4) > 0.040449936)",
+        "input_tokens": 357,
+        "output_tokens": 58,
+        "elapsed_seconds": 1.113
+    },
+    {
+        "id": 9650,
+        "text": "(double.normalized <= 0.0031308 && normalized > 0.0) || (normalized > 0.0031308 && Math.pow(normalized, 1.0 / 2.4) < 1.055 * 0.055 + 0.0031308)",
+        "input_tokens": 377,
+        "output_tokens": 78,
+        "elapsed_seconds": 1.285
+    },
+    {
+        "id": 9651,
+        "text": "(n < 4 && isBounded((y - coordA * kG - coordB * kB) / kR)) || (n < 8 && isBounded((y - coordB * kR - coordA * kB) / kG)) || (n >= 8 && isBounded((y - coordA * kR - coordB * kG) / kB))",
+        "input_tokens": 624,
+        "output_tokens": 83,
+        "elapsed_seconds": 1.426
+    },
+    {
+        "id": 9658,
+        "text": "(start >= 0 && start < size && end > start && end <= size && end != start && !(end == start)) && ((start / 32) <= (end / 32)) && (((start & 0x1F) << (end / 32)) | ((end & 0x1F) >> ((start / 32) + 1))) != (value ? ((start & 0x1F) << (end / 32)) | ((end & 0x1F) >> ((start / 32) + 1)) : 0)",
+        "input_tokens": 440,
+        "output_tokens": 130,
+        "elapsed_seconds": 1.792
+    },
+    {
+        "id": 9667,
+        "text": "(numBits < 1 || numBits > 32 || numBits > available()) && (bitOffset <= 0 || numBits >= 8)",
+        "input_tokens": 564,
+        "output_tokens": 33,
+        "elapsed_seconds": 0.878
+    },
+    {
+        "id": 9685,
+        "text": "(dimension % 4 == 1) && ((dimension - 17) / 4 >= 0)",
+        "input_tokens": 331,
+        "output_tokens": 25,
+        "elapsed_seconds": 0.823
+    },
+    {
+        "id": 9715,
+        "text": "(mActionButtons == null || mActionButtons.size() >= MAX_TOOLBAR_ITEMS)",
+        "input_tokens": 397,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.699
+    },
+    {
+        "id": 9738,
+        "text": "(isPatternNotNull() && isTimeZoneNotNull() && isLocaleNotNull()) && (format == null || createInstanceCalled(pattern, timeZone, locale))",
+        "input_tokens": 408,
+        "output_tokens": 30,
+        "elapsed_seconds": 0.777
+    },
+    {
+        "id": 9747,
+        "text": "(json != null && !json.isEmpty() && colorReplacement.length >= 3)",
+        "input_tokens": 348,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.679
+    },
+    {
+        "id": 9755,
+        "text": "None",
+        "input_tokens": 307,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.55
+    },
+    {
+        "id": 9934,
+        "text": "(currentPlanId != null && !currentPlanId.trim().isEmpty()) && (rootPlanId != null && !rootPlanId.trim().isEmpty()) && ((parentPlanId == null || parentPlanId.trim().isEmpty()) || (!parentPlanId.isEmpty() && toolcallId != null && !toolcallId.trim().isEmpty())) && ((parentPlanId == null || parentPlanId.trim().isEmpty()) || (parentPlanId.isEmpty() || rootPlanId.equals(currentPlanId))) && planExecutionRecordRepository.findByCurrentPlanId(currentPlanId).isPresent()",
+        "input_tokens": 828,
+        "output_tokens": 115,
+        "elapsed_seconds": 1.693
+    },
+    {
+        "id": 9969,
+        "text": "None",
+        "input_tokens": 344,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.602
+    },
+    {
+        "id": 9970,
+        "text": "(depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL) && (levelPools.containsKey(depthLevel) || levelPools.computeIfAbsent(depthLevel, level -> createLevelPool(level, corePoolSize, maxPoolSize, queueCapacity)) != null)",
+        "input_tokens": 357,
+        "output_tokens": 54,
+        "elapsed_seconds": 1.083
+    },
+    {
+        "id": 9971,
+        "text": "(depthLevel >= 0 && getExecutorForLevel(depthLevel) != null)",
+        "input_tokens": 337,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.723
+    },
+    {
+        "id": 9972,
+        "text": "(depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL)",
+        "input_tokens": 331,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.643
+    },
+    {
+        "id": 9998,
+        "text": "(rootPlanId != null && !rootPlanId.isEmpty() && desiredState != null)",
+        "input_tokens": 475,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.733
+    },
+    {
+        "id": 10027,
+        "text": "(page != null && options != null && !compressUrl == false && shortUrlService != null) && (snapshot != null && !snapshot.isEmpty() || snapshot.contains(\"timed out\") || snapshot.contains(\"Failed to generate ARIA snapshot\")) && (processedSnapshot = replaceAriaIdWithIdx(snapshot)) && (compressUrl && processedSnapshot = compressUrlsInSnapshot(processedSnapshot, page, shortUrlService, rootPlanId))",
+        "input_tokens": 586,
+        "output_tokens": 89,
+        "elapsed_seconds": 1.412
+    },
+    {
+        "id": 10139,
+        "text": "(logger.warn(\"Invalid language value provided: {}\", language) || !\"zh\".equals(language) && !\"en\".equals(language)) ? false : (userRepository.findById(1L).isEmpty() ? false : true)",
+        "input_tokens": 437,
+        "output_tokens": 43,
+        "elapsed_seconds": 1.019
+    },
+    {
+        "id": 10147,
+        "text": "(resultCount > 0) && (this.resultCount == resultCount)",
+        "input_tokens": 299,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.703
+    },
+    {
+        "id": 10156,
+        "text": "(this.maxCacheSize > 0) && ((this instanceof Builder))",
+        "input_tokens": 305,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.703
+    },
+    {
+        "id": 10157,
+        "text": "(maxRetries >= 0)",
+        "input_tokens": 306,
+        "output_tokens": 8,
+        "elapsed_seconds": 0.619
+    },
+    {
+        "id": 10158,
+        "text": "(this.maxContentLength > 0) && ((this.maxContentLength != null))",
+        "input_tokens": 305,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.724
+    },
+    {
+        "id": 10167,
+        "text": "(!entry.isDirectory() && entryName.startsWith(entryPrefix) && entryName.endsWith(\"/SKILL.md\"))",
+        "input_tokens": 380,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.77
+    },
+    {
+        "id": 10215,
+        "text": "(numerator != 0 && denominator != 0)",
+        "input_tokens": 312,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.675
+    },
+    {
+        "id": 10239,
+        "text": "(strength.isRequired() == false) && (edits.containsKey(variable) == false)",
+        "input_tokens": 380,
+        "output_tokens": 18,
+        "elapsed_seconds": 0.734
+    },
+    {
+        "id": 10244,
+        "text": "(index >= 16 && index < 232) || (index == 0)",
+        "input_tokens": 452,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.755
+    },
+    {
+        "id": 10247,
+        "text": "(property != null) && !REGISTRY.containsKey(property.name())",
+        "input_tokens": 295,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.684
+    },
+    {
+        "id": 10277,
+        "text": "(stringWidth > maxWidth || (maxWidth <= ellipsisWidth && position != TruncatePosition.END))",
+        "input_tokens": 464,
+        "output_tokens": 21,
+        "elapsed_seconds": 0.759
+    },
+    {
+        "id": 10335,
+        "text": "(level >= 1 && level <= 6) && (Objects.requireNonNull(style, \"style\"))",
+        "input_tokens": 316,
+        "output_tokens": 20,
+        "elapsed_seconds": 0.725
+    },
+    {
+        "id": 10341,
+        "text": "(position <= buffer.length && (value >= 0 || value == 0)) && ((value == 0 && ensureCapacity(1) && (buffer[position++] = '0')) || (value != 0 && ensureCapacity(digits) && (position = endPos)))",
+        "input_tokens": 428,
+        "output_tokens": 56,
+        "elapsed_seconds": 1.064
+    },
+    {
+        "id": 10370,
+        "text": "None",
+        "input_tokens": 331,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.571
+    },
+    {
+        "id": 10379,
+        "text": "None",
+        "input_tokens": 688,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.592
+    },
+    {
+        "id": 10385,
+        "text": "(alpha >= 0.0f && alpha <= 1.0f) && (this == Color.RGB || this == Color.HSL || this == Color.HSV)",
+        "input_tokens": 400,
+        "output_tokens": 36,
+        "elapsed_seconds": 0.937
+    },
+    {
+        "id": 10386,
+        "text": "(milliseconds >= 0)",
+        "input_tokens": 295,
+        "output_tokens": 7,
+        "elapsed_seconds": 0.609
+    },
+    {
+        "id": 10468,
+        "text": "None",
+        "input_tokens": 294,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.577
+    },
+    {
+        "id": 10475,
+        "text": "None",
+        "input_tokens": 606,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.585
+    },
+    {
+        "id": 10482,
+        "text": "(x.length == y.length) && (x != null) && (y != null)",
+        "input_tokens": 357,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.798
+    },
+    {
+        "id": 10499,
+        "text": "(percent >= 0 && percent <= 100)",
+        "input_tokens": 321,
+        "output_tokens": 13,
+        "elapsed_seconds": 0.601
+    },
+    {
+        "id": 10500,
+        "text": "(this.ratio >= 0.0 && this.ratio <= 1.0)",
+        "input_tokens": 318,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.73
+    },
+    {
+        "id": 10514,
+        "text": "(level > 0.875 && level < 1.0)",
+        "input_tokens": 432,
+        "output_tokens": 17,
+        "elapsed_seconds": 0.715
+    },
+    {
+        "id": 10515,
+        "text": "(spaceship(frames != null && !frames.isEmpty()))",
+        "input_tokens": 305,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.674
+    },
+    {
+        "id": 10714,
+        "text": "(southLat < northLat) && (westLon < eastLon)",
+        "input_tokens": 471,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.647
+    },
+    {
+        "id": 10716,
+        "text": "None",
+        "input_tokens": 436,
+        "output_tokens": 2,
+        "elapsed_seconds": 0.559
+    },
+    {
+        "id": 10717,
+        "text": "((lon != null) && (lat != null))",
+        "input_tokens": 384,
+        "output_tokens": 12,
+        "elapsed_seconds": 0.686
+    },
+    {
+        "id": 10795,
+        "text": "(userId != null && !query.isEmpty() && type != null)",
+        "input_tokens": 468,
+        "output_tokens": 14,
+        "elapsed_seconds": 0.7
+    },
+    {
+        "id": 10796,
+        "text": "(page >= 0) && (sortBy != null) && (sortDirection != null)",
+        "input_tokens": 536,
+        "output_tokens": 19,
+        "elapsed_seconds": 0.725
+    },
+    {
+        "id": 10803,
+        "text": "(userId != null && request != null && request.getName() != null && !request.getName().trim().isEmpty()) && (placeDetailsService.updatePlaceName(type, id, userId, request.getName()))",
+        "input_tokens": 524,
+        "output_tokens": 39,
+        "elapsed_seconds": 0.938
+    },
+    {
+        "id": 10811,
+        "text": "(userId != null && !userId.equals(UUID.fromString(\"00000000-0000-0000-0000-000000000000\")) &&\n countryName != null &&\n page >= 0 &&\n pageSize > 0 &&\n pageSize <= 200 &&\n sortBy != null &&\n sortDirection != null &&\n \"asc\".equalsIgnoreCase(sortDirection) ||\n \"desc\".equalsIgnoreCase(sortDirection) &&\n validSortBy != null &&\n totalCount >= 0 &&\n totalPages >= 1)",
+        "input_tokens": 469,
+        "output_tokens": 112,
+        "elapsed_seconds": 1.624
+    },
+    {
+        "id": 10818,
+        "text": "(page >= 0 && page <= (totalCount - 1) / validPageSize) && pageSize > 0 && pageSize <= 200 && \"asc\".equalsIgnoreCase(sortDirection) && !\"\".equals(validSortBy)",
+        "input_tokens": 602,
+        "output_tokens": 46,
+        "elapsed_seconds": 1.026
+    },
+    {
+        "id": 10836,
+        "text": "(jobId != null && !jobId.equals(\"\") && step != null && stepIndex >= 0 && percentage >= 0 && percentage <= 100)",
+        "input_tokens": 400,
+        "output_tokens": 34,
+        "elapsed_seconds": 0.915
+    },
+    {
+        "id": 10856,
+        "text": "(tileUrl == null || tileUrl.trim().isEmpty()) && (!normalizedUrl.startsWith(\"http://\") && !normalizedUrl.startsWith(\"https://\")) && (!normalizedUrl.contains(\"javascript:\") && !normalizedUrl.contains(\"data:\") && !normalizedUrl.contains(\"file:\") && !normalizedUrl.contains(\"ftp:\")) && (!tileUrl.contains(\"{z}\") || !tileUrl.contains(\"{x}\") || !tileUrl.contains(\"{y}\")) && !tileUrl.contains(\"..\") && tileUrl.length() <= 1000",
+        "input_tokens": 550,
+        "output_tokens": 106,
+        "elapsed_seconds": 1.559
+    },
+    {
+        "id": 10857,
+        "text": "(styleUrl == null || styleUrl.trim().isEmpty()) && \n(normalizedUrl.startsWith(\"http://\") || normalizedUrl.startsWith(\"https://\")) && \n!normalizedUrl.contains(\"javascript:\") && \n!normalizedUrl.contains(\"data:\") && \n!normalizedUrl.contains(\"file:\") && \n!normalizedUrl.contains(\"ftp:\") && \n!styleUrl.contains(\"..\") && \n(styleUrl.length() <= 1000) && \n!(styleUrl.contains(\"{z}\") || styleUrl.contains(\"{x}\") || styleUrl.contains(\"{y}\")) && \nlooksLikeVectorStyleEndpoint(styleUrl)",
+        "input_tokens": 558,
+        "output_tokens": 121,
+        "elapsed_seconds": 1.766
+    },
+    {
+        "id": 10860,
+        "text": "(redirectUrl == null || redirectUrl.trim().isEmpty()) && (!redirectUrl.startsWith(\"/\") || normalizedUrl.toLowerCase().startsWith(\"http:\") || normalizedUrl.toLowerCase().contains(\"https:\") || normalizedUrl.toLowerCase().contains(\"javascript:\") || normalizedUrl.toLowerCase().contains(\"data:\")) && !normalizedUrl.contains(\"..\") && (normalizedUrl.length() <= 1000)",
+        "input_tokens": 500,
+        "output_tokens": 76,
+        "elapsed_seconds": 1.322
+    },
+    {
+        "id": 10918,
+        "text": "(interceptor != null && interceptors.size() < MAX_INTERCEPTORS)",
+        "input_tokens": 318,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.733
+    },
+    {
+        "id": 10921,
+        "text": "(radius > 0 && radius <= 32) && (steve != null) && (searchBox != null)",
+        "input_tokens": 442,
+        "output_tokens": 26,
+        "elapsed_seconds": 0.808
+    },
+    {
+        "id": 10924,
+        "text": "(radius > 16 || radius <= 0) && (steve.level() != null) && (steve.blockPosition().x >= -radius) && (steve.blockPosition().y >= -radius) && (steve.blockPosition().z >= -radius) && (steve.blockPosition().x <= radius) && (steve.blockPosition().y <= radius) && (steve.blockPosition().z <= radius)",
+        "input_tokens": 452,
+        "output_tokens": 90,
+        "elapsed_seconds": 1.442
+    },
+    {
+        "id": 10935,
+        "text": "(isShutdown == false) && (providerId.toLowerCase() != \"unknown\")",
+        "input_tokens": 347,
+        "output_tokens": 16,
+        "elapsed_seconds": 0.712
+    },
+    {
+        "id": 10943,
+        "text": "(actionName != null && !actionName.isBlank()) && factory != null",
+        "input_tokens": 543,
+        "output_tokens": 15,
+        "elapsed_seconds": 0.707
+    }
+]

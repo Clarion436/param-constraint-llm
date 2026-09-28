@@ -1,0 +1,441 @@
+--- mix ---
+Analyze the Target Method's source code, along with the Code Slice provided below that highlights statements likely to impose constraints on its parameters. Use the slice to focus your analysis, but consider the full code for complete context.
+
+Extraction Rules (Apply to each individual constraint):
+1. Parameter Relevance: Each extracted constraint MUST involve at least one parameter from the method signature.
+2. Valid State: Each constraint must describe the valid condition required for the method to proceed normally (which may require logically negating explicit error checks).
+3. Simplicity: Each constraint must be a simple, valid Java boolean expression. DO NOT extract constraints that require complex logic (e.g., loops, stream operations, or side-effects).
+
+Reasoning Instructions:
+Reason through the task by following these steps:
+1. Identify all parameters in the method signature.
+2. Scan the provided code for explicit checks or conditions that impose restrictions on these parameters, including assertions, `throw` statements, and conditional checks that explicitly indicate that certain parameter values are invalid or unacceptable. For each identified constraint, formulate the corresponding valid-state precondition as a Java boolean expression, logically negating the invalid condition where necessary.
+3. Analyze the operational usage of each parameter in the method body for implicit constraints. Consider whether the way a parameter is used imposes restrictions on its valid state. For example, dereferencing a parameter or invoking an instance method on it without a prior null check may imply a non-null constraint. Formulate each identified constraint as a Java boolean expression.
+4. Analyze semantic cues from parameter names, the target method's name, invoked method names, and other relevant code context for additional implicit constraints. For example, names such as `count`, `age`, `setAge`, or `allocate` may suggest restrictions on parameter values when supported by the context. Formulate each identified constraint as a Java boolean expression.
+5. Discard any constraints that do not satisfy the Extraction Rules.
+6. Combine the remaining constraints into the final expression.
+
+Output Instructions:
+1. Output Format:
+   - First, provide the reasoning process following the Reasoning Instructions.
+   - Then output the final result on a new line beginning with:
+     Final Expression:
+   - Do NOT wrap the output in any markdown code block or JSON block.
+2. Final Expression:
+   - The text following "Final Expression:" must contain ONLY a single Java boolean expression representing the overall valid state of the method, or the word "None".
+   - If more than one constraint is extracted, combine them into a SINGLE Java boolean expression using the logical AND operator (&&). Use parentheses to ensure appropriate logical precedence, if needed.
+3. Fallback:
+   - If no valid parameter constraints are extracted, output:
+     Final Expression: None
+
+Few-Shot Examples:
+
+Example 1:
+Target Method:
+public Builder maxCacheSize(int maxCacheSize) {
+    if (maxCacheSize <= 0) {
+        throw new IllegalArgumentException("maxCacheSize must be positive");
+    }
+    this.maxCacheSize = maxCacheSize;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public Builder maxCacheSize(int maxCacheSize) {
+    if (maxCacheSize <= 0) {
+        throw new IllegalArgumentException("maxCacheSize must be positive");
+    }
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: maxCacheSize > 0
+
+Example 2:
+Target Method:
+@CanIgnoreReturnValue
+public Builder adjustLightness(float lightnessAdjustment) {
+    checkArgument(
+        -100 <= lightnessAdjustment && lightnessAdjustment <= 100,
+        "Can adjust the lightness by only 100 in either direction, but provided "
+        + lightnessAdjustment);
+    this.lightnessAdjustment = lightnessAdjustment;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+@CanIgnoreReturnValue
+public Builder adjustLightness(float lightnessAdjustment) {
+    checkArgument(
+        -100 <= lightnessAdjustment && lightnessAdjustment <= 100,
+        "Can adjust the lightness by only 100 in either direction, but provided "
+        + lightnessAdjustment);
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: lightnessAdjustment >= -100 && lightnessAdjustment <= 100
+
+Example 3:
+Target Method:
+@CanIgnoreReturnValue
+public Builder setGreenScale(float greenScale) {
+    checkArgument(0 <= greenScale, "Green scale needs to be non-negative.");
+    this.greenScale = greenScale;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+@CanIgnoreReturnValue
+public Builder setGreenScale(float greenScale) {
+    checkArgument(0 <= greenScale, "Green scale needs to be non-negative.");
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: greenScale >= 0
+
+Example 4:
+Target Method:
+@CanIgnoreReturnValue
+public Builder adjustSaturation(float saturationAdjustment) {
+    checkArgument(
+        -100 <= saturationAdjustment && saturationAdjustment <= 100,
+        "Can adjust the saturation by only 100 in either direction, but provided "
+        + saturationAdjustment);
+    this.saturationAdjustment = saturationAdjustment;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+@CanIgnoreReturnValue
+public Builder adjustSaturation(float saturationAdjustment) {
+    checkArgument(
+        -100 <= saturationAdjustment && saturationAdjustment <= 100,
+        "Can adjust the saturation by only 100 in either direction, but provided "
+        + saturationAdjustment);
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: saturationAdjustment >= -100 && saturationAdjustment <= 100
+
+Example 5:
+Target Method:
+public Builder resultCount(int resultCount) {
+    if (resultCount <= 0) {
+        throw new IllegalArgumentException("resultCount must be positive");
+    }
+    this.resultCount = resultCount;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public Builder resultCount(int resultCount) {
+    if (resultCount <= 0) {
+        throw new IllegalArgumentException("resultCount must be positive");
+    }
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: resultCount > 0
+
+Example 6:
+Target Method:
+public int getSpecificityScore(
+    @Nullable String id, @Nullable String tag, Set<String> classes, @Nullable String voice) {
+    if (targetId.isEmpty()
+            && targetTag.isEmpty()
+            && targetClasses.isEmpty()
+            && targetVoice.isEmpty()) {
+        return TextUtils.isEmpty(tag) ? 1 : 0;
+    }
+    int score = 0;
+    score = updateScoreForMatch(score, targetId, id, 0x40000000);
+    score = updateScoreForMatch(score, targetTag, tag, 2);
+    score = updateScoreForMatch(score, targetVoice, voice, 4);
+    if (score == -1 || !classes.containsAll(targetClasses)) {
+        return 0;
+    } else {
+        score += targetClasses.size() * 4;
+    }
+    return score;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public int getSpecificityScore(
+    @Nullable String id, @Nullable String tag, Set<String> classes, @Nullable String voice) {
+    // ...
+    if (score == -1 || !classes.containsAll(targetClasses)) {
+        // ...
+    } else {
+        // ...
+    }
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: classes != null
+
+Example 7:
+Target Method:
+public Builder heading(int level, Style style) {
+    if (level < 1 || level > 6) {
+        throw new IllegalArgumentException("Heading level must be between 1 and 6");
+    }
+    heading[level - 1] = Objects.requireNonNull(style, "style");
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public Builder heading(int level, Style style) {
+    if (level < 1 || level > 6) {
+        throw new IllegalArgumentException("Heading level must be between 1 and 6");
+    }
+    heading[level - 1] = Objects.requireNonNull(style, "style");
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: level >= 1 && level <= 6
+
+Example 8:
+Target Method:
+@CanIgnoreReturnValue
+public Builder setBlueScale(float blueScale) {
+    checkArgument(0 <= blueScale, "Blue scale needs to be non-negative.");
+    this.blueScale = blueScale;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+@CanIgnoreReturnValue
+public Builder setBlueScale(float blueScale) {
+    checkArgument(0 <= blueScale, "Blue scale needs to be non-negative.");
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: blueScale >= 0
+
+Example 9:
+Target Method:
+default Flux<VectorSearchResult> search(
+    MemoryId memoryId,
+    String query,
+    int topK,
+    double minScore,
+    Map<String, Object> filter) {
+    return search(memoryId, query, topK, filter).filter(vr -> vr.score() >= minScore);
+}
+
+Code Slice (highlights constraint-relevant statements):
+default Flux<VectorSearchResult> search(
+    MemoryId memoryId,
+    String query,
+    int topK,
+    double minScore,
+    Map<String, Object> filter) {
+    return search(memoryId, query, topK, filter).filter(vr -> vr.score() >= minScore);
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: minScore >= 0.0 && minScore <= 1.0
+
+Example 10:
+Target Method:
+public static double clamp (double value) {
+    if (value < 0) {
+        value = 0;
+    }
+    if (value > 1) {
+        value = 1;
+    }
+    return value;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public static double clamp (double value) {
+    if (value < 0) {
+        // ...
+    }
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: value >= 0 && value <= 1
+
+Example 11:
+Target Method:
+public void updateWriteLimitRatio(double newRatio) {
+    checkArgument(
+        newRatio > 0.0 && newRatio <= 1.0,
+        "server.data-disk.write-limit-ratio must be within (0.0, 1.0], but was %s",
+        newRatio);
+    this.writeLimitRatio = newRatio;
+    this.recoverThreshold = Math.max(0.0, newRatio - RECOVER_GAP);
+}
+
+Code Slice (highlights constraint-relevant statements):
+public void updateWriteLimitRatio(double newRatio) {
+    checkArgument(
+        newRatio > 0.0 && newRatio <= 1.0,
+        "server.data-disk.write-limit-ratio must be within (0.0, 1.0], but was %s",
+        newRatio);
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: newRatio <= 1.0 && newRatio > 0.0
+
+Example 12:
+Target Method:
+public static ScorePartwise build (Score score)
+throws InterruptedException, ExecutionException {
+    Objects.requireNonNull(score, "Trying to export a null score");
+
+    final PartwiseBuilder builder = new PartwiseBuilder(score);
+
+    builder.processScore();
+
+    return builder.scorePartwise;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public static ScorePartwise build (Score score)
+throws InterruptedException, ExecutionException {
+    Objects.requireNonNull(score, "Trying to export a null score");
+    final PartwiseBuilder builder = new PartwiseBuilder(score);
+    builder.processScore();
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: score != null
+
+Example 13:
+Target Method:
+@CanIgnoreReturnValue
+public Builder setRedScale(float redScale) {
+    checkArgument(0 <= redScale, "Red scale needs to be non-negative.");
+    this.redScale = redScale;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+@CanIgnoreReturnValue
+public Builder setRedScale(float redScale) {
+    checkArgument(0 <= redScale, "Red scale needs to be non-negative.");
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: redScale >= 0
+
+Example 14:
+Target Method:
+public float getPercentile(float percentile) {
+    ensureSortedByValue();
+    float desiredWeight = percentile * totalWeight;
+    int accumulatedWeight = 0;
+    for (int i = 0; i < samples.size(); i++) {
+        Sample currentSample = samples.get(i);
+        accumulatedWeight += currentSample.weight;
+        if (accumulatedWeight >= desiredWeight) {
+            return currentSample.value;
+        }
+    }
+    return samples.isEmpty() ? Float.NaN : samples.get(samples.size() - 1).value;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public float getPercentile(float percentile) {
+    // ...
+    float desiredWeight = percentile * totalWeight;
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: percentile <= 1.0f && percentile > 0.0f
+
+Example 15:
+Target Method:
+public Builder percent(int percent) {
+    if (percent < 0 || percent > 100) {
+        throw new IllegalArgumentException("Percent must be between 0 and 100, got: " + percent);
+    }
+    this.ratio = percent / 100.0;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public Builder percent(int percent) {
+    if (percent < 0 || percent > 100) {
+        throw new IllegalArgumentException("Percent must be between 0 and 100, got: " + percent);
+    }
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: percent >= 0 && percent <= 100
+
+Example 16:
+Target Method:
+public Builder ratio(double ratio) {
+    if (ratio < 0.0 || ratio > 1.0) {
+        throw new IllegalArgumentException("Ratio must be between 0.0 and 1.0, got: " + ratio);
+    }
+    this.ratio = ratio;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public Builder ratio(double ratio) {
+    if (ratio < 0.0 || ratio > 1.0) {
+        throw new IllegalArgumentException("Ratio must be between 0.0 and 1.0, got: " + ratio);
+    }
+    // ...
+}
+
+Output:
+(Step by step reasoning here)
+Final expression: ratio >= 0.0 && ratio <= 1.0
+
+----------------------------------------
+
+Now analyze the Target Method below:
+
+Target Method:
+public Builder scoreThreshold(double scoreThreshold) {
+    if (scoreThreshold < 0.0 || scoreThreshold > 1.0) {
+        throw new IllegalArgumentException("Score threshold must be between 0.0 and 1.0");
+    }
+    this.scoreThreshold = scoreThreshold;
+    return this;
+}
+
+Code Slice (highlights constraint-relevant statements):
+public Builder scoreThreshold(double scoreThreshold) {
+    if (scoreThreshold < 0.0 || scoreThreshold > 1.0) {
+        throw new IllegalArgumentException("Score threshold must be between 0.0 and 1.0");
+    }
+    // ...
+}
+
+

@@ -1,0 +1,23 @@
+--- vanilla ---
+Analyze the Target Method's source code to extract constraints on its parameters.
+
+Extraction Rules (Apply to each individual constraint):
+1. Parameter Relevance: Each extracted constraint MUST involve at least one parameter from the method signature.
+2. Valid State: Each constraint must describe the valid condition required for the method to proceed normally (which may require logically negating explicit error checks).
+3. Simplicity: Each constraint must be a simple, valid Java boolean expression. DO NOT extract constraints that require complex logic (e.g., loops, stream operations, or side-effects).
+
+Output Instructions:
+1. Combination: If more than one constraint is extracted, combine them into a SINGLE Java boolean expression using the logical AND operator (&&) to represent the overall valid state of the method. Use parentheses to ensure appropriate logical precedence, if needed.
+2. Fallback: If no valid parameter constraints are extracted, output only the word: None
+3. Format: Provide ONLY the final expression. Do NOT wrap it in any markdown code block or JSON block. Do not output any other text and do not reveal chain-of-thought.
+
+Target Method:
+public Builder scoreThreshold(double scoreThreshold) {
+    if (scoreThreshold < 0.0 || scoreThreshold > 1.0) {
+        throw new IllegalArgumentException("Score threshold must be between 0.0 and 1.0");
+    }
+    this.scoreThreshold = scoreThreshold;
+    return this;
+}
+
+

@@ -1,0 +1,6 @@
+prompt_type,strict_precision,strict_recall,strict_f1,relaxed_precision,relaxed_recall,relaxed_f1,doc_constraint_subs,code_constraint_subs,input_tokens,output_tokens,elapsed_seconds,parse_fail_pct,none_pct,exact_match_pct
+vanilla,0.535,0.717,0.584,0.605,0.822,0.662,1.551,2.272,394.870,18.260,0.925,0.19,3.82,31.74
+sr k=16,0.627,0.738,0.655,0.692,0.829,0.726,1.551,1.887,3011.270,13.098,3.855,0.0,2.68,43.59
+cot-exim,0.615,0.769,0.655,0.670,0.845,0.712,1.551,2.195,696.870,334.516,8.176,0.0,2.49,42.83
+slice-slextra,0.524,0.644,0.554,0.614,0.763,0.649,1.551,2.013,508.187,14.996,0.773,0.0,5.74,34.03
+mix,0.623,0.739,0.653,0.686,0.820,0.718,1.551,2.010,4919.598,323.415,15.963,0.0,4.97,46.08

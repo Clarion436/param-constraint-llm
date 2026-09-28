@@ -1,0 +1,11 @@
+# Line-ending policy
+#
+# Normalize text files (sources, JSON, Markdown, requirements, prompt snapshots)
+# to LF both in the repository and on checkout, so a clone on any operating
+# system gets the intended bytes. JSON writers also pin `newline="\n"`.
+* text=auto eol=lf
+
+# The evaluation CSVs are written with a deterministic CRLF row terminator
+# (Python's csv module default), so their bytes are identical on every platform.
+# `-text` keeps those bytes exactly as stored instead of normalizing them to LF.
+*.csv -text

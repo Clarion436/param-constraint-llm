@@ -1,0 +1,525 @@
+id,doc_constraint,code_constraint,code_constraint_simplified,parse_failed,strict_precision,strict_recall,strict_f1,relaxed_precision,relaxed_recall,relaxed_f1,doc_constraint_subs,code_constraint_subs,input_tokens,output_tokens,elapsed_seconds
+mean,,,,0.002,0.661,0.735,0.675,0.739,0.821,0.751,1.551,1.870,2990.522,11.811,1.484
+36,inputMethod != null,inputMethod!= null,inputMethod != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1804,5,1.341
+38,inputMethod != null,inputMethod!= null,inputMethod != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2740,5,1.996
+119,block != null,block!= null,block != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4225,4,1.499
+153,maxAttempts == null || maxAttempts >= 1,maxAttempts == null || maxAttempts >= 1,maxAttempts == null || maxAttempts >= 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1980,11,1.94
+155,backoffMultiplier == null || backoffMultiplier >= 1.0,backoffMultiplier == null || backoffMultiplier >= 1.0,backoffMultiplier == null || backoffMultiplier >= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1675,15,1.245
+176,rule != null,rule!= null,rule != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3552,4,0.851
+184,key != null && null != targetClass,key!= null && targetClass!= null,key != null && null != targetClass,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2075,9,1.328
+186,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2002,4,1.261
+187,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1704,4,0.833
+188,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1998,4,0.974
+189,scoreThreshold >= 0.0 && scoreThreshold <= 1.0,scoreThreshold >= 0.0 && scoreThreshold <= 1.0,scoreThreshold >= 0.0 && scoreThreshold <= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1759,16,1.516
+190,limit > 0,limit > 0,limit > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1481,5,1.247
+194,skillId != null,skillId!= null,skillId != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3600,5,1.182
+195,skillId != null,skillId!= null,skillId != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3499,5,1.105
+196,toolkit != null,toolkit!= null,toolkit != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1917,5,1.052
+197,skill != null,skill!= null,skill != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2218,4,1.26
+221,zipBytes.length > 0 && zipBytes != null,zipBytes!= null && zipBytes.length > 0,zipBytes.length > 0 && zipBytes != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2791,12,0.971
+222,zipPath != null,zipPath!= null,zipPath != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2399,5,1.263
+223,zipStream != null,zipStream!= null,zipStream != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,7313,5,1.911
+230,object != null,object!= null,object != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2194,4,0.799
+5307,!name.isEmpty() && name != null && null != value,name!= null &&!name.trim().isEmpty() && value!= null,!name.trim().isEmpty() && name != null && null != value,0,0.66667,0.66667,0.66667,0.94813,0.94813,0.94813,3,3,2808,15,1.687
+233,type.isInstance(object) && key != null && null != type && null != object,key!= null && null!= type && null!= object,key != null && null != type && null != object,0,1.00000,0.75000,0.85714,1.00000,0.75000,0.85714,4,3,1855,12,1.59
+337,data != null,data!= null && targetClass!= null,data != null && null != targetClass,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2513,9,2.286
+341,jsonCodec != null,jsonCodec!= null,jsonCodec != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1564,5,1.201
+352,days <= 90,days >= 1 && days <= 90,days >= 1 && days <= 90,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3199,10,2.109
+353,hours <= 168,hours >= 1 && hours <= 168,hours >= 1 && hours <= 168,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3248,10,1.794
+400,!clientName.isEmpty() && clientName != null,!clientName.trim().isEmpty() && clientName!= null,!clientName.trim().isEmpty() && clientName != null,0,0.50000,0.50000,0.50000,0.94445,0.94445,0.94445,2,2,1838,13,0.867
+402,topK > 0,query!= null && topK > 0,topK > 0 && query != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2070,10,1.095
+466,(source instanceof URLSource || source instanceof Base64Source) && source != null,source!= null && (source instanceof URLSource && ((URLSource) source).getUrl()!= null &&!((URLSource) source).getUrl().isEmpty() || source instanceof Base64Source && ((Base64Source) source).getData()!= null &&!((Base64Source) source).getData().isEmpty()),(source instanceof URLSource || source instanceof Base64Source) && source != null && (source instanceof URLSource || !((Base64Source) source).getData().isEmpty()) && (source instanceof Base64Source || !((URLSource) source).getUrl().isEmpty()) && (source instanceof URLSource || null != ((Base64Source) source).getData()) && (source instanceof Base64Source || null != ((URLSource) source).getUrl()) && (!((URLSource) source).getUrl().isEmpty() || !((Base64Source) source).getData().isEmpty()) && (!((URLSource) source).getUrl().isEmpty() || null != ((Base64Source) source).getData()) && (!((Base64Source) source).getData().isEmpty() || null != ((URLSource) source).getUrl()) && (null != ((URLSource) source).getUrl() || null != ((Base64Source) source).getData()),0,0.20000,1.00000,0.33333,0.20000,1.00000,0.33333,2,10,3882,64,4.682
+467,(source instanceof URLSource || source instanceof Base64Source) && source != null,source!= null && (source instanceof URLSource && ((URLSource) source).getUrl()!= null &&!((URLSource) source).getUrl().isEmpty() || source instanceof Base64Source && ((Base64Source) source).getData()!= null &&!((Base64Source) source).getData().isEmpty()),(source instanceof URLSource || source instanceof Base64Source) && source != null && (source instanceof URLSource || !((Base64Source) source).getData().isEmpty()) && (source instanceof Base64Source || !((URLSource) source).getUrl().isEmpty()) && (source instanceof URLSource || null != ((Base64Source) source).getData()) && (source instanceof Base64Source || null != ((URLSource) source).getUrl()) && (!((URLSource) source).getUrl().isEmpty() || !((Base64Source) source).getData().isEmpty()) && (!((URLSource) source).getUrl().isEmpty() || null != ((Base64Source) source).getData()) && (!((Base64Source) source).getData().isEmpty() || null != ((URLSource) source).getUrl()) && (null != ((URLSource) source).getUrl() || null != ((Base64Source) source).getData()),0,0.20000,1.00000,0.33333,0.20000,1.00000,0.33333,2,10,3708,64,3.686
+476,"speed >= 0.25 && speed <= 4.0 && (responseFormat.equals(""mp3"") || responseFormat.equals(""opus"") || responseFormat.equals(""aac"") || responseFormat.equals(""flac"")) && (voice.equals(""alloy"") || voice.equals(""echo"") || voice.equals(""fable"") || voice.equals(""onyx"") || voice.equals(""nova"") || voice.equals(""shimmer""))","text!= null && (model == null || (""tts-1"".equals(model) || ""tts-1-hd"".equals(model))) && (voice == null || (""alloy"".equals(voice) || ""echo"".equals(voice) || ""fable"".equals(voice) || ""onyx"".equals(voice) || ""nova"".equals(voice) || ""shimmer"".equals(voice))) && (responseFormat == null || (""mp3"".equals(responseFormat) || ""opus"".equals(responseFormat) || ""aac"".equals(responseFormat) || ""flac"".equals(responseFormat))) && (speed == null || (speed >= 0.25 && speed <= 4.0))","text != null && (""tts-1"".equals(model) || ""tts-1-hd"".equals(model) || null == model) && (""aac"".equals(responseFormat) || ""flac"".equals(responseFormat) || ""mp3"".equals(responseFormat) || ""opus"".equals(responseFormat) || null == responseFormat) && (""alloy"".equals(voice) || ""echo"".equals(voice) || ""fable"".equals(voice) || ""onyx"".equals(voice) || ""nova"".equals(voice) || ""shimmer"".equals(voice) || null == voice) && (null == speed || speed >= 0.25 && speed <= 4.0)",0,0.38143,0.75000,0.50568,0.42333,0.80238,0.55424,4,5,5415,149,6.161
+484,dataSource != null,dataSource!= null,dataSource != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3631,4,1.378
+489,version == null || null == label,promptKey!= null,promptKey != null,0,0.00000,0.00000,0.00000,0.37040,0.18520,0.24693,1,1,3788,5,1.094
+562,rerankMinScore >= 0.01 && rerankMinScore <= 1.00,rerankMinScore == null || (rerankMinScore >= 0.01f && rerankMinScore <= 1.00f),rerankMinScore == null || rerankMinScore >= 0.01f && rerankMinScore <= 1.00f,0,0.25000,0.50000,0.33333,0.25000,0.50000,0.33333,2,1,1814,31,1.789
+563,rerankTopN >= 1 && rerankTopN <= 20 && rerankTopN != null,rerankTopN == null || (rerankTopN >= 1 && rerankTopN <= 20),rerankTopN == null || rerankTopN >= 1 && rerankTopN <= 20,0,0.25000,0.33333,0.28571,0.33335,0.33333,0.33334,3,1,2173,25,1.405
+573,maxRetries >= 0,maxRetries == null || maxRetries >= 0,maxRetries == null || maxRetries >= 0,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,1,1803,13,0.925
+576,scoreThreshold >= 0.0 && scoreThreshold <= 1.0,(scoreThreshold == null || (scoreThreshold >= 0.0 && scoreThreshold <= 1.0)),scoreThreshold == null || scoreThreshold >= 0.0 && scoreThreshold <= 1.0,0,0.25000,0.50000,0.33333,0.25000,0.50000,0.33333,2,1,1744,23,1.432
+577,weights >= 0.0 && weights <= 1.0,weights == null || (weights >= 0.0 && weights <= 1.0),weights == null || weights >= 0.0 && weights <= 1.0,0,0.25000,0.50000,0.33333,0.25000,0.50000,0.33333,2,1,1814,20,1.581
+579,topK > 0,topK == null || topK > 0,topK == null || topK > 0,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,1,1665,11,1.202
+587,vectorSimilarityWeight >= 0.0 && vectorSimilarityWeight <= 1.0,(vectorSimilarityWeight == null || (vectorSimilarityWeight >= 0.0 && vectorSimilarityWeight <= 1.0)),vectorSimilarityWeight == null || vectorSimilarityWeight >= 0.0 && vectorSimilarityWeight <= 1.0,0,0.25000,0.50000,0.33333,0.25000,0.50000,0.33333,2,1,1841,29,1.288
+589,similarityThreshold >= 0.0 && similarityThreshold <= 1.0,similarityThreshold == null || (similarityThreshold >= 0.0 && similarityThreshold <= 1.0),similarityThreshold == null || similarityThreshold >= 0.0 && similarityThreshold <= 1.0,0,0.25000,0.50000,0.33333,0.25000,0.50000,0.33333,2,1,2001,25,1.146
+629,vector1.length == vector2.length && vector1.length > 0 && 0 < vector2.length && vector1 != null && null != vector2,vector1!= null && vector2!= null && vector1.length == vector2.length,vector1.length == vector2.length && vector1 != null && null != vector2,0,1.00000,0.60000,0.75000,1.00000,0.60000,0.75000,5,3,2795,18,2.021
+630,vector1.length == vector2.length && vector1.length > 0 && 0 < vector2.length && vector1 != null && null != vector2,vector1!= null && vector2!= null && vector1.length == vector2.length,vector1.length == vector2.length && vector1 != null && null != vector2,0,1.00000,0.60000,0.75000,1.00000,0.60000,0.75000,5,3,2959,18,2.149
+631,vector1.length == vector2.length && vector1.length > 0 && 0 < vector2.length && vector1 != null && null != vector2,vector1!= null && vector2!= null &&!vector1.isEmpty() &&!vector2.isEmpty() && vector1.length == vector2.length,!vector1.isEmpty() && !vector2.isEmpty() && vector1.length == vector2.length && vector1 != null && null != vector2,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,5,5,2753,30,2.292
+635,embedding != null,embedding!= null && embedding.length == dimensions,embedding.length == dimensions && embedding != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2039,9,1.316
+659,!keyPrefix.isBlank() && keyPrefix != null,keyPrefix!= null &&!keyPrefix.isBlank(),!keyPrefix.isBlank() && keyPrefix != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1835,11,1.033
+663,redisClusterClient != null,redisClusterClient!= null,redisClusterClient != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2579,6,1.034
+665,redisClient != null,redisClient!= null,redisClient != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2347,5,0.778
+710,taskId != null,taskId!= null,taskId != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2984,4,1.27
+718,repeatTime >= 1,repeatTime >= 1,repeatTime >= 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2177,6,1.26
+744,"!path.isBlank() && !path.contains("".."") && path != null","path!= null &&!path.isBlank() &&!path.contains("".."")","!path.isBlank() && !path.contains("".."") && path != null",0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,3,3,3902,15,1.389
+749,bytes > 0,bytes > 0,bytes > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1972,5,0.987
+763,ctx != null,ctx!= null && sandboxContext!= null,ctx != null && null != sandboxContext,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3571,9,1.815
+768,agentId != null,scope!= null && (ctx!= null && (ctx.getSessionId()!= null &&!ctx.getSessionId().isBlank() || ctx.getUserId()!= null &&!ctx.getUserId().isBlank())) || agentId!= null,null != agentId || !ctx.getSessionId().isBlank() && scope != null && null != ctx && null != ctx.getSessionId() || !ctx.getUserId().isBlank() && scope != null && null != ctx && null != ctx.getUserId(),0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,1,5850,45,2.77
+774,catalog != null && null != filter,catalog!= null,catalog != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,6133,4,1.533
+800,blinkRate >= TERMINAL_CURSOR_BLINK_RATE_MIN && blinkRate <= TERMINAL_CURSOR_BLINK_RATE_MAX,blinkRate >= TERMINAL_CURSOR_BLINK_RATE_MIN && blinkRate <= TERMINAL_CURSOR_BLINK_RATE_MAX || blinkRate == 0,blinkRate == 0 || blinkRate >= TERMINAL_CURSOR_BLINK_RATE_MIN && blinkRate <= TERMINAL_CURSOR_BLINK_RATE_MAX,0,0.25000,0.50000,0.33333,0.25000,0.50000,0.33333,2,1,3759,28,2.048
+934,code != null,code!= null,code != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,8820,4,2.537
+935,code != null,sessionId!= null && code!= null,sessionId != null && null != code,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4980,8,2.595
+944,!named.isEmpty() && named != null,named!= null &&!named.isEmpty() && sql!= null,!named.isEmpty() && named != null && null != sql,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,7991,13,1.927
+968,days >= 1 && days <= 14,query!= null && days > 0,days > 0 && query != null,0,0.00000,0.00000,0.00000,0.36310,0.36310,0.36310,2,2,3423,9,1.57
+978,roots != null,roots!= null,roots != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1455,4,1.026
+987,resourceRegsitrations != null,resourceRegsitrations!= null,resourceRegsitrations != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1578,7,1.152
+988,tool != null && null != handler,tool!= null && handler!= null,tool != null && null != handler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1859,8,1.138
+989,!name.isEmpty() && !version.isEmpty() && name != null && null != version,!name.isEmpty() && name!= null &&!version.isEmpty() && version!= null,!name.isEmpty() && !version.isEmpty() && name != null && null != version,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,4,4,2031,18,1.475
+990,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2121,5,0.896
+1045,connectionId != null && null != data,offset >= 0 && 0 <= length && offset + length <= data.length && connectionId!= null && data!= null,offset >= 0 && 0 <= length && offset + length <= data.length && connectionId != null && null != data,0,0.40000,1.00000,0.57143,0.40000,1.00000,0.57143,2,5,2499,26,1.972
+1047,connectionId != null && null != data,connectionId!= null && data!= null && offset >= 0 && length >= 0 && offset + length <= data.length,offset >= 0 && 0 <= length && offset + length <= data.length && connectionId != null && null != data,0,0.40000,1.00000,0.57143,0.40000,1.00000,0.57143,2,5,2840,26,1.925
+1086,!host.isEmpty() && host != null,normalize(host)!= null && port >= 0,port >= 0 && normalize(host) != null,0,0.00000,0.00000,0.00000,0.71115,0.71115,0.71115,2,2,2899,11,1.222
+1315,value instanceof Number || value instanceof Boolean || value instanceof Character || value instanceof String,value instanceof Number || value instanceof String || value instanceof Boolean || value instanceof Character,value instanceof Number || value instanceof String || value instanceof Boolean || value instanceof Character,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2773,16,1.314
+1461,myContext instanceof XPathContext,myContext!= null,myContext != null,0,0.00000,0.00000,0.00000,0.24210,0.24210,0.24210,1,1,4027,5,2.365
+1525,newData.length() <= 21845,newData!= null,newData != null,0,0.00000,0.00000,0.00000,0.35500,0.35500,0.35500,1,1,3441,5,2.222
+1569,name != null,name!= null && (name.equals(XMLConstants.FEATURE_SECURE_PROCESSING)),name.equals(XMLConstants.FEATURE_SECURE_PROCESSING) && name != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2307,16,1.882
+1589,!source instanceof DOMSource,source!= null,source != null,0,0.00000,0.00000,0.00000,0.55220,0.55220,0.55220,1,1,6111,4,2.096
+1591,result != null,result!= null,result != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3628,4,1.077
+1600,name != null,validOutputProperty(name),validOutputProperty(name),0,0.00000,0.00000,0.00000,0.12000,0.12000,0.12000,1,1,2096,6,0.994
+1607,insertedChild != null,insertedChild!= null,insertedChild != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,5279,6,2.337
+1675,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,n!= null,n != null,0,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,1,1,3533,4,0.959
+1676,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,txtValue!= null && txtValue.length() >= offset,txtValue.length() >= offset && txtValue != null,0,0.00000,0.00000,0.00000,0.06550,0.04367,0.05240,1,2,5064,12,1.74
+1677,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,how >= 1 && how <= 2,how >= 1 && how <= 2,0,0.00000,0.00000,0.00000,0.20835,0.13890,0.16668,1,2,3919,10,1.527
+1679,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,how!= DELETE_CONTENTS || fStartOffset!= fEndOffset,how != DELETE_CONTENTS || fStartOffset != fEndOffset,0,0.00000,0.00000,0.00000,0.35715,0.23810,0.28572,1,1,5184,14,1.452
+1680,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,root!= null,root != null,0,0.00000,0.00000,0.00000,0.08330,0.02777,0.04165,1,1,4984,4,3.232
+1681,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,fStartContainer!= null && fEndContainer!= null &&!fDetach,!fDetach && fStartContainer != null && null != fEndContainer,0,0.00000,0.00000,0.00000,0.01515,0.01515,0.01515,1,3,6072,16,2.564
+1682,how == EXTRACT_CONTENTS || how == CLONE_CONTENTS || how == DELETE_CONTENTS,root!= null,root != null,0,0.00000,0.00000,0.00000,0.08330,0.02777,0.04165,1,1,5177,4,1.955
+1737,delimiter.length() > 0 && delimiter != null,delimiter!= null && buffer!= null,delimiter != null && null != buffer,0,0.50000,0.50000,0.50000,0.69230,0.69230,0.69230,2,2,6335,8,3.113
+1782,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1936,4,0.788
+1787,prefix != null,prefix!= null,prefix != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2046,4,0.715
+1815,type == CONDITIONAL_INCLUDE || type == CONDITIONAL_IGNORE,type == XMLDTDHandler.CONDITIONAL_IGNORE || type == XMLDTDHandler.CONDITIONAL_INCLUDE,type == XMLDTDHandler.CONDITIONAL_IGNORE || type == XMLDTDHandler.CONDITIONAL_INCLUDE,0,0.00000,0.00000,0.00000,0.85640,0.85640,0.85640,1,1,2812,20,1.575
+1906,index < getNumberOfGroups(),index >= 0 && index < nofgroups,index >= 0 && index < nofgroups,0,0.00000,0.00000,0.00000,0.38595,0.77190,0.51460,1,2,2514,11,1.237
+1907,index < getNumberOfGroups(),this.beginpos!= null && index >= 0 && index < this.nofgroups,index >= 0 && index < this.nofgroups && this.beginpos != null,0,0.00000,0.00000,0.00000,0.26317,0.78950,0.39475,1,3,4112,18,1.551
+1908,index < getNumberOfGroups(),this.endpos!= null && index >= 0 && index < this.nofgroups,index >= 0 && index < this.nofgroups && this.endpos != null,0,0.00000,0.00000,0.00000,0.26317,0.78950,0.39475,1,3,2064,18,1.183
+1978,offset >= 0 && 0 <= count,offset >= 0 && count >= 0 && offset + count <= fData.length(),offset >= 0 && 0 <= count && offset + count <= fData.length(),0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2724,19,1.869
+1992,year >= 0 && 0 <= month,None,,0,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,2,0,2290,2,1.104
+1994,years != null && null != months && null != days && null != hours && null != minutes && null != seconds,years >= 0 && months >= 0 && days >= 0 && hours >= 0 && minutes >= 0 && seconds >= 0,years >= 0 && 0 <= months && 0 <= days && 0 <= hours && 0 <= minutes && 0 <= seconds,0,0.00000,0.00000,0.00000,0.47620,0.47620,0.47620,6,6,2171,30,1.705
+1995,lexicalRepresentation != null,lexicalRepresentation!= null,lexicalRepresentation != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2489,5,0.893
+1996,lexicalRepresentation != null,lexicalRepresentation!= null,lexicalRepresentation != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1984,5,1.3
+1997,day >= 0 && 0 <= hour && 0 <= minute && 0 <= second,day >= 0 && hour >= 0 && hour < 24 && minute >= 0 && minute < 60 && second >= 0 && second < 60,day >= 0 && 0 <= hour && 0 <= minute && 0 <= second && 60 > second && hour < 24 && minute < 60,0,0.57143,1.00000,0.72727,0.57143,1.00000,0.72727,4,7,2233,35,2.707
+2000,factor != null,factor.signum()!= 0,factor.signum() != 0,0,0.00000,0.00000,0.00000,0.46670,0.46670,0.46670,1,1,3138,8,0.933
+2002,rhs != null,rhs!= null,rhs != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3496,4,1.516
+2008,startTimeInstant != null,startTimeInstant!= null,startTimeInstant != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2158,5,1.177
+2018,rhs != null,rhs!= null,rhs != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4138,4,0.962
+2038,schemaLanguage.length() > 0 && schemaLanguage != null,schemaLanguage!= null && schemaLanguage.length() > 0,schemaLanguage.length() > 0 && schemaLanguage != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2839,13,2.178
+2067,errorHandler != null,errorHandler!= null,errorHandler != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1829,5,0.783
+2123,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2120,4,1.4
+2156,p_uriSpec != null,p_uriSpec!= null,p_uriSpec != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4046,6,0.963
+2165,p_uriSpec != null,p_uriSpec!= null,p_uriSpec != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4295,6,1.78
+2167,p_scheme != null,p_scheme!= null && isConformantSchemeName(p_scheme),isConformantSchemeName(p_scheme) && p_scheme != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2437,15,1.56
+2170,p_uriSpec != null,p_uriSpec!= null && p_uriSpec.length() > 0,p_uriSpec.length() > 0 && p_uriSpec != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2670,15,1.459
+2174,p_port == -1 || p_port >= 0 && p_port <= 65535,(p_port >= 0 && p_port <= 65535) || p_port == -1 && m_host!= null,(p_port == -1 || p_port >= 0) && (p_port == -1 || p_port <= 65535) && (p_port >= 0 || m_host != null) && (p_port <= 65535 || m_host != null),0,0.25000,0.75000,0.37500,0.25000,0.75000,0.37500,1,4,2413,25,2.2
+2175,p_other != null,p_other!= null,p_other != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2994,5,1.06
+2266,cause != this,(cause == null || this.containedException == null) && cause!= this,cause != this && (cause == null || null == this.containedException),0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2599,17,1.101
+2413,ch != null,nodeHandle >= 0 && ch!= null,nodeHandle >= 0 && ch != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2976,10,1.684
+2461,prefix != null,prefix!= null,prefix != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3099,4,0.927
+2469,identity != DTM.NULL,identity >= 0,identity >= 0,0,0.00000,0.00000,0.00000,0.47620,0.47620,0.47620,1,1,3295,5,1.232
+2471,identity != DTM.NULL,identity >= 0,identity >= 0,0,0.00000,0.00000,0.00000,0.47620,0.47620,0.47620,1,1,3366,5,0.961
+2473,identity != DTM.NULL,identity >= 0,identity >= 0,0,0.00000,0.00000,0.00000,0.47620,0.47620,0.47620,1,1,3085,5,1.429
+2483,ch != null,nodeHandle!= NULL && ch!= null,nodeHandle != NULL && ch != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4857,9,1.566
+2486,identity != DTM.NULL,identity >= 0,identity >= 0,0,0.00000,0.00000,0.00000,0.47620,0.47620,0.47620,1,1,2955,5,1.207
+2489,identity != DTM.NULL,identity >= 0 && identity < (m_blocksize + (1 << m_SHIFT)),identity >= 0 && identity < (m_blocksize + (1 << m_SHIFT)),0,0.00000,0.00000,0.00000,0.25000,0.50000,0.33333,1,2,3117,19,1.29
+2592,qName != null,uri!= null && localName!= null && qName!= null,uri != null && null != localName && null != qName,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,3232,14,1.63
+2594,name.equals(name.toUpperCase()) && name != null,name!= null,name != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,2106,4,1.844
+2612,resourceName != null,defaults!= null,defaults != null,0,0.00000,0.00000,0.00000,0.72220,0.72220,0.72220,1,1,6003,4,2.402
+2645,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2630,4,2.311
+2646,i < 255,i >= 0,i >= 0,0,0.00000,0.00000,0.00000,0.33330,0.33330,0.33330,1,1,2840,5,1.362
+2693,start >= 0 && 0 <= length && start + length <= ch.length,ch!= null && start >= 0 && length >= 0 && start + length <= ch.length,start >= 0 && 0 <= length && start + length <= ch.length && ch != null,0,0.75000,1.00000,0.85714,0.75000,1.00000,0.85714,3,4,3067,21,2.689
+2749,p_uriSpec != null,p_uriSpec!= null,p_uriSpec != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4729,6,1.768
+2795,l >= 0 && l < getLength(),l >= 0,l >= 0,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,3367,5,1.037
+2830,"prefix == null || !prefix.equals(""xml"") && !prefix.equals(""xmlns"")",prefix!= null,prefix != null,0,0.00000,0.00000,0.00000,0.73330,0.33335,0.45834,1,1,2994,4,0.765
+2865,sb != null,sb!= null,sb != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2047,4,1.224
+2950,b,b,b,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1543,2,0.724
+3010,b,b,b,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1539,2,0.646
+3024,listener != null,listener!= null,listener != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1623,4,1.105
+3030,cloneOwner != null && null != cloneList,cloneOwner!= null,cloneOwner != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,5037,5,1.024
+3037,opPos > 0 && compiler != null,compiler!= null,compiler != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,5135,4,2.63
+3053,expr != null,expr!= null,expr != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3094,4,1.102
+3057,compiler != null,compiler!= null && lpi!= null,compiler != null && null != lpi,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,7161,9,2.056
+3059,compiler != null,opPos >= 0 && stepType >= 0,opPos >= 0 && 0 <= stepType,0,0.00000,0.00000,0.00000,0.11310,0.22620,0.15080,1,2,2776,12,2.058
+3090,name != null,func!= null && name!= null,func != null && null != name,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2959,8,1.578
+3101,n > 1,m_queueMark > 0,m_queueMark > 0,0,0.00000,0.00000,0.00000,0.33330,0.33330,0.33330,1,1,3613,7,1.124
+3109,n > 1,n > 0 && n <= m_ops.getTokenQueueSize(),n <= m_ops.getTokenQueueSize() && n > 0,0,0.00000,0.00000,0.00000,0.33335,0.66670,0.44447,1,2,3184,14,1.761
+3110,n > 1,m_queueMark + n <= m_ops.getTokenQueueSize(),m_queueMark + n <= m_ops.getTokenQueueSize(),0,0.00000,0.00000,0.00000,0.26330,0.26330,0.26330,1,1,3323,13,2.211
+3118,n > 1,m_queueMark > n,m_queueMark > n,0,0.00000,0.00000,0.00000,0.33330,0.33330,0.33330,1,1,3798,6,1.335
+3155,argNum <= 1 && arg != null,argNum == 0 || argNum == 1,argNum == 0 || argNum == 1,0,0.00000,0.00000,0.00000,0.37500,0.37500,0.37500,2,1,1645,12,1.34
+3166,source != null && null != returnType,(source!= null) && (returnType!= null) && isSupported(returnType),isSupported(returnType) && source != null && null != returnType,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2565,18,1.244
+3167,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2247,4,0.802
+3168,resolver != null,resolver!= null,resolver != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1851,4,0.701
+3170,objectModel != null && objectModel.length() != 0,!objectModel.isEmpty() && objectModel!= null,!objectModel.isEmpty() && objectModel != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2973,11,1.108
+3171,resolver != null,resolver!= null,resolver != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2404,4,1.593
+3172,expression != null,expression!= null,expression != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3369,4,0.827
+3173,returnType != null && expression != null && (returnType == XPathConstants.NUMBER || returnType == XPathConstants.STRING || returnType == XPathConstants.BOOLEAN || returnType == XPathConstants.NODE || returnType == XPathConstants.NODESET),expression!= null && returnType!= null && isSupported(returnType),isSupported(returnType) && expression != null && null != returnType,0,0.66667,0.66667,0.66667,0.71429,0.67619,0.69472,3,3,2922,14,1.742
+3179,ch != null,node!= DTM.NULL,node != DTM.NULL,0,0.00000,0.00000,0.00000,0.41670,0.41670,0.41670,1,1,2406,6,0.923
+3198,prefix != null,toffset >= 0 && toffset <= length() - prefix.length(),toffset >= 0 && toffset <= length() - prefix.length(),0,0.00000,0.00000,0.00000,0.11905,0.23810,0.15873,1,2,2477,16,1.839
+3203,str != null,str!= null,str != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3894,4,1.615
+3205,xstr != null,xstr!= null,xstr != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2843,5,1.474
+3215,srcBegin >= 0 && srcBegin <= srcEnd && 0 <= dstBegin && srcEnd <= this.length() && dstBegin + (srcEnd - srcBegin) <= dst.length && dst != null,srcBegin >= 0 && srcEnd >= srcBegin && dst!= null && dstBegin >= 0 && n <= dst.length - dstBegin,srcBegin >= 0 && srcBegin <= srcEnd && 0 <= dstBegin && n <= dst.length - dstBegin && dst != null,0,0.80000,0.66667,0.72727,0.89482,0.74568,0.81347,6,5,2792,30,1.639
+3218,beginIndex >= 0 && beginIndex <= endIndex && endIndex <= this.length(),beginIndex >= 0 && endIndex > beginIndex,beginIndex >= 0 && beginIndex < endIndex,0,0.50000,0.33333,0.40000,0.95835,0.63890,0.76668,3,2,2485,11,1.421
+3219,beginIndex >= 0 && beginIndex <= this.length(),beginIndex >= 0 && beginIndex <= m_length,beginIndex >= 0 && beginIndex <= m_length,0,0.50000,0.50000,0.50000,0.83335,0.83335,0.83335,2,2,2469,12,1.251
+3223,right != null,right!= null,right != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2556,4,0.8
+3226,left != null && null != right,left!= null && right!= null,left != null && null != right,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2563,8,0.889
+3262,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1713,4,0.973
+3265,name != null,name!= null && value!= null && fPropertyManager.containsProperty(name),fPropertyManager.containsProperty(name) && name != null && null != value,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,2078,16,1.207
+3286,(day == null || day.compareTo(BigInteger.ZERO) >= 0) && (null == hour || 0 <= hour.compareTo(BigInteger.ZERO)) && (null == minute || 0 <= minute.compareTo(BigInteger.ZERO)) && (null == second || 0 <= second.compareTo(BigInteger.ZERO)) && (day != null || null != hour || null != minute || null != second),day!= null && hour!= null && minute!= null,day != null && null != hour && null != minute,0,0.33333,0.05000,0.08696,0.77780,0.20001,0.31820,5,3,2477,12,1.039
+3290,years >= 0 && 0 <= months && 0 <= days && 0 <= hours && 0 <= minutes && 0 <= seconds,years >= 0 && months >= 0 && days >= 0 && hours >= 0 && minutes >= 0 && seconds >= 0,years >= 0 && 0 <= months && 0 <= days && 0 <= hours && 0 <= minutes && 0 <= seconds,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,6,6,2303,30,1.269
+3292,(year == null || year.compareTo(BigInteger.ZERO) >= 0) && (null == month || 0 <= month.compareTo(BigInteger.ZERO)) && (year != null || null != month),year!= null && month!= null,year != null && null != month,0,0.50000,0.16667,0.25000,0.83335,0.27778,0.41667,3,2,2202,8,0.92
+3306,uri != null,uri!= null,uri != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2758,4,1.02
+3307,is != null,is!= null,is != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2936,4,2.099
+3308,is != null,is!= null,is != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2957,4,1.003
+3309,f != null,f!= null,f != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2826,4,0.943
+3314,uri != null,uri!= null,uri != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2256,4,0.796
+3315,uri != null,uri!= null,uri != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2559,4,1.156
+3316,is != null,is!= null,is != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3176,4,1.095
+3317,is != null,is!= null && hb!= null,is != null && null != hb,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2552,8,0.884
+3318,is != null,is!= null,is != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2812,4,0.942
+3319,f != null,f!= null,f != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3006,4,1.436
+3320,is != null,is!= null,is != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2939,4,1.171
+3321,is != null,is!= null,is != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2796,4,1.313
+3322,is != null,is!= null && dh!= null,is != null && null != dh,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2529,8,1.156
+3323,f != null,f!= null,f != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2699,4,1.838
+3337,factoryClassName != null,factoryClassName!= null,factoryClassName != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2105,5,1.196
+3341,source != null,source instanceof SAXSource || source instanceof StreamSource,source instanceof SAXSource || source instanceof StreamSource,0,0.00000,0.00000,0.00000,0.10945,0.21890,0.14593,1,1,3545,10,2.274
+3345,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1846,4,0.826
+3356,uri != null && uri.length() != 0,uri!= null && uri.length()!= 0,uri != null && uri.length() != 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2267,11,0.871
+3357,!uri.isEmpty() && uri != null && null != factoryClassName,(uri!= null) && (uri.length()!= 0) && (factoryClassName!= null),uri != null && null != factoryClassName && uri.length() != 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,3,3,2956,21,2.711
+3361,classLoader != null,classLoader!= null,classLoader != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4485,5,1.193
+3371,value != null,name!= null && type!= null && value!= null,name != null && null != type && null != value,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,2392,12,1.233
+3416,parser != null,parser!= null,parser != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2010,4,0.777
+3457,!expr.isEmpty() && expr != null,"expr!= null &&!expr.equals("""")","!expr.equals("""") && expr != null",0,0.50000,0.50000,0.50000,0.75000,0.75000,0.75000,2,2,5834,9,1.319
+3512,!bounds.isEmpty() && bounds != null,bounds!= null,bounds != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,2927,4,1.584
+3703,radix == 2 || radix == 8 || radix == 10 || radix == 16,pos >= 0 && radix >= 2 && radix <= 36,pos >= 0 && radix >= 2 && radix <= 36,0,0.00000,0.00000,0.00000,0.25000,0.18750,0.21429,1,3,4562,15,1.302
+3736,line >= 1 && 1 <= col,line > 0 && col > 0 && line <= MAXLINE && col <= MAXCOLUMN,line <= MAXLINE && col <= MAXCOLUMN && line > 0 && 0 < col,0,0.00000,0.00000,0.00000,0.29165,0.58330,0.38887,2,4,2824,20,1.771
+3790,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4149,4,1.081
+3799,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3538,4,1.109
+3807,methodOrTypeSignature != null,methodOrTypeSignature!= null,methodOrTypeSignature != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2876,7,1.446
+3815,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2302,4,0.765
+3816,name != null,name!= null,name != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3975,4,1.998
+3836,prefix != null && null != name,prefix!= null && name!= null && name.length >= prefix.length,name.length >= prefix.length && prefix != null && null != name,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2572,14,2.42
+3844,array != null && null != toBeReplaced,array!= null && toBeReplaced!= null && start <= end && start >= 0 && end <= array.length,start >= 0 && start <= end && end <= array.length && array != null && null != toBeReplaced,0,0.40000,1.00000,0.57143,0.40000,1.00000,0.57143,2,5,2688,25,1.998
+3847,array != null,array!= null && toBeReplaced!= null && replacementChars!= null,array != null && null != toBeReplaced && null != replacementChars,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,3467,16,2.065
+3850,0 <= index && 0 <= start && index <= target.length && start <= end && end <= array.length && target != null && null != array,index >= 0 && start >= 0 && end <= array.length && start <= end,index >= 0 && 0 <= start && start <= end && end <= array.length,0,1.00000,0.57143,0.72727,1.00000,0.57143,0.72727,7,4,2557,19,1.037
+3852,target != null,target!= null && suffix!= null,target != null && null != suffix,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3488,8,1.777
+3853,array != null,array!= null,array != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2859,4,1.621
+3858,array != null && null != toBeFound,array.length >= toBeFound.length && toBeFound!= null && array!= null,array.length >= toBeFound.length && toBeFound != null && null != array,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2520,18,1.952
+3859,array1 != null && null != array2,array1!= null && array2!= null,array1 != null && null != array2,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2466,10,0.97
+3861,array != null,array!= null,array != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2567,4,1.104
+3868,fragment != null && null != name,fragment!= null && name!= null && startIndex >= 0 && startIndex + fragment.length <= name.length,startIndex >= 0 && startIndex + fragment.length <= name.length && fragment != null && null != name,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,2,4,4272,21,1.503
+3870,array != null && null != toBeFound,toBeFound!= null && array!= null && start >= 0 && end >= start && end <= array.length,start >= 0 && start <= end && end <= array.length && toBeFound != null && null != array,0,0.40000,1.00000,0.57143,0.40000,1.00000,0.57143,2,5,4199,23,2.135
+3875,array != null && null != prefix,array!= null && prefix!= null,array != null && null != prefix,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2767,8,1.36
+3880,start >= 0 && end <= array.length,array!= null && start >= 0 && end <= array.length && start <= end,start >= 0 && start <= end && end <= array.length && array != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,2,4,3234,18,2.06
+3885,start >= 0 && end <= array.length,array!= null && start >= 0 && end <= array.length && start <= end,start >= 0 && start <= end && end <= array.length && array != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,2,4,6415,18,1.901
+3886,array != null,character!= 0 && array!= null,character != 0 && array != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2146,9,1.383
+3922,"!lastPart.contains(""."")",lastPart!= null &&!lastPart.contains(CoreConstants.DOT),!lastPart.contains(CoreConstants.DOT) && lastPart != null,0,0.00000,0.00000,0.00000,0.28378,0.56757,0.37838,1,2,4115,15,1.264
+3927,statusManager != null,statusManager!= null,statusManager != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1518,5,0.944
+3955,location != null,"(location!= null) && (location.matches(SCHEME_PATTERN) ||!location.startsWith(CLASSPATH_SCHEME) || (location.startsWith(CLASSPATH_SCHEME) && location.length() > CLASSPATH_SCHEME.length() && (location.substring(CLASSPATH_SCHEME.length()).length() > 1 ||!location.substring(CLASSPATH_SCHEME.length()).startsWith(""/"")))",parse_error: unmatched opening parenthesis,1,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,1,0,3863,74,4.731
+3993,days >= 0,days >= 0,days >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3849,5,1.535
+3997,context != null,context!= null,context != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4809,4,1.341
+4023,requestCode >= 0 && (context instanceof Activity || context instanceof AppCompatActivity),context instanceof AppCompatActivity || context instanceof Activity,context instanceof AppCompatActivity || context instanceof Activity,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,4362,8,0.944
+4028,context instanceof Activity || requestCode < 0,requestCode >= 0,requestCode >= 0,0,0.00000,0.00000,0.00000,0.66670,0.33335,0.44447,1,1,4313,5,1.541
+4073,days >= 0,filePath!= null &&!filePath.isEmpty() && days >= 0,!filePath.isEmpty() && days >= 0 && filePath != null,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,6045,14,1.633
+4084,context instanceof Activity,context!= null,context != null,0,0.00000,0.00000,0.00000,0.19440,0.19440,0.19440,1,1,4216,4,1.181
+4131,key != null,properties!= null && key!= null,properties != null && null != key,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,1667,8,1.138
+4132,key != null,(map!= null) && (key!= null) && ((value == null) || (value instanceof String) || (value.getClass().isPrimitive()) || (Primitives.isWrapperType(value.getClass()))),map != null && null != key && (value instanceof String || value.getClass().isPrimitive() || Primitives.isWrapperType(value.getClass()) || null == value),0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,1933,41,2.245
+4217,context instanceof Activity,context!= null,context != null,0,0.00000,0.00000,0.00000,0.19440,0.19440,0.19440,1,1,3011,4,0.751
+4233,fraction >= 0 && fraction <= 1,target!= null && from!= null && to!= null && target.length == from.length && from.length == to.length,target.length == from.length && from.length == to.length && target != null && null != from && null != to,0,0.00000,0.00000,0.00000,0.09882,0.24705,0.14117,2,5,5066,24,1.72
+4237,start >= 0 && start <= original.length && start <= end && original != null,start <= end && start >= 0 && end <= original.length,start >= 0 && start <= end && end <= original.length,0,0.66667,0.50000,0.57143,0.88890,0.66668,0.76192,4,3,2626,14,1.646
+4379,precision >= 0 && precision <= 9,v!= null && v instanceof LocalDateTime,v instanceof LocalDateTime && v != null,0,0.00000,0.00000,0.00000,0.12595,0.12595,0.12595,2,2,3508,8,1.311
+4386,0 <= maxRecords,maxRecords > 0,maxRecords > 0,0,0.00000,0.00000,0.00000,0.91670,0.91670,0.91670,1,1,5120,6,1.323
+4416,!path.isEmpty() && path != null,path!= null &&!path.isEmpty(),!path.isEmpty() && path != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3245,9,1.743
+4418,index >= 0,index >= 0 && index < addressLimit - address,index >= 0 && index < addressLimit - address,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2427,12,0.922
+4429,offset >= 0 && 0 <= numBytes && numBytes <= source.remaining(),offset >= 0 && numBytes >= 0 && offset + numBytes <= this.capacity() && source!= null && source.remaining() >= numBytes,offset >= 0 && 0 <= numBytes && numBytes <= source.remaining() && offset + numBytes <= this.capacity() && source != null,0,0.60000,1.00000,0.75000,0.60000,1.00000,0.75000,3,5,2932,31,2.818
+4441,index >= 0 && 0 <= offset && 0 <= length && offset + length <= dst.length && dst != null,index >= 0 && offset >= 0 && length >= 0 && offset + length <= dst.length,index >= 0 && 0 <= offset && 0 <= length && offset + length <= dst.length,0,1.00000,0.80000,0.88889,1.00000,0.80000,0.88889,5,4,2884,22,1.876
+4448,index >= 0,index >= 0 && address + index <= addressLimit - 8,index >= 0 && address + index <= addressLimit - 8,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2448,15,0.973
+4483,targetSize >= 0 && targetSize <= sizeInBytes,targetSize >= 0 && targetSize <= sizeInBytes(),targetSize >= 0 && targetSize <= sizeInBytes(),0,0.50000,0.50000,0.50000,0.97435,0.97435,0.97435,2,2,2688,14,1.509
+4488,buffer != null,buffer!= null && buffer.length > 0,buffer.length > 0 && buffer != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2391,10,0.953
+4490,size >= 3 && segment != null,segment!= null && size >= 3,size >= 3 && segment != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2342,9,1.699
+4491,buffer.remaining() >= 3 && buffer != null,buffer!= null && buffer.remaining() >= 3,buffer.remaining() >= 3 && buffer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2464,11,1.269
+4492,data.length >= 3 && data != null,data!= null && data.length >= 3,data.length >= 3 && data != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2156,10,1.214
+4493,buffer != null,buffer!= null,buffer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2544,4,0.857
+4494,buffer != null,buffer!= null && buffer.remaining() > 0,buffer.remaining() > 0 && buffer != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2340,11,1.304
+4495,data.length >= 3 && data != null,data!= null && data.length >= 3,data.length >= 3 && data != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2686,10,1.253
+4496,size >= 3 && segment != null,segment!= null && size >= 3,size >= 3 && segment != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2409,9,1.159
+4497,buffer.remaining() >= 3 && buffer != null,buffer!= null && buffer.remaining() >= 3,buffer.remaining() >= 3 && buffer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2166,11,1.076
+4512,numBytes % 4 == 0,segments!= null && offset >= 0 && numBytes > 0,offset >= 0 && 0 < numBytes && segments != null,0,0.00000,0.00000,0.00000,0.18520,0.55560,0.27780,1,3,3379,15,1.399
+4521,index >= 0 && index < sizeInBytes,index >= 0,index >= 0,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,3050,5,1.294
+4545,listenerName != null,listenerName!= null,listenerName != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2663,5,1.094
+4582,position >= 0,size > 0 && channel!= null,size > 0 && channel != null,0,0.00000,0.00000,0.00000,0.33335,0.66670,0.44447,1,2,2998,9,1.143
+4584,position >= 0,position >= 0 && destinationBuffer!= null && channel!= null,position >= 0 && destinationBuffer != null && null != channel,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,4171,14,2.02
+4587,position >= 0,position >= 0 && destinationBuffer!= null,position >= 0 && destinationBuffer != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3548,10,1.828
+4601,destinationBuffer.hasArray(),inputStream!= null && destinationBuffer!= null,inputStream != null && null != destinationBuffer,0,0.00000,0.00000,0.00000,0.16071,0.32143,0.21428,1,2,4285,10,1.763
+4602,0 == (value & (value - 1)) && value != 0,(value!= 0) && ((value & (value - 1)) == 0),0 == (value & (value - 1)) && value != 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3329,20,1.895
+4609,reference != null,reference!= null,reference != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1521,4,0.868
+4610,reference != null,reference!= null,reference != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1465,4,0.818
+4737,!producerId.isEmpty() && producerId != null,producerId!= null,producerId != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,4753,5,1.2
+4821,newRatio <= 1.0 && newRatio > 0.0,newRatio > 0.0 && newRatio <= 1.0,newRatio <= 1.0 && newRatio > 0.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1876,16,1.351
+4865,!ref.isBlank() && ref != null,ref!= null &&!ref.isBlank(),!ref.isBlank() && ref != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2078,9,1.416
+4866,(!name.isBlank() || !address.isBlank()) && (!name.isBlank() || null != address) && (!address.isBlank() || name != null) && (name != null || null != address),(address!= null &&!address.isBlank()) || (name!= null &&!name.isBlank()),(!address.isBlank() || !name.isBlank()) && (!address.isBlank() || null != name) && (!name.isBlank() || address != null) && (address != null || null != name),0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,4,4,2075,19,1.958
+4877,size == 1 || size == 2 || size == 4 || size == 8,text!= null &&!text.isEmpty() && size > 0,!text.isEmpty() && size > 0 && text != null,0,0.00000,0.00000,0.00000,0.13890,0.10418,0.11906,1,3,5272,14,1.576
+4940,progressPercent >= 0 && progressPercent <= 100,bookId!= null && progressPercent!= null && userId!= null,bookId != null && null != progressPercent && null != userId,0,0.00000,0.00000,0.00000,0.22857,0.34285,0.27428,2,3,4786,14,1.784
+4945,xmlFile != null,xmlFile!= null,xmlFile != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2803,5,1.085
+4957,number <= yylength(),number >= 0 && number <= yylength(),number >= 0 && number <= yylength(),0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2583,12,1.394
+5051,type.isAnnotationPresent(ExtractPdfConfig.class),None,,0,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,1,0,1766,2,0.739
+5065,!file.isEmpty(),file!= null &&!file.isEmpty(),!file.isEmpty() && file != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3201,9,1.518
+5067,alpha >= 0 && alpha <= 255,alpha >= 0 && alpha <= 255,alpha >= 0 && alpha <= 255,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2999,10,0.939
+5176,!name.isEmpty() && name != null,"!name.isEmpty() && name!= null && IDENTIFIER_PATTERN.matcher(name).matches() &&!name.equals(""user"")","IDENTIFIER_PATTERN.matcher(name).matches() && !name.isEmpty() && !name.equals(""user"") && name != null",0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,2,4,2845,25,1.577
+5255,toolCalls != null,toolCalls!= null,toolCalls != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2350,5,1.176
+5280,session != null && null != event,session!= null && event!= null,session != null && null != event,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3127,8,1.17
+5303,newInstance != null,newInstance!= null,newInstance != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2101,4,0.817
+5310,context != null && null != template,template!= null && context!= null,template != null && null != context,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,6233,8,2.189
+5342,Files.isDirectory(agentDirPath),agentDirPath!= null && Files.isDirectory(agentDirPath),Files.isDirectory(agentDirPath) && agentDirPath != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4203,13,2.018
+5400,"""utf-8"".equals(encoding) || ""base64"".equals(encoding)",userId!= null && filePath!= null && encoding!= null,userId != null && null != filePath && null != encoding,0,0.00000,0.00000,0.00000,0.12700,0.19050,0.15240,1,3,6906,12,1.944
+5505,expirySeconds >= 1 && expirySeconds <= 604800,!bucketName.trim().isEmpty() && bucketName!= null &&!objectKey.trim().isEmpty() && objectKey!= null && expirySeconds >= 1 && expirySeconds <= 604800,!bucketName.trim().isEmpty() && !objectKey.trim().isEmpty() && expirySeconds >= 1 && expirySeconds <= 604800 && bucketName != null && null != objectKey,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,2,6,4203,39,2.526
+5506,expirySeconds >= 1 && expirySeconds <= 604800,(bucketName!= null &&!bucketName.trim().isEmpty()) && (objectKey!= null &&!objectKey.trim().isEmpty()) && (expirySeconds >= 1 && expirySeconds <= 604800),!bucketName.trim().isEmpty() && !objectKey.trim().isEmpty() && expirySeconds >= 1 && expirySeconds <= 604800 && bucketName != null && null != objectKey,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,2,6,4128,42,2.678
+5567,"publishType.equals(""MARKET"") || publishType.equals(""MCP"") || publishType.equals(""WECHAT"") || publishType.equals(""API"") || publishType.equals(""FEISHU"")",publishType!= null,publishType != null,0,0.00000,0.00000,0.00000,0.33330,0.06666,0.11110,1,1,2491,5,1.669
+5576,scale >= 0.0 && scale <= 1.0,inputStream!= null && scale > 0 && scale <= 1,scale <= 1 && scale > 0 && inputStream != null,0,0.33333,0.50000,0.40000,0.63890,0.95835,0.76668,2,3,2044,15,1.992
+5582,source != null,bizConfig!= null && bizConfig.getSparkRagCompatibleSources()!= null,bizConfig != null && null != bizConfig.getSparkRagCompatibleSources(),0,0.00000,0.00000,0.00000,0.35415,0.70830,0.47220,1,2,4297,17,1.364
+5583,source != null,bizConfig!= null && bizConfig.getAiuiRagCompatibleSources()!= null,bizConfig != null && null != bizConfig.getAiuiRagCompatibleSources(),0,0.00000,0.00000,0.00000,0.35470,0.70940,0.47293,1,2,2736,18,1.043
+5584,category != null,category!= null,category != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4367,4,1.267
+5592,file != null,file!= null && parentId!= null && repoId!= null && tag!= null,file != null && null != parentId && null != repoId && null != tag,0,0.25000,1.00000,0.40000,0.25000,1.00000,0.40000,1,4,2958,17,2.151
+5601,enabled == 0 || enabled == 1,id!= null && enabled!= null,id != null && null != enabled,0,0.00000,0.00000,0.00000,0.16665,0.16665,0.16665,1,2,3964,8,1.607
+5603,pageNo > 0 && 0 < pageSize,pageNo >= 1 && pageSize >= 1,pageNo >= 1 && 1 <= pageSize,0,0.00000,0.00000,0.00000,0.58330,0.58330,0.58330,2,2,4323,11,1.348
+5623,!file.isEmpty() && file != null,!file.isEmpty() && isAllowedType(normalizeContentType(file.getContentType())),isAllowedType(normalizeContentType(file.getContentType())) && !file.isEmpty(),0,0.50000,0.50000,0.50000,0.54310,0.54310,0.54310,2,2,3606,16,1.899
+5662,enabled == 1 || enabled == 0,enabled == 0 || enabled == 1,enabled == 0 || enabled == 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,6751,10,2.245
+5679,!fileType.isEmpty() && fileType != null,!StringUtils.isEmpty(fileType) && (fileType.equalsIgnoreCase(ProjectContent.TXT_FILE_TYPE) || fileType.equalsIgnoreCase(ProjectContent.MD_FILE_TYPE)? size <= 10 * 1024 * 1024 : size <= 100 * 1024 * 1024),!StringUtils.isEmpty(fileType) && (fileType.equalsIgnoreCase(ProjectContent.TXT_FILE_TYPE) || fileType.equalsIgnoreCase(ProjectContent.MD_FILE_TYPE)? size <= 10 * 1024 * 1024 : size <= 100 * 1024 * 1024),0,0.00000,0.00000,0.00000,0.44512,0.53225,0.48480,2,2,3482,55,3.943
+5797,writer != null && null != row,writer!= null && row!= null,writer != null && null != row,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2543,8,1.592
+5813,url != null,params!= null,params != null,0,0.00000,0.00000,0.00000,0.72220,0.72220,0.72220,1,1,3394,4,1.506
+5814,url != null && null != listener,url!= null && headerMap!= null && listener!= null,url != null && null != headerMap && null != listener,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2642,13,1.385
+5820,url != null && null != listener,url!= null && headerMap!= null && listener!= null,url != null && null != headerMap && null != listener,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2545,13,1.059
+5827,!pattern.isEmpty() && pattern != null,pattern!= null,pattern != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,3635,4,1.645
+5828,!key.isEmpty() && ttlSeconds >= 1 && key != null && null != token,!key.isEmpty() && key!= null && token!= null,!key.isEmpty() && key != null && null != token,0,1.00000,0.75000,0.85714,1.00000,0.75000,0.85714,4,3,2221,13,1.012
+5829,!key.isEmpty() && key != null,key!= null,key != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,2477,4,0.997
+5830,!pattern.isEmpty() && pattern != null,pattern!= null,pattern != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,3580,4,0.929
+5831,!key.isEmpty() && key != null,key!= null,key != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,2631,4,1.254
+5832,!key.isEmpty() && key != null && null != token,key!= null && token!= null,key != null && null != token,0,1.00000,0.66667,0.80000,1.00000,0.66667,0.80000,3,2,2458,8,1.456
+5833,!key.isEmpty() && key != null,key!= null,key != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,2681,4,0.84
+5842,uri != null,uri!= null,uri != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4526,4,1.032
+5900,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1665,5,0.784
+5901,resourceRegsitrations != null,resourceRegsitrations!= null,resourceRegsitrations != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1683,7,0.84
+5902,tool != null && null != handler,tool!= null && handler!= null,tool != null && null != handler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1734,8,1.159
+5904,tool != null && null != handler,tool!= null && handler!= null,tool != null && null != handler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1841,8,0.952
+5906,tool != null && null != handler,tool!= null && handler!= null,tool != null && null != handler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1785,8,0.759
+5907,resourceRegsitrations != null,resourceRegsitrations!= null,resourceRegsitrations != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1654,7,0.826
+5908,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1696,5,0.747
+5910,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1568,5,0.721
+5911,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1662,5,0.836
+5912,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1659,5,0.806
+5913,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1692,5,0.917
+5914,handlers != null,handlers!= null,handlers != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1735,4,0.875
+5915,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1572,5,0.971
+5916,handler != null,handler!= null,handler != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1772,4,0.911
+5917,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1619,5,0.704
+5919,handlers != null,handlers!= null,handlers != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1699,4,0.814
+5920,tool != null && null != handler,tool!= null && handler!= null,tool != null && null != handler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1774,8,0.955
+5995,aspectClass != null,aspectClass!= null,aspectClass != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1922,5,0.812
+5996,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2056,4,0.892
+5997,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2019,4,0.755
+5998,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2105,4,1.343
+6000,aspectClass != null,aspectClass!= null,aspectClass != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2249,5,0.977
+6001,aspectClass != null,aspectClass!= null,aspectClass != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1842,5,0.793
+6002,key != null,key!= null,key != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1818,4,0.75
+6003,key != null && null != type,key!= null && null!= type,key != null && null != type,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1998,8,0.855
+6047,xRange > 0 && 0 < yRange && 0 < zRange && center != null && null != center.getWorld(),center!= null && xRange > 0 && yRange > 0 && zRange > 0,xRange > 0 && 0 < yRange && 0 < zRange && center != null,0,1.00000,0.80000,0.88889,1.00000,0.80000,0.88889,5,4,7153,22,3.125
+6048,predicate.test(value),predicate!= null && predicate.test(value),predicate.test(value) && predicate != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,1661,9,1.111
+6050,value != null,value!= null,value != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1760,4,0.957
+6057,map != null,map!= null,map != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2206,4,0.89
+6058,list != null,list!= null,list != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2066,4,0.893
+6131,redissonClient != null || type != RetryCounterType.DISTRIBUTED && type != RetryCounterType.HYBRID,type!= RetryCounterType.LOCAL && redissonClient!= null,type != RetryCounterType.LOCAL && redissonClient != null,0,0.50000,0.50000,0.50000,0.50000,0.50000,0.50000,1,2,2615,14,1.033
+6165,val >= 1 && val <= 99,val >= 0,val >= 0,0,0.00000,0.00000,0.00000,0.66670,0.33335,0.44447,2,1,3387,5,1.083
+6178,image != null || null != name,(name!= null &&!name.isEmpty()) || image!= null,null != image || !name.isEmpty() && name != null,0,0.75000,1.00000,0.85714,0.75000,1.00000,0.85714,1,1,6215,13,1.503
+6186,sample != null,sample!= null && sampleSheet!= null,sample != null && null != sampleSheet,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2223,9,1.249
+6200,image != null,image!= null,image != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3369,4,1.074
+6394,t >= 0 && t <= 1,t >= 0.0 && t <= 1.0,t >= 0.0 && t <= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,4639,14,1.969
+6438,y1 != y2,x1!= x2 && y1!= y2,x1 != x2 && y1 != y2,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3090,12,1.339
+6478,coords.length == 6 && coords != null,coords!= null,coords != null,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,2,1,2789,4,1.424
+6525,os != null,os!= null && scores!= null,os != null && null != scores,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4791,8,1.331
+6526,path != null,path!= null,path != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2597,4,1.384
+6531,dir == -1 || dir == 1,dir >= 0 && partRef!= null && records!= null,dir >= 0 && partRef != null && null != records,0,0.00000,0.00000,0.00000,0.13890,0.20835,0.16668,1,3,4108,14,1.936
+6551,score != null,score!= null,score != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1943,4,0.889
+6567,node != null,node!= null,node != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2459,4,0.82
+6568,os != null,os!= null,os != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3548,4,1.337
+6569,path != null,path!= null,path != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2565,4,1.258
+6614,step == OmrStep.LOAD || step == OmrStep.BINARY,step == OmrStep.LOAD || step == OmrStep.BINARY,step == OmrStep.LOAD || step == OmrStep.BINARY,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,4916,16,2.546
+7053,staff != null,point!= null && staff!= null,point != null && null != staff,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3815,8,1.016
+7063,staff != null,staff!= null,staff != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2700,4,1.303
+7065,staff != null,point!= null && staff!= null,point != null && null != staff,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3532,8,1.274
+7300,value >= 0 && value <= 1,value >= 0 && value <= 1,value >= 0 && value <= 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2041,10,1.237
+7561,num != null && null != den,num!= null && den!= null,num != null && null != den,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3007,8,1.707
+7618,!inter instanceof SmallChordInter,inter!= null,inter != null,0,0.00000,0.00000,0.00000,0.54440,0.54440,0.54440,1,1,2417,4,1.781
+7622,shape != null && (shape == Shape.TEXT || shape == Shape.LYRICS || shape == Shape.METRONOME),glyph!= null && shape!= null,glyph != null && null != shape,0,0.50000,0.50000,0.50000,0.53335,0.51112,0.52200,2,2,8851,8,1.742
+7624,newRole != null,sentence!= null && newRole!= null,sentence != null && null != newRole,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,6686,9,2.424
+7625,one != null && null != two,one!= null && two!= null,one != null && null != two,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,4155,8,1.549
+7671,amount >= 0.0 && amount <= 1.0,amount >= 0.0 && amount <= 1.0,amount >= 0.0 && amount <= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2065,14,1.383
+7763,number >= 0 && number <= 999,number >= 0 && number <= 999,number >= 0 && number <= 999,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3822,10,1.235
+7895,maxValue >= 1,spec!= null && maxValue > 0,maxValue > 0 && spec != null,0,0.00000,0.00000,0.00000,0.29165,0.58330,0.38887,1,2,3314,9,1.946
+7927,aNode != null,aNode!= null && classLocations!= null,aNode != null && null != classLocations,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4364,10,1.671
+7928,aNode != null && null != containingClassNode,aNode!= null && containingClassNode!= null && locations!= null,aNode != null && null != containingClassNode && null != locations,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,3595,15,1.961
+7931,aNode != null,aNode!= null && formattedDocumentation!= null &&!formattedDocumentation.isEmpty(),!formattedDocumentation.isEmpty() && aNode != null && null != formattedDocumentation,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,2718,16,1.819
+7934,sourceCodeFiles != null,sourceCodeFiles!= null,sourceCodeFiles != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2932,6,0.856
+7935,sourceCodeURLs != null,sourceCodeURLs!= null,sourceCodeURLs != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3115,7,1.686
+7973,maxAttempts >= 1,source!= null && targetDir!= null,source != null && null != targetDir,0,0.00000,0.00000,0.00000,0.10175,0.20350,0.13567,1,2,4385,9,2.634
+7981,"locale.equals(""zh-CN"") || locale.equals(""en-US"")","locale!= null && (locale.equals(""en-US"") || locale.equals(""zh""))","(locale.equals(""en-US"") || locale.equals(""zh"")) && locale != null",0,0.25000,0.50000,0.33333,0.46428,0.92855,0.61904,1,2,5578,18,2.124
+7982,goal != null,goal!= null &&!terminalAnswer.isBlank(),!terminalAnswer.isBlank() && goal != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,7548,10,2.224
+7985,!toolCallIds.isEmpty() && !reasoningContent.isBlank() && toolCallIds != null && null != reasoningContent,!toolCallIds.isEmpty() &&!reasoningContent.isBlank(),!toolCallIds.isEmpty() && !reasoningContent.isBlank(),0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,4,2,2502,14,1.753
+8040,elicitationCompleteConsumer != null,elicitationCompleteConsumer!= null,elicitationCompleteConsumer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1586,7,1.037
+8041,resourcesUpdateConsumer != null,resourcesUpdateConsumer!= null,resourcesUpdateConsumer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1597,6,0.91
+8042,resourcesChangeConsumer != null,resourcesChangeConsumer!= null,resourcesChangeConsumer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1596,6,1.137
+8043,loggingConsumers != null,loggingConsumers!= null,loggingConsumers != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1556,6,1.232
+8044,elicitationCompleteConsumer != null,elicitationCompleteConsumer!= null,elicitationCompleteConsumer != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1569,7,1.164
+8046,progressConsumers != null,progressConsumers!= null,progressConsumers != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1550,6,0.91
+8047,elicitationCompleteConsumers != null,elicitationCompleteConsumers!= null,elicitationCompleteConsumers != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1575,8,0.712
+8048,elicitationCompleteConsumers != null,elicitationCompleteConsumers!= null,elicitationCompleteConsumers != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1578,8,1.141
+8068,resourceTemplatesSpec != null,resourceTemplatesSpec!= null,resourceTemplatesSpec != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1594,6,1.085
+8071,tool != null && null != callHandler,tool!= null && callHandler!= null,tool != null && null != callHandler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1631,9,1.156
+8072,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1567,5,0.697
+8073,handler != null,handler!= null,handler != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1592,4,0.858
+8074,completions != null,completions!= null,completions != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1561,6,1.214
+8075,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1708,5,0.76
+8076,completions != null,completions!= null,completions != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1598,6,1.169
+8077,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1686,5,0.868
+8080,tool != null && null != callHandler,tool!= null && callHandler!= null,tool != null && null != callHandler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1634,9,0.808
+8081,completions != null,completions!= null,completions != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1573,6,0.98
+8083,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1705,5,0.995
+8085,completions != null,completions!= null,completions != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1596,6,1.062
+8086,toolSpecifications != null,toolSpecifications!= null,toolSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1610,5,0.851
+8092,toolSpecifications != null,toolSpecifications!= null,toolSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1598,5,1.032
+8093,tool != null && null != handler,tool!= null && handler!= null,tool != null && null != handler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1626,8,0.924
+8094,uriTemplateManagerFactory != null,uriTemplateManagerFactory!= null,uriTemplateManagerFactory != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1806,7,0.826
+8095,toolSpecifications != null,toolSpecifications!= null,toolSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1595,5,0.841
+8096,prompts != null,prompts!= null,prompts != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1727,5,1.693
+8097,resourceTemplates != null,resourceTemplates!= null,resourceTemplates != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1592,5,1.333
+8098,resourceTemplates != null,resourceTemplates!= null,resourceTemplates != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1589,5,1.159
+8099,toolSpecifications != null,toolSpecifications!= null,toolSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1595,5,1.001
+8100,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1570,5,0.866
+8101,tool != null && null != callHandler,tool!= null && callHandler!= null,tool != null && null != callHandler,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1623,9,1.156
+8102,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1595,5,1.357
+8103,resourceTemplates != null,resourceTemplates!= null,resourceTemplates != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1600,5,0.993
+8106,resourceSpecifications != null,resourceSpecifications!= null,resourceSpecifications != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1595,5,0.697
+8126,contextExtractor != null,contextExtractor!= null,contextExtractor != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3240,5,1.522
+8206,processor != null,processor!= null,processor != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2593,4,1.589
+8326,!name.isEmpty() && name != null,"name!= null &&!name.isEmpty() && name.matches(""[_A-Za-z][_0-9A-Za-z]*"")","name.matches(""[_A-Za-z][_0-9A-Za-z]*"") && !name.isEmpty() && name != null",0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2451,26,2.194
+8372,"imageFormat.equals(""png"") || imageFormat.equals(""jpeg"")",imageFormat == null || isValidImageFormat(imageFormat),isValidImageFormat(imageFormat) || imageFormat == null,0,0.00000,0.00000,0.00000,0.51077,0.51077,0.51077,1,1,3041,12,1.398
+8374,"tableMethod.equals(""default"") || tableMethod.equals(""cluster"")",tableMethod == null || isValidTableMethod(tableMethod),isValidTableMethod(tableMethod) || tableMethod == null,0,0.00000,0.00000,0.00000,0.53164,0.53164,0.53164,1,1,1838,12,0.971
+8375,"hybrid.equals(""off"") || hybrid.equals(""docling"") || hybrid.equals(""hancom"") || hybrid.equals(""azure"") || hybrid.equals(""google"")",hybrid!= null,hybrid != null,0,0.00000,0.00000,0.00000,0.38100,0.07620,0.12700,1,1,2167,5,1.782
+8376,"readingOrder.equals(""off"") || readingOrder.equals(""xycut"")",readingOrder == null || isValidReadingOrder(readingOrder),isValidReadingOrder(readingOrder) || readingOrder == null,0,0.00000,0.00000,0.00000,0.52382,0.52382,0.52382,1,1,3265,13,2.173
+8377,"""off"".equals(imageOutput) || ""embedded"".equals(imageOutput) || ""external"".equals(imageOutput)",imageOutput == null || isValidImageOutput(imageOutput),isValidImageOutput(imageOutput) || imageOutput == null,0,0.00000,0.00000,0.00000,0.57633,0.38422,0.46106,1,1,2974,12,1.362
+8400,maxConcurrentRequests > 0,maxConcurrentRequests > 0,maxConcurrentRequests > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1577,8,1.233
+8404,timeoutMs >= 0,timeoutMs >= 0,timeoutMs >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1664,6,1.261
+8437,backendFailedPages.isEmpty() || hybridConfig.isFallbackToJava(),!backendFailedPages.isEmpty() &&!hybridConfig.isFallbackToJava(),!backendFailedPages.isEmpty() && !hybridConfig.isFallbackToJava(),0,0.00000,0.00000,0.00000,0.48438,0.48438,0.48438,1,2,5411,17,1.405
+8499,minScore >= 0.0 && minScore <= 1.0,minScore >= 0.0 && topK > 0,minScore >= 0.0 && topK > 0,0,0.50000,0.50000,0.50000,0.62500,0.62500,0.62500,2,2,2111,14,2.507
+8538,actionState != ACTION_STATE_DRAG || selected != null,selected!= null && actionState == ACTION_STATE_DRAG,actionState == ACTION_STATE_DRAG && selected != null,0,0.50000,0.50000,0.50000,0.50000,0.50000,0.50000,1,2,6626,12,2.358
+8557,orientation == HORIZONTAL || orientation == VERTICAL,orientation == RecyclerView.HORIZONTAL || orientation == RecyclerView.VERTICAL,orientation == RecyclerView.HORIZONTAL || orientation == RecyclerView.VERTICAL,0,0.00000,0.00000,0.00000,0.80265,0.80265,0.80265,1,1,3703,10,2.302
+8562,slopConstant == TOUCH_SLOP_DEFAULT || slopConstant == TOUCH_SLOP_PAGING,slopConstant == TOUCH_SLOP_DEFAULT || slopConstant == TOUCH_SLOP_PAGING,slopConstant == TOUCH_SLOP_DEFAULT || slopConstant == TOUCH_SLOP_PAGING,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2976,21,2.263
+8584,position >= 0 && position < State.getItemCount(),position >= 0 && position < mState.getItemCount(),position >= 0 && position < mState.getItemCount(),0,0.50000,0.50000,0.50000,0.99205,0.99205,0.99205,2,2,3234,13,2.484
+8653,recyclerView == null || null == recyclerView.getOnFlingListener(),mRecyclerView!= recyclerView,mRecyclerView != recyclerView,0,0.00000,0.00000,0.00000,0.35900,0.17950,0.23933,1,1,3835,5,0.996
+8662,gapStrategy == GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS || gapStrategy == GAP_HANDLING_NONE,gapStrategy == GAP_HANDLING_NONE || gapStrategy == GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS,gapStrategy == GAP_HANDLING_NONE || gapStrategy == GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2688,22,1.816
+8693,minPossibleLiveOffsetSmoothingFactor >= 0 && minPossibleLiveOffsetSmoothingFactor < 1,minPossibleLiveOffsetSmoothingFactor >= 0 && minPossibleLiveOffsetSmoothingFactor < 1,minPossibleLiveOffsetSmoothingFactor >= 0 && minPossibleLiveOffsetSmoothingFactor < 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1890,22,1.189
+8719,seekForwardIncrementMs > 0,seekForwardIncrementMs > 0,seekForwardIncrementMs > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2020,8,1.091
+8721,seekBackIncrementMs > 0,seekBackIncrementMs > 0,seekBackIncrementMs > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1918,8,1.129
+8757,index >= 0 && index <= getSize(),index >= 0 &&!holders.isEmpty() && shuffleOrder!= null,!holders.isEmpty() && index >= 0 && shuffleOrder != null,0,0.33333,0.50000,0.40000,0.44443,0.66665,0.53332,2,3,4517,15,1.262
+8758,fromIndex >= 0 && getSize() >= toIndex && fromIndex <= toIndex,fromIndex >= 0 && fromIndex <= toIndex && toIndex <= getSize(),fromIndex >= 0 && fromIndex <= toIndex && toIndex <= getSize(),0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,3,3,3216,18,2.316
+8784,adGroupIndex == C.INDEX_UNSET && C.INDEX_UNSET == adIndexInAdGroup || adGroupIndex != C.INDEX_UNSET && C.INDEX_UNSET != adIndexInAdGroup,(adGroupIndex == C.INDEX_UNSET) == (adIndexInAdGroup == C.INDEX_UNSET),(adGroupIndex == C.INDEX_UNSET) == (adIndexInAdGroup == C.INDEX_UNSET),0,0.00000,0.00000,0.00000,0.72280,0.18070,0.28912,1,1,2067,25,2.325
+8801,period != null && null != window,periodIndex >= 0 && period!= null && window!= null,periodIndex >= 0 && period != null && null != window,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,3154,14,1.368
+8802,period != null && null != window,periodIndex >= 0 && period!= null && window!= null,periodIndex >= 0 && period != null && null != window,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,3505,14,1.646
+8824,syncframe.length >= TRUEHD_SYNCFRAME_PREFIX_LENGTH,syncframe!= null && syncframe.length >= 10,syncframe.length >= 10 && syncframe != null,0,0.00000,0.00000,0.00000,0.33335,0.66670,0.44447,1,2,3957,12,1.776
+8841,pcm32BitInt >= -1 && pcm32BitInt <= 1,buffer!= null,buffer != null,0,0.00000,0.00000,0.00000,0.14290,0.07145,0.09527,2,1,3026,4,1.452
+8854,pcmEncoding != C.ENCODING_INVALID && pcmEncoding != Format.NO_VALUE,pcmEncoding == C.ENCODING_PCM_8BIT || pcmEncoding == C.ENCODING_PCM_16BIT || pcmEncoding == C.ENCODING_PCM_24BIT || pcmEncoding == C.ENCODING_PCM_32BIT || pcmEncoding == C.ENCODING_PCM_FLOAT,pcmEncoding == C.ENCODING_PCM_8BIT || pcmEncoding == C.ENCODING_PCM_16BIT || pcmEncoding == C.ENCODING_PCM_24BIT || pcmEncoding == C.ENCODING_PCM_32BIT || pcmEncoding == C.ENCODING_PCM_FLOAT,0,0.00000,0.00000,0.00000,0.10878,0.27195,0.15540,2,1,3435,63,2.777
+8869,sessionKeepaliveMs == C.TIME_UNSET || sessionKeepaliveMs > 0,sessionKeepaliveMs > 0 || sessionKeepaliveMs == C.TIME_UNSET,sessionKeepaliveMs == C.TIME_UNSET || sessionKeepaliveMs > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2018,18,1.508
+8872,this.schemeType.equals(drmInitData.schemeType) || this.schemeType == null || null == drmInitData.schemeType,(schemeType == null || drmInitData.schemeType == null || schemeType.equals(drmInitData.schemeType)),schemeType.equals(drmInitData.schemeType) || schemeType == null || null == drmInitData.schemeType,0,0.33333,0.33333,0.33333,0.92593,0.92593,0.92593,1,1,3426,25,2.672
+8887,lightnessAdjustment >= -100 && lightnessAdjustment <= 100,-100 <= lightnessAdjustment && lightnessAdjustment <= 100,-100 <= lightnessAdjustment && lightnessAdjustment <= 100,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1871,16,1.49
+8888,saturationAdjustment >= -100 && saturationAdjustment <= 100,saturationAdjustment >= -100 && saturationAdjustment <= 100,saturationAdjustment >= -100 && saturationAdjustment <= 100,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2175,15,0.99
+8898,width > 0 && 0 < height,width > 0 && height > 0,width > 0 && 0 < height,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2143,10,1.247
+8899,aspectRatio > 0.0f,aspectRatio > 0 || aspectRatio == C.LENGTH_UNSET,aspectRatio == C.LENGTH_UNSET || aspectRatio > 0,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,1,2496,14,0.955
+8900,blueScale >= 0,blueScale >= 0,blueScale >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2092,6,1.146
+8901,redScale >= 0,redScale >= 0,redScale >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2142,6,0.772
+8902,greenScale >= 0,greenScale >= 0,greenScale >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1992,6,1.568
+8979,codecId == CODEC_ID_SUBRIP || codecId == CODEC_ID_ASS || codecId == CODEC_ID_VTT,durationUs >= 0 && subtitleData!= null,durationUs >= 0 && subtitleData != null,0,0.00000,0.00000,0.00000,0.05280,0.03520,0.04224,1,2,4365,11,1.614
+9075,!buffer.isEncrypted() && !buffer.hasSupplementalData() && !buffer.isEndOfStream(),!buffer.isEncrypted() &&!buffer.hasSupplementalData() &&!buffer.isEndOfStream(),!buffer.isEncrypted() && !buffer.hasSupplementalData() && !buffer.isEndOfStream(),0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,3,3,2799,24,1.683
+9135,maxParallelDownloads > 0,maxParallelDownloads > 0,maxParallelDownloads > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1597,7,0.785
+9137,this.id.equals(newRequest.id),newRequest!= null,newRequest != null,0,0.00000,0.00000,0.00000,0.25640,0.25640,0.25640,1,1,4524,5,1.63
+9149,index >= 0 && index <= getSize(),mediaSource!= null,mediaSource != null,0,0.00000,0.00000,0.00000,0.27010,0.13505,0.18007,2,1,2150,5,1.619
+9151,index >= 0 && index < getSize(),handler!= null,handler != null,0,0.00000,0.00000,0.00000,0.30950,0.15475,0.20633,2,1,1947,4,1.446
+9152,index >= 0 && index <= getSize(),(index >= 0) && mediaSources!= null && handler!= null && onCompletionAction!= null,index >= 0 && mediaSources != null && null != handler && null != onCompletionAction,0,0.25000,0.50000,0.33333,0.32142,0.64285,0.42856,2,4,1875,21,1.607
+9165,mediaItem.localConfiguration != null,mediaItem!= null && mediaItem.localConfiguration!= null,mediaItem != null && null != mediaItem.localConfiguration,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4242,12,1.567
+9184,timeUs > getLargestReadTimestampUs(),timeUs > getLargestReadTimestampUs(),timeUs > getLargestReadTimestampUs(),0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2507,11,1.507
+9213,!manifest.dynamic,!manifest.dynamic,!manifest.dynamic,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3223,4,1.176
+9216,!manifest.dynamic,manifest!= null,manifest != null,0,0.00000,0.00000,0.00000,0.47059,0.47059,0.47059,1,1,2642,4,0.967
+9302,response.getHeaders().containsKey(RtspHeaders.CSEQ),response!= null,response != null,0,0.00000,0.00000,0.00000,0.17647,0.17647,0.17647,1,1,3897,4,1.143
+9308,!lines.isEmpty() && lines != null,lines!= null &&!lines.isEmpty() && lines.get(0)!= null,!lines.isEmpty() && lines != null && null != lines.get(0),0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,2528,17,2.49
+9311,"""rtsp"".equals(sessionUri.getScheme())",urlString!= null && sessionUri!= null,urlString != null && null != sessionUri,0,0.00000,0.00000,0.00000,0.07575,0.15150,0.10100,1,2,5155,10,2.119
+9315,manifest.isLive == false,manifest!= null && mediaItem!= null,manifest != null && null != mediaItem,0,0.00000,0.00000,0.00000,0.25555,0.51110,0.34073,1,2,3548,9,1.072
+9337,classes != null,id!= null && tag!= null && classes!= null && voice!= null,id != null && null != tag && null != classes && null != voice,0,0.25000,1.00000,0.40000,0.25000,1.00000,0.40000,1,4,3093,16,1.199
+9428,percentile <= 1.0f && percentile > 0.0f,percentile >= 0.0f && percentile <= 1.0f,percentile >= 0.0f && percentile <= 1.0f,0,0.50000,0.50000,0.50000,0.95835,0.95835,0.95835,2,2,2284,17,1.279
+9461,expression,expression,expression,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1978,2,1.234
+9463,reference != null,reference!= null,reference != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1832,4,1.555
+9465,string.length() > 0 && string != null,!TextUtils.isEmpty(string),!TextUtils.isEmpty(string),0,0.00000,0.00000,0.00000,0.15385,0.07692,0.10256,2,1,2106,6,1.39
+9466,expression,expression,expression,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2046,2,0.7
+9467,index >= start && index < limit,index >= start && index < limit,index >= start && index < limit,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2487,8,0.859
+9469,reference != null,reference!= null,reference != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2118,4,1.051
+9470,reference != null,reference!= null,reference != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2097,4,0.814
+9471,!string.isEmpty() && string != null,!TextUtils.isEmpty(string),!TextUtils.isEmpty(string),0,0.00000,0.00000,0.00000,0.15385,0.07692,0.10256,2,1,2133,6,0.82
+9489,configAttributes == EGL_CONFIG_ATTRIBUTES_RGBA_1010102 || configAttributes == EGL_CONFIG_ATTRIBUTES_RGBA_8888,"Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_8888) || Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_1010102) && eglDisplay!= null","Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_8888) || Arrays.equals(configAttributes, EGL_CONFIG_ATTRIBUTES_RGBA_1010102) && eglDisplay != null",0,0.00000,0.00000,0.00000,0.45680,0.61025,0.52249,1,1,3022,35,2.032
+9490,configAttributes == EGL_CONFIG_ATTRIBUTES_RGBA_1010102 || configAttributes == EGL_CONFIG_ATTRIBUTES_RGBA_8888,eglContext!= null && eglDisplay!= null && configAttributes!= null,eglContext != null && null != eglDisplay && null != configAttributes,0,0.00000,0.00000,0.00000,0.11110,0.16665,0.13332,1,3,2849,16,1.181
+9562,fromIndex >= 0 && fromIndex <= toIndex && toIndex <= list.size(),list!= null && fromIndex >= 0 && toIndex <= list.size() && fromIndex <= toIndex,fromIndex >= 0 && fromIndex <= toIndex && toIndex <= list.size() && list != null,0,0.75000,1.00000,0.85714,0.75000,1.00000,0.85714,3,4,2789,23,2.529
+9567,string.length() <= 4,string!= null && string.length() <= 4,string.length() <= 4 && string != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,3559,11,2.157
+9571,sparseLongArray.size() > 0,sparseLongArray!= null && sparseLongArray.size() > 0,sparseLongArray.size() > 0 && sparseLongArray != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2242,15,1.727
+9579,sparseLongArray.size() > 0,sparseLongArray!= null && sparseLongArray.size() > 0,sparseLongArray.size() > 0 && sparseLongArray != null,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,2047,15,1.449
+9640,latitudes >= 1 && 1 <= longitudes && verticalFovDegrees <= 180 && horizontalFovDegrees <= 360 && radius > 0 && 0 < verticalFovDegrees && 0 < horizontalFovDegrees,radius > 0 && latitudes >= 1 && longitudes >= 1 && verticalFovDegrees > 0 && verticalFovDegrees <= 180 && horizontalFovDegrees > 0 && horizontalFovDegrees <= 360,latitudes >= 1 && 1 <= longitudes && verticalFovDegrees <= 180 && horizontalFovDegrees <= 360 && radius > 0 && 0 < verticalFovDegrees && 0 < horizontalFovDegrees,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,7,7,5669,49,3.156
+9647,rgbComponent >= 0.0 && rgbComponent <= 100.0,rgbComponent >= 0 && rgbComponent <= 100,rgbComponent >= 0 && rgbComponent <= 100,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3639,12,1.338
+9648,rgbComponent >= 0 && rgbComponent <= 255,rgbComponent >= 0 && rgbComponent <= 255,rgbComponent >= 0 && rgbComponent <= 255,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3464,12,1.317
+9650,rgbComponent >= 0.0 && rgbComponent <= 100.0,rgbComponent >= 0.0 && rgbComponent <= 100.0,rgbComponent >= 0.0 && rgbComponent <= 100.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3764,16,1.321
+9651,n >= 0 && n <= 11,n >= 0 && n < 12,n >= 0 && n < 12,0,0.50000,0.50000,0.50000,0.87500,0.87500,0.87500,2,2,4565,10,1.139
+9658,end >= start,start >= 0 && end >= 0 && start <= end && end <= size,start >= 0 && start <= end && end <= size,0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,3322,18,2.023
+9667,numBits >= 1 && numBits <= 32,numBits >= 1 && numBits <= 32 && numBits <= available(),numBits >= 1 && numBits <= 32 && numBits <= available(),0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,3424,18,1.221
+9685,dimension % 4 == 1,dimension % 4 == 1,dimension % 4 == 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2549,8,1.109
+9715,id >= 0,icon!= null && description!= null,icon != null && null != description,0,0.00000,0.00000,0.00000,0.11310,0.22620,0.15080,1,2,3849,8,1.667
+9738,pattern != null,pattern!= null,pattern != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3944,4,1.406
+9747,!json.isEmpty() && json != null,!json.isEmpty() && json!= null,!json.isEmpty() && json != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2836,9,1.243
+9755,"kind.equals(""audio"") || kind.equals(""video"")",kind!= null && stream_id!= null,kind != null && null != stream_id,0,0.00000,0.00000,0.00000,0.19050,0.19050,0.19050,1,2,2329,9,1.092
+9934,rootPlanId != null && null != currentPlanId && (!rootPlanId.equals(currentPlanId) || null == parentPlanId) && (null == parentPlanId || null != toolcallId),!currentPlanId.trim().isEmpty() &&!rootPlanId.trim().isEmpty() && (parentPlanId == null ||!parentPlanId.trim().isEmpty() &&!toolcallId.trim().isEmpty()),!currentPlanId.trim().isEmpty() && !rootPlanId.trim().isEmpty() && (!parentPlanId.trim().isEmpty() || parentPlanId == null) && (!toolcallId.trim().isEmpty() || parentPlanId == null),0,0.25000,0.25000,0.25000,0.62099,0.62099,0.62099,4,4,5660,43,3.739
+9969,depthLevel >= 0 && depthLevel <= 9,task!= null,task != null,0,0.00000,0.00000,0.00000,0.17620,0.08810,0.11747,2,1,2295,4,0.723
+9970,depthLevel >= 0 && depthLevel <= 9,depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL,depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL,0,0.50000,0.50000,0.50000,0.79165,0.79165,0.79165,2,2,1943,13,1.447
+9971,depthLevel >= 0 && depthLevel <= 9,task!= null,task != null,0,0.00000,0.00000,0.00000,0.17620,0.08810,0.11747,2,1,3924,4,1.132
+9972,depthLevel >= 0 && depthLevel <= 9,depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL,depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL,0,0.50000,0.50000,0.50000,0.79165,0.79165,0.79165,2,2,1945,13,1.027
+9998,desiredState == RootTaskManagerEntity.DesiredTaskState.STOP || desiredState == RootTaskManagerEntity.DesiredTaskState.CANCEL || desiredState == RootTaskManagerEntity.DesiredTaskState.PAUSE,rootPlanId!= null,rootPlanId != null,0,0.00000,0.00000,0.00000,0.04650,0.01550,0.02325,1,1,3567,6,0.953
+10027,!compressUrl || shortUrlService != null,(page!= null) && (shortUrlService!= null ||!compressUrl),page != null && (!compressUrl || null != shortUrlService),0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,5175,17,2.261
+10139,"language.equals(""zh"") || language.equals(""en"")","language!= null &&!language.trim().isEmpty() && (""zh"".equals(language) || ""en"".equals(language))","!language.trim().isEmpty() && (""zh"".equals(language) || ""en"".equals(language)) && language != null",0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,1,3,4158,25,2.479
+10147,resultCount > 0,resultCount > 0,resultCount > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1523,6,0.787
+10156,maxCacheSize > 0,maxCacheSize > 0,maxCacheSize > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1728,7,0.885
+10157,maxRetries >= 0,maxRetries >= 0,maxRetries >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1633,7,0.805
+10158,maxContentLength > 0,maxContentLength > 0,maxContentLength > 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1661,7,0.833
+10167,"entryPrefix.endsWith(""/"")",jarFile!= null,jarFile != null,0,0.00000,0.00000,0.00000,0.12000,0.12000,0.12000,1,1,3901,5,1.83
+10215,denominator != 0,denominator!= 0,denominator != 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3416,6,0.917
+10239,strength != Strength.REQUIRED,!edits.containsKey(variable) &&!strength.isRequired(),!edits.containsKey(variable) && !strength.isRequired(),0,0.00000,0.00000,0.00000,0.13793,0.27586,0.18391,1,2,3570,12,1.895
+10244,index >= 0 && index <= 255,index >= 0 && index <= 255,index >= 0 && index <= 255,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,3150,10,1.402
+10247,property != null,property!= null,property != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,1789,4,0.857
+10277,maxWidth >= ellipsis.length(),s!= null && maxWidth >= 0 && ellipsis!= null,maxWidth >= 0 && s != null && null != ellipsis,0,0.00000,0.00000,0.00000,0.22223,0.66670,0.33335,1,3,4264,14,1.946
+10335,level >= 1 && level <= 6,level >= 1 && level <= 6,level >= 1 && level <= 6,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1953,10,1.055
+10341,value >= 0,value >= 0,value >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,3392,5,1.026
+10370,reserved == null,handle!= null && buffer!= null && numChars >= 0 && numWritten!= null && reserved!= null,numChars >= 0 && handle != null && null != buffer && null != numWritten && null != reserved,0,0.00000,0.00000,0.00000,0.13334,0.66670,0.22223,1,5,2770,23,1.907
+10379,a >= 0.0 && a <= 1.0,a >= 0.0 && a <= 1.0,a >= 0.0 && a <= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,6153,14,2.147
+10385,alpha >= 0.0 && alpha <= 1.0,alpha >= 0.0 && alpha <= 1.0,alpha >= 0.0 && alpha <= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2710,14,2.122
+10386,milliseconds >= 0,milliseconds >= 0,milliseconds >= 0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2765,5,1.435
+10468,cause != null,cause!= null,cause != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2406,4,0.989
+10475,h >= 0 && 1 >= v && h <= 360 && 0 <= s && 0 <= v && s <= 1,h >= 0 && h <= 360 && s >= 0 && s <= 1 && v >= 0 && v <= 1,h >= 0 && 1 >= v && h <= 360 && 0 <= s && 0 <= v && s <= 1,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,6,6,2882,30,1.667
+10482,x.length == y.length,x.length == y.length && x.length > 0 && 0 < y.length && x!= null && null!= y,x.length == y.length && x.length > 0 && y.length > 0 && x != null && null != y,0,0.20000,1.00000,0.33333,0.20000,1.00000,0.33333,1,5,4095,26,1.935
+10499,percent >= 0 && percent <= 100,percent >= 0 && percent <= 100,percent >= 0 && percent <= 100,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1865,10,1.041
+10500,ratio >= 0.0 && ratio <= 1.0,ratio >= 0.0 && ratio <= 1.0,ratio >= 0.0 && ratio <= 1.0,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,1784,14,1.072
+10514,level >= 0.0 && level <= 1.0,level > 0.0,level > 0.0,0,0.00000,0.00000,0.00000,0.91670,0.45835,0.61113,2,1,3941,7,1.232
+10515,!frames.isEmpty() && frames != null,frames!= null &&!frames.isEmpty(),!frames.isEmpty() && frames != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,2,2,2167,9,0.876
+10714,northLat <= 90 && -90 <= southLat && eastLon <= 180 && -180 <= westLon && northLat > southLat && eastLon > westLon,northLat < southLat && eastLon > westLon && northLat >= -90 && northLat <= 90 && eastLon >= -180 && eastLon <= 180 && southLat >= -90 && southLat <= 90 && westLon >= -180 && westLon <= 180,northLat >= -90 && westLon >= -180 && southLat <= 90 && eastLon <= 180 && eastLon > westLon && northLat < southLat,0,0.50000,0.50000,0.50000,0.94445,0.94445,0.94445,6,6,4819,60,3.151
+10716,!Double.isNaN(lat1) && !Double.isInfinite(lat1) && !Double.isNaN(lon1) && !Double.isInfinite(lon1) && !Double.isNaN(lat2) && !Double.isInfinite(lat2) && !Double.isNaN(lon2) && !Double.isInfinite(lon2) && lat1 >= -90 && 90 >= lat2 && lon1 >= -180 && 180 >= lon2 && lat1 <= 90 && -90 <= lat2 && lon1 <= 180 && -180 <= lon2,lat1 >= -90.0 && lat1 <= 90.0 && lon1 >= -180.0 && lon1 <= 180.0 && lat2 >= -90.0 && lat2 <= 90.0 && lon2 >= -180.0 && lon2 <= 180.0,lat1 >= -90.0 && 90.0 >= lat2 && lon1 >= -180.0 && 180.0 >= lon2 && lat1 <= 90.0 && -90.0 <= lat2 && lon1 <= 180.0 && -180.0 <= lon2,0,1.00000,0.50000,0.66667,1.00000,0.50000,0.66667,16,8,4202,64,3.402
+10717,!Double.isNaN(lon) && !Double.isInfinite(lon) && !Double.isNaN(lat) && !Double.isInfinite(lat) && lon >= -180 && lat >= -90 && lon <= 180 && lat <= 90 && lon != null && null != lat,lon!= null && lat!= null,lon != null && null != lat,0,1.00000,0.20000,0.33333,1.00000,0.20000,0.33333,10,2,3511,8,1.66
+10795,"query.length() >= 2 && query != null && (type.equals(""place"") || type.equals(""city"") || type.equals(""country"") || null == type)",query!= null && query.trim().length() >= 2,query.trim().length() >= 2 && query != null,0,0.50000,0.33333,0.40000,0.92710,0.61807,0.74168,3,2,4092,13,2.417
+10796,size <= 200,"page >= 0 && size > 0 && countryName!= null && (sortBy.equals(""timestamp"") || sortBy.equals(""place"")) && (sortDirection.equals(""asc"") || sortDirection.equals(""desc""))","page >= 0 && (sortBy.equals(""timestamp"") || sortBy.equals(""place"")) && (sortDirection.equals(""asc"") || sortDirection.equals(""desc"")) && 0 < size && countryName != null",0,0.00000,0.00000,0.00000,0.08888,0.44440,0.14813,1,5,3940,43,2.292
+10803,"""favorite"".equals(type)",request!= null &&!request.getName().isEmpty() && request.getName()!= null,!request.getName().isEmpty() && request != null && null != request.getName(),0,0.00000,0.00000,0.00000,0.03837,0.11510,0.05755,1,3,3974,17,1.668
+10811,"pageSize <= 200 && (sortDirection == ""asc"" || sortDirection == ""desc"")",userId!= null && countryName!= null && page >= 1 && pageSize >= 1 && pageSize <= 200 && (sortBy!= null && sortDirection!= null),page >= 1 && 1 <= pageSize && pageSize <= 200 && userId != null && null != countryName && null != sortBy && null != sortDirection,0,0.14286,0.50000,0.22223,0.19047,0.58332,0.28717,2,7,2991,35,3.389
+10818,"pageSize <= 200 && (""favorite"".equals(type) || ""geocoding"".equals(type)) && (""asc"".equals(sortDirection) || ""desc"".equals(sortDirection))",page > 0 && pageSize > 0 && pageSize <= 200,pageSize <= 200 && page > 0 && 0 < pageSize,0,0.33333,0.33333,0.33333,0.38890,0.36112,0.37450,3,3,3290,15,1.329
+10836,stepIndex >= 1 && percentage >= 0 && stepIndex <= 9 && percentage <= 100,jobId!= null && percentage >= 0 && percentage <= 100,percentage >= 0 && percentage <= 100 && jobId != null,0,0.66667,0.50000,0.57143,0.73897,0.55422,0.63340,4,3,3093,15,2.333
+10856,"tileUrl.contains(""{z}"") && tileUrl.contains(""{x}"") && tileUrl.contains(""{y}"") && (tileUrl.startsWith(""http://"") || tileUrl.startsWith(""https://""))","!tileUrl.trim().isEmpty() && tileUrl!= null && tileUrl.length() <= 1000 &&!tileUrl.contains("".."") && tileUrl.contains(""{z}"") && tileUrl.contains(""{x}"") && tileUrl.contains(""{y}"") && (tileUrl.startsWith(""http://"") || tileUrl.startsWith(""https://"")) &&!tileUrl.contains(""javascript:"") &&!tileUrl.contains(""data:"") &&!tileUrl.contains(""file:"") &&!tileUrl.contains(""ftp:"")","tileUrl.contains(""{z}"") && tileUrl.contains(""{x}"") && tileUrl.contains(""{y}"") && !tileUrl.trim().isEmpty() && !tileUrl.contains("".."") && !tileUrl.contains(""ftp:"") && !tileUrl.contains(""javascript:"") && !tileUrl.contains(""data:"") && !tileUrl.contains(""file:"") && tileUrl.length() <= 1000 && (tileUrl.startsWith(""http://"") || tileUrl.startsWith(""https://"")) && tileUrl != null",0,0.33333,1.00000,0.50000,0.33333,1.00000,0.50000,4,12,4350,99,3.51
+10857,"styleUrl.startsWith(""http://"") || styleUrl.startsWith(""https://"")","(styleUrl!= null &&!styleUrl.trim().isEmpty() && styleUrl.length() <= 1000 &&!styleUrl.contains("".."") &&!styleUrl.contains(""{z}"") &&!styleUrl.contains(""{x}"") &&!styleUrl.contains(""{y}"") && (styleUrl.trim().toLowerCase().startsWith(""http://"") || styleUrl.trim().toLowerCase().startsWith(""https://"")) &&!styleUrl.contains(""javascript:"") &&!styleUrl.contains(""data:"") &&!styleUrl.contains(""file:"") &&!styleUrl.contains(""ftp:""))","!styleUrl.trim().isEmpty() && !styleUrl.contains("".."") && !styleUrl.contains(""ftp:"") && !styleUrl.contains(""{z}"") && !styleUrl.contains(""{x}"") && !styleUrl.contains(""{y}"") && !styleUrl.contains(""javascript:"") && !styleUrl.contains(""data:"") && !styleUrl.contains(""file:"") && styleUrl.length() <= 1000 && (styleUrl.trim().toLowerCase().startsWith(""http://"") || styleUrl.trim().toLowerCase().startsWith(""https://"")) && styleUrl != null",0,0.00000,0.00000,0.00000,0.04935,0.59219,0.09111,1,12,4457,111,4.078
+10860,"redirectUrl.startsWith(""/"")","!redirectUrl.trim().isEmpty() && redirectUrl!= null && redirectUrl.startsWith(""/"") &&!redirectUrl.startsWith(""//"") &&!redirectUrl.toLowerCase().contains(""http:"") &&!redirectUrl.toLowerCase().contains(""https:"") &&!redirectUrl.toLowerCase().contains(""javascript:"") &&!redirectUrl.toLowerCase().contains(""data:"") &&!redirectUrl.contains("".."") && redirectUrl.length() <= 1000","redirectUrl.startsWith(""/"") && !redirectUrl.trim().isEmpty() && !redirectUrl.startsWith(""//"") && !redirectUrl.toLowerCase().contains(""http:"") && !redirectUrl.toLowerCase().contains(""https:"") && !redirectUrl.toLowerCase().contains(""javascript:"") && !redirectUrl.toLowerCase().contains(""data:"") && !redirectUrl.contains("".."") && redirectUrl.length() <= 1000 && redirectUrl != null",0,0.10000,1.00000,0.18182,0.10000,1.00000,0.18182,1,10,3699,81,2.495
+10918,interceptor != null,interceptor!= null,interceptor != null,0,1.00000,1.00000,1.00000,1.00000,1.00000,1.00000,1,1,2112,5,1.353
+10921,radius <= 32,radius > 0 && radius <= 32,radius <= 32 && radius > 0,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4963,10,1.985
+10924,radius <= 16,radius > 0 && radius <= 16,radius <= 16 && radius > 0,0,0.50000,1.00000,0.66667,0.50000,1.00000,0.66667,1,2,4460,10,1.97
+10935,"""openai"".equals(providerId) || ""groq"".equals(providerId) || ""gemini"".equals(providerId)","providerId!= null && (providerId.toLowerCase().equals(""openai"") || providerId.toLowerCase().equals(""groq"") || providerId.toLowerCase().equals(""gemini""))","providerId != null && (providerId.toLowerCase().equals(""openai"") || providerId.toLowerCase().equals(""groq"") || providerId.toLowerCase().equals(""gemini""))",0,0.00000,0.00000,0.00000,0.40280,0.80560,0.53707,1,2,4037,36,4.417
+10943,actionName != null && null != factory,!actionName.isBlank() && actionName!= null && factory!= null,!actionName.isBlank() && actionName != null && null != factory,0,0.66667,1.00000,0.80000,0.66667,1.00000,0.80000,2,3,3030,15,3.822

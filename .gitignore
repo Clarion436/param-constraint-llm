@@ -1,0 +1,9 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Re-run outputs (shipped results/ and data/ are tracked)
+results/_regenerated/
+
+# OS / editor noise
+.DS_Store

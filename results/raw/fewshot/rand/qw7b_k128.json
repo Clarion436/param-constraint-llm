@@ -1,0 +1,3663 @@
+[
+    {
+        "id": 36,
+        "text": "inputMethod != null",
+        "input_tokens": 22650,
+        "output_tokens": 5,
+        "elapsed_seconds": 1.102
+    },
+    {
+        "id": 38,
+        "text": "inputMethod != null",
+        "input_tokens": 20293,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.174
+    },
+    {
+        "id": 119,
+        "text": "block != null && systemMsg != null || systemMsg == null\n\nExplanation:\n1. The method requires the `block` parameter to not be null.\n2. If `systemMsg` is null, it initializes a new `systemMsg` object with the provided block.\n3. If `systemMsg` is not null, it merges the provided block into an existing list of content blocks within `systemMsg`.\n\nCombining these constraints using logical AND (`&&`) and OR (`||`), we get:\n```java\nblock != null && systemMsg != null || systemMsg == null\n```",
+        "input_tokens": 23407,
+        "output_tokens": 121,
+        "elapsed_seconds": 6.893
+    },
+    {
+        "id": 153,
+        "text": "maxAttempts == null || maxAttempts >= 1",
+        "input_tokens": 20301,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.469
+    },
+    {
+        "id": 155,
+        "text": "backoffMultiplier != null && backoffMultiplier >= 1.0",
+        "input_tokens": 22014,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.651
+    },
+    {
+        "id": 176,
+        "text": "rule != null && (rule.behavior() == PermissionRule.Behavior.ALLOW || rule.behavior() == PermissionRule.Behavior.DENY || rule.behavior() == PermissionRule.Behavior.ASK)",
+        "input_tokens": 21135,
+        "output_tokens": 46,
+        "elapsed_seconds": 5.153
+    },
+    {
+        "id": 184,
+        "text": "```plaintext\nkey != null && targetClass != null\n```\n\nExplanation:\n- The method `getPayloadValueAs` requires that the `key` is not null because it uses this key to fetch a value from the payload.\n- Similarly, `targetClass` must be non-null as it is used in the conversion process via `JsonUtils.getJsonCodec().convertValue(value, targetClass)`.\n- The method returns early if `value` is null, but the constraints on `key` and `targetClass` still apply.",
+        "input_tokens": 20730,
+        "output_tokens": 110,
+        "elapsed_seconds": 6.286
+    },
+    {
+        "id": 186,
+        "text": "key != null && payload.containsKey(key)",
+        "input_tokens": 20740,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.423
+    },
+    {
+        "id": 187,
+        "text": "key != null && payload.containsKey(key)",
+        "input_tokens": 20648,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.265
+    },
+    {
+        "id": 188,
+        "text": "key != null && this.payload != null",
+        "input_tokens": 21332,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.47
+    },
+    {
+        "id": 189,
+        "text": "scoreThreshold >= 0.0 && scoreThreshold <= 1.0",
+        "input_tokens": 22526,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.774
+    },
+    {
+        "id": 190,
+        "text": "limit > 0",
+        "input_tokens": 19988,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.209
+    },
+    {
+        "id": 194,
+        "text": "skillId != null && active == true || active == false",
+        "input_tokens": 20537,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.364
+    },
+    {
+        "id": 195,
+        "text": "skillId != null && skillRegistry.exists(skillId)",
+        "input_tokens": 21701,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.567
+    },
+    {
+        "id": 196,
+        "text": "toolkit != null && this.skillToolFactory.bindToolkit(toolkit)",
+        "input_tokens": 24258,
+        "output_tokens": 15,
+        "elapsed_seconds": 5.103
+    },
+    {
+        "id": 197,
+        "text": "skill != null && skill.getSkillId() != null",
+        "input_tokens": 18798,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.387
+    },
+    {
+        "id": 221,
+        "text": "```java\nzipBytes != null && zipBytes.length > 0\n```",
+        "input_tokens": 22644,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.628
+    },
+    {
+        "id": 222,
+        "text": "zipPath != null",
+        "input_tokens": 21053,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.582
+    },
+    {
+        "id": 223,
+        "text": "zipStream != null && !zipStream.markSupported() && source != null && skillMdContent != null && rootDir != null && resources.size() > 0 && skillEntryName != null && charset != null",
+        "input_tokens": 21132,
+        "output_tokens": 44,
+        "elapsed_seconds": 5.106
+    },
+    {
+        "id": 230,
+        "text": "None",
+        "input_tokens": 21475,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.527
+    },
+    {
+        "id": 5307,
+        "text": "name != null && value != null",
+        "input_tokens": 20004,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.334
+    },
+    {
+        "id": 233,
+        "text": "key != null && type != null && object != null && type.isInstance(object)",
+        "input_tokens": 20426,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.431
+    },
+    {
+        "id": 337,
+        "text": "data != null && targetClass != null",
+        "input_tokens": 21522,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.538
+    },
+    {
+        "id": 341,
+        "text": "codec != null",
+        "input_tokens": 22827,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.699
+    },
+    {
+        "id": 352,
+        "text": "```java\ndays >= 1 && days <= 90\n```\n\nExplanation:\n- The method `dailyTurns` takes an integer `days` as a parameter.\n- The valid range for `days` is constrained by the lines:\n  ```java\n  int d = Math.max(1, Math.min(days, 90));\n  ```\n  This ensures that `d` (and thus `days`) must be between 1 and 90 inclusive.",
+        "input_tokens": 22183,
+        "output_tokens": 98,
+        "elapsed_seconds": 6.382
+    },
+    {
+        "id": 353,
+        "text": "```java\nhours >= 1 && hours <= 168\n```\n\nExplanation:\n- The method `hourlyTurns` takes an integer `hours`.\n- It ensures that the value of `hours` is within the range of 1 to 168 using the expression `int h = Math.max(1, Math.min(hours, 168));`.\n- Therefore, the valid constraints on the parameter `hours` are that it must be at least 1 and no more than 168.",
+        "input_tokens": 21509,
+        "output_tokens": 109,
+        "elapsed_seconds": 6.551
+    },
+    {
+        "id": 400,
+        "text": "clientName != null && !clientName.trim().isEmpty()",
+        "input_tokens": 22278,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.854
+    },
+    {
+        "id": 402,
+        "text": "topK > 0 && toolSearchQuery != null",
+        "input_tokens": 22005,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.747
+    },
+    {
+        "id": 466,
+        "text": "source != null && (source instanceof URLSource || source instanceof Base64Source)",
+        "input_tokens": 22140,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.917
+    },
+    {
+        "id": 467,
+        "text": "source != null && (source instanceof URLSource || source instanceof Base64Source)",
+        "input_tokens": 21245,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.719
+    },
+    {
+        "id": 476,
+        "text": "```plaintext\ntext != null && !text.trim().isEmpty() && finalModel != null && !finalModel.trim().isEmpty() && finalVoice != null && !finalVoice.trim().isEmpty() && finalResponseFormat != null && !finalResponseFormat.trim().isEmpty() && (finalSpeed != null && finalSpeed >= 0.25 && finalSpeed <= 4.0)\n```",
+        "input_tokens": 22563,
+        "output_tokens": 80,
+        "elapsed_seconds": 5.976
+    },
+    {
+        "id": 484,
+        "text": "productName != null && !productName.isBlank() \n\nExplanation:\n- The method attempts to determine the type of JDBC database by querying `DatabaseMetaData.getDatabaseProductName()`.\n- If the product name is null or blank, it defaults to a PostgreSQL dialect.\n- For other recognized databases (MySQL/MariaDB, SQLite, H2), specific dialects are returned.\n- Therefore, the valid constraint is that `productName` must not be null or blank for any non-default case.",
+        "input_tokens": 22651,
+        "output_tokens": 95,
+        "elapsed_seconds": 6.332
+    },
+    {
+        "id": 489,
+        "text": "```java\npromptKey != null && version != null && label != null && (defaultValue == null || defaultValue != null) && (args != null || defaultValue != null)\n```\n\nExplanation:\n1. `promptKey` is required to identify the prompt.\n2. `version` and `label` are required for subscribing and loading prompts from Nacos.\n3. `defaultValue` can be `null`, but if it's not `null`, it should be used as a fallback.\n4. `args` can be `null`, but if `defaultValue` is provided, it still needs to be considered.\n\nCombining these constraints using logical AND (`&&`) and ensuring appropriate precedence with parentheses, the final expression is:\n\n```java\npromptKey != null && version != null && label != null && (defaultValue == null || defaultValue != null) && (args != null || defaultValue != null)\n```",
+        "input_tokens": 20599,
+        "output_tokens": 182,
+        "elapsed_seconds": 7.86
+    },
+    {
+        "id": 562,
+        "text": "rerankMinScore != null && 0.01 <= rerankMinScore && rerankMinScore <= 1.00",
+        "input_tokens": 20632,
+        "output_tokens": 29,
+        "elapsed_seconds": 4.738
+    },
+    {
+        "id": 563,
+        "text": "rerankTopN >= 1 && rerankTopN <= 20",
+        "input_tokens": 23521,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.899
+    },
+    {
+        "id": 573,
+        "text": "maxRetries == null || maxRetries >= 0",
+        "input_tokens": 20816,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.62
+    },
+    {
+        "id": 576,
+        "text": "scoreThreshold >= 0.0 && scoreThreshold <= 1.0",
+        "input_tokens": 25083,
+        "output_tokens": 16,
+        "elapsed_seconds": 5.127
+    },
+    {
+        "id": 577,
+        "text": "weights >= 0.0 && weights <= 1.0",
+        "input_tokens": 22145,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.88
+    },
+    {
+        "id": 579,
+        "text": "topK > 0",
+        "input_tokens": 23749,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.796
+    },
+    {
+        "id": 587,
+        "text": "vectorSimilarityWeight != null && 0.0 <= vectorSimilarityWeight && vectorSimilarityWeight <= 1.0",
+        "input_tokens": 18768,
+        "output_tokens": 27,
+        "elapsed_seconds": 4.635
+    },
+    {
+        "id": 589,
+        "text": "similarityThreshold >= 0.0 && similarityThreshold <= 1.0",
+        "input_tokens": 22343,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.737
+    },
+    {
+        "id": 629,
+        "text": "vector1 != null && vector2 != null && vector1.length > 0 && vector2.length > 0",
+        "input_tokens": 20701,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.697
+    },
+    {
+        "id": 630,
+        "text": "vector1 != null && vector2 != null && vector1.length == vector2.length",
+        "input_tokens": 20733,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.503
+    },
+    {
+        "id": 631,
+        "text": "vector1 != null && vector2 != null && vector1.length > 0 && vector2.length > 0 && vector1.length == vector2.length",
+        "input_tokens": 19844,
+        "output_tokens": 32,
+        "elapsed_seconds": 4.632
+    },
+    {
+        "id": 635,
+        "text": "embedding != null && embedding.length == dimensions",
+        "input_tokens": 20488,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.141
+    },
+    {
+        "id": 659,
+        "text": "keyPrefix != null && !keyPrefix.isBlank()",
+        "input_tokens": 21018,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.37
+    },
+    {
+        "id": 663,
+        "text": "redisClusterClient != null",
+        "input_tokens": 21945,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.399
+    },
+    {
+        "id": 665,
+        "text": "redisClient != null",
+        "input_tokens": 21547,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.507
+    },
+    {
+        "id": 710,
+        "text": "taskId != null && runId >= 0\n\nExplanation:\n1. The method ensures that `taskId` is not null.\n2. It uses an `AtomicInteger` to generate a unique run ID for each task, which inherently guarantees that the generated IDs are non-negative.\n\nCombining these constraints using logical AND operator (&&):\n\ntaskId != null && counter.getAndIncrement() >= 0\n\nHowever, since `getAndIncrement()` always returns a non-negative value, we can simplify this to:\n\ntaskId != null",
+        "input_tokens": 21592,
+        "output_tokens": 104,
+        "elapsed_seconds": 6.389
+    },
+    {
+        "id": 718,
+        "text": "repeatTime >= 1",
+        "input_tokens": 21174,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.444
+    },
+    {
+        "id": 744,
+        "text": "path != null && !path.isBlank() && !path.contains(\"..\")",
+        "input_tokens": 19519,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.344
+    },
+    {
+        "id": 749,
+        "text": "bytes > 0",
+        "input_tokens": 22810,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.549
+    },
+    {
+        "id": 763,
+        "text": "```java\nctx != null && ctx.get(SandboxContext.class) != null\n```\n\nExplanation:\n- The method `acquireForCall` first checks if the `RuntimeContext` (`ctx`) is not null.\n- If `ctx` is not null, it then retrieves a `SandboxContext` from `ctx`.\n- Both conditions must be true for the method to proceed without returning early.",
+        "input_tokens": 23141,
+        "output_tokens": 83,
+        "elapsed_seconds": 6.136
+    },
+    {
+        "id": 768,
+        "text": "```java\nscope != null && (ctx != null && ctx.getSessionId() != null && !ctx.getSessionId().isBlank()) || (ctx != null && ctx.getUserId() != null && !ctx.getUserId().isBlank()) || agentId != null\n```\n\nExplanation:\n- The method `resolve` returns an `Optional<SandboxIsolationKey>` based on the provided `scope`, `RuntimeContext ctx`, and `agentId`.\n- For `SESSION` scope, it checks if `ctx` is not null and `ctx.getSessionId()` is not blank. If true, it yields a non-empty `Optional`.\n- For `USER` scope, it first checks if `ctx` is not null and `ctx.getUserId()` is not blank. If true, it yields a non-empty `Optional`. Otherwise, it falls back to checking `ctx.getSessionId()`, logging a debug message if the fallback occurs.\n- For `AGENT` scope, it requires `agentId` to be non-null.\n- For `GLOBAL` scope, it does not require any additional checks and directly returns an `Optional` with `IsolationScope.GLOBAL`.\n\nCombining all these conditions into a single boolean expression:\n```java\nscope != null && (ctx != null && ctx.getSessionId() != null && !ctx.getSessionId().isBlank()) || (ctx != null && ctx.getUserId() != null && !ctx.getUserId().isBlank()) || agentId != null\n```",
+        "input_tokens": 21097,
+        "output_tokens": 297,
+        "elapsed_seconds": 9.982
+    },
+    {
+        "id": 774,
+        "text": "```java\ncatalog != null && !catalog.isEmpty()\n```",
+        "input_tokens": 20362,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.363
+    },
+    {
+        "id": 800,
+        "text": "blinkRate >= TERMINAL_CURSOR_BLINK_RATE_MIN && blinkRate <= TERMINAL_CURSOR_BLINK_RATE_MAX && blinkRate != 0",
+        "input_tokens": 23540,
+        "output_tokens": 28,
+        "elapsed_seconds": 5.158
+    },
+    {
+        "id": 934,
+        "text": "code != null && policy != null && policy.getPythonBin() != null && options != null && options.getWorkingDirRelative() != null || options.getExtraEnv() != null\n\nExplanation:\n1. `Objects.requireNonNull(code, \"code\");` ensures that the `code` parameter is not null.\n2. The method requires a valid Python binary path (`policy.getPythonBin()`), which must be non-null.\n3. If `options` are provided and have a working directory relative path (`options.getWorkingDirRelative()`), it must also be non-null.\n4. Additionally, if extra environment variables are provided in the options (`options.getExtraEnv() != null && !options.getExtraEnv().isEmpty()`), then those need to be valid as well.\n\nCombining these constraints using logical AND operator (&&) gives us the final expression.",
+        "input_tokens": 23752,
+        "output_tokens": 172,
+        "elapsed_seconds": 8.005
+    },
+    {
+        "id": 935,
+        "text": "```java\nsessionId != null && code != null && (!opts.getWorkingDirRelative().isBlank() || opts.getWorkingDirRelative() == null) && (opts.getPrintLastExpression() != null || !policy.isPrintLastExpression())\n```\n\nExplanation:\n1. `sessionId` and `code` are required, so they must not be null.\n2. The working directory relative path (`rel`) is optional but if provided, it should not contain any characters that could escape the sandbox (like `..`, `:\\\\`, or start with `/`).\n3. If `opts.getPrintLastExpression()` is null, it will default to `policy.isPrintLastExpression()`. So, either `opts.getPrintLastExpression()` must be set or the policy's value should be considered.\n\nCombining these constraints using logical AND (`&&`) gives us the final valid state for the method.",
+        "input_tokens": 20906,
+        "output_tokens": 181,
+        "elapsed_seconds": 7.801
+    },
+    {
+        "id": 944,
+        "text": "```java\nnamed != null && !named.isEmpty()\n```",
+        "input_tokens": 20024,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.35
+    },
+    {
+        "id": 968,
+        "text": "query != null && days >= 0",
+        "input_tokens": 18092,
+        "output_tokens": 9,
+        "elapsed_seconds": 3.885
+    },
+    {
+        "id": 978,
+        "text": "roots != null",
+        "input_tokens": 22030,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.247
+    },
+    {
+        "id": 987,
+        "text": "resourceRegsitrations != null && resourceRegsitrations.size() > 0",
+        "input_tokens": 20521,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.517
+    },
+    {
+        "id": 988,
+        "text": "tool != null && null != handler",
+        "input_tokens": 20990,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.355
+    },
+    {
+        "id": 989,
+        "text": "name != null && name.length() > 0 && version != null && version.length() > 0",
+        "input_tokens": 20873,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.629
+    },
+    {
+        "id": 990,
+        "text": "prompts != null\n\nExplanation: The method `prompts` takes a list of `PromptRegistration` objects as a parameter. To ensure the method proceeds normally, we need to make sure that the input list is not null. This constraint ensures that there are valid parameters for the method to process.\n\nThe extracted constraint is combined into a single Java boolean expression using the logical AND operator (&&), but in this case, since it's the only constraint and no other conditions are required, we simply state `prompts != null`.",
+        "input_tokens": 22223,
+        "output_tokens": 107,
+        "elapsed_seconds": 6.46
+    },
+    {
+        "id": 1045,
+        "text": "```plaintext\nconnectionId != null && data != null && offset >= 0 && length > 0 && offset + length <= data.length\n```\n\nExplanation:\n1. `connectionId` must not be null to ensure there is a valid string to encode.\n2. `data` must not be null to avoid issues with array operations.\n3. `offset` must be greater than or equal to 0 to ensure it's within the bounds of the data array.\n4. `length` must be greater than 0 to ensure there is some data to copy from the `data` array.\n5. The condition `offset + length <= data.length` ensures that the specified range in the `data` array does not exceed its bounds.",
+        "input_tokens": 23248,
+        "output_tokens": 151,
+        "elapsed_seconds": 7.605
+    },
+    {
+        "id": 1047,
+        "text": "connectionId != null && 0 <= offset && offset + length <= data.length && length >= 0",
+        "input_tokens": 20025,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.647
+    },
+    {
+        "id": 1086,
+        "text": "```java\nnormalizeHost != null && !isBlacklisted(normalizeHost) && !isBlacklisted(normalizeHost + \":\" + port)\n```",
+        "input_tokens": 22550,
+        "output_tokens": 31,
+        "elapsed_seconds": 5.101
+    },
+    {
+        "id": 1315,
+        "text": "```java\nvalue != null && !(value instanceof Number) && !(value instanceof String) && !(value instanceof Boolean) && !(value instanceof Character)\n```\n\nExplanation:\n- The method `createConstant` creates an instruction based on the type of the provided value.\n- If the value is not a `Number`, `String`, `Boolean`, or `Character`, it throws a `ClassGenException`.\n- Therefore, the valid state for the parameter `value` is that it must be one of these types. The constraint is negated to describe when an exception would be thrown.\n\nCombining all conditions using logical AND:\n```java\n!(value instanceof Number) && !(value instanceof String) && !(value instanceof Boolean) && !(value instanceof Character)\n```",
+        "input_tokens": 18571,
+        "output_tokens": 153,
+        "elapsed_seconds": 6.844
+    },
+    {
+        "id": 1461,
+        "text": "```plaintext\nmyContext != null && (resultNode = checkEnvironmentUsingWhich(myContext, factoryDocument)) != null || (envChecker = new EnvironmentCheck(), Hashtable h = envChecker.getEnvironmentHash(), resultNode = factoryDocument.createElement(\"checkEnvironmentExtension\"), envChecker.appendEnvironmentReport(resultNode, factoryDocument, h), envChecker = null)\n```\n\nExplanation:\n- The method `checkEnvironment` must receive a non-null `ExpressionContext` object (`myContext`).\n- If the call to `checkEnvironmentUsingWhich(myContext, factoryDocument)` returns a non-null `resultNode`, it is immediately returned.\n- Otherwise, an instance of `EnvironmentCheck` is created and its environment hash is retrieved. A new `Node` element named \"checkEnvironmentExtension\" is created in the `factoryDocument`. The environment report is appended to this node using the `appendEnvironmentReport` method. Finally, the reference to `envChecker` is set to null.\n- The final `resultNode` is returned after these operations.\n\nCombining all constraints and simplifying:\n```plaintext\nmyContext != null && (checkEnvironmentUsingWhich(myContext, factoryDocument) != null || (new EnvironmentCheck().getEnvironmentHash() != null && factoryDocument.createElement(\"checkEnvironmentExtension\") != null && new EnvironmentCheck().appendEnvironmentReport(factoryDocument.createElement(\"checkEnvironmentExtension\"), factoryDocument, new EnvironmentCheck().getEnvironmentHash()) != null))\n```",
+        "input_tokens": 19605,
+        "output_tokens": 293,
+        "elapsed_seconds": 9.391
+    },
+    {
+        "id": 1525,
+        "text": "```plaintext\nnewData.length() + currData.length() <= 21845\n```",
+        "input_tokens": 21677,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.72
+    },
+    {
+        "id": 1569,
+        "text": "name != null && (!name.equals(XMLConstants.FEATURE_SECURE_PROCESSING) || (name.equals(XMLConstants.FEATURE_SECURE_PROCESSING) && value == true))",
+        "input_tokens": 20594,
+        "output_tokens": 33,
+        "elapsed_seconds": 4.876
+    },
+    {
+        "id": 1589,
+        "text": "```java\nsource != null && (_useClasspath || _autoTranslet)\n```\n\nExplanation:\n- The method `newTemplates` requires a non-null `Source` parameter.\n- It checks if `_useClasspath` or `_autoTranslet` is true to proceed with the template creation process. If neither of these conditions are met, it would not enter any of the valid paths for creating templates and would likely throw an exception or return null, which is not covered in this method's logic.\n\nThus, combining both conditions using logical AND (`&&`) ensures that the method parameters and conditions are valid for proceeding with template creation.",
+        "input_tokens": 21136,
+        "output_tokens": 129,
+        "elapsed_seconds": 6.617
+    },
+    {
+        "id": 1591,
+        "text": "_result != null && !_isIdentity || _done && _dom != null\n\nExplanation:\n1. The first condition `_result != null && !_isIdentity` ensures that the result is not null when it's not an identity transformation.\n2. The second part `_done && _dom != null` covers the case where the transformation has already been done and a DOM object is required, which must not be null.\n\nThese conditions ensure that:\n- For non-identity transformations, a valid result is set.\n- For completed transformations, a DOM object is provided.",
+        "input_tokens": 23047,
+        "output_tokens": 113,
+        "elapsed_seconds": 6.725
+    },
+    {
+        "id": 1600,
+        "text": "```java\nname != null && validOutputProperty(name)\n```\n\nExplanation:\n- The method `validOutputProperty(String name)` is called to check if the property name is valid.\n- If the property name is not valid, an `IllegalArgumentException` is thrown with a message generated by `ErrorMsg.JAXP_UNKNOWN_PROP_ERR`.\n- Therefore, the parameter `name` must be non-null and must pass the validation check `validOutputProperty(name)`.",
+        "input_tokens": 19211,
+        "output_tokens": 92,
+        "elapsed_seconds": 5.776
+    },
+    {
+        "id": 1607,
+        "text": "```plaintext\ninsertedChild != null && insertedChild.getNodeType() != Node.TEXT_NODE || (insertedChild.getNodeType() == Node.TEXT_NODE && ((insertedChild.previousSibling() != null && insertedChild.previousSibling().getNodeType() == Node.TEXT_NODE) || (insertedChild.nextSibling != null && insertedChild.nextSibling.getNodeType() == Node.TEXT_NODE)))\n```",
+        "input_tokens": 18833,
+        "output_tokens": 76,
+        "elapsed_seconds": 5.226
+    },
+    {
+        "id": 1675,
+        "text": "```plaintext\nn != null && how >= 0 && how <= 2\n```",
+        "input_tokens": 20353,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.404
+    },
+    {
+        "id": 1676,
+        "text": "oldNodeValue.length() >= 0 && newNodeValue.length() >= 0 && txtValue != null && n != null && isLeft || !isLeft && (how == CLONE_CONTENTS || how != DELETE_CONTENTS)",
+        "input_tokens": 17523,
+        "output_tokens": 48,
+        "elapsed_seconds": 4.526
+    },
+    {
+        "id": 1677,
+        "text": "None",
+        "input_tokens": 18705,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.769
+    },
+    {
+        "id": 1679,
+        "text": "```java\nfStartOffset < fEndOffset && fStartContainer.getNodeType() != Node.TEXT_NODE || (fStartContainer.getNodeType() == Node.TEXT_NODE && fStartOffset < fEndOffset)\n```\n\nExplanation:\n- The method `traverseSameContainer` is designed to traverse and manipulate nodes within a document fragment.\n- For the method to proceed normally, certain conditions must be met based on the value of `how`, `fStartOffset`, `fEndOffset`, and `fStartContainer`.\n- If `how != DELETE_CONTENTS`, a `DocumentFragment` is created. This implies that `DELETE_CONTENTS` should not be the case for the method to create or return a fragment.\n- The condition `fStartOffset == fEndOffset` would immediately return `frag` if true, so we need to ensure this is not the case.\n- If `fStartContainer.getNodeType() == Node.TEXT_NODE`, then it must also have a non-empty substring between `fStartOffset` and `fEndOffset`.\n- The method handles different actions based on the value of `how`. For `DELETE_CONTENTS`, it returns null, so this condition is checked to ensure that if `how` is set to delete contents, no fragment is returned.\n- If none of these conditions are met in a way that allows for normal execution (i.e., creating or manipulating a document fragment), the method will not proceed as expected.\n\nCombining all these constraints into a single boolean expression gives us:\n```java\nfStartOffset < fEndOffset && fStartContainer.getNodeType() != Node.TEXT_NODE || (fStartContainer.getNodeType() == Node.TEXT_NODE && fStartOffset < fEndOffset)\n```",
+        "input_tokens": 22176,
+        "output_tokens": 350,
+        "elapsed_seconds": 10.869
+    },
+    {
+        "id": 1680,
+        "text": "None",
+        "input_tokens": 22768,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.678
+    },
+    {
+        "id": 1681,
+        "text": "```java\nfStartContainer != null && fEndContainer != null && !fDetach\n```\n\nExplanation:\n1. **fStartContainer == null || fEndContainer == null**: This condition is checked and if true, the method returns `null`. The extracted constraint ensures that both containers are not null.\n2. **fDetach**: If this flag is set to `true`, a `DOMException` is thrown. The extracted constraint negates this condition to ensure it does not occur.\n3. **fStartContainer == fEndContainer**: This case returns the result of `traverseSameContainer(how)`. However, since we are combining constraints and this specific path doesn't involve any additional parameters or conditions beyond the initial checks, it is not included in the final combined constraint.\n\nCombining these constraints using logical AND (`&&`), we get:\n```java\nfStartContainer != null && fEndContainer != null && !fDetach\n```",
+        "input_tokens": 20050,
+        "output_tokens": 195,
+        "elapsed_seconds": 7.817
+    },
+    {
+        "id": 1682,
+        "text": "None",
+        "input_tokens": 22803,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.489
+    },
+    {
+        "id": 1737,
+        "text": "None",
+        "input_tokens": 21751,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.419
+    },
+    {
+        "id": 1782,
+        "text": "name != null && (name.equals(fPropertyManager.STAX_NOTATIONS) || name.equals(fPropertyManager.STAX_ENTITIES) || fPropertyManager != null && fPropertyManager.getProperty(name) != null)",
+        "input_tokens": 18963,
+        "output_tokens": 43,
+        "elapsed_seconds": 4.817
+    },
+    {
+        "id": 1787,
+        "text": "prefix != null",
+        "input_tokens": 21688,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.241
+    },
+    {
+        "id": 1815,
+        "text": "None",
+        "input_tokens": 22738,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.672
+    },
+    {
+        "id": 1906,
+        "text": "```java\nthis.beginpos != null && index >= 0 && index < this.nofgroups\n```",
+        "input_tokens": 22958,
+        "output_tokens": 23,
+        "elapsed_seconds": 5.091
+    },
+    {
+        "id": 1907,
+        "text": "beginpos != null && nofgroups > index && index >= 0",
+        "input_tokens": 23308,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.96
+    },
+    {
+        "id": 1908,
+        "text": "endpos != null && index >= 0 && index < nofgroups",
+        "input_tokens": 20248,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.554
+    },
+    {
+        "id": 1978,
+        "text": "offset >= 0 && count >= 0 && offset + count <= fData.length()",
+        "input_tokens": 22071,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.685
+    },
+    {
+        "id": 1992,
+        "text": "year >= -999 && year <= 999 && month >= 1 && month <= 12 && isPositive == true || isPositive == false\n\nExplanation:\n- `year` must be between -999 and 999 (inclusive) to ensure it falls within a reasonable range for years.\n- `month` must be between 1 and 12 (inclusive) as there are only 12 months in a year.\n- `isPositive` can either be true or false, representing the sign of the duration.\n\nCombining these constraints using logical AND (`&&`) gives us the final expression.",
+        "input_tokens": 19856,
+        "output_tokens": 131,
+        "elapsed_seconds": 6.596
+    },
+    {
+        "id": 1994,
+        "text": "isPositive\n\nExplanation:\n- The method `newDuration` has a parameter `isPositive` which must be `true` or `false`.\n- All other parameters (`years`, `months`, `days`, `hours`, `minutes`, `seconds`) are optional and can be `null` or zero, but the validity of the method does not depend on these parameters beyond ensuring they are provided in a valid state if used.\n- The constraint involving `isPositive` is necessary for the method to proceed normally as it's a required parameter that determines the sign of the duration.",
+        "input_tokens": 19782,
+        "output_tokens": 117,
+        "elapsed_seconds": 6.042
+    },
+    {
+        "id": 1995,
+        "text": "None",
+        "input_tokens": 21154,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.258
+    },
+    {
+        "id": 1996,
+        "text": "lexicalRepresentation != null",
+        "input_tokens": 20303,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.182
+    },
+    {
+        "id": 1997,
+        "text": "isPositive && day >= 0 && hour >= 0 && minute >= 0 && second >= 0",
+        "input_tokens": 20325,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.552
+    },
+    {
+        "id": 2000,
+        "text": "years != null || months != null || days != null || hours != null || minutes != null || seconds != null\n\nExplanation:\nThe method `multiply` performs a multiplication operation on the duration fields (years, months, days, hours, minutes, and seconds) by a given factor. The constraints extracted ensure that at least one of the duration fields is not null, as the method relies on these fields to perform the calculation.\n\nThe final expression combines all possible non-null conditions for the duration fields using logical OR (`||`) operators. This ensures that if any of the fields (years, months, days, hours, minutes, or seconds) are provided, the method can proceed with its operations.",
+        "input_tokens": 21538,
+        "output_tokens": 141,
+        "elapsed_seconds": 6.885
+    },
+    {
+        "id": 2002,
+        "text": "```java\nlhs != null && rhs != null\n```",
+        "input_tokens": 21674,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.594
+    },
+    {
+        "id": 2008,
+        "text": "```java\nstartTimeInstant != null && getYears() != null && getMonths() != null && getDays() != null\n```\n\nExplanation:\n- The method `normalizeWith` requires that the `startTimeInstant` is not null.\n- It also relies on `getYears`, `getMonths`, and `getDays` methods to return non-null values for the duration calculations.",
+        "input_tokens": 18369,
+        "output_tokens": 78,
+        "elapsed_seconds": 5.381
+    },
+    {
+        "id": 2018,
+        "text": "None",
+        "input_tokens": 19466,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.887
+    },
+    {
+        "id": 2038,
+        "text": "schemaLanguage != null && !schemaLanguage.isEmpty() && schemaLanguage.equals(XMLConstants.W3C_XML_SCHEMA_NS_URI)",
+        "input_tokens": 18633,
+        "output_tokens": 25,
+        "elapsed_seconds": 4.276
+    },
+    {
+        "id": 2067,
+        "text": "None",
+        "input_tokens": 23610,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.623
+    },
+    {
+        "id": 2123,
+        "text": "key != null && item != null",
+        "input_tokens": 22506,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.67
+    },
+    {
+        "id": 2156,
+        "text": "pathSpec != null && p_nStartIndex >= 0 && p_nStartIndex <= pathSpec.length() && (getScheme() == null || pathSpec.charAt(p_nStartIndex) == '/') && (pathSpec.charAt(pathSpec.length()-1) != '/' || pathSpec.length() == 1) && isPathCharacter(pathSpec.charAt(pathSpec.length()-1)) && (pathSpec.indexOf('?') < 0 || pathSpec.indexOf('#') >= pathSpec.indexOf('?')) && (pathSpec.indexOf('#') < 0 || pathSpec.indexOf('#') > pathSpec.indexOf('?'))",
+        "input_tokens": 21353,
+        "output_tokens": 120,
+        "elapsed_seconds": 6.634
+    },
+    {
+        "id": 2165,
+        "text": "```plaintext\np_uriSpec != null && p_uriSpec.length() > 0 && (!p_uriSpec.contains(\"@\") || p_uriSpec.indexOf('@', start) < p_uriSpec.length()) && (p_uriSpec.indexOf(']', start) >= 0 || p_uriSpec.lastIndexOf(':', end) >= 0)\n```\n\nExplanation:\n1. **Parameter Relevance**: The method signature has a single parameter `String p_uriSpec`.\n2. **Valid State**:\n   - Ensure the URI specification is not null and has some length.\n   - Check that if there's a `@` in the string, it should be valid (i.e., before the first `@`, there are characters).\n   - Ensure that either a closing square bracket `]` or a colon `:` appears to properly delimit the host part of the URI.\n\n3. **Simplicity**: The constraints are expressed as simple boolean conditions without complex logic, loops, or side-effects.",
+        "input_tokens": 20724,
+        "output_tokens": 198,
+        "elapsed_seconds": 7.914
+    },
+    {
+        "id": 2167,
+        "text": "p_scheme != null && isConformantSchemeName(p_scheme)",
+        "input_tokens": 18661,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.15
+    },
+    {
+        "id": 2170,
+        "text": "scheme != null && !scheme.isEmpty()",
+        "input_tokens": 20427,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.094
+    },
+    {
+        "id": 2174,
+        "text": "port >= 0 && port <= 65535 && (host != null || port == -1)",
+        "input_tokens": 19439,
+        "output_tokens": 25,
+        "elapsed_seconds": 4.414
+    },
+    {
+        "id": 2175,
+        "text": "None",
+        "input_tokens": 18183,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.782
+    },
+    {
+        "id": 2266,
+        "text": "```java\ncause != null && cause != this.containedException\n```",
+        "input_tokens": 20367,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.358
+    },
+    {
+        "id": 2413,
+        "text": "```plaintext\nnode != null && ch != null\n```",
+        "input_tokens": 18935,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.161
+    },
+    {
+        "id": 2461,
+        "text": "None",
+        "input_tokens": 20751,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.179
+    },
+    {
+        "id": 2469,
+        "text": "```java\nidentity >= 0 && identity < m_blocksize || (identity >> m_SHIFT) >= 0 && (identity & m_MASK) < m_blocksize\n```",
+        "input_tokens": 19943,
+        "output_tokens": 37,
+        "elapsed_seconds": 4.78
+    },
+    {
+        "id": 2471,
+        "text": "```java\nidentity >= 0 && identity < m_blocksize || (identity >> m_SHIFT) >= 0 && (identity & m_MASK) >= 0\n```",
+        "input_tokens": 19516,
+        "output_tokens": 36,
+        "elapsed_seconds": 4.55
+    },
+    {
+        "id": 2473,
+        "text": "```java\nidentity >= 0 && identity < m_blocksize * (1 << m_SHIFT) && (identity & m_MASK) < (1 << m_SHIFT)\n```\n\nExplanation:\n- The method checks if `identity` is less than `m_blocksize`, in which case it returns a value from the first map (`m_nextsib_map0`). This implies that `identity` must be non-negative and less than `m_blocksize`.\n- If `identity` is greater or equal to `m_blocksize`, it uses bitwise operations to determine the correct index in the second map (`m_nextsib_map`). Specifically, `identity` is right-shifted by `m_SHIFT` bits and then masked with `m_MASK`. This implies that after shifting, the value must be less than `(1 << m_SHIFT)` and the mask operation ensures it stays within valid bounds.\n\nCombining these conditions into a single expression:\n- `identity >= 0` to ensure non-negative values.\n- `identity < m_blocksize * (1 << m_SHIFT)` to cover both cases where identity is handled by either map.\n- `(identity & m_MASK) < (1 << m_SHIFT)` to ensure the masked value stays within valid bounds after shifting.",
+        "input_tokens": 20655,
+        "output_tokens": 253,
+        "elapsed_seconds": 8.809
+    },
+    {
+        "id": 2483,
+        "text": "```java\nnodeHandle != NULL && null != ch\n```\n\nExplanation:\n1. **Parameter Relevance**: The method parameters `nodeHandle` and `ch` are involved in the constraints.\n2. **Valid State**:\n   - `nodeHandle` must not be `NULL`, as indicated by the check `if (identity == NULL) return;`.\n   - `ContentHandler ch` is used in the method to dispatch characters events, so it must not be null.\n3. **Simplicity**: The constraints are simple boolean expressions involving the parameters.\n\nCombining these constraints using logical AND (`&&`) as per the output instructions:\n\n```java\nnodeHandle != NULL && null != ch\n```",
+        "input_tokens": 18964,
+        "output_tokens": 145,
+        "elapsed_seconds": 6.71
+    },
+    {
+        "id": 2486,
+        "text": "```java\nidentity >= 0 && identity < m_blocksize || (identity >> m_SHIFT) <= (int)(Math.pow(2, m_SHIFT)) - 1 && (identity & m_MASK) < (int)(Math.pow(2, m_MASK))\n```\n\nExplanation:\n- The method checks if `identity` is within the bounds of either `m_exptype_map0` or `m_exptype_map`.\n- For the first condition: `identity < m_blocksize`, it directly returns a value from `m_exptype_map0`.\n- For the second condition, it uses bitwise operations to determine which array and index to use for `m_exptype_map`.\n\nThe combined constraint ensures that:\n1. If `identity` is within the range of `m_blocksize`, it falls under the first map.\n2. Otherwise, it correctly maps `identity` into the appropriate sub-array and index in `m_exptype_map`.",
+        "input_tokens": 19342,
+        "output_tokens": 191,
+        "elapsed_seconds": 7.337
+    },
+    {
+        "id": 2489,
+        "text": "```java\nidentity >= 0 && identity < m_blocksize || (identity >> m_SHIFT) >= 0 && (identity & m_MASK) < m_exptype_map.length\n```\n\nExplanation:\n- The method checks if `identity` is within the bounds of `m_blocksize` for the first condition.\n- If not, it checks if the high bits (`identity >>> m_SHIFT`) are non-negative and the low bits (`identity & m_MASK`) are within the bounds of `m_exptype_map`.\n- The expression combines these conditions using logical OR to ensure that either condition is valid.",
+        "input_tokens": 19552,
+        "output_tokens": 122,
+        "elapsed_seconds": 6.301
+    },
+    {
+        "id": 2592,
+        "text": "None",
+        "input_tokens": 22753,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.456
+    },
+    {
+        "id": 2594,
+        "text": "name != null",
+        "input_tokens": 20661,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.409
+    },
+    {
+        "id": 2612,
+        "text": "props != null && defaults != null && resourceName != null",
+        "input_tokens": 20471,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.284
+    },
+    {
+        "id": 2645,
+        "text": "name != null && !name.isEmpty()",
+        "input_tokens": 19819,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.235
+    },
+    {
+        "id": 2646,
+        "text": "None",
+        "input_tokens": 21311,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.258
+    },
+    {
+        "id": 2693,
+        "text": "```plaintext\nch.length > 0 && start >= 0 && length > 0 && start + length <= ch.length\n```\n\nExplanation:\n- `ch.length > 0`: Ensures the character array is not empty.\n- `start >= 0`: Ensures the starting index is non-negative.\n- `length > 0`: Ensures the length of characters to be processed is positive.\n- `start + length <= ch.length`: Ensures the end index does not exceed the bounds of the character array.",
+        "input_tokens": 18388,
+        "output_tokens": 107,
+        "elapsed_seconds": 5.823
+    },
+    {
+        "id": 2749,
+        "text": "pathSpec != null && (pathSpec.contains(\"?\") || pathSpec.contains(\"#\")) && allEscapeSequencesValid(pathSpec) && allReservedCharactersValid(pathSpec)\n\nExplanation:\n1. **Non-null Path Specification**: The method throws an exception if `p_uriSpec` is null, so the first constraint is that `p_uriSpec != null`.\n\n2. **Presence of Query or Fragment**: The path must contain either a query (`?`) or fragment (`#`) to be valid for this method's logic.\n\n3. **Valid Escape Sequences**:\n   - `%` characters in the path, query string, and fragment must be followed by two hexadecimal digits.\n   - If not, an exception is thrown indicating an invalid escape sequence.\n\n4. **Valid Reserved and Unreserved Characters**:\n   - All non-escaped reserved or unreserved characters are allowed in the path, query string, and fragment.\n   - Any other character (not `%` followed by hex digits) must be either a reserved or unreserved character, otherwise, an exception is thrown.\n\nThe constraints are combined using logical AND (`&&`) to ensure all conditions must hold for the method to proceed without throwing an exception.",
+        "input_tokens": 22707,
+        "output_tokens": 242,
+        "elapsed_seconds": 8.917
+    },
+    {
+        "id": 2795,
+        "text": "length >= 0\n\nExplanation:\n- The method `setLength(int l)` sets the length of some internal structure.\n- The variable `l` is right-shifted by `m_chunkBits`, which means it's being divided by a power of two, effectively reducing its value but keeping the most significant bits.\n- If `m_lastChunk` becomes zero and `m_innerFSB` is not null, then `m_innerFSB.setLength(l, this);` is called. This part doesn't impose any additional constraints on `l`.\n- The critical check is when `m_firstFree` is set to `l & m_chunkMask`. Since `m_chunkMask` is a bitmask that defines the free space within a chunk, and it's being used to mask `l`, `l` must be non-negative.\n- Therefore, the only constraint on the parameter `l` is that it must be greater than or equal to 0.\n\nOutput:\nlength >= 0",
+        "input_tokens": 23039,
+        "output_tokens": 200,
+        "elapsed_seconds": 8.344
+    },
+    {
+        "id": 2830,
+        "text": "prefix != \"xml\" && prefix != \"xmlns\"",
+        "input_tokens": 22204,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.773
+    },
+    {
+        "id": 2865,
+        "text": "sb != null",
+        "input_tokens": 22006,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.618
+    },
+    {
+        "id": 2950,
+        "text": "None",
+        "input_tokens": 21098,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.412
+    },
+    {
+        "id": 3010,
+        "text": "msg != null && b",
+        "input_tokens": 18898,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.038
+    },
+    {
+        "id": 3024,
+        "text": "listener != null",
+        "input_tokens": 20116,
+        "output_tokens": 4,
+        "elapsed_seconds": 3.968
+    },
+    {
+        "id": 3030,
+        "text": "```plaintext\ncloneList != null && (m_nextWalker != null || m_prevWalker != null)\n```\n\nExplanation:\n- The method `cloneDeep` is responsible for creating a deep copy of an `AxesWalker` object.\n- For the cloning process to be valid, at least one of the following conditions must hold true:\n  - There exists a next walker (`m_nextWalker`) that needs to be cloned and added to the clone list.\n  - There exists a previous walker (`m_prevWalker`) that needs to be cloned and added to the clone list.\n\nThis ensures that all necessary references are properly cloned and linked in the new `AxesWalker` object.",
+        "input_tokens": 20675,
+        "output_tokens": 136,
+        "elapsed_seconds": 6.774
+    },
+    {
+        "id": 3037,
+        "text": "```plaintext\nopPos >= 0 && stepType == OpCodes.OP_FUNCTION || stepType == OpCodes.OP_EXTFUNCTION || stepType == OpCodes.OP_GROUP || stepType == OpCodes.OP_VARIABLE\n```\n\nExplanation:\n- The method `init` is called with parameters `compiler`, `opPos`, and `stepType`.\n- The valid state for the `stepType` parameter involves checking if it matches one of the specific values: `OpCodes.OP_FUNCTION`, `OpCodes.OP_EXTFUNCTION`, `OpCodes.OP_GROUP`, or `OpCodes.OP_VARIABLE`.\n- If `stepType` is any other value, a different block of code is executed.\n- The constraints are combined using logical OR to represent the valid conditions for the method to proceed normally.",
+        "input_tokens": 19118,
+        "output_tokens": 158,
+        "elapsed_seconds": 6.824
+    },
+    {
+        "id": 3053,
+        "text": "```java\nexpr != null && (m_iterators == null || m_iterators.length > 0)\n```\n\nExplanation:\n- The method `addIterator` adds a new `DTMIterator` to an array of iterators.\n- If `m_iterators` is `null`, it initializes the array with one element and sets that element to the provided iterator.\n- If `m_iterators` is not `null`, it creates a new array with one additional element, copies the existing iterators into this new array, and then adds the new iterator at the end.\n- The condition for valid parameters involves ensuring that the provided iterator (`expr`) is not `null`. Additionally, if `m_iterators` is already initialized (i.e., not `null`), it must have at least one element to accommodate the new iterator.\n\nCombining these constraints using a logical AND operator gives us:\n```java\nexpr != null && (m_iterators == null || m_iterators.length > 0)\n```",
+        "input_tokens": 21469,
+        "output_tokens": 204,
+        "elapsed_seconds": 8.119
+    },
+    {
+        "id": 3057,
+        "text": "stepType >= OpCodes.OP_VARIABLE && stepType <= OpCodes.FROM_PARENT && (analysis & BITS_COUNT) > 0 && stepType != OpCodes.OP_VARIABLE || stepType != OpCodes.OP_EXTFUNCTION || stepType != OpCodes.OP_FUNCTION || stepType != OpCodes.OP_GROUP || stepType != OpCodes.FROM_ROOT || stepType != OpCodes.FROM_ANCESTORS || stepType != OpCodes.FROM_ANCESTORS_OR_SELF || stepType != OpCodes.FROM_ATTRIBUTES || stepType != OpCodes.FROM_NAMESPACE || stepType != OpCodes.FROM_CHILDREN || stepType != OpCodes.FROM_DESCENDANTS || stepType != OpCodes.FROM_DESCENDANTS_OR_SELF || stepType != OpCodes.FROM_FOLLOWING || stepType != OpCodes.FROM_FOLLOWING_SIBLINGS || stepType != OpCodes.FROM_PRECEDING || stepType != OpCodes.FROM_PRECEDING_SIBLINGS || stepType != OpCodes.FROM_PARENT || stepType != OpCodes.FROM_SELF",
+        "input_tokens": 21297,
+        "output_tokens": 216,
+        "elapsed_seconds": 8.331
+    },
+    {
+        "id": 3059,
+        "text": "argLen >= 0 && stepType == OpCodes.OP_VARIABLE || stepType == OpCodes.OP_EXTFUNCTION || stepType == OpCodes.OP_FUNCTION || stepType == OpCodes.OP_GROUP || (stepType != OpCodes.OP_GROUP && nPredicates > 0)",
+        "input_tokens": 18133,
+        "output_tokens": 57,
+        "elapsed_seconds": 4.98
+    },
+    {
+        "id": 3090,
+        "text": "```java\nname != null && null != func\n```\n\nExplanation:\n- The method `installFunction` requires the parameter `name` to be non-null because it is used as a key in `m_functionID_customer`.\n- The parameter `func` must also be non-null as it is stored in `m_functions_customer`.",
+        "input_tokens": 18822,
+        "output_tokens": 68,
+        "elapsed_seconds": 5.097
+    },
+    {
+        "id": 3101,
+        "text": "None",
+        "input_tokens": 19729,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.99
+    },
+    {
+        "id": 3109,
+        "text": "m_ops.getTokenQueueSize() != 0 && m_queueMark + n <= m_ops.getTokenQueueSize() && m_queueMark > 0 && n >= 1 && n < m_ops.getTokenQueueSize()",
+        "input_tokens": 19898,
+        "output_tokens": 44,
+        "elapsed_seconds": 4.825
+    },
+    {
+        "id": 3110,
+        "text": "isToken && ((m_queueMark + n) <= m_ops.getTokenQueueSize() || (s == null))",
+        "input_tokens": 22098,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.818
+    },
+    {
+        "id": 3118,
+        "text": "```java\nm_queueMark - n > 0 && ((String) m_ops.m_tokenQueue.elementAt(m_queueMark - (n - 1)) != null || m_queueMark - n == 0)\n```\n\nExplanation:\n- The method checks if the lookbehind has a token.\n- It first checks if `m_queueMark - n` is greater than 0. If true, it proceeds to check the character at the specified index in the queue.\n- If `m_queueMark - n` is not greater than 0 (i.e., less than or equal to 0), it directly returns false.\n- To avoid a `NullPointerException`, we ensure that either `m_queueMark - n > 0` or the element at the specified index is not null.",
+        "input_tokens": 19826,
+        "output_tokens": 160,
+        "elapsed_seconds": 7.093
+    },
+    {
+        "id": 3155,
+        "text": "arg != null && argNum >= 0 && (argNum == 0 || argNum == 1)",
+        "input_tokens": 20573,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.619
+    },
+    {
+        "id": 3166,
+        "text": "(source != null && returnType != null) && isSupported(returnType) \n\nExplanation:\n1. Parameter Relevance: The constraints involve both `source` and `returnType`.\n2. Valid State: \n   - `source` and `returnType` cannot be null.\n   - The return type must be supported by the system.\n3. Simplicity: The constraints are expressed as simple boolean conditions.\n\nCombining these into a single Java boolean expression using logical AND:\n\n(source != null && returnType != null) && isSupported(returnType)",
+        "input_tokens": 21692,
+        "output_tokens": 110,
+        "elapsed_seconds": 6.42
+    },
+    {
+        "id": 3167,
+        "text": "name != null && !name.equals(\"FEATURE_SECURE_PROCESSING\") && !name.equals(XalanConstants.ORACLE_FEATURE_SERVICE_MECHANISM) && (_featureManager == null || !_featureManager.isFeatureEnabled(name))",
+        "input_tokens": 21293,
+        "output_tokens": 44,
+        "elapsed_seconds": 5.235
+    },
+    {
+        "id": 3168,
+        "text": "resolver != null",
+        "input_tokens": 19404,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.158
+    },
+    {
+        "id": 3170,
+        "text": "```plaintext\nobjectModel != null && objectModel.length() > 0 && !objectModel.equals(XPathFactory.DEFAULT_OBJECT_MODEL_URI)\n```",
+        "input_tokens": 21656,
+        "output_tokens": 30,
+        "elapsed_seconds": 4.771
+    },
+    {
+        "id": 3171,
+        "text": "resolver != null",
+        "input_tokens": 21472,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.428
+    },
+    {
+        "id": 3172,
+        "text": "expression != null && !expression.isEmpty()",
+        "input_tokens": 20639,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.353
+    },
+    {
+        "id": 3173,
+        "text": "expression != null && returnType != null && isSupported(returnType)",
+        "input_tokens": 18864,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.187
+    },
+    {
+        "id": 3179,
+        "text": "node != DTM.NULL",
+        "input_tokens": 21679,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.353
+    },
+    {
+        "id": 3198,
+        "text": "prefix.length() > 0 && toffset >= 0 && toffset <= this.length() - prefix.length()",
+        "input_tokens": 17898,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.295
+    },
+    {
+        "id": 3203,
+        "text": "None",
+        "input_tokens": 19874,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.009
+    },
+    {
+        "id": 3205,
+        "text": "None",
+        "input_tokens": 19321,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.906
+    },
+    {
+        "id": 3215,
+        "text": "srcBegin >= 0 && srcEnd <= m_length && dstBegin >= 0 && dst.length >= dstBegin + (srcEnd - srcBegin) && srcBegin <= srcEnd && m_start + (srcEnd - srcBegin) <= m_length + m_start",
+        "input_tokens": 20065,
+        "output_tokens": 55,
+        "elapsed_seconds": 5.007
+    },
+    {
+        "id": 3218,
+        "text": "beginIndex >= 0 && endIndex <= m_length && beginIndex <= endIndex",
+        "input_tokens": 20094,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.33
+    },
+    {
+        "id": 3219,
+        "text": "beginIndex >= 0 && beginIndex < m_length",
+        "input_tokens": 17827,
+        "output_tokens": 12,
+        "elapsed_seconds": 3.971
+    },
+    {
+        "id": 3223,
+        "text": "right != null && right.getType() == XObject.CLASS_BOOLEAN && XObject.CLASS_BOOLEAN == XObject.CLASS_BOOLEAN",
+        "input_tokens": 19820,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.265
+    },
+    {
+        "id": 3226,
+        "text": "left.greaterThanOrEqual(right)",
+        "input_tokens": 19508,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.15
+    },
+    {
+        "id": 3262,
+        "text": "name != null && fPropertyManager.containsProperty(name)",
+        "input_tokens": 18661,
+        "output_tokens": 12,
+        "elapsed_seconds": 3.999
+    },
+    {
+        "id": 3265,
+        "text": "```plaintext\nname != null && value != null && fPropertyManager.containsProperty(name)\n```",
+        "input_tokens": 19912,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.483
+    },
+    {
+        "id": 3286,
+        "text": "isPositive && day != null && hour != null && minute != null && (second == null || second != null) && (second == null || second != BigInteger.ZERO)\n```java\n```",
+        "input_tokens": 21286,
+        "output_tokens": 40,
+        "elapsed_seconds": 4.997
+    },
+    {
+        "id": 3290,
+        "text": "isPositive && years != DatatypeConstants.FIELD_UNDEFINED && months != DatatypeConstants.FIELD_UNDEFINED && days != DatatypeConstants.FIELD_UNDEFINED && hours != DatatypeConstants.FIELD_UNDEFINED && minutes != DatatypeConstants.FIELD_UNDEFINED && seconds != DatatypeConstants.FIELD_UNDEFINED",
+        "input_tokens": 20103,
+        "output_tokens": 51,
+        "elapsed_seconds": 5.016
+    },
+    {
+        "id": 3292,
+        "text": "isPositive == true && year != null && month != null",
+        "input_tokens": 19887,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.25
+    },
+    {
+        "id": 3306,
+        "text": "uri != null",
+        "input_tokens": 21877,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.327
+    },
+    {
+        "id": 3307,
+        "text": "is != null && systemId != null",
+        "input_tokens": 20136,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.205
+    },
+    {
+        "id": 3308,
+        "text": "is != null && null != in\n\nWhere `in` is an instance of `InputSource` created from the provided `InputStream`. However, since `InputSource` is initialized with a non-null `InputStream`, and there are no constraints on its parameters other than ensuring the `InputStream` is not null, the final constraint simplifies to:\n\nis != null",
+        "input_tokens": 20498,
+        "output_tokens": 73,
+        "elapsed_seconds": 5.49
+    },
+    {
+        "id": 3309,
+        "text": "file != null",
+        "input_tokens": 20428,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.229
+    },
+    {
+        "id": 3314,
+        "text": "uri != null && null != hb",
+        "input_tokens": 20737,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.309
+    },
+    {
+        "id": 3315,
+        "text": "uri != null && null != dh",
+        "input_tokens": 20688,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.39
+    },
+    {
+        "id": 3316,
+        "text": "is != null && systemId != null",
+        "input_tokens": 21401,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.389
+    },
+    {
+        "id": 3317,
+        "text": "is != null && hb != null",
+        "input_tokens": 20834,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.339
+    },
+    {
+        "id": 3318,
+        "text": "is != null && null != hb",
+        "input_tokens": 21126,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.371
+    },
+    {
+        "id": 3319,
+        "text": "file != null",
+        "input_tokens": 19408,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.057
+    },
+    {
+        "id": 3320,
+        "text": "None",
+        "input_tokens": 21452,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.3
+    },
+    {
+        "id": 3321,
+        "text": "is != null && systemId != null",
+        "input_tokens": 19359,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.212
+    },
+    {
+        "id": 3322,
+        "text": "is != null && dh != null",
+        "input_tokens": 20542,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.233
+    },
+    {
+        "id": 3323,
+        "text": "file != null",
+        "input_tokens": 19304,
+        "output_tokens": 4,
+        "elapsed_seconds": 3.975
+    },
+    {
+        "id": 3337,
+        "text": "None",
+        "input_tokens": 18654,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.831
+    },
+    {
+        "id": 3341,
+        "text": "source != null && (source instanceof SAXSource || source instanceof StreamSource)",
+        "input_tokens": 21996,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.651
+    },
+    {
+        "id": 3345,
+        "text": "name != null",
+        "input_tokens": 20532,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.299
+    },
+    {
+        "id": 3356,
+        "text": "uri != null && uri.length() > 0",
+        "input_tokens": 18824,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.066
+    },
+    {
+        "id": 3357,
+        "text": "uri != null && uri.length() > 0 && classLoader != null || classLoader == ss.getContextClassLoader()",
+        "input_tokens": 19587,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.369
+    },
+    {
+        "id": 3361,
+        "text": "```plaintext\nclassLoader != null && \"UTF-8\".equals(java.nio.charset.StandardCharsets.UTF_8.name())\n```\n\nExplanation:\n1. **Parameter Relevance**: The method parameter `classLoader` is involved in the constraints.\n2. **Valid State**: The valid state involves ensuring that the class loader is not null and that the character encoding used (`\"UTF-8\"`) is correctly identified by its name.\n3. **Simplicity**: The constraint is a simple boolean expression involving only the parameter `classLoader` and a constant string comparison.\n\nThe constraints ensure that:\n- The class loader provided is not null.\n- The character encoding specified for reading the input stream is \"UTF-8\".",
+        "input_tokens": 19596,
+        "output_tokens": 145,
+        "elapsed_seconds": 6.734
+    },
+    {
+        "id": 3371,
+        "text": "names != null && types != null && values != null",
+        "input_tokens": 18723,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.051
+    },
+    {
+        "id": 3416,
+        "text": "parser != null",
+        "input_tokens": 18071,
+        "output_tokens": 4,
+        "elapsed_seconds": 3.746
+    },
+    {
+        "id": 3457,
+        "text": "expr != null && !expr.equals(\"\")",
+        "input_tokens": 20352,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.17
+    },
+    {
+        "id": 3512,
+        "text": "bounds != null && bounds.tail != null && !bounds.tail.isEmpty() || bounds.head != null && bounds.tail.isEmpty()",
+        "input_tokens": 19192,
+        "output_tokens": 25,
+        "elapsed_seconds": 4.317
+    },
+    {
+        "id": 3703,
+        "text": "```java\ndigit(pos, Math.max(10, radix)) >= 0 && radix == 8 || digit(pos, Math.max(10, radix)) >= 0 && radix == 16 || (radix == 2 || radix == 16) && isOneOf('p', 'P') || (radix == 10 && is('.')) || (radix == 10 && isOneOf('e', 'E', 'f', 'F', 'd', 'D'))\n```",
+        "input_tokens": 17310,
+        "output_tokens": 111,
+        "elapsed_seconds": 5.644
+    },
+    {
+        "id": 3736,
+        "text": "line > 0 && col > 0 && line <= MAXLINE && col <= MAXCOLUMN",
+        "input_tokens": 21043,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.427
+    },
+    {
+        "id": 3790,
+        "text": "None",
+        "input_tokens": 22293,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.484
+    },
+    {
+        "id": 3799,
+        "text": "```java\nname != null && name.length > 0\n```\n\nExplanation:\n- The method `getSimpleName` takes a `char[]` array named `name`.\n- The constraints involve ensuring that the input `name` is not null and has at least one character.\n- If `name` is null or empty, the method would fail to process it correctly. Therefore, these conditions are necessary for the method to proceed normally.\n\nCombining these constraints using logical AND operator (&&) as per the output instructions:\n\n```java\nname != null && name.length > 0\n```",
+        "input_tokens": 18481,
+        "output_tokens": 120,
+        "elapsed_seconds": 6.203
+    },
+    {
+        "id": 3807,
+        "text": "None",
+        "input_tokens": 22324,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.489
+    },
+    {
+        "id": 3815,
+        "text": "None",
+        "input_tokens": 20559,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.238
+    },
+    {
+        "id": 3816,
+        "text": "None",
+        "input_tokens": 19687,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.067
+    },
+    {
+        "id": 3836,
+        "text": "None",
+        "input_tokens": 22668,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.344
+    },
+    {
+        "id": 3844,
+        "text": "None",
+        "input_tokens": 20265,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.251
+    },
+    {
+        "id": 3847,
+        "text": "```java\ntoBeReplaced.length > 0 && replacementChars.length > 0\n```\n\nExplanation:\n- The method `replace` is designed to replace occurrences of a substring (`toBeReplaced`) with another substring (`replacementChars`) within an array of characters.\n- For the method to proceed normally, both `toBeReplaced` and `replacementChars` must have non-zero lengths. If either of them is empty, there would be no replacements to make, and the method could return early without any issues.\n\nThus, the valid state constraints are:\n- `toBeReplaced.length > 0`\n- `replacementChars.length > 0`\n\nCombining these into a single boolean expression using logical AND (`&&`):\n\n```java\ntoBeReplaced.length > 0 && replacementChars.length > 0\n```",
+        "input_tokens": 20751,
+        "output_tokens": 166,
+        "elapsed_seconds": 7.263
+    },
+    {
+        "id": 3850,
+        "text": "```plaintext\ntarget.length >= end - start && start <= index && index <= target.length\n```\n\nExplanation:\n- `target.length >= end - start`: Ensures there is enough space in the target array to accommodate the new characters.\n- `start <= index`: Ensures the insertion index is within valid bounds for the source array.\n- `index <= target.length`: Ensures the insertion index does not exceed the length of the target array.",
+        "input_tokens": 19490,
+        "output_tokens": 91,
+        "elapsed_seconds": 5.719
+    },
+    {
+        "id": 3852,
+        "text": "targetLength + suffix.length > targetLength && suffix != null",
+        "input_tokens": 18307,
+        "output_tokens": 13,
+        "elapsed_seconds": 3.97
+    },
+    {
+        "id": 3853,
+        "text": "None",
+        "input_tokens": 18479,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.77
+    },
+    {
+        "id": 3858,
+        "text": "None",
+        "input_tokens": 23194,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.53
+    },
+    {
+        "id": 3859,
+        "text": "length1 >= 0 && length2 >= 0\n\nExplanation:\n- The method compares two character arrays.\n- It first checks the lengths of both arrays to ensure they are non-negative.\n- Since array lengths cannot be negative in Java, this constraint is always true but included for completeness.",
+        "input_tokens": 20863,
+        "output_tokens": 59,
+        "elapsed_seconds": 5.441
+    },
+    {
+        "id": 3861,
+        "text": "array != null && toBeReplaced != replacementChar",
+        "input_tokens": 20091,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.346
+    },
+    {
+        "id": 3868,
+        "text": "None",
+        "input_tokens": 21720,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.337
+    },
+    {
+        "id": 3870,
+        "text": "start >= 0 && end <= array.length && toBeFound.length > 0 && toBeFound.length <= array.length - start + 1",
+        "input_tokens": 20163,
+        "output_tokens": 31,
+        "elapsed_seconds": 4.725
+    },
+    {
+        "id": 3875,
+        "text": "None",
+        "input_tokens": 18633,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.871
+    },
+    {
+        "id": 3880,
+        "text": "start <= end && array != null && end <= array.length && start >= 0 && end >= 0 && divider != '\\0'",
+        "input_tokens": 19110,
+        "output_tokens": 29,
+        "elapsed_seconds": 4.369
+    },
+    {
+        "id": 3885,
+        "text": "```plaintext\narray != null && start >= 0 && end <= array.length && start < end && openEncl != divider && closeEncl != divider\n```",
+        "input_tokens": 20725,
+        "output_tokens": 35,
+        "elapsed_seconds": 4.687
+    },
+    {
+        "id": 3886,
+        "text": "None",
+        "input_tokens": 22600,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.409
+    },
+    {
+        "id": 3922,
+        "text": "childLogger != null && childrenList != null\n\nExplanation:\n1. The method `createChildByLastNamePart` always returns a new instance of `Logger` named `childLogger`.\n2. The parameter `childrenList` is checked for null and initialized if it is null, ensuring that `childrenList` is never null when the return statement is reached.\n3. Therefore, both `childLogger` and `childrenList` are guaranteed to be non-null by the time the method returns.\n\nThe constraints can be combined into a single expression as:\n```java\nchildLogger != null && childrenList != null\n```",
+        "input_tokens": 18775,
+        "output_tokens": 125,
+        "elapsed_seconds": 6.397
+    },
+    {
+        "id": 3927,
+        "text": "statusManager != null",
+        "input_tokens": 18463,
+        "output_tokens": 5,
+        "elapsed_seconds": 3.902
+    },
+    {
+        "id": 3955,
+        "text": "location != null && (!location.matches(SCHEME_PATTERN) || (location.startsWith(CLASSPATH_SCHEME) && location.substring(CLASSPATH_SCHEME.length()).length() > 0)) && !location.isEmpty()",
+        "input_tokens": 17928,
+        "output_tokens": 43,
+        "elapsed_seconds": 4.453
+    },
+    {
+        "id": 3993,
+        "text": "days >= 1 && context != null\n\nExplanation:\n- `days` must be greater than or equal to 1 because it represents the number of days for which report info files should not be deleted.\n- `context` cannot be null as it is a required parameter for accessing resources and other system services.",
+        "input_tokens": 20956,
+        "output_tokens": 63,
+        "elapsed_seconds": 5.233
+    },
+    {
+        "id": 3997,
+        "text": "context != null && intent.getComponent() != null",
+        "input_tokens": 21371,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.459
+    },
+    {
+        "id": 4023,
+        "text": "```java\ncontext != null && permissions != null && requestCode >= 0\n```",
+        "input_tokens": 22116,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.789
+    },
+    {
+        "id": 4028,
+        "text": "intent.setData(Uri.parse(\"package:\" + context.getPackageName())) && requestCode >= 0 && context != null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.M",
+        "input_tokens": 19263,
+        "output_tokens": 32,
+        "elapsed_seconds": 4.647
+    },
+    {
+        "id": 4073,
+        "text": "fileType != FileType.NO_EXIST && fileType != FileType.DIRECTORY || (fileType == FileType.NO_EXIST && ignoreNonExistentFile) && days >= 0 && filePath != null && !filePath.isEmpty()",
+        "input_tokens": 21339,
+        "output_tokens": 43,
+        "elapsed_seconds": 5.074
+    },
+    {
+        "id": 4084,
+        "text": "titleText != null && messageText != null && onPositiveButton != null && positiveText != null || positiveText.equals(context.getString(android.R.string.ok)) && onDismiss == null || onDismiss != null && onDismiss != null && onNegativeButton == null || negativeText != null && onNegativeButton != null",
+        "input_tokens": 20981,
+        "output_tokens": 61,
+        "elapsed_seconds": 5.304
+    },
+    {
+        "id": 4131,
+        "text": "properties != null && key != null && (value == null || value != null)",
+        "input_tokens": 20977,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.5
+    },
+    {
+        "id": 4132,
+        "text": "```plaintext\nmap != null && key != null && (value == null || value.getClass().isPrimitive() || Primitives.isWrapperType(value.getClass()) || value instanceof String)\n```",
+        "input_tokens": 19639,
+        "output_tokens": 38,
+        "elapsed_seconds": 4.802
+    },
+    {
+        "id": 4217,
+        "text": "context != null && activitySize == true || context != null && activitySize == false",
+        "input_tokens": 19112,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.216
+    },
+    {
+        "id": 4233,
+        "text": "target.length == from.length && from.length == to.length && target != null && from != null && to != null && canMorph(from, to) && fraction >= 0.0 && fraction <= 1.0",
+        "input_tokens": 17091,
+        "output_tokens": 46,
+        "elapsed_seconds": 4.472
+    },
+    {
+        "id": 4237,
+        "text": "start <= end && start >= 0 && end <= original.length",
+        "input_tokens": 21322,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.349
+    },
+    {
+        "id": 4379,
+        "text": "```java\nv instanceof LocalDateTime && !(v == null)\n```\n\nExplanation:\n- The method checks if the input `v` is an instance of `LocalDateTime`.\n- It also ensures that `v` is not null.\n- Since both conditions must be true for the method to proceed normally, they are combined using a logical AND operator.",
+        "input_tokens": 21286,
+        "output_tokens": 70,
+        "elapsed_seconds": 5.633
+    },
+    {
+        "id": 4386,
+        "text": "```plaintext\nmaxRecords > 0 && !corruptLastRecord && !isConsumed\n```",
+        "input_tokens": 21712,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.783
+    },
+    {
+        "id": 4416,
+        "text": "path != null && !path.isEmpty()",
+        "input_tokens": 21088,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.469
+    },
+    {
+        "id": 4418,
+        "text": "```plaintext\nindex >= 0 && index < (addressLimit - address)\n```",
+        "input_tokens": 21612,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.673
+    },
+    {
+        "id": 4429,
+        "text": "```java\noffset >= 0 && numBytes > 0 && offset + numBytes <= this.capacity\n```",
+        "input_tokens": 21524,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.734
+    },
+    {
+        "id": 4441,
+        "text": "```java\nindex >= 0 && dst.length >= (offset + length) && address <= addressLimit\n```",
+        "input_tokens": 20880,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.656
+    },
+    {
+        "id": 4448,
+        "text": "index >= 0 && index <= (addressLimit - 8) / 8 && address <= addressLimit",
+        "input_tokens": 20607,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.664
+    },
+    {
+        "id": 4483,
+        "text": "```java\noriginalSize >= 0 && targetSize >= 0 && targetSize <= originalSize\n```",
+        "input_tokens": 20090,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.454
+    },
+    {
+        "id": 4488,
+        "text": "```plaintext\nbuffer != null && buffer.length > 0\n```",
+        "input_tokens": 21606,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.522
+    },
+    {
+        "id": 4490,
+        "text": "segment != null && size >= 3 && version == STATISTICS_VERSION && 0 < statisticsColumnCount && statisticsColumnCount <= rowType.getFieldCount()",
+        "input_tokens": 21362,
+        "output_tokens": 32,
+        "elapsed_seconds": 4.845
+    },
+    {
+        "id": 4491,
+        "text": "```plaintext\nbuffer != null && buffer.remaining() >= 3\n```",
+        "input_tokens": 20831,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.588
+    },
+    {
+        "id": 4492,
+        "text": "```java\ndata != null && data.length >= 3\n```",
+        "input_tokens": 23026,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.859
+    },
+    {
+        "id": 4493,
+        "text": "```java\nbuffer != null && (buffer.isDirect() || buffer.remaining() > 0)\n```",
+        "input_tokens": 18940,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.452
+    },
+    {
+        "id": 4494,
+        "text": "buffer != null && buffer.remaining() > 0",
+        "input_tokens": 20275,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.186
+    },
+    {
+        "id": 4495,
+        "text": "```plaintext\ndata != null && data.length >= 3\n```",
+        "input_tokens": 23415,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.827
+    },
+    {
+        "id": 4496,
+        "text": "```java\nsegment != null && size >= 3\n```",
+        "input_tokens": 20751,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.61
+    },
+    {
+        "id": 4497,
+        "text": "```java\nbuffer != null && buffer.remaining() >= 3\n```",
+        "input_tokens": 21373,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.527
+    },
+    {
+        "id": 4512,
+        "text": "segments != null && numBytes >= 0 && offset + numBytes <= segments[0].capacity() && (offset == 0 || !inFirstSegment(segments, offset, numBytes)) \n\nExplanation:\n1. `segments != null`: Ensures the array of MemorySegments is not null.\n2. `numBytes >= 0`: Ensures the number of bytes to process is non-negative.\n3. `offset + numBytes <= segments[0].capacity()`: Ensures the end of the byte range does not exceed the capacity of the first segment.\n4. `(offset == 0 || !inFirstSegment(segments, offset, numBytes))`: Ensures that if an offset is provided, it correctly indicates whether we are processing beyond the first segment.\n\nThe combination ensures valid state for the method to proceed normally.",
+        "input_tokens": 20518,
+        "output_tokens": 170,
+        "elapsed_seconds": 7.41
+    },
+    {
+        "id": 4521,
+        "text": "```plaintext\nindex >= 0 && index < segments.length * (offset + segments[0].size())\n```\n\nExplanation:\n- The method `byteAt(int index)` is used to retrieve a byte at a specific index in a segmented array.\n- The global offset (`globalOffset`) is calculated as `offset + index`.\n- To ensure the index is valid, it must be within the bounds of the total size of all segments combined.\n\nThe constraints are:\n1. `index >= 0` - Ensures that the provided index is non-negative.\n2. `index < segments.length * (offset + segments[0].size())` - Ensures that the global offset does not exceed the total size of all segments, considering the initial offset and the size of each segment.\n\nCombining these constraints using a logical AND operator gives us the final valid state expression for the method parameters.",
+        "input_tokens": 20721,
+        "output_tokens": 180,
+        "elapsed_seconds": 7.67
+    },
+    {
+        "id": 4545,
+        "text": "listenerName != null && !listenerName.isEmpty()",
+        "input_tokens": 22096,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.524
+    },
+    {
+        "id": 4582,
+        "text": "```java\nchannel != null && size >= 0 && position >= 0 && description != null\n```",
+        "input_tokens": 20523,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.641
+    },
+    {
+        "id": 4584,
+        "text": "```java\nposition >= 0 && destinationBuffer.remaining() > 0\n```",
+        "input_tokens": 20818,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.643
+    },
+    {
+        "id": 4587,
+        "text": "```plaintext\nposition >= 0 && destinationBuffer.hasRemaining()\n```",
+        "input_tokens": 24301,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.944
+    },
+    {
+        "id": 4601,
+        "text": "inputStream != null && destinationBuffer.hasArray()",
+        "input_tokens": 21574,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.721
+    },
+    {
+        "id": 4602,
+        "text": "value > 0 && (value & (value - 1)) == 0",
+        "input_tokens": 21515,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.671
+    },
+    {
+        "id": 4609,
+        "text": "None",
+        "input_tokens": 23192,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.579
+    },
+    {
+        "id": 4610,
+        "text": "reference != null",
+        "input_tokens": 17995,
+        "output_tokens": 4,
+        "elapsed_seconds": 3.946
+    },
+    {
+        "id": 4737,
+        "text": "```plaintext\nproducerId != null && offsets != null && ttlMs >= 0 || ttlMs == null\n```\n\nExplanation:\n1. **Producer ID**: `producerId` must not be null.\n2. **Offsets Map**: The `offsets` map must not be null, as it is used in the loop to store offsets.\n3. **TTL (Time To Live)**: \n   - If `ttlMs` is provided (`ttlMs != null`), it must be a non-negative value (`ttlMs >= 0`).\n   - If `ttlMs` is not provided (`ttlMs == null`), the effective TTL is set to `defaultTtlMs`, which is assumed to be a valid positive value.\n\nCombining these constraints, we get:\n```plaintext\nproducerId != null && offsets != null && (ttlMs >= 0 || ttlMs == null)\n```\n\nSimplified using logical OR (`||`):\n```plaintext\nproducerId != null && offsets != null && ttlMs >= 0 || ttlMs == null\n```",
+        "input_tokens": 25416,
+        "output_tokens": 220,
+        "elapsed_seconds": 9.013
+    },
+    {
+        "id": 4821,
+        "text": "newRatio > 0.0 && newRatio <= 1.0",
+        "input_tokens": 20455,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.655
+    },
+    {
+        "id": 4865,
+        "text": "ref != null && !ref.isBlank()",
+        "input_tokens": 21947,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.506
+    },
+    {
+        "id": 4866,
+        "text": "name != null || address != null",
+        "input_tokens": 21913,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.538
+    },
+    {
+        "id": 4877,
+        "text": "```plaintext\ntext != null && !text.isEmpty()\n```\n\nExplanation:\n- The method checks if the `text` is `null` or empty at the beginning and returns an error message if so.\n- This constraint ensures that a valid non-empty string is provided as input to proceed with further processing.",
+        "input_tokens": 23993,
+        "output_tokens": 62,
+        "elapsed_seconds": 5.994
+    },
+    {
+        "id": 4940,
+        "text": "```java\nbookId != null && progressPercent != null && userId != null\n```\n\nExplanation:\n1. **bookId**: The method requires a non-null `bookId` to identify the book for which the sync is being performed.\n2. **progressPercent**: A non-null `progressPercent` is required to determine the reading progress and calculate the number of pages read.\n3. **userId**: A non-null `userId` is necessary to fetch user-specific settings and handle logging.\n\nThese constraints ensure that the method can proceed with a valid set of parameters, avoiding null pointer exceptions and ensuring meaningful operations are performed.",
+        "input_tokens": 19599,
+        "output_tokens": 126,
+        "elapsed_seconds": 6.493
+    },
+    {
+        "id": 4945,
+        "text": "```plaintext\nxmlFile != null && fallbackTitle != null\n```\n\nExplanation:\n1. **xmlFile != null**: The method throws an `IllegalArgumentException` if the input file is null, ensuring that a non-null file must be provided.\n2. **fallbackTitle != null**: Although not explicitly checked in the method, the `determineFallbackTitle(xmlFile)` function should return a non-null value to avoid issues when building the `BookMetadata`. The method uses this fallback title as a default if parsing fails.\n\nSince both conditions are necessary for the method to proceed without errors and produce valid output, they are combined using a logical AND operator.",
+        "input_tokens": 22992,
+        "output_tokens": 131,
+        "elapsed_seconds": 7.054
+    },
+    {
+        "id": 4957,
+        "text": "number <= yylength() && number >= 0",
+        "input_tokens": 23257,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.887
+    },
+    {
+        "id": 5051,
+        "text": "None",
+        "input_tokens": 22215,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.533
+    },
+    {
+        "id": 5065,
+        "text": "file != null && !file.isEmpty() && tables.size() > 0\n\nExplanation:\n1. **Parameter Relevance**: The method parameters are `MultipartFile file` and it is checked for null or emptiness.\n2. **Valid State**: The valid state involves ensuring the provided file is not null, not empty, and contains at least one table after parsing.\n3. **Simplicity**: The constraints are simple boolean expressions.\n\nThe final combined expression ensures that:\n- `file` is neither null nor empty.\n- After parsing the document, there are tables found (`tables.size() > 0`).",
+        "input_tokens": 20989,
+        "output_tokens": 124,
+        "elapsed_seconds": 6.539
+    },
+    {
+        "id": 5067,
+        "text": "```plaintext\nalpha >= 0 && alpha <= 255\n```\n\nExplanation:\n- The method `multiplyColorAlpha` takes two parameters: `color` and `alpha`.\n- The valid range for the `alpha` parameter is from 0 to 255, as it represents an alpha value in ARGB color format.\n- The constraints are extracted based on the explicit checks within the method:\n  - If `alpha == 255`, no change is made to the color.\n  - If `alpha == 0`, the color's alpha channel is set to 0, effectively making it transparent.\n- Therefore, the valid state for the `alpha` parameter is that it must be within the range of 0 to 255.",
+        "input_tokens": 20601,
+        "output_tokens": 158,
+        "elapsed_seconds": 7.187
+    },
+    {
+        "id": 5176,
+        "text": "name != null && IDENTIFIER_PATTERN.matcher(name).matches() && !name.equals(\"user\")",
+        "input_tokens": 17460,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.137
+    },
+    {
+        "id": 5255,
+        "text": "None",
+        "input_tokens": 24033,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.468
+    },
+    {
+        "id": 5280,
+        "text": "```java\nsession != null && event != null && !event.partial().orElse(false)\n```\n\nExplanation:\n1. **Parameter Relevance**: The constraints must involve the parameters `session` and `event`.\n2. **Valid State**:\n   - `session` cannot be null.\n   - `event` cannot be null.\n   - If `event.partial().orElse(false)` is true, then no further processing is needed, so it should return immediately with the event itself.\n3. **Simplicity**: The constraints are simple boolean expressions.\n\nCombining these conditions using logical AND (`&&`), we get:\n```java\nsession != null && event != null && !event.partial().orElse(false)\n```",
+        "input_tokens": 24944,
+        "output_tokens": 145,
+        "elapsed_seconds": 7.862
+    },
+    {
+        "id": 5303,
+        "text": "instance != null && !instance.equals(null)",
+        "input_tokens": 19599,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.465
+    },
+    {
+        "id": 5310,
+        "text": "```java\ncontext != null && template != null\n```",
+        "input_tokens": 22463,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.525
+    },
+    {
+        "id": 5342,
+        "text": "agentDirPath != null && Files.isDirectory(agentDirPath)",
+        "input_tokens": 21166,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.579
+    },
+    {
+        "id": 5400,
+        "text": "```java\nresolved != null && host != null && encoding != null\n```",
+        "input_tokens": 21185,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.574
+    },
+    {
+        "id": 5505,
+        "text": "bucketName != null && !bucketName.trim().isEmpty() && objectKey != null && !objectKey.trim().isEmpty() && expirySeconds >= 1 && expirySeconds <= 604800",
+        "input_tokens": 20645,
+        "output_tokens": 43,
+        "elapsed_seconds": 4.991
+    },
+    {
+        "id": 5506,
+        "text": "bucketName != null && !bucketName.trim().isEmpty() && objectKey != null && !objectKey.trim().isEmpty() && expirySeconds >= 1 && expirySeconds <= 604800",
+        "input_tokens": 20912,
+        "output_tokens": 43,
+        "elapsed_seconds": 5.001
+    },
+    {
+        "id": 5567,
+        "text": "normalizedType != null && strategyMap.containsKey(normalizedType)",
+        "input_tokens": 20694,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.45
+    },
+    {
+        "id": 5576,
+        "text": "inputStream != null && scale > 0 && scale <= 1",
+        "input_tokens": 23643,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.852
+    },
+    {
+        "id": 5582,
+        "text": "source != null && (!bizConfig.getSparkRagCompatibleSources().contains(source) || (bizConfig != null && bizConfig.getSparkRagCompatibleSources() != null)) && FILE_SOURCE_SPARK_RAG_STR.equals(source)",
+        "input_tokens": 19243,
+        "output_tokens": 48,
+        "elapsed_seconds": 5.083
+    },
+    {
+        "id": 5583,
+        "text": "source != null && (bizConfig != null && bizConfig.getAiuiRagCompatibleSources() != null || source.equals(FILE_SOURCE_AIUI_RAG2_STR))",
+        "input_tokens": 20882,
+        "output_tokens": 35,
+        "elapsed_seconds": 4.677
+    },
+    {
+        "id": 5584,
+        "text": "category != null && !category.isEmpty()",
+        "input_tokens": 19299,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.127
+    },
+    {
+        "id": 5592,
+        "text": "file != null && parentId != null && repoId != null && tag != null && request != null",
+        "input_tokens": 23806,
+        "output_tokens": 21,
+        "elapsed_seconds": 4.981
+    },
+    {
+        "id": 5601,
+        "text": "```plaintext\nid != null && enabled != null\n```",
+        "input_tokens": 22215,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.869
+    },
+    {
+        "id": 5603,
+        "text": "pageNo > 0 && pageSize > 0 && (content == null || !content.trim().isEmpty()) && request != null",
+        "input_tokens": 22483,
+        "output_tokens": 27,
+        "elapsed_seconds": 5.032
+    },
+    {
+        "id": 5623,
+        "text": "```java\nfile != null && !file.isEmpty() && isAllowedType(normalizeContentType(file.getContentType()))\n```\n\nExplanation:\n1. **Parameter Relevance**: The constraints involve the `file` parameter.\n2. **Valid State**: \n   - `file != null`: Ensures that the file is not null.\n   - `!file.isEmpty()`: Ensures that the file is not empty.\n   - `isAllowedType(normalizeContentType(file.getContentType()))`: Ensures that the content type of the file is supported.\n\n3. **Simplicity**: The constraints are simple boolean expressions involving logical AND (`&&`).",
+        "input_tokens": 20684,
+        "output_tokens": 128,
+        "elapsed_seconds": 6.605
+    },
+    {
+        "id": 5662,
+        "text": "fileDirectoryTree != null && fileDirectoryTree.getIsFile() == 1 && fileInfoV2 != null && repo == null || dataPermissionCheckTool.checkRepoBelong(repo) && dataPermissionCheckTool.checkFileBelong(fileInfoV2) && fileInfoV2.setEnabled(enabled) && fileInfoV2.setUpdateTime(new Timestamp(System.currentTimeMillis())) && this.updateById(fileInfoV2) && knowledgeService.enableDoc(fileInfoV2.getId(), enabled)",
+        "input_tokens": 20161,
+        "output_tokens": 92,
+        "elapsed_seconds": 5.668
+    },
+    {
+        "id": 5679,
+        "text": "```java\nfile.getSize() <= (fileType.equalsIgnoreCase(ProjectContent.TXT_FILE_TYPE) || fileType.equalsIgnoreCase(ProjectContent.MD_FILE_TYPE)) ? 10 * 1024 * 1024 : 100 * 1024 * 1024 && !StringUtils.isEmpty(fileType)\n```",
+        "input_tokens": 22706,
+        "output_tokens": 69,
+        "elapsed_seconds": 5.845
+    },
+    {
+        "id": 5797,
+        "text": "row != null && !row.isEmpty() && null != CsvExportUtil::escapeCsv\n\nExplanation:\n1. **row != null**: Ensures that the `row` list is not null.\n2. **!row.isEmpty()**: Ensures that the `row` list contains at least one element, as an empty list would result in an empty CSV row.\n3. **null != CsvExportUtil::escapeCsv**: Ensures that the method reference to `CsvExportUtil.escapeCsv` is not null, ensuring it can be called to escape each string in the row.\n\nCombining these constraints using logical AND (`&&`) gives us the final expression:\n```java\nrow != null && !row.isEmpty() && null != CsvExportUtil::escapeCsv\n```",
+        "input_tokens": 19571,
+        "output_tokens": 155,
+        "elapsed_seconds": 6.992
+    },
+    {
+        "id": 5813,
+        "text": "params != null && !params.isEmpty()",
+        "input_tokens": 22845,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.668
+    },
+    {
+        "id": 5814,
+        "text": "headerMap != null && body != null || headerMap != null && body == null",
+        "input_tokens": 21017,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.701
+    },
+    {
+        "id": 5820,
+        "text": "headerMap != null && url != null && listener != null",
+        "input_tokens": 21116,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.486
+    },
+    {
+        "id": 5827,
+        "text": "pattern != null",
+        "input_tokens": 21815,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.334
+    },
+    {
+        "id": 5828,
+        "text": "key != null && token != null\n\nExplanation:\n1. `requireKey(key)` ensures that the key is not null (as per the method's implementation).\n2. `Objects.requireNonNull(token, \"token must not be null\")` explicitly checks that the token is not null.\n3. The method does not have any other constraints on its parameters.\n\nCombining these constraints using a logical AND operator:\n\n```plaintext\nkey != null && token != null\n```",
+        "input_tokens": 21915,
+        "output_tokens": 93,
+        "elapsed_seconds": 6.135
+    },
+    {
+        "id": 5829,
+        "text": "key != null\n\nExplanation: The method `unlock` requires a non-null `key` parameter to function correctly. The `requireKey` method is assumed to throw an exception if the provided `key` is null, ensuring that the `key` is not null when it reaches the `redisTemplate.delete(key)` call.",
+        "input_tokens": 23679,
+        "output_tokens": 66,
+        "elapsed_seconds": 6.025
+    },
+    {
+        "id": 5830,
+        "text": "count == null || count > 0 && pattern != null",
+        "input_tokens": 21800,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.696
+    },
+    {
+        "id": 5831,
+        "text": "key != null && seconds >= 0",
+        "input_tokens": 19046,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.16
+    },
+    {
+        "id": 5832,
+        "text": "token != null && key != null",
+        "input_tokens": 18278,
+        "output_tokens": 8,
+        "elapsed_seconds": 3.944
+    },
+    {
+        "id": 5833,
+        "text": "key != null && ttlSeconds >= 1",
+        "input_tokens": 22864,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.362
+    },
+    {
+        "id": 5842,
+        "text": "query != null && uri != null",
+        "input_tokens": 22384,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.71
+    },
+    {
+        "id": 5900,
+        "text": "prompts != null",
+        "input_tokens": 21371,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.485
+    },
+    {
+        "id": 5901,
+        "text": "resourceRegsitrations != null && null != resource -> resource.getResource() != null && null != resource -> resource.getUri() != null",
+        "input_tokens": 20943,
+        "output_tokens": 28,
+        "elapsed_seconds": 4.63
+    },
+    {
+        "id": 5902,
+        "text": "handler != null && tool != null",
+        "input_tokens": 22253,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.569
+    },
+    {
+        "id": 5904,
+        "text": "tool != null && null != handler",
+        "input_tokens": 20541,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.289
+    },
+    {
+        "id": 5906,
+        "text": "tool != null && handler != null",
+        "input_tokens": 21738,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.567
+    },
+    {
+        "id": 5907,
+        "text": "resourceRegsitrations != null",
+        "input_tokens": 22261,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.635
+    },
+    {
+        "id": 5908,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 22459,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.673
+    },
+    {
+        "id": 5910,
+        "text": "prompts != null && !prompts.isEmpty()",
+        "input_tokens": 19873,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.352
+    },
+    {
+        "id": 5911,
+        "text": "resourceSpecifications != null && resource != null",
+        "input_tokens": 18544,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.146
+    },
+    {
+        "id": 5912,
+        "text": "resourceSpecifications != null\n\nExplanation: The method `resources` takes a `Map<String, McpServerFeatures.SyncResourceSpecification>` as its parameter and ensures that the map is not null. It then adds all entries from the provided map to an internal resource specifications map. Therefore, the only constraint on the parameter is that it must not be null.",
+        "input_tokens": 23446,
+        "output_tokens": 71,
+        "elapsed_seconds": 5.791
+    },
+    {
+        "id": 5913,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 21211,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.363
+    },
+    {
+        "id": 5914,
+        "text": "None",
+        "input_tokens": 21755,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.352
+    },
+    {
+        "id": 5915,
+        "text": "prompts != null && !prompts.isEmpty()",
+        "input_tokens": 20251,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.427
+    },
+    {
+        "id": 5916,
+        "text": "handler != null",
+        "input_tokens": 21381,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.381
+    },
+    {
+        "id": 5917,
+        "text": "prompts != null",
+        "input_tokens": 20268,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.241
+    },
+    {
+        "id": 5919,
+        "text": "handlers != null",
+        "input_tokens": 21725,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.304
+    },
+    {
+        "id": 5920,
+        "text": "tool != null && null != handler",
+        "input_tokens": 20910,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.441
+    },
+    {
+        "id": 5995,
+        "text": "aspectClass != null && aspectClass != null",
+        "input_tokens": 18068,
+        "output_tokens": 10,
+        "elapsed_seconds": 3.897
+    },
+    {
+        "id": 5996,
+        "text": "key != null && value != null",
+        "input_tokens": 23056,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.498
+    },
+    {
+        "id": 5997,
+        "text": "key != null && metadata.containsKey(key)",
+        "input_tokens": 22938,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.846
+    },
+    {
+        "id": 5998,
+        "text": "key != null && metadata.containsKey(key)",
+        "input_tokens": 21570,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.668
+    },
+    {
+        "id": 6000,
+        "text": "aspectClass != null && aspects.containsKey(aspectClass)",
+        "input_tokens": 21478,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.583
+    },
+    {
+        "id": 6001,
+        "text": "aspectClass != null && aspects.containsKey(aspectClass)",
+        "input_tokens": 20203,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.453
+    },
+    {
+        "id": 6002,
+        "text": "key != null && metadata.containsKey(key)",
+        "input_tokens": 19465,
+        "output_tokens": 9,
+        "elapsed_seconds": 3.979
+    },
+    {
+        "id": 6003,
+        "text": "type != null && value != null || value == null",
+        "input_tokens": 22244,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.584
+    },
+    {
+        "id": 6047,
+        "text": "```java\ncenter != null && center.getWorld() != null && xRange > 0 && yRange > 0 && zRange > 0\n```",
+        "input_tokens": 20990,
+        "output_tokens": 33,
+        "elapsed_seconds": 4.998
+    },
+    {
+        "id": 6048,
+        "text": "value != null && predicate != null",
+        "input_tokens": 22599,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.54
+    },
+    {
+        "id": 6050,
+        "text": "value != null\n\nExplanation: The method `requireNonNull` checks if the provided `value` is null. If it is null, it throws an exception using the supplier `exceptionSupplier`. Therefore, the valid state for this method is that the `value` must not be null.",
+        "input_tokens": 20400,
+        "output_tokens": 58,
+        "elapsed_seconds": 5.347
+    },
+    {
+        "id": 6057,
+        "text": "```java\nmap != null && !map.isEmpty()\n```",
+        "input_tokens": 19877,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.299
+    },
+    {
+        "id": 6058,
+        "text": "list != null && !list.isEmpty()",
+        "input_tokens": 20608,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.254
+    },
+    {
+        "id": 6131,
+        "text": "type != null && (type == RetryCounterType.LOCAL || type == RetryCounterType.DISTRIBUTED || type == RetryCounterType.HYBRID)",
+        "input_tokens": 21535,
+        "output_tokens": 33,
+        "elapsed_seconds": 4.943
+    },
+    {
+        "id": 6165,
+        "text": "val >= 10 && box != null && interline >= 0 && id >= 0\n\nExplanation:\n- `val <= 9` is handled by the else block, so we extract constraints from there.\n- `box` must not be null to create a new `Rectangle`.\n- `interline` and `id` must be non-negative for valid symbol information.",
+        "input_tokens": 21250,
+        "output_tokens": 78,
+        "elapsed_seconds": 5.788
+    },
+    {
+        "id": 6178,
+        "text": "```java\nname != null && (!name.isEmpty() || image != null)\n```\n\nExplanation:\n- The method `findSampleSheet` requires either a non-null and non-empty `name` or an `image` that is not null.\n- If both are null, it throws an `IllegalArgumentException`.\n- Therefore, the valid state constraint can be expressed as ensuring that at least one of these conditions holds true.",
+        "input_tokens": 22265,
+        "output_tokens": 84,
+        "elapsed_seconds": 6.017
+    },
+    {
+        "id": 6186,
+        "text": "sample != null && sampleSheet != null",
+        "input_tokens": 19258,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.182
+    },
+    {
+        "id": 6200,
+        "text": "```plaintext\nimage != null && saved == true || saved == false\n```",
+        "input_tokens": 21635,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.525
+    },
+    {
+        "id": 6394,
+        "text": "None",
+        "input_tokens": 22531,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.53
+    },
+    {
+        "id": 6438,
+        "text": "None",
+        "input_tokens": 17548,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.926
+    },
+    {
+        "id": 6478,
+        "text": "coordinates != null && segmentTypes != null && segmentIndex >= 0 && coordIndex + coordinatesForSegmentType(segmentTypes[segmentIndex]) <= coordinates.length",
+        "input_tokens": 22228,
+        "output_tokens": 32,
+        "elapsed_seconds": 4.873
+    },
+    {
+        "id": 6525,
+        "text": "os != null && rootName != null && scores != null && scorePartwise != null && opus != null && zos != null && mof != null",
+        "input_tokens": 20974,
+        "output_tokens": 34,
+        "elapsed_seconds": 4.907
+    },
+    {
+        "id": 6526,
+        "text": "path != null && !rootName.isEmpty() && rootName != null && scores != null && signed == true || signed == false",
+        "input_tokens": 20331,
+        "output_tokens": 27,
+        "elapsed_seconds": 4.594
+    },
+    {
+        "id": 6531,
+        "text": "records != null && partRef != null && dir >= -1 && dir <= 1\n\nExplanation:\n- `records` must not be null as it is used to add a new `Record`.\n- `partRef` must not be null as it provides necessary information for creating the `LogicalPart` and `Record`.\n- `dir` must be either -1, 0, or 1. This ensures that the record is added at the correct position in the list based on the direction (`dir`).",
+        "input_tokens": 22003,
+        "output_tokens": 104,
+        "elapsed_seconds": 6.283
+    },
+    {
+        "id": 6551,
+        "text": "score != null && null != builder.scorePartwise",
+        "input_tokens": 20260,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.366
+    },
+    {
+        "id": 6567,
+        "text": "node != null && scorePartwise != null\n\nExplanation:\n1. **Node Relevance**: The parameter `node` is directly involved in the condition.\n2. **Valid State**: The method throws an exception if `node` is null, indicating that `node` must not be null for the method to proceed normally.\n3. **Simplicity**: The extracted constraint is a simple boolean expression.\n\nThe second part of the constraint (`scorePartwise != null`) is implied by the method's logic but not directly checked in the provided code snippet. However, since `scorePartwise` is assigned from `PartwiseBuilder.build(score)`, and assuming this builder does not return null for valid input, we can infer that `scorePartwise` should be non-null. If it were to be null, an exception would likely be thrown elsewhere in the method or by the `Marshalling.marshal` call.\n\nCombining these constraints using logical AND (`&&`), we get:\n```java\nnode != null && scorePartwise != null\n```\n\nSince the second part is implied and not explicitly checked, it's included for completeness but may need further validation depending on the implementation details of `PartwiseBuilder.build`.",
+        "input_tokens": 21357,
+        "output_tokens": 247,
+        "elapsed_seconds": 8.829
+    },
+    {
+        "id": 6568,
+        "text": "```java\nscore != null && os != null && scoreName != null\n```\n\nExplanation:\n1. **score**: The `score` parameter is used to build a `ScorePartwise` object using `PartwiseBuilder.build(score)`. Therefore, it must not be null.\n2. **os**: The `OutputStream` parameter is required for writing the exported data. It must not be null as specified in the method's documentation.\n3. **scoreName**: When `compressed` is true and `scoreName` is null, a default name \"score\" is assigned. Therefore, `scoreName` cannot be null to avoid issues with file naming.\n\nCombining these constraints using logical AND (`&&`) gives us the final expression:\n```java\nscore != null && os != null && scoreName != null\n```",
+        "input_tokens": 21672,
+        "output_tokens": 168,
+        "elapsed_seconds": 7.586
+    },
+    {
+        "id": 6569,
+        "text": "path != null && !signed || !compressed",
+        "input_tokens": 18706,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.125
+    },
+    {
+        "id": 6614,
+        "text": "```java\nstep == OmrStep.LOAD || step == OmrStep.BINARY && OMR.gui != null\n```",
+        "input_tokens": 21828,
+        "output_tokens": 27,
+        "elapsed_seconds": 4.777
+    },
+    {
+        "id": 7053,
+        "text": "point != null && staff != null\n\nThe constraints are derived from the fact that both `point` and `staff` parameters are used in method calls (`getMeasureClefBefore`, `getPrecedingInSystem`, `getLastMeasureClef`) without any checks for their validity. Therefore, they must not be null to ensure the method can proceed normally.",
+        "input_tokens": 22486,
+        "output_tokens": 74,
+        "elapsed_seconds": 5.907
+    },
+    {
+        "id": 7063,
+        "text": "```plaintext\nstaff != null && staff.getIndexInPart() >= 0\n```",
+        "input_tokens": 21595,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.771
+    },
+    {
+        "id": 7065,
+        "text": "point != null && staff != null && clefs != null",
+        "input_tokens": 20528,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.484
+    },
+    {
+        "id": 7300,
+        "text": "value >= 0 && value <= 1",
+        "input_tokens": 20621,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.314
+    },
+    {
+        "id": 7561,
+        "text": "```plaintext\nnum != null && den != null\n```",
+        "input_tokens": 19588,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.23
+    },
+    {
+        "id": 7618,
+        "text": "```java\n(inter instanceof AbstractChordInter && !(inter instanceof SmallChordInter)) || (inter instanceof AbstractNoteInter note && (note.getChord() != null) && !(note.getChord() instanceof SmallChordInter))\n```",
+        "input_tokens": 21537,
+        "output_tokens": 51,
+        "elapsed_seconds": 5.232
+    },
+    {
+        "id": 7622,
+        "text": "```java\nglyph != null && shape != null\n```",
+        "input_tokens": 19521,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.259
+    },
+    {
+        "id": 7624,
+        "text": "```java\nsentence != null && newRole != null\n```",
+        "input_tokens": 20381,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.374
+    },
+    {
+        "id": 7625,
+        "text": "```java\none != null && two != null && (kind == ConnectionTask.Kind.SLUR_CONNECTION)\n```\n\nExplanation:\n- The method `connect` is only executed for the case where `kind` is `SLUR_CONNECTION`.\n- Both `one` and `two` must be non-null to proceed with the operations inside the switch statement.\n- Other cases in the switch are not relevant based on the provided code, so they are omitted.",
+        "input_tokens": 20399,
+        "output_tokens": 92,
+        "elapsed_seconds": 5.83
+    },
+    {
+        "id": 7671,
+        "text": "amount >= 0 && amount <= 1\n\nExplanation:\n- The `setBar` method sets the value of a progress bar based on the `amount` parameter.\n- The `amount` is used to calculate the value for the progress bar using the formula: `int val = (int) Math.round(divisions * amount);`\n- Since `divisions` is a positive integer, `amount` must be between 0 and 1 inclusive to ensure that `val` remains within the valid range of values for the progress bar's minimum (0) and maximum (`divisions`).",
+        "input_tokens": 18736,
+        "output_tokens": 120,
+        "elapsed_seconds": 6.129
+    },
+    {
+        "id": 7763,
+        "text": "number >= 0 && number <= 999",
+        "input_tokens": 22680,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.597
+    },
+    {
+        "id": 7895,
+        "text": "```java\nspec != null && maxValue >= 1\n```\n\nExplanation:\n- The method `normalized` requires that the `spec` parameter is not null. If it is null, an empty string is used as a fallback.\n- The `maxValue` must be greater than or equal to 1 for the decoding and encoding processes to work correctly.\n\nCombining these constraints using logical AND (`&&`), we get:\n\n```java\nspec != null && maxValue >= 1\n```",
+        "input_tokens": 24359,
+        "output_tokens": 100,
+        "elapsed_seconds": 6.754
+    },
+    {
+        "id": 7927,
+        "text": "```plaintext\naNode != null && classLocations != null\n```",
+        "input_tokens": 22902,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.888
+    },
+    {
+        "id": 7928,
+        "text": "```java\ncontainingClassNode != null && locations != null\n```",
+        "input_tokens": 22546,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.859
+    },
+    {
+        "id": 7931,
+        "text": "```java\naNode != null && formattedDocumentation != null && !formattedDocumentation.isEmpty()\n```",
+        "input_tokens": 20793,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.732
+    },
+    {
+        "id": 7934,
+        "text": "sourceCodeFiles != null && !sourceCodeFiles.isEmpty()",
+        "input_tokens": 20064,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.467
+    },
+    {
+        "id": 7935,
+        "text": "sourceCodeURLs != null && !sourceCodeURLs.isEmpty()",
+        "input_tokens": 21655,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.606
+    },
+    {
+        "id": 7973,
+        "text": "```java\nfilenameHint != null && targetDir != null && maxAttempts >= 1 && fileUrlBuilder != null\n```\n\nExplanation:\n- `filenameHint` is required to generate the safe name and determine if it's generic.\n- `targetDir` must be provided to create directories and save the file.\n- `maxAttempts` must be at least 1 for retry logic.\n- `fileUrlBuilder` is necessary to build the file URL, as indicated by its usage in the method.",
+        "input_tokens": 19152,
+        "output_tokens": 103,
+        "elapsed_seconds": 5.896
+    },
+    {
+        "id": 7981,
+        "text": "initialized || !initInProgress.compareAndSet(false, true)\n\nExplanation:\n- The method `initWithLocale` initializes a database with a given locale.\n- It checks if the database is already initialized (`initialized`) or if initialization is already in progress (`initInProgress`).\n- If either condition is true, it logs an appropriate message and returns false without proceeding further.\n\nThe constraints extracted are combined using the logical OR operator (||) because the method should return false if either of these conditions is met.",
+        "input_tokens": 23591,
+        "output_tokens": 100,
+        "elapsed_seconds": 6.461
+    },
+    {
+        "id": 7982,
+        "text": "goal != null && terminalAnswer != null && !terminalAnswer.isBlank() && model != null\n\nExplanation:\n1. **goal != null**: The method throws a fallback result if `goal` is null.\n2. **terminalAnswer != null && !terminalAnswer.isBlank()**: The method checks for null or blank `terminalAnswer` and returns a fallback result if it's invalid.\n3. **model != null**: The method logs a warning and returns a fallback result if the evaluator model is not available.\n\nThese constraints ensure that the method can proceed normally without encountering an early return due to invalid parameters.",
+        "input_tokens": 20761,
+        "output_tokens": 121,
+        "elapsed_seconds": 6.588
+    },
+    {
+        "id": 7985,
+        "text": "```java\ntoolCallIds != null && !toolCallIds.isEmpty() && reasoningContent != null && !reasoningContent.isBlank()\n```",
+        "input_tokens": 20378,
+        "output_tokens": 29,
+        "elapsed_seconds": 4.548
+    },
+    {
+        "id": 8040,
+        "text": "elicitationCompleteConsumer != null",
+        "input_tokens": 23854,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.779
+    },
+    {
+        "id": 8041,
+        "text": "resourcesUpdateConsumer != null",
+        "input_tokens": 20451,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.512
+    },
+    {
+        "id": 8042,
+        "text": "None",
+        "input_tokens": 22219,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.397
+    },
+    {
+        "id": 8043,
+        "text": "loggingConsumers != null",
+        "input_tokens": 22452,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.619
+    },
+    {
+        "id": 8044,
+        "text": "elicitationCompleteConsumer != null",
+        "input_tokens": 22161,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.622
+    },
+    {
+        "id": 8046,
+        "text": "```java\nprogressConsumers != null\n```",
+        "input_tokens": 24354,
+        "output_tokens": 11,
+        "elapsed_seconds": 5.002
+    },
+    {
+        "id": 8047,
+        "text": "elicitationCompleteConsumers != null",
+        "input_tokens": 23737,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.988
+    },
+    {
+        "id": 8048,
+        "text": "elicitationCompleteConsumers != null",
+        "input_tokens": 23085,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.834
+    },
+    {
+        "id": 8068,
+        "text": "resourceTemplatesSpec != null",
+        "input_tokens": 22487,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.66
+    },
+    {
+        "id": 8071,
+        "text": "```plaintext\ntool != null && callHandler != null && !tool.name().isEmpty()\n```\n\nExplanation:\n- `Assert.notNull(tool, \"Tool must not be null\")` ensures that the tool is not null.\n- `Assert.notNull(callHandler, \"Handler must not be null\")` ensures that the handler is not null.\n- `validateToolName(tool.name())` and `assertNoDuplicateTool(tool.name())` are method calls that validate the tool name. Since these methods do not throw exceptions if the name is valid, we can infer that the tool name should not be empty for the method to proceed normally.\n\nCombining all constraints:\n- `tool != null`\n- `callHandler != null`\n- `!tool.name().isEmpty()`\n\nThe final expression is: `tool != null && callHandler != null && !tool.name().isEmpty()`",
+        "input_tokens": 23808,
+        "output_tokens": 175,
+        "elapsed_seconds": 8.093
+    },
+    {
+        "id": 8072,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 23195,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.781
+    },
+    {
+        "id": 8073,
+        "text": "handler != null\n\nExplanation: The method `rootsChangeHandler` requires that the provided `BiConsumer` (handler) is not null. This constraint directly involves a parameter from the method signature and ensures the method can proceed normally without encountering an `IllegalArgumentException`.",
+        "input_tokens": 20807,
+        "output_tokens": 52,
+        "elapsed_seconds": 5.291
+    },
+    {
+        "id": 8074,
+        "text": "completions != null && !completions.isEmpty()",
+        "input_tokens": 20412,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.366
+    },
+    {
+        "id": 8075,
+        "text": "prompts != null",
+        "input_tokens": 19194,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.029
+    },
+    {
+        "id": 8076,
+        "text": "completions != null",
+        "input_tokens": 23115,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.581
+    },
+    {
+        "id": 8077,
+        "text": "prompts != null",
+        "input_tokens": 20604,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.367
+    },
+    {
+        "id": 8080,
+        "text": "tool != null && null != callHandler",
+        "input_tokens": 22041,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.565
+    },
+    {
+        "id": 8081,
+        "text": "completions != null",
+        "input_tokens": 19079,
+        "output_tokens": 6,
+        "elapsed_seconds": 3.975
+    },
+    {
+        "id": 8083,
+        "text": "prompts != null && !prompts.isEmpty()",
+        "input_tokens": 23675,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.654
+    },
+    {
+        "id": 8085,
+        "text": "completions != null",
+        "input_tokens": 19808,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.36
+    },
+    {
+        "id": 8086,
+        "text": "toolSpecifications != null && all(toolSpecifications.stream(), t -> t.tool() != null && !t.tool().name().isEmpty())",
+        "input_tokens": 20412,
+        "output_tokens": 27,
+        "elapsed_seconds": 4.561
+    },
+    {
+        "id": 8092,
+        "text": "None",
+        "input_tokens": 21949,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.292
+    },
+    {
+        "id": 8093,
+        "text": "tool != null && null != handler && !tool.name().isEmpty()",
+        "input_tokens": 23107,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.925
+    },
+    {
+        "id": 8094,
+        "text": "uriTemplateManagerFactory != null",
+        "input_tokens": 22608,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.834
+    },
+    {
+        "id": 8095,
+        "text": "toolSpecifications != null && all(t -> t != null, toolSpecifications)\n\nExplanation:\n1. **Parameter Relevance**: The method parameter `toolSpecifications` is relevant as it must not be null.\n2. **Valid State**: Each element in the list must not be null to ensure that each tool specification can be validated and added.\n3. **Simplicity**: The constraint is a simple boolean expression using logical AND (`&&`) and a lambda function for checking non-null elements.\n\nThe final combined constraint ensures both the list itself and all its elements are valid:\n- `toolSpecifications != null` checks if the list of tool specifications is not null.\n- `all(t -> t != null, toolSpecifications)` checks that every element in the list is not null.",
+        "input_tokens": 21837,
+        "output_tokens": 155,
+        "elapsed_seconds": 7.355
+    },
+    {
+        "id": 8096,
+        "text": "prompts != null",
+        "input_tokens": 21632,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.527
+    },
+    {
+        "id": 8097,
+        "text": "resourceTemplates != null",
+        "input_tokens": 22955,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.77
+    },
+    {
+        "id": 8098,
+        "text": "resourceTemplates != null",
+        "input_tokens": 21679,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.458
+    },
+    {
+        "id": 8099,
+        "text": "toolSpecifications != null && !toolSpecifications.isEmpty()",
+        "input_tokens": 20178,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.368
+    },
+    {
+        "id": 8100,
+        "text": "```plaintext\nresourceSpecifications != null\n```",
+        "input_tokens": 24892,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.999
+    },
+    {
+        "id": 8101,
+        "text": "tool != null && callHandler != null && !tool.name().isEmpty() && tool.name() != null",
+        "input_tokens": 18582,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.507
+    },
+    {
+        "id": 8102,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 23211,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.602
+    },
+    {
+        "id": 8103,
+        "text": "resourceTemplates != null",
+        "input_tokens": 22592,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.697
+    },
+    {
+        "id": 8106,
+        "text": "resourceSpecifications != null",
+        "input_tokens": 21566,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.559
+    },
+    {
+        "id": 8126,
+        "text": "contextExtractor != null",
+        "input_tokens": 21661,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.379
+    },
+    {
+        "id": 8206,
+        "text": "joinState != null && processor != null\n\nExplanation:\n- `this.when(null, processor);` sets up a condition where the processor is applied when no specific condition matches.\n- `State<O, D, O, F> joinState = this.branches.get(0).just(any -> {});` initializes `joinState`. The method `branches.get(0).just(any -> {})` returns an instance of `joinState`.\n- `joinState.processor.displayAs(SpecialDisplayNode.OTHERS.name());` sets the display name for the processor.\n- `this.branches.stream().skip(1).forEach(branch -> branch.publisher().subscribe(joinState.subscriber()));` subscribes to publishers from branches (excluding the first one) and routes them to `joinState.subscriber()`.\n\nFor the method to proceed normally, both `joinState` and `processor` must be non-null. If either is null, it would lead to potential errors or unexpected behavior in subsequent operations.",
+        "input_tokens": 23391,
+        "output_tokens": 200,
+        "elapsed_seconds": 8.473
+    },
+    {
+        "id": 8326,
+        "text": "name != null && !name.isEmpty() && name.matches(\"[_A-Za-z][_0-9A-Za-z]*\")",
+        "input_tokens": 19284,
+        "output_tokens": 26,
+        "elapsed_seconds": 4.635
+    },
+    {
+        "id": 8372,
+        "text": "imageFormat != null && !isValidImageFormat(imageFormat)",
+        "input_tokens": 23902,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.863
+    },
+    {
+        "id": 8374,
+        "text": "tableMethod.equals(tableMethod.toUpperCase(Locale.ROOT)) && (tableMethod == null || isValidTableMethod(tableMethod))",
+        "input_tokens": 22310,
+        "output_tokens": 24,
+        "elapsed_seconds": 5.041
+    },
+    {
+        "id": 8375,
+        "text": "hybrid != null && !isValidHybrid(hybrid)",
+        "input_tokens": 20839,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.565
+    },
+    {
+        "id": 8376,
+        "text": "readingOrder == null || isValidReadingOrder(readingOrder)",
+        "input_tokens": 19953,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.444
+    },
+    {
+        "id": 8377,
+        "text": "imageOutput != null && isValidImageOutput(imageOutput)",
+        "input_tokens": 22383,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.601
+    },
+    {
+        "id": 8400,
+        "text": "maxConcurrentRequests > 0",
+        "input_tokens": 19954,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.457
+    },
+    {
+        "id": 8404,
+        "text": "timeoutMs >= 0",
+        "input_tokens": 18640,
+        "output_tokens": 6,
+        "elapsed_seconds": 3.898
+    },
+    {
+        "id": 8437,
+        "text": "backendFailedPages != null && hybridConfig != null && !backendFailedPages.isEmpty() && !hybridConfig.isFallbackToJava()",
+        "input_tokens": 20803,
+        "output_tokens": 28,
+        "elapsed_seconds": 4.687
+    },
+    {
+        "id": 8499,
+        "text": "topK >= 0 && minScore >= 0.0 && query != null && filter != null && memoryId != null\n\nExplanation:\n1. `topK >= 0`: The parameter `topK` represents the number of results to return, and it must be non-negative.\n2. `minScore >= 0.0`: The parameter `minScore` is a threshold for the score, and it must be non-negative.\n3. `query != null`: The search query cannot be null.\n4. `filter != null`: The filter map used to apply additional constraints on the results cannot be null.\n5. `memoryId != null`: The memory identifier used to specify the context of the search cannot be null.\n\nThese constraints ensure that the method parameters are valid and necessary for the method to proceed normally.",
+        "input_tokens": 22326,
+        "output_tokens": 168,
+        "elapsed_seconds": 7.684
+    },
+    {
+        "id": 8538,
+        "text": "```java\nselected != null && actionState == ACTION_STATE_DRAG || (actionState != ACTION_STATE_DRAG && selected == null)\n```\n\nExplanation:\n- The method `select` has two main conditions to check for valid state:\n  - When `actionState` is `ACTION_STATE_DRAG`, it requires a non-null `selected` ViewHolder.\n  - Otherwise, when `actionState` is not `ACTION_STATE_DRAG`, the `selected` parameter can be null.\n\nThe combined condition ensures that either:\n- A non-null `selected` ViewHolder must be provided if the action state is drag.\n- Or, no specific `selected` ViewHolder is required for other action states.",
+        "input_tokens": 21804,
+        "output_tokens": 140,
+        "elapsed_seconds": 7.142
+    },
+    {
+        "id": 8557,
+        "text": "orientation == RecyclerView.HORIZONTAL || orientation == RecyclerView.VERTICAL",
+        "input_tokens": 21762,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.588
+    },
+    {
+        "id": 8562,
+        "text": "```java\nslopConstant == TOUCH_SLOP_DEFAULT || slopConstant == TOUCH_SLOP_PAGING\n```",
+        "input_tokens": 22278,
+        "output_tokens": 26,
+        "elapsed_seconds": 4.927
+    },
+    {
+        "id": 8584,
+        "text": "position >= 0 && position < mState.getItemCount() && mState.isPreLayout()",
+        "input_tokens": 21332,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.634
+    },
+    {
+        "id": 8653,
+        "text": "recyclerView != null\n\nExplanation:\n- The method sets `mRecyclerView` to the provided `recyclerView`.\n- It first checks if `mRecyclerView` is already set to the same instance as the provided `recyclerView`. If so, it returns early.\n- If `mRecyclerView` is not null before setting it, it calls `destroyCallbacks()`.\n- Then it sets `mRecyclerView` to the provided value and checks again if it's not null.\n- It then calls `setupCallbacks()` and initializes a new `Scroller` with the context of the `recyclerView`.\n- Finally, it calls `snapToTargetExistingView()`.\n\nThe only parameter that must be checked for validity (non-null) is `recyclerView`. All other operations depend on whether `mRecyclerView` ends up being non-null after setting it.",
+        "input_tokens": 23086,
+        "output_tokens": 169,
+        "elapsed_seconds": 7.81
+    },
+    {
+        "id": 8662,
+        "text": "```java\ngapStrategy == GAP_HANDLING_NONE || gapStrategy == GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS\n```",
+        "input_tokens": 21481,
+        "output_tokens": 27,
+        "elapsed_seconds": 4.93
+    },
+    {
+        "id": 8693,
+        "text": "minPossibleLiveOffsetSmoothingFactor >= 0.0 && minPossibleLiveOffsetSmoothingFactor < 1.0",
+        "input_tokens": 18943,
+        "output_tokens": 26,
+        "elapsed_seconds": 4.478
+    },
+    {
+        "id": 8719,
+        "text": "seekForwardIncrementMs > 0",
+        "input_tokens": 21690,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.413
+    },
+    {
+        "id": 8721,
+        "text": "seekBackIncrementMs > 0 && !buildCalled",
+        "input_tokens": 21534,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.527
+    },
+    {
+        "id": 8757,
+        "text": "```java\nholders != null && !holders.isEmpty() && shuffleOrder != null\n```",
+        "input_tokens": 20594,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.56
+    },
+    {
+        "id": 8758,
+        "text": "fromIndex >= 0 && fromIndex <= toIndex && toIndex <= getSize() && shuffleOrder != null",
+        "input_tokens": 19304,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.299
+    },
+    {
+        "id": 8784,
+        "text": "```java\nadGroupIndex != C.INDEX_UNSET && adIndexInAdGroup != C.INDEX_UNSET || (adGroupIndex == C.INDEX_UNSET && adIndexInAdGroup == C.INDEX_UNSET)\n```",
+        "input_tokens": 20386,
+        "output_tokens": 50,
+        "elapsed_seconds": 4.947
+    },
+    {
+        "id": 8801,
+        "text": "None\n\nExplanation:\n- The method `isLastPeriod` checks if the given `periodIndex` is the last period in a sequence based on the provided parameters.\n- It does this by comparing the result of `getNextPeriodIndex(periodIndex, period, window, repeatMode, shuffleModeEnabled)` with `C.INDEX_UNSET`.\n- There are no constraints or conditions placed directly on the method's parameters that must hold true for the method to proceed normally. The method simply returns a boolean based on the comparison.\n- Therefore, according to the extraction rules, there are no valid parameter constraints to extract from this method.",
+        "input_tokens": 22438,
+        "output_tokens": 126,
+        "elapsed_seconds": 6.808
+    },
+    {
+        "id": 8802,
+        "text": "```java\nperiodIndex >= 0 && null != period && null != window && repeatMode == Player.RepeatMode.REPEAT_ONE || repeatMode == Player.RepeatMode.REPEAT_ALL || shuffleModeEnabled\n```\n\nExplanation:\n- `periodIndex` must be non-negative.\n- `period` and `window` cannot be null.\n- The `repeatMode` can only be either `Player.RepeatMode.REPEAT_ONE` or `Player.RepeatMode.REPEAT_ALL`.\n- If `shuffleModeEnabled` is true, the method will proceed without additional constraints on other parameters.",
+        "input_tokens": 22220,
+        "output_tokens": 120,
+        "elapsed_seconds": 6.784
+    },
+    {
+        "id": 8824,
+        "text": "```plaintext\nsyncframe != null && syncframe.length >= 10\n```\n\nExplanation:\n- The method checks specific byte values at indices 4, 5, 6, and 7. These checks assume that the array has at least these indices.\n- Additionally, it accesses `syncframe[9]` if `isMlp` is true and `syncframe[8]` otherwise, which means the array must have at least 10 elements to avoid an `ArrayIndexOutOfBoundsException`.\n\nCombining all constraints using a logical AND operator results in the final expression.",
+        "input_tokens": 24099,
+        "output_tokens": 120,
+        "elapsed_seconds": 7.058
+    },
+    {
+        "id": 8841,
+        "text": "```plaintext\npcm32BitInt != Integer.MIN_VALUE && pcm32BitInt <= Integer.MAX_VALUE\n```\n\nExplanation:\n- The method `writePcm32BitFloat` takes an integer (`pcm32BitInt`) and writes it to a `ByteBuffer` as a 32-bit float.\n- The conversion from `pcm32BitInt` to `pcm32BitFloat` is done using the factor `PCM_32_BIT_INT_TO_PCM_32_BIT_FLOAT_FACTOR`.\n- The integer representation of `NaN` (Not a Number) in IEEE 754 floating-point format is `FLOAT_NAN_AS_INT`. If the resulting float bits are equal to this value, it gets replaced with `0.0f`.\n- Since `pcm32BitInt` is an integer and the method does not perform any checks on its range before conversion, we need to ensure that `pcm32BitInt` is within the valid range of a 32-bit signed integer (`Integer.MIN_VALUE` to `Integer.MAX_VALUE`).\n\nThus, the constraint is:\n```plaintext\npcm32BitInt != Integer.MIN_VALUE && pcm32BitInt <= Integer.MAX_VALUE\n```",
+        "input_tokens": 24538,
+        "output_tokens": 250,
+        "elapsed_seconds": 9.69
+    },
+    {
+        "id": 8854,
+        "text": "None",
+        "input_tokens": 20914,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.448
+    },
+    {
+        "id": 8869,
+        "text": "sessionKeepaliveMs > 0 || sessionKeepaliveMs == C.TIME_UNSET",
+        "input_tokens": 19648,
+        "output_tokens": 18,
+        "elapsed_seconds": 4.265
+    },
+    {
+        "id": 8872,
+        "text": "mergedSchemeType.equals(drmInitData.schemeType) && schemeDatas.length + drmInitData.schemeDatas.length > 0 && (schemeType != null || drmInitData.schemeType != null)",
+        "input_tokens": 21072,
+        "output_tokens": 41,
+        "elapsed_seconds": 4.837
+    },
+    {
+        "id": 8887,
+        "text": "lightnessAdjustment >= -100 && lightnessAdjustment <= 100",
+        "input_tokens": 21636,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.751
+    },
+    {
+        "id": 8888,
+        "text": "saturationAdjustment >= -100 && saturationAdjustment <= 100",
+        "input_tokens": 22713,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.934
+    },
+    {
+        "id": 8898,
+        "text": "width > 0 && height > 0 && (layout == LAYOUT_TYPE_UNSPECIFIED || layout == LAYOUT_TYPE_SINGLE_COLUMN || layout == LAYOUT_TYPE_DOUBLE_COLUMN)",
+        "input_tokens": 21683,
+        "output_tokens": 37,
+        "elapsed_seconds": 5.152
+    },
+    {
+        "id": 8899,
+        "text": "```java\naspectRatio == C.LENGTH_UNSET || aspectRatio > 0 && layout >= 0\n```",
+        "input_tokens": 23828,
+        "output_tokens": 24,
+        "elapsed_seconds": 5.316
+    },
+    {
+        "id": 8900,
+        "text": "blueScale >= 0.0",
+        "input_tokens": 19866,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.358
+    },
+    {
+        "id": 8901,
+        "text": "redScale >= 0.0 && redScale != null",
+        "input_tokens": 20362,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.309
+    },
+    {
+        "id": 8902,
+        "text": "greenScale >= 0",
+        "input_tokens": 17179,
+        "output_tokens": 6,
+        "elapsed_seconds": 3.731
+    },
+    {
+        "id": 8979,
+        "text": "codecId != null && durationUs >= 0 && subtitleData != null",
+        "input_tokens": 22055,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.375
+    },
+    {
+        "id": 9075,
+        "text": "timeUs >= 0 && bufferData != null && canAppendSampleBuffer(buffer) && !buffer.isEncrypted() && !buffer.hasSupplementalData() && !buffer.isEndOfStream() && sampleCount >= 0 && lastSampleTimeUs >= 0 && data != null\n\nExplanation:\n1. `timeUs >= 0`: The `timeUs` field is used to store the time in microseconds, and it should be non-negative.\n2. `bufferData != null`: The `bufferData` must not be null when there is actual data to append.\n3. `canAppendSampleBuffer(buffer)`: This method check ensures that the buffer can be appended.\n4. `!buffer.isEncrypted()`: The buffer cannot be encrypted.\n5. `!buffer.hasSupplementalData()`: The buffer should not have supplemental data.\n6. `!buffer.isEndOfStream()`: The buffer should not indicate end of stream.\n7. `sampleCount >= 0`: The sample count must be non-negative.\n8. `lastSampleTimeUs >= 0`: The last sample time in microseconds should be non-negative.\n9. `data != null`: The data buffer where the samples are stored must not be null.\n\nCombining these constraints using logical AND operator:\n\n```java\ntimeUs >= 0 && bufferData != null && canAppendSampleBuffer(buffer) && !buffer.isEncrypted() && !buffer.hasSupplementalData() && !buffer.isEndOfStream() && sampleCount >= 0 && lastSampleTimeUs >= 0 && data != null\n```",
+        "input_tokens": 25862,
+        "output_tokens": 328,
+        "elapsed_seconds": 11.317
+    },
+    {
+        "id": 9135,
+        "text": "maxParallelDownloads > 0 && maxParallelDownloads >= 1",
+        "input_tokens": 20909,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.81
+    },
+    {
+        "id": 9137,
+        "text": "mergedKeys != null && id.equals(newRequest.id) && newRequest.streamKeys != null && newRequest.uri != null && newRequest.mimeType != null && newRequest.keySetId != null && newRequest.customCacheKey != null && newRequest.data != null",
+        "input_tokens": 21917,
+        "output_tokens": 53,
+        "elapsed_seconds": 5.541
+    },
+    {
+        "id": 9149,
+        "text": "None",
+        "input_tokens": 23343,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.616
+    },
+    {
+        "id": 9151,
+        "text": "```java\nindex >= 0 && null != handler && null != onCompletionAction\n```",
+        "input_tokens": 21131,
+        "output_tokens": 20,
+        "elapsed_seconds": 4.855
+    },
+    {
+        "id": 9152,
+        "text": "None",
+        "input_tokens": 23333,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.533
+    },
+    {
+        "id": 9165,
+        "text": "mediaItem.localConfiguration != null && (tag != null || customCacheKey != null)",
+        "input_tokens": 23545,
+        "output_tokens": 19,
+        "elapsed_seconds": 5.168
+    },
+    {
+        "id": 9184,
+        "text": "timeUs > getLargestReadTimestampUs() && retainCount >= 0 && absoluteFirstIndex + retainCount <= length\n\nExplanation:\n1. `timeUs > getLargestReadTimestampUs()` ensures that the provided time is greater than the largest timestamp of read samples, which is a valid state for discarding upstream samples.\n2. `countUnreadSamplesBefore(timeUs)` returns the number of unread samples before the given time. This value must be non-negative and less than or equal to the total length of the sample buffer.\n3. The condition `absoluteFirstIndex + retainCount <= length` ensures that the index used for discarding samples does not exceed the buffer's length.\n\nCombining these constraints using logical AND operator, we get:\n\n```plaintext\ntimeUs > getLargestReadTimestampUs() && countUnreadSamplesBefore(timeUs) >= 0 && absoluteFirstIndex + countUnreadSamplesBefore(timeUs) <= length\n```",
+        "input_tokens": 21758,
+        "output_tokens": 195,
+        "elapsed_seconds": 8.227
+    },
+    {
+        "id": 9213,
+        "text": "```java\nmanifest.dynamic == false && mediaItem.localConfiguration != null\n```\n\nExplanation:\n- The method `createMediaSource` has two parameters: `DashManifest manifest` and `MediaItem mediaItem`.\n- The first constraint is derived from the line `Assertions.checkArgument(!manifest.dynamic);`, which ensures that `manifest.dynamic` must be `false`.\n- The second constraint is derived from the condition inside the `if` statement, where it checks if `mediaItem.localConfiguration` is `null`. If it is `null`, a URI is set to `Uri.EMPTY`. Therefore, for the method to proceed normally without setting an empty URI, `mediaItem.localConfiguration` must not be `null`.\n\nCombining these constraints using logical AND (`&&`) gives us the final expression.",
+        "input_tokens": 20919,
+        "output_tokens": 161,
+        "elapsed_seconds": 7.171
+    },
+    {
+        "id": 9216,
+        "text": "None",
+        "input_tokens": 18813,
+        "output_tokens": 2,
+        "elapsed_seconds": 3.914
+    },
+    {
+        "id": 9302,
+        "text": "```java\nresponse.headers.get(RtspHeaders.CSEQ) != null && response.status != null && response.messageBody != null\n```\n\nExplanation:\n1. The method `serializeResponse` requires that the `CSEQ` header is not null, as checked by `checkArgument(response.headers.get(RtspHeaders.CSEQ) != null);`.\n2. The status code (`response.status`) must be non-null to get its reason phrase.\n3. The message body (`response.messageBody`) must also be non-null.\n\nThese constraints ensure that the method can proceed without encountering a `NullPointerException` during execution.",
+        "input_tokens": 22573,
+        "output_tokens": 124,
+        "elapsed_seconds": 6.657
+    },
+    {
+        "id": 9308,
+        "text": "```java\nlines != null && !lines.isEmpty() && lines.contains(\"\")\n```",
+        "input_tokens": 21273,
+        "output_tokens": 17,
+        "elapsed_seconds": 4.561
+    },
+    {
+        "id": 9311,
+        "text": "```java\nurlString != null && sessionUri != null && \"rtsp\".equals(checkNotNull(sessionUri.getScheme()))\n```",
+        "input_tokens": 21307,
+        "output_tokens": 27,
+        "elapsed_seconds": 4.683
+    },
+    {
+        "id": 9315,
+        "text": "```java\nmediaItem.localConfiguration != null && !manifest.isLive && mediaItem.localConfiguration.streamKeys.size() > 0 || (mediaItem.localConfiguration != null && hasUri)\n```\n\nExplanation:\n1. **`!manifest.isLive`**: Ensures the manifest is not live.\n2. **`mediaItem.localConfiguration != null`**: Ensures `localConfiguration` is not null, which is a prerequisite for accessing its fields.\n3. **`!streamKeys.isEmpty()`**: Ensures there are stream keys in the local configuration if it exists.\n4. **`hasUri`**: Ensures that `uri` is set when `localConfiguration` is not null.\n\nCombining these constraints using logical AND (`&&`) and OR (`||`) operators, we get the final expression:\n\n```java\nmediaItem.localConfiguration != null && !manifest.isLive && mediaItem.localConfiguration.streamKeys.size() > 0 || (mediaItem.localConfiguration != null && hasUri)\n```\n\nThis ensures that the method parameters are valid for creating a `SsMediaSource`.",
+        "input_tokens": 24168,
+        "output_tokens": 221,
+        "elapsed_seconds": 8.914
+    },
+    {
+        "id": 9337,
+        "text": "id != null || tag != null || classes != null || voice != null\n\nExplanation:\n- The method checks if `targetId`, `targetTag`, `targetClasses`, and `targetVoice` are all empty. If they are, it returns a specific value based on whether `tag` is empty.\n- For non-empty parameters (`id`, `tag`, `classes`, `voice`), the method updates a score using the `updateScoreForMatch` function.\n- The final score calculation ensures that if any of the target values do not match (i.e., `score == -1`) or if `targetClasses` is not a subset of `classes`, the score is set to 0.\n- Therefore, at least one of the parameters (`id`, `tag`, `classes`, `voice`) must be non-null for the method to return a non-zero specificity score.",
+        "input_tokens": 21146,
+        "output_tokens": 180,
+        "elapsed_seconds": 7.764
+    },
+    {
+        "id": 9428,
+        "text": "```java\npercentile >= 0 && percentile <= 1\n```\n\nExplanation:\n- The method `getPercentile` calculates the value at a given percentile in a list of weighted samples.\n- The valid range for a percentile is between 0 and 1 (inclusive).\n- If the `percentile` is outside this range, the logic to find the correct sample would be invalid or produce incorrect results.",
+        "input_tokens": 24782,
+        "output_tokens": 85,
+        "elapsed_seconds": 6.36
+    },
+    {
+        "id": 9461,
+        "text": "```java\nexpression\n```",
+        "input_tokens": 22249,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.641
+    },
+    {
+        "id": 9463,
+        "text": "None",
+        "input_tokens": 22535,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.519
+    },
+    {
+        "id": 9465,
+        "text": "string != null",
+        "input_tokens": 19966,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.337
+    },
+    {
+        "id": 9466,
+        "text": "None",
+        "input_tokens": 24290,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.655
+    },
+    {
+        "id": 9467,
+        "text": "start <= index && index < limit",
+        "input_tokens": 20272,
+        "output_tokens": 8,
+        "elapsed_seconds": 4.401
+    },
+    {
+        "id": 9469,
+        "text": "None",
+        "input_tokens": 22395,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.386
+    },
+    {
+        "id": 9470,
+        "text": "reference != null\n\nThis constraint ensures that the method returns a non-null reference only if it is not null. The `@EnsuresNonNull({\"#1\"})` annotation guarantees that the first parameter (`reference`) will be non-null after the method execution, which implies that `reference` must be non-null for the method to proceed without throwing an exception.",
+        "input_tokens": 21725,
+        "output_tokens": 72,
+        "elapsed_seconds": 5.64
+    },
+    {
+        "id": 9471,
+        "text": "string != null || !TextUtils.isEmpty(string)",
+        "input_tokens": 19905,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.243
+    },
+    {
+        "id": 9489,
+        "text": "configAttributes[0] == 4352 || configAttributes[0] == 4609",
+        "input_tokens": 19800,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.373
+    },
+    {
+        "id": 9490,
+        "text": "```java\neglContext != null && eglDisplay != null && configAttributes.length == 3\n```\n\nExplanation:\n- `eglContext` must not be null as it is required to create the EGL surface.\n- `eglDisplay` must not be null as it is also a required parameter for creating an EGL surface.\n- `configAttributes` must have exactly three elements, which are expected based on the call to `createPbufferSurface`, where three attributes are passed.",
+        "input_tokens": 25124,
+        "output_tokens": 98,
+        "elapsed_seconds": 6.38
+    },
+    {
+        "id": 9562,
+        "text": "list != null && fromIndex >= 0 && toIndex <= list.size() && fromIndex <= toIndex",
+        "input_tokens": 19406,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.641
+    },
+    {
+        "id": 9567,
+        "text": "string.length() <= 4 && string != null",
+        "input_tokens": 22252,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.376
+    },
+    {
+        "id": 9571,
+        "text": "minValue(sparseLongArray) != null && sparseLongArray.size() > 0",
+        "input_tokens": 20817,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.603
+    },
+    {
+        "id": 9579,
+        "text": "maxValue != null\n\nExplanation:\n- The method `maxValue` takes a `SparseLongArray` as its parameter.\n- According to the extraction rules, we need constraints involving at least one parameter from the method signature.\n- The only parameter is `sparseLongArray`, which must not be null for the method to proceed without throwing an exception.\n\nThus, the final expression combining all relevant constraints is:\n```plaintext\nsparseLongArray != null\n```",
+        "input_tokens": 21717,
+        "output_tokens": 92,
+        "elapsed_seconds": 5.947
+    },
+    {
+        "id": 9640,
+        "text": "radius > 0 && latitudes >= 1 && longitudes >= 1 && verticalFovDegrees > 0 && verticalFovDegrees <= 180 && horizontalFovDegrees > 0 && horizontalFovDegrees <= 360",
+        "input_tokens": 23723,
+        "output_tokens": 53,
+        "elapsed_seconds": 5.592
+    },
+    {
+        "id": 9647,
+        "text": "```java\nrgbComponent >= 0 && rgbComponent <= 100\n```",
+        "input_tokens": 21063,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.637
+    },
+    {
+        "id": 9648,
+        "text": "```java\nrgbComponent >= 0 && rgbComponent <= 255\n```",
+        "input_tokens": 19268,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.249
+    },
+    {
+        "id": 9650,
+        "text": "None",
+        "input_tokens": 22364,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.236
+    },
+    {
+        "id": 9651,
+        "text": "coordA >= 0 && coordA <= 100 && coordB >= 0 && coordB <= 100 && n >= 0 && n < 12 && isBounded((y - g * kG - b * kB) / kR) || isBounded((y - r * kR - b * kB) / kG) || isBounded((y - r * kR - g * kG) / kB)",
+        "input_tokens": 21051,
+        "output_tokens": 99,
+        "elapsed_seconds": 6.168
+    },
+    {
+        "id": 9658,
+        "text": "start >= 0 && end <= size && end >= start && value == true || value == false\n\nExplanation:\n1. `start >= 0` - Ensures the starting index is non-negative.\n2. `end <= size` - Ensures the ending index does not exceed the array's size.\n3. `end >= start` - Ensures the range is valid (not empty).\n4. The value of `value` must be either `true` or `false`.\n\nCombining these constraints using logical AND (`&&`) and OR (`||`):\n\n```java\nstart >= 0 && end <= size && end >= start && (value == true || value == false)\n```\n\nSimplified to:\n\n```java\nstart >= 0 && end <= size && end >= start && value == true || value == false\n```",
+        "input_tokens": 20791,
+        "output_tokens": 171,
+        "elapsed_seconds": 7.332
+    },
+    {
+        "id": 9667,
+        "text": "numBits >= 1 && numBits <= 32 && numBits <= available()",
+        "input_tokens": 18807,
+        "output_tokens": 19,
+        "elapsed_seconds": 4.207
+    },
+    {
+        "id": 9685,
+        "text": "```plaintext\ndimension % 4 == 1\n```",
+        "input_tokens": 19529,
+        "output_tokens": 13,
+        "elapsed_seconds": 3.985
+    },
+    {
+        "id": 9715,
+        "text": "icon != null && description != null && pendingIntent != null && mActionButtons.size() < MAX_TOOLBAR_ITEMS",
+        "input_tokens": 20980,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.502
+    },
+    {
+        "id": 9738,
+        "text": "pattern != null && timeZone != null && locale != null",
+        "input_tokens": 20435,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.246
+    },
+    {
+        "id": 9747,
+        "text": "```java\njson != null && !json.isEmpty()\n```",
+        "input_tokens": 22340,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.586
+    },
+    {
+        "id": 9755,
+        "text": "kind != null && stream_id != null",
+        "input_tokens": 19419,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.137
+    },
+    {
+        "id": 9934,
+        "text": "currentPlanId != null && !currentPlanId.trim().isEmpty() && rootPlanId != null && !rootPlanId.trim().isEmpty() && (parentPlanId == null || parentPlanId.trim().isEmpty() || toolcallId != null && !toolcallId.trim().isEmpty()) && (!rootPlanId.equals(currentPlanId) || parentPlanId == null || parentPlanId.trim().isEmpty()) && planExecutionRecordRepository.findByCurrentPlanId(currentPlanId).isPresent()",
+        "input_tokens": 22355,
+        "output_tokens": 100,
+        "elapsed_seconds": 6.115
+    },
+    {
+        "id": 9969,
+        "text": "depthLevel >= 0 && task != null",
+        "input_tokens": 20317,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.303
+    },
+    {
+        "id": 9970,
+        "text": "depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL",
+        "input_tokens": 23747,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.699
+    },
+    {
+        "id": 9971,
+        "text": "depthLevel >= 0 && task != null",
+        "input_tokens": 19985,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.376
+    },
+    {
+        "id": 9972,
+        "text": "depthLevel >= 0 && depthLevel < MAX_DEPTH_LEVEL",
+        "input_tokens": 21205,
+        "output_tokens": 13,
+        "elapsed_seconds": 4.315
+    },
+    {
+        "id": 9998,
+        "text": "rootPlanId != null && (desiredState == RootTaskManagerEntity.DesiredTaskState.STOP || desiredState == RootTaskManagerEntity.DesiredTaskState.CANCEL || desiredState == RootTaskManagerEntity.DesiredTaskState.PAUSE) && taskEntity.isPresent()",
+        "input_tokens": 22432,
+        "output_tokens": 55,
+        "elapsed_seconds": 5.373
+    },
+    {
+        "id": 10027,
+        "text": "```java\npage != null && shortUrlService != null\n```\n\nExplanation:\n1. **Parameter Relevance**: The constraints involve the parameters `page` and `shortUrlService`.\n2. **Valid State**: The method must proceed normally, which means `page` should not be null to avoid logging a warning and returning null immediately. Additionally, if `compressUrl` is true, `shortUrlService` should not be null to prevent skipping URL compression.\n3. **Simplicity**: The constraints are simple boolean expressions involving the parameters.\n\nCombining these constraints using logical AND (`&&`) gives us:\n```java\npage != null && shortUrlService != null\n```",
+        "input_tokens": 21398,
+        "output_tokens": 139,
+        "elapsed_seconds": 6.847
+    },
+    {
+        "id": 10139,
+        "text": "language.equals(\"zh\") || language.equals(\"en\") && language != null && !language.trim().isEmpty() && entityOpt.isPresent()",
+        "input_tokens": 22222,
+        "output_tokens": 28,
+        "elapsed_seconds": 4.937
+    },
+    {
+        "id": 10147,
+        "text": "resultCount > 0",
+        "input_tokens": 20222,
+        "output_tokens": 6,
+        "elapsed_seconds": 4.209
+    },
+    {
+        "id": 10156,
+        "text": "maxCacheSize > 0",
+        "input_tokens": 21020,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.234
+    },
+    {
+        "id": 10157,
+        "text": "maxRetries >= 0",
+        "input_tokens": 18797,
+        "output_tokens": 7,
+        "elapsed_seconds": 3.984
+    },
+    {
+        "id": 10158,
+        "text": "maxContentLength > 0",
+        "input_tokens": 22585,
+        "output_tokens": 7,
+        "elapsed_seconds": 4.586
+    },
+    {
+        "id": 10167,
+        "text": "None",
+        "input_tokens": 21801,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.406
+    },
+    {
+        "id": 10215,
+        "text": "numerator != 0 && denominator != 0",
+        "input_tokens": 18619,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.03
+    },
+    {
+        "id": 10239,
+        "text": "variable != null && !strength.isRequired()",
+        "input_tokens": 20709,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.226
+    },
+    {
+        "id": 10244,
+        "text": "```java\nindex >= 16 && index <= 511\n```\n\nExplanation:\n- The method `indexedToRgb` handles indices from 16 to 511.\n- For indices less than 16, it calls `ansiToRgb`, which is not relevant for parameter constraints.\n- For indices between 16 and 231 (inclusive), the method calculates RGB values based on a specific formula.\n- For indices between 232 and 511 (inclusive), it returns a grayscale color.\n\nCombining these conditions, we get:\n```java\nindex >= 16 && index <= 511\n```",
+        "input_tokens": 24138,
+        "output_tokens": 138,
+        "elapsed_seconds": 7.245
+    },
+    {
+        "id": 10247,
+        "text": "property != null",
+        "input_tokens": 19531,
+        "output_tokens": 4,
+        "elapsed_seconds": 4.17
+    },
+    {
+        "id": 10277,
+        "text": "```java\ns != null && s.length() > 0 && maxWidth >= 0 && ellipsis != null && ellipsis.length() > 0\n```",
+        "input_tokens": 19315,
+        "output_tokens": 34,
+        "elapsed_seconds": 4.508
+    },
+    {
+        "id": 10335,
+        "text": "level >= 1 && level <= 6 && style != null",
+        "input_tokens": 21065,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.363
+    },
+    {
+        "id": 10341,
+        "text": "value >= 0 && value != 0",
+        "input_tokens": 20960,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.4
+    },
+    {
+        "id": 10370,
+        "text": "None",
+        "input_tokens": 21190,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.17
+    },
+    {
+        "id": 10379,
+        "text": "None",
+        "input_tokens": 20419,
+        "output_tokens": 2,
+        "elapsed_seconds": 4.148
+    },
+    {
+        "id": 10385,
+        "text": "alpha >= 0.0 && alpha <= 1.0 && from != null && to != null",
+        "input_tokens": 18979,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.272
+    },
+    {
+        "id": 10386,
+        "text": "milliseconds >= 0",
+        "input_tokens": 19344,
+        "output_tokens": 5,
+        "elapsed_seconds": 3.973
+    },
+    {
+        "id": 10468,
+        "text": "cause != null",
+        "input_tokens": 17908,
+        "output_tokens": 4,
+        "elapsed_seconds": 3.743
+    },
+    {
+        "id": 10475,
+        "text": "h >= 0 && h < 360 && s >= 0 && s <= 1 && v >= 0 && v <= 1",
+        "input_tokens": 20347,
+        "output_tokens": 32,
+        "elapsed_seconds": 4.402
+    },
+    {
+        "id": 10482,
+        "text": "x.length == y.length && color != null",
+        "input_tokens": 21545,
+        "output_tokens": 10,
+        "elapsed_seconds": 4.363
+    },
+    {
+        "id": 10499,
+        "text": "percent >= 0 && percent <= 100",
+        "input_tokens": 19909,
+        "output_tokens": 12,
+        "elapsed_seconds": 4.308
+    },
+    {
+        "id": 10500,
+        "text": "ratio >= 0.0 && ratio <= 1.0",
+        "input_tokens": 18376,
+        "output_tokens": 14,
+        "elapsed_seconds": 4.478
+    },
+    {
+        "id": 10514,
+        "text": "level >= 0.0 && level <= 0.875",
+        "input_tokens": 21650,
+        "output_tokens": 16,
+        "elapsed_seconds": 4.534
+    },
+    {
+        "id": 10515,
+        "text": "frames != null && !frames.isEmpty()",
+        "input_tokens": 20717,
+        "output_tokens": 9,
+        "elapsed_seconds": 4.306
+    },
+    {
+        "id": 10714,
+        "text": "northLat < southLat && eastLon > westLon && !Double.isNaN(northLat) && !Double.isNaN(eastLon) && !Double.isNaN(southLat) && !Double.isNaN(westLon)",
+        "input_tokens": 20673,
+        "output_tokens": 48,
+        "elapsed_seconds": 5.025
+    },
+    {
+        "id": 10716,
+        "text": "```java\nlat1 != -90 && lat1 != 90 && lon1 != -180 && lon1 != 180 && lat2 != -90 && lat2 != 90 && lon2 != -180 && lon2 != 180\n```\n\nExplanation:\n- The `validateCoordinates` method is called for both the first and second points, ensuring that the latitude and longitude values are within valid ranges.\n- The `validateCoordinates` method would throw an exception if any of the coordinates are out of range (-90 to 90 for latitude and -180 to 180 for longitude).\n- Therefore, we can extract constraints based on these validations.\n\nCombining all constraints:\n- `lat1` must be between -89.9999 and 89.9999 (practically -90 to 90)\n- `lon1` must be between -179.9999 and 179.9999 (practically -180 to 180)\n- `lat2` must be between -89.9999 and 89.9999 (practically -90 to 90)\n- `lon2` must be between -179.9999 and 179.9999 (practically -180 to 180)\n\nFor simplicity, we can represent this as:\n```java\nlat1 != -90 && lat1 != 90 && lon1 != -180 && lon1 != 180 && lat2 != -90 && lat2 != 90 && lon2 != -180 && lon2 != 180\n```",
+        "input_tokens": 21705,
+        "output_tokens": 385,
+        "elapsed_seconds": 11.455
+    },
+    {
+        "id": 10717,
+        "text": "lon != null && lat != null && lat >= -90.0 && lat <= 90.0 && lon >= -180.0 && lon <= 180.0",
+        "input_tokens": 19060,
+        "output_tokens": 42,
+        "elapsed_seconds": 4.695
+    },
+    {
+        "id": 10795,
+        "text": "query != null && query.trim().length() >= 2 && type != null\n\nExplanation:\n- The method requires a non-null `query` parameter that must be at least 2 characters long after trimming.\n- It also requires a non-null `type` parameter.",
+        "input_tokens": 19425,
+        "output_tokens": 55,
+        "elapsed_seconds": 4.992
+    },
+    {
+        "id": 10796,
+        "text": "countryName != null && page >= 0 && size > 0 && sortBy != null && sortDirection != null",
+        "input_tokens": 23954,
+        "output_tokens": 24,
+        "elapsed_seconds": 5.052
+    },
+    {
+        "id": 10803,
+        "text": "```java\ntype != null && !request.getName().trim().isEmpty() && request != null\n```",
+        "input_tokens": 18577,
+        "output_tokens": 22,
+        "elapsed_seconds": 4.393
+    },
+    {
+        "id": 10811,
+        "text": "```plaintext\nuserId != null && countryName != null && page >= 0 && pageSize > 0 && sortBy != null && sortDirection != null\n```\n\nExplanation:\n1. **userId**: Must not be null as it is used to filter the stays.\n2. **countryName**: Must not be null as it is used to filter the stays by country.\n3. **page**: Must be non-negative (`>= 0`) to ensure valid pagination.\n4. **pageSize**: Must be greater than 0 and capped at a maximum of 200 to prevent excessive memory usage or performance issues.\n5. **sortBy**: Must not be null as it is used to determine the sorting field.\n6. **sortDirection**: Must not be null and must be either \"asc\" or \"desc\" to ensure valid sorting direction.\n\nThe constraints are combined using logical AND (`&&`) to represent the overall valid state of the method.",
+        "input_tokens": 24354,
+        "output_tokens": 190,
+        "elapsed_seconds": 8.16
+    },
+    {
+        "id": 10818,
+        "text": "type != null && id != null && userId != null && page >= 0 && pageSize > 0 && sortBy != null && sortDirection != null",
+        "input_tokens": 21466,
+        "output_tokens": 31,
+        "elapsed_seconds": 4.976
+    },
+    {
+        "id": 10836,
+        "text": "jobId != null && step != null && details != null && percentage >= 0 && percentage <= 100",
+        "input_tokens": 19974,
+        "output_tokens": 25,
+        "elapsed_seconds": 4.486
+    },
+    {
+        "id": 10856,
+        "text": "```java\ntileUrl != null && !tileUrl.trim().isEmpty() && tileUrl.trim().toLowerCase().startsWith(\"http://\") || tileUrl.trim().toLowerCase().startsWith(\"https://\") && !tileUrl.contains(\"..\") && tileUrl.contains(\"{z}\") && tileUrl.contains(\"{x}\") && tileUrl.contains(\"{y}\") && tileUrl.length() <= 1000\n```",
+        "input_tokens": 20498,
+        "output_tokens": 81,
+        "elapsed_seconds": 5.554
+    },
+    {
+        "id": 10857,
+        "text": "```plaintext\nstyleUrl != null && !styleUrl.trim().isEmpty() && !styleUrl.trim().toLowerCase().startsWith(\"http://\") && !styleUrl.trim().toLowerCase().startsWith(\"https://\") && !(styleUrl.contains(\"javascript:\") || styleUrl.contains(\"data:\") || styleUrl.contains(\"file:\") || styleUrl.contains(\"ftp:\")) && !styleUrl.contains(\"..\") && styleUrl.length() <= 1000 && (styleUrl.contains(\"{z}\") || styleUrl.contains(\"{x}\") || styleUrl.contains(\"{y}\")) == false && looksLikeVectorStyleEndpoint(styleUrl)\n```\n\nExplanation:\n- `styleUrl != null`: Ensures the URL is not null.\n- `!styleUrl.trim().isEmpty()`: Ensures the trimmed URL is not empty.\n- `!styleUrl.trim().toLowerCase().startsWith(\"http://\") && !styleUrl.trim().toLowerCase().startsWith(\"https://\")`: Ensures the URL starts with either \"http://\" or \"https://\".\n- `!(styleUrl.contains(\"javascript:\") || styleUrl.contains(\"data:\") || styleUrl.contains(\"file:\") || styleUrl.contains(\"ftp:\"))`: Ensures the URL does not contain dangerous protocols.\n- `!styleUrl.contains(\"..\")`: Ensures the URL does not contain path traversal attempts.\n- `styleUrl.length() <= 1000`: Ensures the URL length is within the limit (max 1000 characters).\n- `(styleUrl.contains(\"{z}\") || styleUrl.contains(\"{x}\") || styleUrl.contains(\"{y}\")) == false`: Ensures the URL does not contain raster tile placeholders.\n- `looksLikeVectorStyleEndpoint(styleUrl)`: Ensures the URL points to a valid vector style JSON endpoint.",
+        "input_tokens": 24347,
+        "output_tokens": 359,
+        "elapsed_seconds": 11.443
+    },
+    {
+        "id": 10860,
+        "text": "```plaintext\nredirectUrl != null && !redirectUrl.trim().isEmpty() && !redirectUrl.startsWith(\"//\") && !redirectUrl.toLowerCase().contains(\"http:\") && !redirectUrl.toLowerCase().contains(\"https:\") && !redirectUrl.toLowerCase().contains(\"javascript:\") && !redirectUrl.toLowerCase().contains(\"data:\") && !redirectUrl.contains(\"..\") && redirectUrl.length() <= 1000\n```",
+        "input_tokens": 19528,
+        "output_tokens": 83,
+        "elapsed_seconds": 5.725
+    },
+    {
+        "id": 10918,
+        "text": "interceptor != null",
+        "input_tokens": 22229,
+        "output_tokens": 5,
+        "elapsed_seconds": 4.333
+    },
+    {
+        "id": 10921,
+        "text": "radius >= 1 && radius <= 32",
+        "input_tokens": 22072,
+        "output_tokens": 11,
+        "elapsed_seconds": 4.65
+    },
+    {
+        "id": 10924,
+        "text": "radius >= 1 && radius <= 16 && steve != null && steve.level() != null",
+        "input_tokens": 19250,
+        "output_tokens": 23,
+        "elapsed_seconds": 4.441
+    },
+    {
+        "id": 10935,
+        "text": "providerId.equals(\"openai\") || providerId.equals(\"groq\") || providerId.equals(\"gemini\")",
+        "input_tokens": 23910,
+        "output_tokens": 24,
+        "elapsed_seconds": 4.956
+    },
+    {
+        "id": 10943,
+        "text": "actionName != null && !actionName.isBlank() && factory != null",
+        "input_tokens": 20116,
+        "output_tokens": 15,
+        "elapsed_seconds": 4.567
+    }
+]

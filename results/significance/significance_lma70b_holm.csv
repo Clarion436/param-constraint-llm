@@ -1,0 +1,21 @@
+﻿Model,Analysis,N,Groups,Correction,Metric,Comparison,Mean F1 (A),Mean F1 (B),Raw p-value,Corrected p-value,Significant,Cliff's Delta,Effect Size,Global chi2
+lma70b,Main comparison,523,5,HOLM,,,,,,,,,,
+,,,,,Strict F1,Friedman (global),,,7.16252298807818e-06,,True,,,29.187
+,,,,,Strict F1,vanilla vs sr_16,0.64,0.6746,0.0001606328584315687,0.0006425314337262748,True,-0.0652,Negligible,
+,,,,,Strict F1,vanilla vs exim,0.64,0.6738,0.1261304574194675,0.252260914838935,False,-0.0499,Negligible,
+,,,,,Strict F1,vanilla vs slextra,0.64,0.6345,0.4723672482565153,0.4723672482565153,False,0.0083,Negligible,
+,,,,,Strict F1,vanilla vs mix,0.64,0.6634,0.08145330993200522,0.24435992979601567,False,-0.047,Negligible,
+,,,,,,,,,,,,,,
+,,,,,Relaxed F1,Friedman (global),,,0.00013484897648077682,,True,,,22.8632
+,,,,,Relaxed F1,vanilla vs sr_16,0.7128,0.7512,0.0008955532970308719,0.0035822131881234876,True,-0.0753,Negligible,
+,,,,,Relaxed F1,vanilla vs exim,0.7128,0.7332,0.46236390124795235,0.5428502599427685,False,-0.0397,Negligible,
+,,,,,Relaxed F1,vanilla vs slextra,0.7128,0.7046,0.1872693955379613,0.5428502599427685,False,0.013,Negligible,
+,,,,,Relaxed F1,vanilla vs mix,0.7128,0.7263,0.1809500866475895,0.5428502599427685,False,-0.0411,Negligible,
+,,,,,,,,,,,,,,
+lma70b,Vanilla vs WIT,523,2,HOLM,,,,,,,,,,
+,,,,,Strict F1,Wilcoxon signed-rank (global),,,,,,,,
+,,,,,Strict F1,vanilla vs wit,0.64,0.2974,5.129048205886871e-40,5.129048205886871e-40,True,0.4079,Medium,
+,,,,,,,,,,,,,,
+,,,,,Relaxed F1,Wilcoxon signed-rank (global),,,,,,,,
+,,,,,Relaxed F1,vanilla vs wit,0.7128,0.3146,1.842669715329806e-58,1.842669715329806e-58,True,0.5242,Large,
+,,,,,,,,,,,,,,
