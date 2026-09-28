@@ -1,12 +1,6 @@
-This reproduction package is released under the following terms.
-
-================================================================================
-1. Source code (everything under code/)
-================================================================================
-
 MIT License
 
-Copyright (c) 2026 The Authors
+Copyright (c) 2026 Weibin Wang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,36 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-================================================================================
-2. Data (everything under data/, prompts/ and results/)
-================================================================================
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-https://creativecommons.org/licenses/by/4.0/
-
-You are free to share and adapt the data for any purpose, provided you give
-appropriate credit.
-
-================================================================================
-3. Third-party material
-================================================================================
-
-The benchmark (data/code_doc_pairs.json) contains short Java code snippets
-extracted from third-party open-source repositories. Copyright of those
-snippets remains with their original authors and is governed by the license of
-the corresponding upstream repository. The snippets are included here solely
-for research and reproducibility purposes.
-
-The Java formatter used to build code slices (`code/java_formatter/java_format.py`)
-relies on the `astyle-py` package, which bundles a WebAssembly build of Artistic
-Style. Both are MIT-licensed:
-
-- Artistic Style — MIT License — https://astyle.sourceforge.net/
-  (Copyright (c) 2018 Jim Pattee and contributors)
-- astyle-py — MIT License — https://pypi.org/project/astyle-py/
-  (Copyright (c) 2020 Ivan Grokhotkov; the bundled `libastyle.wasm` is built from
-  Artistic Style, also MIT)
-
-They are installed as ordinary Python dependencies (see `requirements.txt`); no
-third-party source is vendored in this package.
